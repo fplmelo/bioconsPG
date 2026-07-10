@@ -14,23 +14,23 @@ Compreender a restauração ecológica como campo científico e prático orienta
 
 ## Cronograma de 15 Semanas
 
-| Semana | Tema da Aula | Conteúdos Centrais | Leitura-base |
-|---|---|---|---|
-| 1 | Introdução à ecologia da restauração | Definições, escopo, restauração como intervenção para reparar danos ambientais, evolução do campo | Hobbs & Cramer 2008; Hobbs & Harris 2001 |
-| 2 | Bases conceituais e definição de metas | Metas futuras versus estados históricos, critérios de sucesso, limiares ecológicos | Hobbs & Harris 2001; Hobbs 2004 |
-| 3 | Dinâmica de ecossistemas e mudança ambiental rápida | Não-equilíbrio, estados alternativos, novidade ecológica, mudanças globais | Hobbs & Cramer 2008; Perring et al. 2015 |
-| 4 | Teoria ecológica aplicada à restauração I | Sucessão, montagem de comunidades, dispersão, recrutamento | Palmer et al. 1997; Young et al. 2005 |
-| 5 | Teoria ecológica aplicada à restauração II | Traços funcionais, coexistência, facilitação, integração recente entre teoria e prática | Wainwright et al. 2018; Silliman et al. 2024 |
-| 6 | Escala de paisagem e seleção de áreas | Conectividade, colonização, persistência, priorização espacial e restaurabilidade | Perring et al. 2015; Lindenmayer 2020; Török & Helm 2017 |
-| 7 | Intervenções e trajetórias de recuperação | Regeneração passiva, intervenções bióticas e abióticas, barreiras e gargalos | Hobbs & Cramer 2008; Gann et al. 2019 |
-| 8 | Monitoramento e avaliação de sucesso | Indicadores, monitoramento de longo prazo, manejo adaptativo, aprendizado institucional | Lindenmayer 2020; Gann et al. 2019; Thompson 2018 |
-| 9 | Governança e política da restauração | Governança multinível, instituições, disputas de interesse, critérios processuais de sucesso | Baker et al. 2014; Thompson 2018 |
-| 10 | Ecologia política da restauração | Poder, desigualdade, justiça e causas estruturais da degradação | Osborne et al. 2021; Svarstad et al. 2018 |
-| 11 | Feminist political ecology e inclusão | Gênero, colonialidade, política do conhecimento, participação democrática | Elias et al. 2021 |
-| 12 | Conhecimentos tradicionais e locais | TEK, LEK, coprodução de conhecimento, benefícios ecológicos, sociais e culturais | Gann et al. 2019; Elias et al. 2021 |
-| 13 | Economia da restauração e trade-offs | Custos relativos, competição por uso do espaço, metas socialmente aceitáveis | Hobbs & Harris 2001; Hobbs 2004; Perring et al. 2015 |
-| 14 | Restauração urbana, turismo e justiça territorial | Restauração em paisagens urbanas e transfronteiriças, participação e distribuição de benefícios | Pietta & Tononi 2021; Clark & Nyaupane 2023; Igwe et al. 2025 |
-| 15 | Integração e seminários finais | Restauração como transformação socioecológica, síntese de projetos e agendas futuras | Tedesco et al. 2023; Silliman et al. 2024 |
+| Semana | Tema da Aula | Conteúdos Centrais |
+|---|---|---|
+| 1 | Introdução à ecologia da restauração | Definições, escopo, restauração como intervenção para reparar danos ambientais, evolução do campo | 
+| 2 | Bases conceituais e definição de metas | Metas futuras versus estados históricos, critérios de sucesso, limiares ecológicos |
+| 3 | Dinâmica de ecossistemas e mudança ambiental rápida | Não-equilíbrio, estados alternativos, novidade ecológica, mudanças globais | 
+| 4 | Teoria ecológica aplicada à restauração I | Sucessão, montagem de comunidades, dispersão, recrutamento | 
+| 5 | Teoria ecológica aplicada à restauração II | Traços funcionais, coexistência, facilitação, integração recente entre teoria e prática |
+| 6 | Escala de paisagem e seleção de áreas | Conectividade, colonização, persistência, priorização espacial e restaurabilidade |
+| 7 | Intervenções e trajetórias de recuperação | Regeneração passiva, intervenções bióticas e abióticas, barreiras e gargalos | 
+| 8 | Monitoramento e avaliação de sucesso | Indicadores, monitoramento de longo prazo, manejo adaptativo, aprendizado institucional | 
+| 9 | Governança e política da restauração | Governança multinível, instituições, disputas de interesse, critérios processuais de sucesso | 
+| 10 | Ecologia política da restauração | Poder, desigualdade, justiça e causas estruturais da degradação | 
+| 11 | Raça, gênero e inclusão | Gênero, colonialidade, política do conhecimento, participação democrática | 
+| 12 | Conhecimentos tradicionais e locais | TEK, LEK, coprodução de conhecimento, benefícios ecológicos, sociais e culturais | 
+| 13 | Economia da restauração e trade-offs | Custos relativos, competição por uso do espaço, metas socialmente aceitáveis | 
+| 14 | Restauração urbana, turismo e justiça territorial | Restauração em paisagens urbanas e transfronteiriças, participação e distribuição de benefícios |
+| 15 | Integração e seminários finais | Restauração como transformação socioecológica, síntese de projetos e agendas futuras | 
 
 ## Estratégia Didática
 
@@ -42,17 +42,3 @@ Cada aula pode combinar exposição dialogada, discussão de textos e análise d
 - **Seminário temático** em dupla sobre um bloco do curso.
 - **Trabalho final** com proposta de priorização ou desenho de restauração para um caso real.
 
-## Referências
- 
-Baker, S., Eckerberg, K., & Zachrisson, A. (2014). Political science and ecological restoration. *Environmental Politics, 23*, 509 - 524. <https://doi.org/10.1080/09644016.2013.835201>
- 
-Gann, G. D., McDonald, T., Walder, B., Aronson, J., Nelson, C. R., Jonson, J., Hallett, J., Eisenberg, C., Guariguata, M., Liu, J., Hua, F., Echeverría, C., Gonzales, E., Shaw, N., Decleer, K., & Dixon, K. (2019). International principles and standards for the practice of ecological restoration. Second edition. *Restoration Ecology, 27*. <https://doi.org/10.1111/rec.13035>
- 
-Hobbs, R. J., & Harris, J. A. (2001). Restoration Ecology: Repairing the Earth's Ecosystems in the New Millennium. *Restoration Ecology, 9*. <https://doi.org/10.1046/j.1526-100x.2001.009002239.x>
- 
-Osborne, T., Brock, S., Chazdon, R., Chomba, S., Garen, E., Gutierrez, V., Lave, R., Lefèvre, M., & Sundberg, J. (2021). The political ecology playbook for ecosystem restoration: Principles for effective, equitable, and transformative landscapes. *Global Environmental Change-human and Policy Dimensions, 70*, 102320. <https://doi.org/10.1016/j.gloenvcha.2021.102320>
- 
-Perring, M., Standish, R., Price, J., Craig, M., Erickson, T. E., Ruthrof, K., Whiteley, A., Valentine, L., & Hobbs, R. (2015). Advances in restoration ecology: rising to the challenges of the coming decades. *Ecosphere, 6*, 1-25. <https://doi.org/10.1890/es15-00121.1>
- 
-Tedesco, A., López-Cubillos, S., Chazdon, R., Rhodes, J. R., Archibald, C. L., Pérez-Hämmerle, K.-V., Brancalion, P., Wilson, K., Oliveira, M. C., Correa, D. F., Ota, L., Morrison, T., Possingham, H., Mills, M., Santos, F. C., & Dean, A. (2023). Beyond ecology: ecosystem restoration as a process for social-ecological transformation.. *Trends in ecology & evolution*. <https://doi.org/10.1016/j.tree.2023.02.007>
- 

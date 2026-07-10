@@ -347,7 +347,7 @@
     "href": "exercises/index.html",
     "title": "Lista de exercícios",
     "section": "",
-    "text": "Confira abaixo a lista de exercícios e seus tutoriais\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nJun 26, 2026\n\n\nExercício 1: O Mosaico no Lance de Vista\n\n\nFelipe Melo\n\n\n\n\n\n\nJun 26, 2026\n\n\nExercício 3 - Pacotes R para Ecologia de Paisagens\n\n\nProf. Felipe Melo\n\n\n\n\n\n\nJun 26, 2026\n\n\nExercício 4: Amostragem de Paisagens com Restrição de Borda — Murici-AL\n\n\nFelipe Melo\n\n\n\n\n\n\nJun 26, 2026\n\n\nExercício Prático 5: Descrevendo uma paisagem\n\n\nFelipe Melo\n\n\n\n\n\n\nNo matching items"
+    "text": "Confira abaixo a lista de exercícios e seus tutoriais\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nJun 29, 2026\n\n\nExercício 1: O Mosaico no Lance de Vista\n\n\nFelipe Melo\n\n\n\n\n\n\nJun 29, 2026\n\n\nExercício 3 - Pacotes R para Ecologia de Paisagens\n\n\nProf. Felipe Melo\n\n\n\n\n\n\nJun 29, 2026\n\n\nExercício 4: Amostragem de Paisagens com Restrição de Borda — Murici-AL\n\n\nFelipe Melo\n\n\n\n\n\n\nJun 29, 2026\n\n\nExercício Prático 5: Descrevendo uma paisagem\n\n\nFelipe Melo\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "exercises/ex5/ex5.html",
@@ -1115,9 +1115,9 @@
   {
     "objectID": "sessions/week1/1-intro.html",
     "href": "sessions/week1/1-intro.html",
-    "title": "Semana 01: Origens e Conceitos de Escala",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
     "section": "",
-    "text": "Foto: Paisagem fragmentada na Usina Serra Grande, Ibateguara, Alagoas."
+    "text": "A degradação de ecossistemas tornou-se um dos problemas mais urgentes do século XXI. Estimativas indicam que mais de 50% das terras produtivas do planeta apresentam algum grau de degradação, com consequências diretas sobre a biodiversidade, os serviços ecossistêmicos e o bem-estar humano Society for Ecological Restoration (2023). No Brasil, onde habitam aproximadamente 20% de toda a diversidade biológica conhecida, a restauração de ecossistemas é simultaneamente um compromisso legal, um imperativo ecológico e um campo científico em plena consolidação IPBES (2019).\nEste guia de estudos apresenta os fundamentos conceituais da Ecologia da Restauração como disciplina científica e da Restauração Ecológica como conjunto de práticas, articulando os padrões normativos internacionais da Society for Ecological Restoration (SER) com o marco legal brasileiro e com uma leitura crítica inspirada na Ecologia Política."
   },
   {
     "objectID": "sessions/week1/1-intro.html#slides-desta-aula",
@@ -2734,7 +2734,7 @@
     "href": "sessions/index.html",
     "title": "Conteúdo",
     "section": "",
-    "text": "Semana 01: Origens e Conceitos de Escala\n\n\n\n\n\n\nFelipe Melo\n\n\n\n\n\n\nNo matching items"
+    "text": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração\n\n\nGuia de estudos estruturado cobrindo as definições da SER, o contínuo restaurativo, os 8 princípios da prática, estratégias técnicas, o marco legal brasileiro (Lei…\n\n\n\nDr. Felipe Melo\n\n\nJul 1, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/week8/semana8_fluxos_energia.html",
@@ -3000,28 +3000,28 @@
     "href": "syllabus.html",
     "title": "Programa do Curso",
     "section": "",
-    "text": "Capacitar o aluno a compreender a heterogeneidade espacial e temporal das paisagens, analisando como a configuração do espaço influencia os processos biológicos e como as relações de poder e uso da terra moldam o ambiente natural."
+    "text": "Capacitar o aluno a compreender a complexidade teórica e prática da reconstrução de ecossistemas degradados, analisando criticamente as trajetórias de recuperação ecológica, as restrições bióticas e abióticas, e como as relações de poder, governança e justiça socioambiental moldam as estratégias de restauração no mundo real."
   },
   {
     "objectID": "syllabus.html#objetivos-do-curso",
     "href": "syllabus.html#objetivos-do-curso",
     "title": "Programa do Curso",
     "section": "",
-    "text": "Capacitar o aluno a compreender a heterogeneidade espacial e temporal das paisagens, analisando como a configuração do espaço influencia os processos biológicos e como as relações de poder e uso da terra moldam o ambiente natural."
+    "text": "Capacitar o aluno a compreender a complexidade teórica e prática da reconstrução de ecossistemas degradados, analisando criticamente as trajetórias de recuperação ecológica, as restrições bióticas e abióticas, e como as relações de poder, governança e justiça socioambiental moldam as estratégias de restauração no mundo real."
   },
   {
     "objectID": "syllabus.html#metodologia-e-avaliação",
     "href": "syllabus.html#metodologia-e-avaliação",
     "title": "Programa do Curso",
     "section": "Metodologia e Avaliação",
-    "text": "Metodologia e Avaliação\n\nAulas Teóricas: Expositivas e dialogadas.\nAulas Práticas: Uso de laboratório de SIG (Sistemas de Informação Geográfica) para análise de mapas reais.\nSeminários: Discussão de artigos científicos recentes sobre conectividade e ecologia política.\nProjeto Final: Elaboração de um diagnóstico de uma paisagem local, aplicando as métricas aprendidas e sugerindo intervenções de manejo."
+    "text": "Metodologia e Avaliação\n\nAulas Teóricas: Expositivas, dialógicas e baseadas em discussões conceituais cruciais.\nAulas Práticas: Uso de ferramentas analíticas para priorização espacial, seleção de áreas (restaurabilidade) e definição de indicadores de monitoramento ecológico e social.\nSeminários: Discussão de artigos científicos recentes focados nas fronteiras da ecologia política da restauração, ecologia feminista e conhecimentos tradicionais.\nProjeto Final: Elaboração de um plano de restauração socioecológica para uma área degradada real, integrando barreiras ecológicas, metas adaptativas, custos e governança local."
   },
   {
     "objectID": "syllabus.html#conversa-motivacional-importante",
     "href": "syllabus.html#conversa-motivacional-importante",
     "title": "Programa do Curso",
     "section": "Conversa motivacional importante!",
-    "text": "Conversa motivacional importante!\nBora, mospirraia! 👋\nSe você está aqui, provavelmente já percebeu que a Ecologia de Paisagens não é apenas “mais uma disciplina de ecologia”. É, na verdade, o seu novo “superpoder” profissional. Mas por que diabos saber sobre grão, extensão e métricas de conectividade vai mudar o seu jogo no mercado de trabalho?\nAqui vão três motivos (sem enrolação) pra você se empolgar com o que vem por aí:\n\n1. O fim do “Ecólogo de Laboratório” 🔬➡️🗺️\nO mercado de trabalho atual (seja em consultoria ambiental, ONGs ou gestão pública) não quer mais alguém que só saiba identificar uma espécie dentro de um potinho. Eles precisam de quem consiga olhar para uma imagem de satélite e dizer: “Se a gente desmatar aquele pedacinho ali, a gente isola a população inteira do outro lado do rio”. A Ecologia de Paisagens te tira da escala da formiga e te coloca na escala do planejamento territorial. É onde as grandes decisões acontecem.\n\n\n2. Você vai falar a língua dos tomadores de decisão 🗣️💼\nSabe o que governadores, CEOs de empresas e secretários de meio ambiente amam? Mapas e números. Em vez de dizer “acho que a floresta está ficando isolada”, você vai chegar com um relatório dizendo: “O índice de conectividade caiu 30% e a distância média do vizinho mais próximo dobrou”. Isso traz autoridade. As habilidades técnicas (como usar o R e o QGIS) transformam sua intuição ecológica em dados brutos e incontestáveis. É o que separa o palpite do parecer técnico de alto nível.\n\n\n3. A “Ecologia Política” é a vida real 🌍🤝\nNada no mundo acontece num vácuo. Árvores não crescem sozinhas; elas crescem onde o Código Florestal permite, onde o dono da terra deixa ou onde o projeto de restauração foi financiado. Entender a Ecologia Política te dá a malícia necessária para navegar em conflitos de interesse. Você vai aprender que conservar a biodiversidade é 50% ciência e 50% negociação e estratégia.\n\n\n\nO “Pulo do Gato”:\nAprender R e mexer com SIG pode parecer assustador no começo (quem nunca quis jogar o computador na parede com um erro de código?), mas respira fundo. Essas são as ferramentas que vão te dar autonomia. No futuro, você não vai precisar “pedir para o cara do mapa” fazer nada; você será a pessoa que pensa a paisagem, analisa os dados e propõe a solução.\nEntão, quando o código der erro ou o conceito de escala parecer abstrato demais, lembre-se: você está construindo o seu canivete suíço profissional. O mundo lá fora está fragmentado e precisando de gente capaz de reconectar os pedaços.\nBora pro código, bora pros mapas e bora pra aula! 🚀🌳"
+    "text": "Conversa motivacional importante!\n\nBora, mospirraia!\nSe você está aqui, provavelmente já percebeu que a Ecologia da Restauração não é apenas plantar árvore ou “fazer o bem” para a natureza.\nÉ, na verdade, a ciência mais urgente do nosso século e pode se transformar numa habilidade fantástica pra você. Mas por que diabos entender de limiares ecológicos, traços funcionais e justiça territorial vai mudar o sua inserção no mercado de trabalho e na academia?\nAqui vão três motivos (sem enrolação) pra você se empolgar com o que vem por aí:\n\n\n1. O fim do “Plantador de Árvores” ingênuo\nO mercado e as agências internacionais não querem mais o ecólogo que acha que restaurar é apenas colocar mudas no chão e torcer para o melhor. Eles precisam de profissionais que olhem para um ecossistema degradado e consigam diagnosticar: “Aqui a regeneração natural não vai funcionar porque há uma barreira biótica de dispersão, precisamos de intervenção ativa”. Este curso te tira da receita de bolo e te joga no nível do planejamento estratégico e adaptativo.\n\n\n2. Você vai lidar com a incerteza do mundo real\nO clima mudou, os ecossistemas estão em re-adaptação e os estados históricos nem sempre servem de gabarito. Sabe o que diferencia um parecer técnico comum de um de alto nível? É saber falar a língua dos tomadores de decisão sem exagerar no academicismo mas sendo profundo e técnico, além (principalemnte) de muito humano. Você vai aprender a desenhar metas realistas e defender seus projetos com dados incontestáveis.\n\n\n3. A Restauração é 50% ecologia e 50% política\nÁrvores e florestas não reaparecem no vácuo. Elas retornam onde as leis permitem, onde os proprietários de terra apoiam, onde as comunidades tradicionais coproduzem conhecimento e onde há justiça territorial. Discutir gênero, colonialidade e ecologia política não é “perfumaria”: é a sensibilidade necessária para mediar conflitos de interesse e garantir que os projetos não colapsem no primeiro embate social."
   },
   {
     "objectID": "syllabus.html#materiais-do-curso",
@@ -3714,7 +3714,7 @@
     "href": "schedule.html#cronograma-de-15-semanas",
     "title": "Cronograma de Aulas",
     "section": "Cronograma de 15 Semanas",
-    "text": "Cronograma de 15 Semanas\n\n\n\n\n\n\n\n\n\nSemana\nTema da Aula\nConteúdos Centrais\nLeitura-base\n\n\n\n\n1\nIntrodução à ecologia da restauração\nDefinições, escopo, restauração como intervenção para reparar danos ambientais, evolução do campo\nHobbs & Cramer 2008; Hobbs & Harris 2001\n\n\n2\nBases conceituais e definição de metas\nMetas futuras versus estados históricos, critérios de sucesso, limiares ecológicos\nHobbs & Harris 2001; Hobbs 2004\n\n\n3\nDinâmica de ecossistemas e mudança ambiental rápida\nNão-equilíbrio, estados alternativos, novidade ecológica, mudanças globais\nHobbs & Cramer 2008; Perring et al. 2015\n\n\n4\nTeoria ecológica aplicada à restauração I\nSucessão, montagem de comunidades, dispersão, recrutamento\nPalmer et al. 1997; Young et al. 2005\n\n\n5\nTeoria ecológica aplicada à restauração II\nTraços funcionais, coexistência, facilitação, integração recente entre teoria e prática\nWainwright et al. 2018; Silliman et al. 2024\n\n\n6\nEscala de paisagem e seleção de áreas\nConectividade, colonização, persistência, priorização espacial e restaurabilidade\nPerring et al. 2015; Lindenmayer 2020; Török & Helm 2017\n\n\n7\nIntervenções e trajetórias de recuperação\nRegeneração passiva, intervenções bióticas e abióticas, barreiras e gargalos\nHobbs & Cramer 2008; Gann et al. 2019\n\n\n8\nMonitoramento e avaliação de sucesso\nIndicadores, monitoramento de longo prazo, manejo adaptativo, aprendizado institucional\nLindenmayer 2020; Gann et al. 2019; Thompson 2018\n\n\n9\nGovernança e política da restauração\nGovernança multinível, instituições, disputas de interesse, critérios processuais de sucesso\nBaker et al. 2014; Thompson 2018\n\n\n10\nEcologia política da restauração\nPoder, desigualdade, justiça e causas estruturais da degradação\nOsborne et al. 2021; Svarstad et al. 2018\n\n\n11\nFeminist political ecology e inclusão\nGênero, colonialidade, política do conhecimento, participação democrática\nElias et al. 2021\n\n\n12\nConhecimentos tradicionais e locais\nTEK, LEK, coprodução de conhecimento, benefícios ecológicos, sociais e culturais\nGann et al. 2019; Elias et al. 2021\n\n\n13\nEconomia da restauração e trade-offs\nCustos relativos, competição por uso do espaço, metas socialmente aceitáveis\nHobbs & Harris 2001; Hobbs 2004; Perring et al. 2015\n\n\n14\nRestauração urbana, turismo e justiça territorial\nRestauração em paisagens urbanas e transfronteiriças, participação e distribuição de benefícios\nPietta & Tononi 2021; Clark & Nyaupane 2023; Igwe et al. 2025\n\n\n15\nIntegração e seminários finais\nRestauração como transformação socioecológica, síntese de projetos e agendas futuras\nTedesco et al. 2023; Silliman et al. 2024"
+    "text": "Cronograma de 15 Semanas\n\n\n\n\n\n\n\n\nSemana\nTema da Aula\nConteúdos Centrais\n\n\n\n\n1\nIntrodução à ecologia da restauração\nDefinições, escopo, restauração como intervenção para reparar danos ambientais, evolução do campo\n\n\n2\nBases conceituais e definição de metas\nMetas futuras versus estados históricos, critérios de sucesso, limiares ecológicos\n\n\n3\nDinâmica de ecossistemas e mudança ambiental rápida\nNão-equilíbrio, estados alternativos, novidade ecológica, mudanças globais\n\n\n4\nTeoria ecológica aplicada à restauração I\nSucessão, montagem de comunidades, dispersão, recrutamento\n\n\n5\nTeoria ecológica aplicada à restauração II\nTraços funcionais, coexistência, facilitação, integração recente entre teoria e prática\n\n\n6\nEscala de paisagem e seleção de áreas\nConectividade, colonização, persistência, priorização espacial e restaurabilidade\n\n\n7\nIntervenções e trajetórias de recuperação\nRegeneração passiva, intervenções bióticas e abióticas, barreiras e gargalos\n\n\n8\nMonitoramento e avaliação de sucesso\nIndicadores, monitoramento de longo prazo, manejo adaptativo, aprendizado institucional\n\n\n9\nGovernança e política da restauração\nGovernança multinível, instituições, disputas de interesse, critérios processuais de sucesso\n\n\n10\nEcologia política da restauração\nPoder, desigualdade, justiça e causas estruturais da degradação\n\n\n11\nRaça, gênero e inclusão\nGênero, colonialidade, política do conhecimento, participação democrática\n\n\n12\nConhecimentos tradicionais e locais\nTEK, LEK, coprodução de conhecimento, benefícios ecológicos, sociais e culturais\n\n\n13\nEconomia da restauração e trade-offs\nCustos relativos, competição por uso do espaço, metas socialmente aceitáveis\n\n\n14\nRestauração urbana, turismo e justiça territorial\nRestauração em paisagens urbanas e transfronteiriças, participação e distribuição de benefícios\n\n\n15\nIntegração e seminários finais\nRestauração como transformação socioecológica, síntese de projetos e agendas futuras"
   },
   {
     "objectID": "schedule.html#estratégia-didática",
@@ -3750,5 +3750,173 @@
     "title": "Cronograma de Aulas",
     "section": "Referências",
     "text": "Referências\nBaker, S., Eckerberg, K., & Zachrisson, A. (2014). Political science and ecological restoration. Environmental Politics, 23, 509 - 524. https://doi.org/10.1080/09644016.2013.835201\nGann, G. D., McDonald, T., Walder, B., Aronson, J., Nelson, C. R., Jonson, J., Hallett, J., Eisenberg, C., Guariguata, M., Liu, J., Hua, F., Echeverría, C., Gonzales, E., Shaw, N., Decleer, K., & Dixon, K. (2019). International principles and standards for the practice of ecological restoration. Second edition. Restoration Ecology, 27. https://doi.org/10.1111/rec.13035\nHobbs, R. J., & Harris, J. A. (2001). Restoration Ecology: Repairing the Earth’s Ecosystems in the New Millennium. Restoration Ecology, 9. https://doi.org/10.1046/j.1526-100x.2001.009002239.x\nOsborne, T., Brock, S., Chazdon, R., Chomba, S., Garen, E., Gutierrez, V., Lave, R., Lefèvre, M., & Sundberg, J. (2021). The political ecology playbook for ecosystem restoration: Principles for effective, equitable, and transformative landscapes. Global Environmental Change-human and Policy Dimensions, 70, 102320. https://doi.org/10.1016/j.gloenvcha.2021.102320\nPerring, M., Standish, R., Price, J., Craig, M., Erickson, T. E., Ruthrof, K., Whiteley, A., Valentine, L., & Hobbs, R. (2015). Advances in restoration ecology: rising to the challenges of the coming decades. Ecosphere, 6, 1-25. https://doi.org/10.1890/es15-00121.1\nTedesco, A., López-Cubillos, S., Chazdon, R., Rhodes, J. R., Archibald, C. L., Pérez-Hämmerle, K.-V., Brancalion, P., Wilson, K., Oliveira, M. C., Correa, D. F., Ota, L., Morrison, T., Possingham, H., Mills, M., Santos, F. C., & Dean, A. (2023). Beyond ecology: ecosystem restoration as a process for social-ecological transformation.. Trends in ecology & evolution. https://doi.org/10.1016/j.tree.2023.02.007"
+  },
+  {
+    "objectID": "syllabus.html#materiais-e-ferramentas-do-curso",
+    "href": "syllabus.html#materiais-e-ferramentas-do-curso",
+    "title": "Programa do Curso",
+    "section": "Materiais e Ferramentas do Curso",
+    "text": "Materiais e Ferramentas do Curso\nTodas as leituras selecionadas, artigos teóricos e e-books estão disponíveis gratuitamente no ambiente online de aprendizagem.\n\nBuscando e encontrando ajuda (A Política dos 3 Passos)\nAprender teorias ecológicas profundas combinadas com conflitos políticos pode dar um nó na cabeça. Quando bater a dúvida sobre um conceito complexo (como “novidade ecológica”) ou quando estiver travado no seu desenho de monitoramento, lembre-se do Workflow da Autonomia:\n\nInvestigação Própria: Consulte os artigos da nossa sessão e referências da documentação teórica. A Wikipedia e repositórios acadêmicos são excelentes para desatar os nós conceituais iniciais.\nUso Crítico de IA: Precisa do ChatGPT para clarear uma dúvida de síntese ou estruturar um raciocínio? Use com moderação. Lembre-se: ela mente com confiança. A responsabilidade técnica do parecer e do projeto final é sua, não do robô. Oculte o uso e violará a ética acadêmica; assuma a autoria e a curadoria dos dados.\nA Comunidade: Se o conceito ainda parecer abstrato ou o dilema ético do projeto for complexo demais, traga para a sala de aula! Venha pronto para explicar o que você já pensou e debateremos a solução coletivamente.\n\nO mundo lá fora passou séculos fragmentando e degradando os ecossistemas. A nossa missão aqui é aprender a reconectar os pedaços de forma inteligente, justa e ecologicamente sólida.\n\nEste texto foi gerado com o uso supervisionado de IA"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-ciencia",
+    "href": "sessions/week1/1-intro.html#sec-ciencia",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "2.1 Ecologia da Restauração (Restoration Ecology) — a ciência",
+    "text": "2.1 Ecologia da Restauração (Restoration Ecology) — a ciência\nA Ecologia da Restauração é o corpo científico que investiga os processos ecológicos subjacentes à degradação e à recuperação de ecossistemas, gerando conhecimento teórico e metodológico para orientar intervenções práticas Society for Ecological Restoration (2023). Como disciplina acadêmica, integra ecologia de comunidades, ecofisiologia, pedologia, hidrologia e, cada vez mais, ciências sociais e humanidades (Aronson e Alexander (2013)).\n\n\n\n\n\n\nImportanteDefinição Canônica — SER (2023)\n\n\n\n\n“Restoration ecology is the scientific study underpinning the practice of ecological restoration, which is the process of assisting the recovery of an ecosystem that has been degraded, damaged, or destroyed.” (Society for Ecological Restoration 2023, 4)\n\nNote que a definição é deliberadamente bidirecional: a ciência informa a prática, mas a prática também gera hipóteses e dados que retroalimentam a ciência.\n\n\nA Ecologia da Restauração busca responder perguntas como:\n\nQuais mecanismos ecológicos limitam o retorno espontâneo de espécies nativas após a perturbação?\nEm que condições a regeneração natural é suficiente, e quando intervenções ativas são necessárias?\nComo escalar resultados de parcelas experimentais para paisagens inteiras?\nQue atributos de um ecossistema indicam que a restauração foi bem-sucedida?"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-pratica",
+    "href": "sessions/week1/1-intro.html#sec-pratica",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "2.2 Restauração Ecológica (Ecological Restoration) — a prática",
+    "text": "2.2 Restauração Ecológica (Ecological Restoration) — a prática\nA Restauração Ecológica é a atividade intencional de assistir a recuperação de um ecossistema que foi degradado, danificado ou destruído Society for Ecological Restoration (2023). É uma prática aplicada, que mobiliza o conhecimento científico disponível em intervenções concretas no território — plantio de mudas, controle de espécies invasoras, reintrodução de fauna, restauração hidrológica, e assim por diante.\n\nDiferenças fundamentais entre a ciência e a prática da restauração.\n\n\n\n\n\n\n\nDimensão\nEcologia da Restauração\nRestauração Ecológica\n\n\n\n\nNatureza\nCiência\nPrática / atividade\n\n\nProduto\nConhecimento, teorias, modelos\nEcossistemas recuperados\n\n\nAgentes\nPesquisadores, universidades\nTécnicos, governos, comunidades, ONGs\n\n\nEscala temporal\nLonga (décadas, séculos)\nCurta a média (anos, décadas)\n\n\nMétricas centrais\nPublicações, modelos preditivos\nCobertura vegetal, biodiversidade, serviços"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-gradacoes",
+    "href": "sessions/week1/1-intro.html#sec-gradacoes",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "3.1 Gradações do contínuo",
+    "text": "3.1 Gradações do contínuo\nO contínuo pode ser organizado em quatro grandes categorias, em ordem crescente de intervenção e complexidade:\n\n1. Redução de impactos e proteção\n\nIntervenções que visam cessar ou atenuar os fatores de degradação sem necessariamente promover a recuperação ativa. Exemplos: cercamento de áreas para exclusão de gado, retirada de lixo, controle de queimadas. São pré-requisitos indispensáveis para qualquer ação subsequente.\n\n2. Remediação e reabilitação\n\nAções voltadas para a recuperação de funções e serviços ecossistêmicos sem necessariamente visar a plena biodiversidade nativa. Inclui estabilização de encostas, controle de erosão, revegetação com gramíneas ou espécies de uso múltiplo, e restauração de nascentes. O resultado esperado é um ecossistema funcional, mas não necessariamente um ecossistema nativo. Muitas vezes é o que a legislação ambiental exige de empreendimentos licenciados.\n\n3. Restauração ecológica assistida\n\nIntervenções que combinam proteção, enriquecimento e manejo ativo para acelerar trajetórias sucessionais em direção a um ecossistema nativo de referência. Inclui plantio de mudas nativas, semeadura direta, reintrodução de fauna-chave e controle de espécies invasoras. É o núcleo do que a SER denomina “restauração ecológica” no sentido estrito.\n\n4. Restauração reconstrutiva (ativa plena)\n\nA forma mais intensiva, empregada em ecossistemas severamente degradados onde o potencial de regeneração natural é mínimo. Requer o restabelecimento ativo de processos pedogenéticos, hidrológicos e bióticos, muitas vezes em paralelo. Exemplos incluem a restauração de manguezais após aterramento e a recuperação de áreas de mineração a céu aberto.\n\n\n\n\n\n\n\n\n\nA Figura clássica do contínuo restaurativo — mostrando o espectro de intervenções em um eixo de “grau de degradação × intensidade da intervenção”."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-resiliencia",
+    "href": "sessions/week1/1-intro.html#sec-resiliencia",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "3.2 O papel da resiliência",
+    "text": "3.2 O papel da resiliência\nA escolha entre as estratégias do contínuo depende fundamentalmente do potencial de resiliência do ecossistema degradado, que opera em duas escalas:\n\nResiliência local: capacidade do próprio sítio degradado de regenerar-se, avaliada por indicadores como banco de sementes, rebrotas de raízes, disponibilidade de regeneração natural e integridade do solo.\nResiliência de paisagem: capacidade do contexto espacial de fornecer propágulos, polinizadores, dispersores e outros fluxos ecológicos para o sítio-alvo. Um sítio isolado em uma matriz degradada tem resiliência de paisagem muito baixa, mesmo que localmente apresente banco de sementes razoável Metzger (2010)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p1",
+    "href": "sessions/week1/1-intro.html#sec-p1",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.1 Princípio 1 — Aspirar ao ecossistema de referência nativo",
+    "text": "4.1 Princípio 1 — Aspirar ao ecossistema de referência nativo\nTodo projeto de restauração deve ser orientado por um ecossistema de referência: um estado-alvo que represente o ecossistema nativo local em suas condições de integridade ecológica. O ecossistema de referência não é necessariamente o estado histórico pré-distúrbio (que pode ser desconhecido ou inatingível), mas sim o estado mais próximo do funcionamento pleno que é ecologicamente viável dado o contexto atual, incluindo as mudanças climáticas em curso Society for Ecological Restoration (2023).\n\n\n\n\n\n\nAvisoAtenção: o problema do “alvo móvel”\n\n\n\n\nEm biomas sob pressão das mudanças climáticas — como a Caatinga e os Campos Rupestres — o ecossistema de referência pode precisar ser projetado para o futuro, não apenas reconstituído a partir de registros históricos. Este é um debate aberto e central na Ecologia da Restauração contemporânea. Veja Harris et al. (2006) e Hobbs et al. (2014) para posições contrastantes."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p2",
+    "href": "sessions/week1/1-intro.html#sec-p2",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.2 Princípio 2 — Engajar ativamente as partes interessadas (stakeholders)",
+    "text": "4.2 Princípio 2 — Engajar ativamente as partes interessadas (stakeholders)\nA restauração ecológica bem-sucedida depende do engajamento genuíno — não apenas consultivo — de todas as partes interessadas: comunidades locais, povos indígenas, agricultores familiares, governos municipais, estaduais e federal, setor privado e sociedade civil organizada Society for Ecological Restoration (2023).\nO engajamento não é apenas um requisito ético; é uma condição técnica. Projetos que ignoram o conhecimento local tendem a falhar por escolherem espécies inadequadas, ignorarem regimes de perturbação tradicionais (como o fogo manejado) ou gerarem conflitos fundiários que inviabilizam as intervenções Lave et al. (2018)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p3",
+    "href": "sessions/week1/1-intro.html#sec-p3",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.3 Princípio 3 — Restaurar a biodiversidade",
+    "text": "4.3 Princípio 3 — Restaurar a biodiversidade\nA restauração não deve visar apenas a cobertura vegetal, mas a diversidade funcional e filogenética do ecossistema nativo, incluindo flora, fauna, fungos, microbiota do solo e os processos ecológicos que esses grupos sustentam (polinização, dispersão de sementes, ciclagem de nutrientes, predação) Society for Ecological Restoration (2023)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p4",
+    "href": "sessions/week1/1-intro.html#sec-p4",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.4 Princípio 4 — Promover o funcionamento dos ecossistemas",
+    "text": "4.4 Princípio 4 — Promover o funcionamento dos ecossistemas\nUm ecossistema restaurado deve ser capaz de autossustentação — ou seja, de manter seus processos ecológicos fundamentais sem intervenção humana contínua após o estabelecimento inicial. Isso implica restaurar não apenas a composição de espécies, mas as interações bióticas e os processos abióticos que garantem o funcionamento a longo prazo Society for Ecological Restoration (2023)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p5",
+    "href": "sessions/week1/1-intro.html#sec-p5",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.5 Princípio 5 — Integrar o contexto da paisagem",
+    "text": "4.5 Princípio 5 — Integrar o contexto da paisagem\nNenhum ecosssitema que precisa de restauração existe isolado. O sucesso da restauração depende de sua conectividade com o entorno: de onde vêm os dispersores de sementes? Há corredores ecológicos? A matriz circundante é permeável ou hostil à fauna nativa? A escala de paisagem deve ser considerada tanto no planejamento quanto na avaliação (Society for Ecological Restoration 2023; Metzger 2010)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p6",
+    "href": "sessions/week1/1-intro.html#sec-p6",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.6 Princípio 6 — Usar práticas adaptativas e baseadas em evidências",
+    "text": "4.6 Princípio 6 — Usar práticas adaptativas e baseadas em evidências\nA restauração deve seguir um ciclo de manejo adaptativo: planejar com base nas melhores evidências disponíveis, implementar, monitorar, avaliar e ajustar. O monitoramento não é opcional; é parte constitutiva do projeto. Indicadores devem ser definidos previamente e medidos de forma sistemática Society for Ecological Restoration (2023)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p7",
+    "href": "sessions/week1/1-intro.html#sec-p7",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.7 Princípio 7 — Beneficiar o bem-estar humano e a equidade social",
+    "text": "4.7 Princípio 7 — Beneficiar o bem-estar humano e a equidade social\nA restauração deve gerar benefícios concretos para as pessoas, especialmente para as comunidades mais vulneráveis e diretamente dependentes dos ecossistemas restaurados. A Roda de Benefícios Sociais da SER (Society for Ecological Restoration 2023) sintetiza essas dimensões em categorias como segurança alimentar, saúde, identidade cultural e meios de vida."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-p8",
+    "href": "sessions/week1/1-intro.html#sec-p8",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "4.8 Princípio 8 — Planejar para a persistência a longo prazo",
+    "text": "4.8 Princípio 8 — Planejar para a persistência a longo prazo\nProjetos de restauração devem ter horizontes temporais longos (décadas a séculos) e estratégias para garantir sua continuidade institucional, financeira e social. A maioria dos projetos fracassa não por razões técnicas, mas por abandono após o encerramento do financiamento inicial Society for Ecological Restoration (2023).\n\n\n\n\n\n\n\nA Roda de Benefícios Sociais (Social Benefits Wheel) organiza os benefícios da restauração em oito domínios — saúde, segurança alimentar, água, meios de vida, bem-estar espiritual/cultural, identidade, conhecimento e equidade — e é uma ferramenta visual poderosa para comunicar a multidimensionalidade da restauração a audiências não técnicas."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-passiva",
+    "href": "sessions/week1/1-intro.html#sec-passiva",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "5.1 Restauração Natural (Passiva) ou Regeneração Natural",
+    "text": "5.1 Restauração Natural (Passiva) ou Regeneração Natural\nA estratégia mais simples e de menor custo consiste em remover ou reduzir os fatores de perturbação e permitir que os processos naturais de sucessão ecológica reconstituam o ecossistema. É adequada quando:\n\nO potencial de resiliência local é alto (banco de sementes ativo, rebrotas, regeneração espontânea visível);\nA paisagem do entorno fornece propágulos de espécies nativas (resiliência de paisagem alta);\nOs fatores de degradação podem ser efetivamente controlados (ex.: exclusão de gado).\n\nLimitações: em paisagens muito fragmentadas, em solos intensamente degradados ou em ecossistemas com histórico longo de degradação, a regeneração natural pode ser lenta, dominada por espécies generalistas ou estagnada em estágios sucessionais iniciais Chazdon (2014)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-assistida",
+    "href": "sessions/week1/1-intro.html#sec-assistida",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "5.2 Restauração Assistida",
+    "text": "5.2 Restauração Assistida\nCombina a proteção da regeneração natural com intervenções seletivas para superar gargalos ecológicos específicos. Pode incluir:\n\nNucleação: criação de ilhas de biodiversidade (poleiros artificiais, transposição de solo, grupos de plantio) que atraem fauna e aceleram a colonização natural do entorno;\nSemeadura direta: introdução de sementes de espécies nativas diretamente no campo, reduzindo custos em relação ao plantio de mudas;\nEnriquecimento de capoeiras: adição de espécies de estágios sucessionais mais avançados (especialmente espécies clímax) em vegetação secundária já estabelecida;\nTransposição de solo: movimentação de solo com banco de sementes de áreas nativas para áreas degradadas."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-ativa",
+    "href": "sessions/week1/1-intro.html#sec-ativa",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "5.3 Restauração Reconstrutiva (Ativa Plena)",
+    "text": "5.3 Restauração Reconstrutiva (Ativa Plena)\nEstratégia mais intensiva, necessária quando o potencial de regeneração é mínimo. Inclui:\n\nPlantio de alta diversidade: modelos de restauração com 80, 100 ou mais espécies nativas, organizados por grupos funcionais (pioneiras, secundárias, clímax) e distribuídos segundo modelos de interação (ex.: modelo de Anderson-Teixeira);\nRestauração de processos abióticos: correção de solo, restauração de drenagem, controle de erosão severa;\nReintrodução de fauna-chave: animais com papel central na dispersão de sementes (antas, morcegos frugívoros, tucanos), na polinização ou no controle de herbívoros.\n\n\n\n\n\n\n\nDicaExemplo Prático — Extremo Sul da Bahia\n\n\n\nO corredor ecológico do Extremo Sul da Bahia ilustra a complementaridade das três estratégias. Em fragmentos recém-abandonados pela pecuária, adjacentes a florestas contínuas, adota-se regeneração passiva (apenas exclusão do gado). Em áreas com capoeiras estabelecidas, usa-se enriquecimento assistido. Em pastagens antigas com solos compactados e sem regeneração visível, implanta-se plantio ativo de alta diversidade com espécies regionais como Inga subnuda, Peltogyne confertiflora e Cariniana legalis Pinto et al. (2014). A escolha entre estratégias é guiada por diagnósticos de resiliência local e paisagística, e revisada anualmente em ciclos de manejo adaptativo.\n\n\n\n\n\n\n\n\nAvisoReflexão crítica para a prova\n\n\n\nA restauração ecológica é hoje crescentemente inserida em lógicas de mercado (créditos de carbono, biodiversidade, pagamento por serviços ambientais). Essa inserção pode ampliar o financiamento disponível e escalar ações. Mas também pode distorcer prioridades, concentrar benefícios e aprofundar desigualdades. Ao elaborar ou avaliar um projeto de restauração, pergunte sempre: quem paga, quem decide, quem se beneficia e quem arca com os custos?"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-codigo",
+    "href": "sessions/week1/1-intro.html#sec-codigo",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "6.1 O Código Florestal e seus instrumentos",
+    "text": "6.1 O Código Florestal e seus instrumentos\nA Lei Federal nº 12.651, de 25 de maio de 2012 — o Novo Código Florestal Brasileiro — é o principal instrumento legal que regula o uso da vegetação nativa e a obrigação de restauração no Brasil (Lei n.º 12.651, de 25 de maio de 2012 2012). Embora tenha sido objeto de intenso debate político — tendo flexibilizado normas anteriores de proteção —, ele constitui, em sua forma vigente, o marco normativo central para a restauração em propriedades privadas."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-app",
+    "href": "sessions/week1/1-intro.html#sec-app",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "6.2 Áreas de Preservação Permanente (APP)",
+    "text": "6.2 Áreas de Preservação Permanente (APP)\n\n\n\n\n\n\nImportanteDefinição Legal — Art. 3º, II, Lei 12.651/2012\n\n\n\n\n“Área de Preservação Permanente — APP: área protegida, coberta ou não por vegetação nativa, com a função ambiental de preservar os recursos hídricos, a paisagem, a estabilidade geológica e a biodiversidade, facilitar o fluxo gênico de fauna e flora, proteger o solo e assegurar o bem-estar das populações humanas.” (Lei n.º 12.651, de 25 de maio de 2012 2012)\n\n\n\nAs APPs incluem as faixas marginais de cursos d’água, entornos de lagos e lagoas, nascentes, topos de morro, encostas com declividade superior a 45°, restingas e manguezais. Suas dimensões variam conforme a largura do curso d’água ou a altitude do relevo. A restauração de APPs degradadas é obrigação legal do proprietário rural, independentemente de culpa."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-rl",
+    "href": "sessions/week1/1-intro.html#sec-rl",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "6.3 Reserva Legal (RL)",
+    "text": "6.3 Reserva Legal (RL)\n\n\n\n\n\n\nImportanteDefinição Legal — Art. 3º, III, Lei 12.651/2012\n\n\n\n\n“Reserva Legal: área localizada no interior de uma propriedade ou posse rural, delimitada nos termos do art. 12, com a função de assegurar o uso econômico de modo sustentável dos recursos naturais do imóvel rural, auxiliar a conservação e a reabilitação dos processos ecológicos e promover a conservação da biodiversidade, bem como o abrigo e a proteção de fauna silvestre e da flora nativa.” (Lei n.º 12.651, de 25 de maio de 2012 2012)\n\n\n\nOs percentuais mínimos de RL variam conforme o bioma: 80% na Amazônia Legal, 35% no Cerrado dentro da Amazônia Legal, e 20% nos demais biomas (incluindo Mata Atlântica, Caatinga e Pampa). O déficit de RL deve ser compensado por restauração ou, em condições específicas, por compensação em outras áreas."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-car",
+    "href": "sessions/week1/1-intro.html#sec-car",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "6.4 CAR — Cadastro Ambiental Rural",
+    "text": "6.4 CAR — Cadastro Ambiental Rural\nO CAR (Sistema de Cadastro Ambiental Rural) é o registro eletrônico obrigatório de todos os imóveis rurais, contendo a delimitação georreferenciada das APPs, da Reserva Legal, das áreas de uso restrito e das áreas consolidadas. É o ponto de entrada para qualquer processo de regularização ambiental e um instrumento fundamental para o planejamento da restauração em escala de paisagem (Lei n.º 12.651, de 25 de maio de 2012 2012)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-prada",
+    "href": "sessions/week1/1-intro.html#sec-prada",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "6.5 PRA e PRADA",
+    "text": "6.5 PRA e PRADA\nO Programa de Regularização Ambiental (PRA) é o instrumento por meio do qual proprietários rurais com passivo ambiental firmam compromisso com o poder público para recompor, recuperar, regenerar ou compensar as APPs e Reservas Legais degradadas. No âmbito do PRA, é elaborado o PRADA — Projeto de Recomposição de Áreas Degradadas e Alteradas —, documento técnico que detalha as áreas a restaurar, as metodologias, o cronograma e os indicadores de monitoramento Brasil. Ministério do Meio Ambiente (2017).\n\n\n\n\n\n\nNotaDica do Professor\n\n\n\nO PRADA é o documento técnico que você, como ecólogo(a) da restauração, será contratado(a) para elaborar. Familiarize-se com sua estrutura consultando as Instruções Normativas do MAPA e do MMA e os modelos disponibilizados pelos órgãos ambientais estaduais (CPRH em Pernambuco, INEMA na Bahia). Uma limitação importante: o Código Florestal de 2012 anistiou proprietários com passivos anteriores a 22 de julho de 2008 em imóveis de até 4 módulos fiscais, o que gerou grande controvérsia científica e política Soares-Filho et al. (2014)."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-paraquem",
+    "href": "sessions/week1/1-intro.html#sec-paraquem",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "7.1 “Restauração para quem? Por quem?”",
+    "text": "7.1 “Restauração para quem? Por quem?”\nA perspectiva da Ecologia Política questiona a neutralidade aparente dos projetos de restauração, revelando as relações de poder, os interesses econômicos e as assimetrias de conhecimento que estruturam quem decide o que restaurar, onde, como e para quem Lave et al. (2018).\nPerguntas centrais desta perspectiva incluem:\n\nQuem financia a restauração e quais são seus interesses? (mercado de carbono, agronegócio “verde”, filantropia corporativa)\nQuem perde terra ou acesso quando áreas são cercadas para restauração? (comunidades quilombolas, pescadores artesanais, extrativistas)\nQuais conhecimentos são valorizados e quais são invisibilizados? (conhecimento ecológico local versus saber técnico-científico)\nQuem se beneficia dos serviços ecossistêmicos restaurados? (frequentemente, não as comunidades que suportaram os custos da restauração)"
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-cel",
+    "href": "sessions/week1/1-intro.html#sec-cel",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "7.2 Conhecimento Ecológico Local (CEL) e Restauração Biocultural",
+    "text": "7.2 Conhecimento Ecológico Local (CEL) e Restauração Biocultural\nO Conhecimento Ecológico Local (CEL) — acumulado por povos indígenas, comunidades quilombolas, agricultores familiares e pescadores ao longo de gerações de coexistência com os ecossistemas — é uma fonte insubstituível de informação sobre espécies, processos ecológicos e históricos de uso da terra que nenhuma base de dados científica consegue substituir Berkes (2018).\nA restauração biocultural integra CEL ao planejamento técnico, reconhecendo que os ecossistemas que se pretende restaurar são, em grande medida, paisagens culturais co-produzidas por séculos de interação humana com a natureza Melo et al. (2026). Um exemplo emblemático no Nordeste brasileiro é o manejo da caatinga por comunidades sertanejas, que inclui práticas de poda seletiva, proteção de espécies úteis e uso do fogo que mantêm a diversidade de espécies lenhosas de formas que o abandono puro do uso não necessariamente replica."
+  },
+  {
+    "objectID": "sessions/week1/1-intro.html#sec-carbono",
+    "href": "sessions/week1/1-intro.html#sec-carbono",
+    "title": "Semana 01: Fundamentos e Princípios da Ecologia da Restauração",
+    "section": "7.3 Mercado de Carbono e Restauração: oportunidade ou armadilha?",
+    "text": "7.3 Mercado de Carbono e Restauração: oportunidade ou armadilha?\nO crescimento do mercado voluntário de carbono criou novos fluxos de financiamento para a restauração, mas também gerou riscos significativos:\n\nConcentração em biomas “rentáveis”: projetos tendem a privilegiar a Amazônia e a Mata Atlântica, onde estoques de carbono são maiores, em detrimento de biomas igualmente ameaçados como Caatinga e Cerrado;\nPlantios monoespecíficos disfarçados de restauração: alguns projetos de “reflorestamento” para carbono usam monoculturas de eucalipto ou pinus registradas como restauração, distorcendo métricas e benefícios;\nGrilagem verde: a valorização de terras com vegetação nativa pode incentivar especulação fundiária e deslocamento de comunidades tradicionais;\nMercantilização da natureza: a redução da biodiversidade a métricas de carbono pode invisibilizar valores culturais, espirituais e de bem-estar que não cabem em nenhuma calculadora de créditos (Lave et al. 2018; Brancalion et al. 2022).\n\n\n\n\n\n\n\nAvisoReflexão crítica para a prova\n\n\n\nA restauração ecológica é hoje crescentemente inserida em lógicas de mercado (créditos de carbono, biodiversidade, pagamento por serviços ambientais). Essa inserção pode ampliar o financiamento disponível e escalar ações. Mas também pode distorcer prioridades, concentrar benefícios e aprofundar desigualdades. Ao elaborar ou avaliar um projeto de restauração, pergunte sempre: quem paga, quem decide, quem se beneficia e quem arca com os custos?"
   }
 ]
