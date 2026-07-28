@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ecologia da Restauração</title>
+<title>Summative Brief</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
@@ -135,66 +135,95 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
-            Ecologia da Restauração
-        </h1></header>
+<main class="content column-page" id="quarto-document-content">
 
-<div class="grid title-block">
-    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
-        
-        <div class="course-subtitle">
-            <p></p><h4 class="anchored"><br>
-Teoria ecológica e contexto social aplicados à reconstrução da Natureza<br>
-</h4><p></p>
-        </div>
-        <div class="course-meta">
-            <p>BO-304 <br> 2026.2 <br> Centro de Biociências <br> Universidade Federal de Pernambuco</p>
-        </div>
-    </div>
-    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
-      <div class="grid" style="--bs-columns: 5;">
-        <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="img/logo_curso.png" class="img-fluid"></div>
-        <div class="g-col-1 g-col-sm-0"></div>
-      </div>
-    </div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Summative Brief</h1>
 </div>
 
 
-<div class="home">
-<div class="grid course-details">
-<section id="professor-responsável" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="professor-responsável">Professor Responsável</h3>
+
+<div class="quarto-title-meta column-page">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><img src="https://www.nhm.ac.uk/content/dam/nhm-www/discover/amphibian-extinction/amphibian-extinction-full-width.jpg.thumb.1920.1920.png" class="img-fluid"></p>
+<p><strong>Impact of Habitat Fragmentation on Amphibian Biodiversity</strong></p>
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://ecoaplic.org/">Dr.&nbsp;Felipe Melo</a></li>
-<li><i class="fa-solid fa-university" aria-label="university"></i> Departamento do Botânica, Centro de Biociências</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:felipe.plmelo@ufpe.br">felipe.plmelo@ufpe.br</a></li>
+<li><p>Scenario: A conservation ecologist is studying the effects of increasing habitat fragmentation on amphibian populations in a historically forested region that has undergone significant land-use change due to urbanization and agriculture over the past 30 years. Amphibians are particularly vulnerable to habitat changes due to their permeable skin and reliance on both aquatic and terrestrial environments.</p></li>
+<li><p>Research Question: How does the degree of habitat fragmentation (measured by patch size and isolation) influence the species richness and abundance of various amphibian species in different forest remnants within the region?</p></li>
+<li><p>Data Collection: The ecologist has conducted surveys over the past five years (annual surveys during peak breeding season) across 20 distinct forest remnants (patches) of varying sizes and degrees of isolation. For each forest remnant and each survey year, the following data have been collected:</p></li>
+</ul>
+<ol type="1">
+<li><p>Environmental dataset <a href="env_data.csv">HERE</a>: This consists only on forest fragments features of interests for the research</p></li>
+<li><p>Community dataset <a href="comm_data.csv">HERE</a>: This is a species <em>per</em> site <em>per</em> year dataset.</p></li>
+</ol>
+<ul>
+<li><p><em>Species ID</em>: Species ID represented here as a fictional common name (“Marsh_Crawler”, “Leaf_Hopper”, etc…)</p></li>
+<li><p><em>Forest Remnant ID</em>: Unique identifier for each surveyed patch (e.g., F1, F2, …, F50).</p></li>
+<li><p><em>Patch Size (hectares)</em>: Area of the forest remnant in hectares.</p></li>
+<li><p><em>Isolation Index</em>: A calculated metric representing the degree of isolation of the patch from other suitable amphibian habitats (e.g., based on distance to nearest patch, amount of unsuitable matrix habitat surrounding it). Higher values indicate greater isolation.</p></li>
+<li><p><em>Dominant Vegetation Type</em>: Categorical variable describing the primary vegetation type within the patch (e.g., “Deciduous,” “Coniferous,” “Mixed”).</p></li>
+<li><p><em>Presence/Absence of Key Predator</em>: Binary variable (0 = Absent, 1 = Present) indicating the presence of a known amphibian predator (e.g., large fish species in permanent water bodies within the patch).</p></li>
+<li><p><em>Year of Survey</em>: The year the data was collected (e.g., 2020, 2021, …, 2024).</p></li>
+</ul>
+<section id="exam-tasks" class="level1">
+<h1>Exam Tasks</h1>
+<section id="data-exploration" class="level2">
+<h2 class="anchored" data-anchor-id="data-exploration">1 - Data Exploration:</h2>
+<p>Your initial task is to perform a thorough data exploration to understand its characteristics, identify potential issues, and generate initial hypotheses before proceeding with formal statistical modeling.</p>
+<p>Specific aspects to address during data exploration:</p>
+<ul>
+<li><p>Data Types: Identify the type of each variable (numerical, categorical, discrete, continuous).</p></li>
+<li><p>Missing Values: Check for and quantify any missing data points. How might you address them?</p></li>
+<li><p>Distributions: Examine the distributions of key numerical variables (e.g., Patch Size, Isolation Index, Amphibian Species Count, Total Amphibian Abundance) using appropriate graphical methods (histograms, box plots, density plots). Comment on skewness, outliers, and multimodality.</p></li>
+<li><p>Summary Statistics: Calculate relevant descriptive statistics (mean, median, standard deviation, quartiles, min/max) for numerical variables. Provide frequency tables and proportions for categorical variables.</p></li>
 </ul>
 </section>
-<section id="informação-sobre-o-curso" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="informação-sobre-o-curso">Informação sobre o curso</h3>
+<section id="explore-relationships-between-variables" class="level2">
+<h2 class="anchored" data-anchor-id="explore-relationships-between-variables">2 - Explore relationships between variables:</h2>
 <ul>
-<li><i class="fa-solid fa-calendar" aria-label="calendar"></i> Quintas-feiras</li>
-<li><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> 2026.1</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> 10-13h</li>
-<li><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Sala 5 CB-UFPE</li>
+<li><p>Explore relationships between numerical variables using scatter plots (e.g., Patch Size vs.&nbsp;Amphibian Species Count, Isolation Index vs.&nbsp;Total Amphibian Abundance). Look for trends, correlations, and potential non-linear relationships.</p></li>
+<li><p>Use box plots or violin plots to visualize the distribution of numerical variables across different categories (e.g., Amphibian Species Count by Dominant Vegetation Type, Total Amphibian Abundance by Presence/Absence of Key Predator).</p></li>
+<li><p>Consider how to visualize changes over time (e.g., trends in species count or abundance across survey years).</p></li>
+<li><p>Data Consistency/Plausibility Checks: Are there any values that seem unrealistic or incorrect (e.g., negative patch sizes, unusually high or low counts)?</p></li>
+<li><p>Formulate Initial Hypotheses: Based on your exploratory analysis, propose initial hypotheses about the relationships between habitat fragmentation and amphibian populations.</p></li>
 </ul>
 </section>
-<section id="recursos-on-line" class="level3 g-col-12 g-col-md-4 contact-policy">
-<h3 class="anchored" data-anchor-id="recursos-on-line">Recursos on-line</h3>
-<p>Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) <a href="https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt">Google Sala de Aula</a> onde as tarefas devem ser submetidas.</p>
+<section id="test-your-hypothesis" class="level2">
+<h2 class="anchored" data-anchor-id="test-your-hypothesis">3 - Test your hypothesis</h2>
+<ul>
+<li>Now, based on the previous steps, set a scientific hypotheses and test it with one an appropriate statistic model. Remember that sometimes, hypotheses can be tested using different pieces of evidence. This means that you can use different tests and models to collect evidence of your scientific hypothesis.</li>
+</ul>
 </section>
-</div>
-</div>
-<section id="bem-vind" class="level2">
-<h2 class="anchored" data-anchor-id="bem-vind">Bem-vind@</h2>
+<section id="summarise-your-results" class="level2">
+<h2 class="anchored" data-anchor-id="summarise-your-results">4 - Summarise your results</h2>
+<p>Now, just write commenting on your results and how these corroborate, or not, your hypothesis. Connect your discourse with results (tables and figures).</p>
+</section>
+<section id="publish-your-work-as-a-dynamic-report-using-quarto-either-as-a-pdf-or-as-a-website." class="level2">
+<h2 class="anchored" data-anchor-id="publish-your-work-as-a-dynamic-report-using-quarto-either-as-a-pdf-or-as-a-website.">5 - Publish your work as a dynamic report using Quarto (either as a PDF or as a website).</h2>
+<p>At this point and after working across all Module using a Quarto Workbook, you must be able to publish your work as a dynamic report that makes me able to follow your woirkflor and check whther the learnign objective were achieved.</p>
+</section>
+<section id="submit-it-to-now-dropbox" class="level2">
+<h2 class="anchored" data-anchor-id="submit-it-to-now-dropbox">6 - Submit it to NOW Dropbox</h2>
+<p>At NTU there is only one way to submit your work which is via DropBox. You can then just upload your PDF or use the comment box to paste the link to your work.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

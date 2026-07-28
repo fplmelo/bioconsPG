@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prof.&nbsp;Felipe Melo">
+
+<title>Semana 9: Tipos de Métricas de Paisagem</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de63f62b328812d8e578a4d74e282472.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-58b5e81a4ba8e796781d251336e736e6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Início</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../syllabus.html"> 
+<span class="menu-text">Objetivos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">Cronograma</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../workbook/workbook.html"> <i class="bi bi-tools" role="img">
+</i> 
+<span class="menu-text">Seu próprio site</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../sessions/index.html"> 
+<span class="menu-text">Todas as Aulas</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../exercises/index.html"> 
+<span class="menu-text">Exercícios</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resources/index.html"> 
+<span class="menu-text">Recursos</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessment.html"> 
+<span class="menu-text">Tipo de Avaliação</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#apresentação-da-aula" id="toc-apresentação-da-aula" class="nav-link active" data-scroll-target="#apresentação-da-aula">Apresentação da aula</a></li>
+  <li><a href="#sec-intro" id="toc-sec-intro" class="nav-link" data-scroll-target="#sec-intro"><span class="header-section-number">1</span> Introdução</a></li>
+  <li><a href="#sec-paradoxo" id="toc-sec-paradoxo" class="nav-link" data-scroll-target="#sec-paradoxo"><span class="header-section-number">2</span> O paradoxo fundamental</a></li>
+  <li><a href="#sec-composicao" id="toc-sec-composicao" class="nav-link" data-scroll-target="#sec-composicao"><span class="header-section-number">3</span> Métricas de composição</a>
+  <ul class="collapse">
+  <li><a href="#o-que-é-composição" id="toc-o-que-é-composição" class="nav-link" data-scroll-target="#o-que-é-composição"><span class="header-section-number">3.1</span> O que é composição</a></li>
+  <li><a href="#as-métricas-principais" id="toc-as-métricas-principais" class="nav-link" data-scroll-target="#as-métricas-principais"><span class="header-section-number">3.2</span> As métricas principais</a></li>
+  </ul></li>
+  <li><a href="#sec-configuracao" id="toc-sec-configuracao" class="nav-link" data-scroll-target="#sec-configuracao"><span class="header-section-number">4</span> Métricas de configuração</a>
+  <ul class="collapse">
+  <li><a href="#o-que-é-configuração" id="toc-o-que-é-configuração" class="nav-link" data-scroll-target="#o-que-é-configuração"><span class="header-section-number">4.1</span> O que é configuração</a></li>
+  <li><a href="#as-métricas-principais-1" id="toc-as-métricas-principais-1" class="nav-link" data-scroll-target="#as-métricas-principais-1"><span class="header-section-number">4.2</span> As métricas principais</a></li>
+  </ul></li>
+  <li><a href="#sec-niveis" id="toc-sec-niveis" class="nav-link" data-scroll-target="#sec-niveis"><span class="header-section-number">5</span> Os três níveis hierárquicos</a></li>
+  <li><a href="#sec-redundancia" id="toc-sec-redundancia" class="nav-link" data-scroll-target="#sec-redundancia"><span class="header-section-number">6</span> Redundância e conjunto mínimo</a>
+  <ul class="collapse">
+  <li><a href="#o-problema-da-redundância" id="toc-o-problema-da-redundância" class="nav-link" data-scroll-target="#o-problema-da-redundância"><span class="header-section-number">6.1</span> O problema da redundância</a></li>
+  <li><a href="#o-conjunto-mínimo-recomendado" id="toc-o-conjunto-mínimo-recomendado" class="nav-link" data-scroll-target="#o-conjunto-mínimo-recomendado"><span class="header-section-number">6.2</span> O conjunto mínimo recomendado</a></li>
+  </ul></li>
+  <li><a href="#sec-r" id="toc-sec-r" class="nav-link" data-scroll-target="#sec-r"><span class="header-section-number">7</span> Calculando métricas no R</a>
+  <ul class="collapse">
+  <li><a href="#composição-com-landscapemetrics" id="toc-composição-com-landscapemetrics" class="nav-link" data-scroll-target="#composição-com-landscapemetrics"><span class="header-section-number">7.1</span> Composição com <code>landscapemetrics</code></a></li>
+  <li><a href="#configuração-com-landscapemetrics" id="toc-configuração-com-landscapemetrics" class="nav-link" data-scroll-target="#configuração-com-landscapemetrics"><span class="header-section-number">7.2</span> Configuração com <code>landscapemetrics</code></a></li>
+  <li><a href="#visualizando-o-paradoxo-composição-configuração" id="toc-visualizando-o-paradoxo-composição-configuração" class="nav-link" data-scroll-target="#visualizando-o-paradoxo-composição-configuração"><span class="header-section-number">7.3</span> Visualizando o paradoxo composição ≠ configuração</a></li>
+  <li><a href="#matriz-de-correlação-entre-métricas" id="toc-matriz-de-correlação-entre-métricas" class="nav-link" data-scroll-target="#matriz-de-correlação-entre-métricas"><span class="header-section-number">7.4</span> Matriz de correlação entre métricas</a></li>
+  </ul></li>
+  <li><a href="#sec-sintese" id="toc-sec-sintese" class="nav-link" data-scroll-target="#sec-sintese"><span class="header-section-number">8</span> Síntese</a></li>
+  <li><a href="#sec-leituras" id="toc-sec-leituras" class="nav-link" data-scroll-target="#sec-leituras"><span class="header-section-number">9</span> Leituras recomendadas</a></li>
+  <li><a href="#sec-atividade" id="toc-sec-atividade" class="nav-link" data-scroll-target="#sec-atividade"><span class="header-section-number">10</span> Atividade prática</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Semana 9: Tipos de Métricas de Paisagem</h1>
+<p class="subtitle lead">Composição (o que há) vs.&nbsp;Configuração (como está arranjado)</p>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Felipe Melo </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">28 de julho de 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="apresentação-da-aula" class="level1 unnumbered">
+<h1 class="unnumbered">Apresentação da aula</h1>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Use as setas ← → para navegar pelos slides. Pressione <code>F</code> para tela cheia e <code>?</code> para ver todos os atalhos.</p>
+</div>
+</div>
+</div>
+<iframe src="slides_semana9.html" width="100%" height="500px" style="border: 1px solid #ddd; border-radius: 8px; margin-bottom: 2rem;" allowfullscreen="">
+</iframe>
+<hr>
+</section>
+<section id="sec-intro" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introdução</h1>
+<p>Nas semanas anteriores usamos métricas de paisagem como ferramentas — para medir fragmentação, calcular distâncias entre patches, avaliar conectividade estrutural e quantificar fluxos. Nesta semana fazemos um passo atrás e examinamos a <strong>lógica interna</strong> dessas ferramentas: como elas se organizam, o que cada tipo efetivamente mede e, criticamente, o que cada tipo <em>não</em> mede.</p>
+<p>A distinção central é a proposta por McGarigal &amp; Marks (1995) no software FRAGSTATS, que dividiu as métricas de paisagem em duas grandes categorias:</p>
+<ul>
+<li><strong>Composição</strong>: o que está presente e em que quantidade, sem referência à posição espacial</li>
+<li><strong>Configuração</strong>: como os elementos estão dispostos, o que exige coordenadas e relações espaciais para o cálculo</li>
+</ul>
+<p>Compreender essa divisão não é detalhe técnico — ela define o que você pode e não pode concluir a partir de um conjunto de métricas, e determina quais análises são suficientes para responder a diferentes perguntas ecológicas.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Nota</span>Definição (McGarigal &amp; Marks 1995)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>As métricas de paisagem se enquadram em duas categorias gerais: as que quantificam a <strong>composição</strong> do mapa sem referência a atributos espaciais, e as que quantificam a <strong>configuração espacial</strong> do mapa, exigindo informação espacial para o seu cálculo.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="sec-paradoxo" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> O paradoxo fundamental</h1>
+<p>Considere o seguinte cenário: duas paisagens têm exatamente a mesma quantidade de floresta (50%), exatamente a mesma quantidade de agricultura (50%) e exatamente o mesmo número de tipos de cobertura (2). Do ponto de vista da <strong>composição</strong>, elas são idênticas. Mas uma delas tem a floresta distribuída em dezenas de fragmentos minúsculos intercalados com a agricultura (padrão “xadrez”), e a outra tem dois grandes blocos contíguos, um de cada uso.</p>
+<p>Do ponto de vista ecológico, essas duas paisagens são radicalmente diferentes: a primeira tem área de núcleo quase zero, borda máxima, isolamento elevado e conectividade estrutural mínima. A segunda tem grande área de núcleo, pouca borda, patches grandes com baixa extinção estocástica e alta conectividade estrutural.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig1_composicao_vs_configuracao.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 1 — Duas paisagens com composição idêntica (50% de cada classe) mas configuração radicalmente diferente.</figcaption>
+</figure>
+</div>
+<p>Este é o paradoxo que motiva a distinção entre composição e configuração: <strong>métricas de composição sozinhas são insuficientes para caracterizar a estrutura ecológica de uma paisagem</strong>. Qualquer análise que pretenda relacionar padrão espacial a processo ecológico precisa incluir métricas de ambas as categorias.</p>
+<hr>
+</section>
+<section id="sec-composicao" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Métricas de composição</h1>
+<section id="o-que-é-composição" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="o-que-é-composição"><span class="header-section-number">3.1</span> O que é composição</h2>
+<p>Composição é facilmente quantificada e se refere a características associadas à variedade e abundância dos tipos de patch dentro da paisagem, mas sem considerar o caráter espacial, a posição ou a localização dos patches dentro do mosaico. Como a composição requer integração sobre todos os tipos de patch, as métricas de composição são aplicáveis apenas no nível de paisagem.</p>
+<p>A chave desta definição é a expressão “sem considerar o caráter espacial”. Uma métrica de composição pode ser calculada a partir de uma simples tabela de área por classe — não há necessidade de conhecer onde cada pixel está, quais patches são vizinhos ou qual a forma de cada mancha. Basta saber <em>quanto</em> de cada tipo existe.</p>
+</section>
+<section id="as-métricas-principais" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="as-métricas-principais"><span class="header-section-number">3.2</span> As métricas principais</h2>
+<p>Há muitas medidas quantitativas de composição de paisagem, incluindo a proporção da paisagem em cada tipo de patch, a riqueza de tipos de patch, a equitatividade e a diversidade de patches.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig2_metricas_composicao.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 2 — As quatro principais métricas de composição: PLAND, PR, SHDI e LPI.</figcaption>
+</figure>
+</div>
+<p><strong>PLAND — Proporção de cada classe</strong></p>
+<p>A métrica mais básica: que percentual da área total da paisagem é ocupado por cada tipo de cobertura? Formalmente, para a classe <span class="math inline">\(i\)</span>:</p>
+<p><span class="math display">\[PLAND_i = \frac{\sum_{j=1}^{n_i} a_{ij}}{A} \times 100\]</span></p>
+<p>Onde <span class="math inline">\(a_{ij}\)</span> é a área do <span class="math inline">\(j\)</span>-ésimo patch da classe <span class="math inline">\(i\)</span> e <span class="math inline">\(A\)</span> é a área total da paisagem. O PLAND varia entre 0 (exclusão) e 100 (paisagem dominada por uma única classe). É o primeiro número que qualquer análise de paisagem deve reportar.</p>
+<p><strong>PR — Riqueza de tipos de patch</strong></p>
+<p>O número de tipos distintos de cobertura presentes: <span class="math inline">\(PR = m\)</span>. Uma paisagem com floresta, pastagem, agricultura e água tem <span class="math inline">\(PR = 4\)</span>. É a métrica mais simples de heterogeneidade — análoga à riqueza de espécies em ecologia de comunidades.</p>
+<p><strong>SHDI — Índice de Diversidade de Shannon</strong></p>
+<p>A métrica mais usada para resumir a composição em um único número que integra riqueza e equitatividade:</p>
+<p><span class="math display">\[SHDI = -\sum_{i=1}^{m} p_i \cdot \ln(p_i)\]</span></p>
+<p>Onde <span class="math inline">\(p_i\)</span> é a proporção da classe <span class="math inline">\(i\)</span>. SHDI = 0 quando há apenas uma classe; SHDI é máximo (= <span class="math inline">\(\ln m\)</span>) quando todas as classes têm a mesma proporção. Valores intermediários refletem dominância de algumas classes.</p>
+<p><strong>LPI — Índice do Maior Patch</strong></p>
+<p>Percentual da área total ocupado pelo maior patch contíguo de qualquer classe:</p>
+<p><span class="math display">\[LPI = \frac{a_{max}}{A} \times 100\]</span></p>
+<p>LPI é uma medida de <strong>dominância</strong>: quanto maior o LPI, mais a paisagem é dominada por um único bloco contíguo. Em paisagens pouco fragmentadas, LPI se aproxima de PLAND da classe dominante. Em paisagens muito fragmentadas, LPI é muito menor que PLAND — sinal de que a área está distribuída em muitos patches pequenos.</p>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Aviso</span>O que composição não responde
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Métricas de composição não informam: onde cada classe está, se os patches são contíguos ou isolados, qual a forma dos patches, qual a quantidade de borda entre classes, ou qual o grau de isolamento entre patches de habitat. Para essas questões, são necessárias métricas de configuração.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="sec-configuracao" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Métricas de configuração</h1>
+<section id="o-que-é-configuração" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="o-que-é-configuração"><span class="header-section-number">4.1</span> O que é configuração</h2>
+<p>Configuração de paisagem se refere à distribuição física e às características espaciais dos patches presentes dentro da paisagem. Ao contrário das métricas de composição, as métricas de configuração <strong>requerem informação espacial</strong> para o cálculo — elas precisam saber onde cada pixel está, quais células são adjacentes e qual a forma geométrica de cada patch.</p>
+<p>Estas métricas se enquadram em duas categorias gerais: as que quantificam a composição do mapa sem referência a atributos espaciais, e as que quantificam a configuração espacial do mapa, exigindo informação espacial para o seu cálculo.</p>
+</section>
+<section id="as-métricas-principais-1" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="as-métricas-principais-1"><span class="header-section-number">4.2</span> As métricas principais</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig3_metricas_configuracao.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 3 — As quatro principais métricas de configuração: NP, ED, AI e ENN.</figcaption>
+</figure>
+</div>
+<p><strong>NP/PD — Número e Densidade de Patches</strong></p>
+<p>O número total de patches (<span class="math inline">\(NP\)</span>) de uma classe é a métrica mais direta de fragmentação. A densidade de patches (<span class="math inline">\(PD = NP/A \times 10.000\)</span>) padroniza por área e permite comparações entre paisagens de tamanhos diferentes. Uma classe com <span class="math inline">\(PLAND\)</span> alto mas <span class="math inline">\(NP\)</span> alto indica <strong>fragmentação</strong>: muita área, mas distribuída em muitos pedaços pequenos.</p>
+<p><strong>ED — Densidade de Borda</strong></p>
+<p>A quantidade total de borda entre classes, expressa por unidade de área (<span class="math inline">\(ED = E/A\)</span>, em m/ha). Borda representa a interface entre habitats distintos — zona de alta troca de energia e matéria, como vimos na semana 8. Paisagens muito fragmentadas têm ED alto; paisagens com grandes blocos contíguos têm ED baixo. ED é calculado contando o comprimento de todas as bordas entre células de classes diferentes, operação que requer a posição espacial de cada célula.</p>
+<p><strong>AI — Índice de Agregação</strong></p>
+<p>Mede o grau em que células da mesma classe são espacialmente adjacentes umas às outras:</p>
+<p><span class="math display">\[AI = \left(\frac{g_{ii}}{g_{ii,max}}\right) \times 100\]</span></p>
+<p>Onde <span class="math inline">\(g_{ii}\)</span> é o número de adjacências entre células da mesma classe <span class="math inline">\(i\)</span>, e <span class="math inline">\(g_{ii,max}\)</span> é o máximo possível dadas as restrições de área. <span class="math inline">\(AI = 0\)</span> quando os pixels estão maximamente dispersos; <span class="math inline">\(AI = 100\)</span> quando formam um único bloco compacto. O AI é uma das métricas mais informativas para distinguir paisagens com mesma composição mas configuração diferente.</p>
+<p><strong>ENN — Distância Euclidiana ao Vizinho Mais Próximo</strong></p>
+<p>A menor distância borda-a-borda entre um patch e o patch mais próximo da <strong>mesma classe</strong>. É a métrica padrão de <strong>isolamento espacial</strong> — o oposto da conectividade estrutural. Patches com ENN alto estão isolados; patches com ENN baixo têm vizinhos próximos que permitem dispersão, efeito resgate e dinâmica metapopulacional.</p>
+<hr>
+</section>
+</section>
+<section id="sec-niveis" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Os três níveis hierárquicos</h1>
+<p>Além da divisão composição/configuração, as métricas se organizam em três níveis hierárquicos de integração espacial:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig4_niveis_hierarquicos.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 4 — Os três níveis hierárquicos: patch, class e landscape.</figcaption>
+</figure>
+</div>
+<p><strong>Nível Patch</strong>: uma métrica é calculada para cada patch individualmente. Resulta em uma distribuição de valores — um por patch. Exemplos: área de cada patch (AREA), perímetro (PERIM), forma (SHAPE), distância ao vizinho mais próximo (ENN). Permite análises estatísticas da distribuição (média, desvio-padrão, coeficiente de variação).</p>
+<p><strong>Nível Class</strong>: métricas de classe são integradas sobre todos os patches de um dado tipo. Podem ser integradas por simples média, ou por algum esquema de média ponderada para refletir melhor a contribuição de patches maiores ao índice geral. Resulta em um valor por tipo de cobertura. Exemplos: área total da classe (CA), número de patches (NP), proporção na paisagem (PLAND), densidade de borda da classe (ED), isolamento médio (ENN_MN).</p>
+<p><strong>Nível Landscape</strong>: integra sobre todos os patches de todos os tipos. Resulta em um único valor para a paisagem inteira. Alguns índices são significativos apenas em um nível — por exemplo, índices de heterogeneidade como o índice de diversidade de Shannon (SHDI), o índice de equitatividade de Shannon (SHEI) e o índice de diversidade de Simpson (SIDI) só podem ser determinados no nível de paisagem, pois são integrados sobre todos os patches e classes da área de estudo.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Qual nível usar?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A escolha do nível depende da pergunta. Para entender a ecologia de uma espécie específica, métricas de <strong>class</strong> (do habitat dela) são mais informativas. Para comparar paisagens inteiras em estudos de gradiente de fragmentação ou uso do solo, métricas de <strong>landscape</strong> são mais adequadas. Para modelar a probabilidade de extinção de populações individuais em patches específicos, métricas de <strong>patch</strong> são necessárias.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="sec-redundancia" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Redundância e conjunto mínimo</h1>
+<section id="o-problema-da-redundância" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="o-problema-da-redundância"><span class="header-section-number">6.1</span> O problema da redundância</h2>
+<p>Com mais de 130 métricas disponíveis no <code>landscapemetrics</code>, uma armadilha frequente é calcular um grande número delas e tratá-las como se fossem informações independentes. Landscape metrics allow to quantify the composition (i.e., amount) of and configuration (i.e., arrangement) of spatial landscape characteristics within the context of categorical raster data. Porém, muitas métricas são fortemente correlacionadas entre si — especialmente dentro de grupos funcionais (área/borda, forma, agregação, isolamento).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig5_redundancia_metricas.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 5 — Grupos de métricas correlacionadas e o problema da redundância.</figcaption>
+</figure>
+</div>
+<p>Usar 20 métricas fortemente correlacionadas em uma análise multivariada não acrescenta informação — apenas infla artificialmente os graus de liberdade e dificulta a interpretação ecológica dos resultados.</p>
+</section>
+<section id="o-conjunto-mínimo-recomendado" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="o-conjunto-mínimo-recomendado"><span class="header-section-number">6.2</span> O conjunto mínimo recomendado</h2>
+<p>Cushman et al.&nbsp;(2008) propuseram um conjunto parcimonioso de métricas que maximiza a informação ecológica capturada com o mínimo de redundância. O princípio é selecionar métricas <strong>ortogonais</strong> — pouco correlacionadas entre si — que cubram os principais aspectos de composição e configuração.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/s9_fig6_conjunto_minimo.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Figura 6 — Conjunto mínimo recomendado de métricas por objetivo analítico.</figcaption>
+</figure>
+</div>
+<p>Para a maioria das análises de fragmentação e conectividade estrutural, o conjunto a seguir cobre as dimensões essenciais da estrutura da paisagem com redundância mínima:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Dimensão</th>
+<th>Métricas recomendadas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Composição (abundância)</td>
+<td>PLAND por classe</td>
+</tr>
+<tr class="even">
+<td>Composição (diversidade)</td>
+<td>SHDI (landscape)</td>
+</tr>
+<tr class="odd">
+<td>Fragmentação</td>
+<td>NP ou PD por classe</td>
+</tr>
+<tr class="even">
+<td>Borda / interface</td>
+<td>ED por classe ou landscape</td>
+</tr>
+<tr class="odd">
+<td>Agregação espacial</td>
+<td>AI por classe</td>
+</tr>
+<tr class="even">
+<td>Isolamento</td>
+<td>ENN_MN por classe</td>
+</tr>
+<tr class="odd">
+<td>Forma</td>
+<td>SHAPE_MN ou FRAC_MN por classe</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+<section id="sec-r" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Calculando métricas no R</h1>
+<section id="composição-com-landscapemetrics" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="composição-com-landscapemetrics"><span class="header-section-number">7.1</span> Composição com <code>landscapemetrics</code></h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(landscapemetrics)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyr)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Carregar paisagem de exemplo</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>paisagem <span class="ot">&lt;-</span> terra<span class="sc">::</span><span class="fu">rast</span>(landscapemetrics<span class="sc">::</span>landscape)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># ── COMPOSIÇÃO ─────────────────────────────────────────────────────────────────</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Proporção de cada classe (PLAND)</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>pland <span class="ot">&lt;-</span> <span class="fu">lsm_c_pland</span>(paisagem)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Riqueza de tipos (PR) — nível landscape</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>pr    <span class="ot">&lt;-</span> <span class="fu">lsm_l_pr</span>(paisagem)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Diversidade de Shannon (SHDI) — nível landscape</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>shdi  <span class="ot">&lt;-</span> <span class="fu">lsm_l_shdi</span>(paisagem)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Equitatividade de Shannon (SHEI)</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>shei  <span class="ot">&lt;-</span> <span class="fu">lsm_l_shei</span>(paisagem)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Índice do maior patch (LPI) — nível landscape</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>lpi   <span class="ot">&lt;-</span> <span class="fu">lsm_l_lpi</span>(paisagem)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Reunir composição em tabela legível</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>composicao <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  pland <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">nivel =</span> <span class="st">"class"</span>),</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  pr    <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">nivel =</span> <span class="st">"landscape"</span>),</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>  shdi  <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">nivel =</span> <span class="st">"landscape"</span>),</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  shei  <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">nivel =</span> <span class="st">"landscape"</span>),</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  lpi   <span class="sc">|&gt;</span> <span class="fu">mutate</span>(<span class="at">nivel =</span> <span class="st">"landscape"</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(level, class, metric, value) <span class="sc">|&gt;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(level, metric)</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(composicao)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 7 × 4
+  level     class metric  value
+  &lt;chr&gt;     &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;
+1 class         1 pland  20.4  
+2 class         2 pland  26    
+3 class         3 pland  53.6  
+4 landscape    NA lpi    17.7  
+5 landscape    NA pr      3    
+6 landscape    NA shdi    1.01 
+7 landscape    NA shei    0.919</code></pre>
+</div>
+</div>
+</section>
+<section id="configuração-com-landscapemetrics" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="configuração-com-landscapemetrics"><span class="header-section-number">7.2</span> Configuração com <code>landscapemetrics</code></h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># ── CONFIGURAÇÃO ───────────────────────────────────────────────────────────────</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Número de patches por classe (NP)</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>np   <span class="ot">&lt;-</span> <span class="fu">lsm_c_np</span>(paisagem)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Densidade de borda por classe (ED)</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>ed   <span class="ot">&lt;-</span> <span class="fu">lsm_c_ed</span>(paisagem)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Índice de agregação por classe (AI)</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>ai   <span class="ot">&lt;-</span> <span class="fu">lsm_c_ai</span>(paisagem)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Distância média ao vizinho mais próximo (ENN_MN)</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>enn  <span class="ot">&lt;-</span> <span class="fu">lsm_c_enn_mn</span>(paisagem)</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Forma média (SHAPE_MN)</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>shp  <span class="ot">&lt;-</span> <span class="fu">lsm_c_shape_mn</span>(paisagem)</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Reunir configuração</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>configuracao <span class="ot">&lt;-</span> <span class="fu">bind_rows</span>(np, ed, ai, enn, shp) <span class="sc">|&gt;</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(level, class, metric, value) <span class="sc">|&gt;</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">classe =</span> <span class="fu">case_when</span>(</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>      class <span class="sc">==</span> <span class="dv">1</span> <span class="sc">~</span> <span class="st">"Floresta"</span>,</span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>      class <span class="sc">==</span> <span class="dv">2</span> <span class="sc">~</span> <span class="st">"Agricultura"</span>,</span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>      class <span class="sc">==</span> <span class="dv">3</span> <span class="sc">~</span> <span class="st">"Outros"</span></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(configuracao)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 15 × 5
+   level class metric     value classe     
+   &lt;chr&gt; &lt;int&gt; &lt;chr&gt;      &lt;dbl&gt; &lt;chr&gt;      
+ 1 class     1 np          9    Floresta   
+ 2 class     2 np         13    Agricultura
+ 3 class     3 np          6    Outros     
+ 4 class     1 ed       2011.   Floresta   
+ 5 class     2 ed       2256.   Agricultura
+ 6 class     3 ed       3289.   Outros     
+ 7 class     1 ai         79.7  Floresta   
+ 8 class     2 ai         79.6  Agricultura
+ 9 class     3 ai         84.9  Outros     
+10 class     1 enn_mn      4.09 Floresta   
+11 class     2 enn_mn      3.61 Agricultura
+12 class     3 enn_mn      2    Outros     
+13 class     1 shape_mn    1.33 Floresta   
+14 class     2 shape_mn    1.22 Agricultura
+15 class     3 shape_mn    1.75 Outros     </code></pre>
+</div>
+</div>
+</section>
+<section id="visualizando-o-paradoxo-composição-configuração" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="visualizando-o-paradoxo-composição-configuração"><span class="header-section-number">7.3</span> Visualizando o paradoxo composição ≠ configuração</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Simular duas paisagens com composição idêntica mas configuração diferente</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(terra)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">42</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Paisagem A: xadrez (fragmentada) — composição 50/50</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>r_A <span class="ot">&lt;-</span> <span class="fu">rast</span>(<span class="at">nrows =</span> <span class="dv">20</span>, <span class="at">ncols =</span> <span class="dv">20</span>, <span class="at">vals =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="dv">1</span>L, <span class="dv">2</span>L), <span class="dv">200</span>))</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Paisagem B: dois blocos (agregada) — composição 50/50</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>vals_B <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">rep</span>(<span class="dv">1</span>L, <span class="dv">200</span>), <span class="fu">rep</span>(<span class="dv">2</span>L, <span class="dv">200</span>))</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>r_B    <span class="ot">&lt;-</span> <span class="fu">rast</span>(<span class="at">nrows =</span> <span class="dv">20</span>, <span class="at">ncols =</span> <span class="dv">20</span>, <span class="at">vals =</span> vals_B)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular métricas de composição e configuração para ambas</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>metricas_AB <span class="ot">&lt;-</span> <span class="fu">calculate_lsm</span>(</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">list</span>(r_A, r_B),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>  <span class="at">what =</span> <span class="fu">c</span>(<span class="st">"lsm_l_pland"</span>, <span class="st">"lsm_l_shdi"</span>,</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>           <span class="st">"lsm_l_np"</span>,   <span class="st">"lsm_l_ed"</span>,</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>           <span class="st">"lsm_l_ai"</span>,   <span class="st">"lsm_l_lpi"</span>)</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">paisagem =</span> <span class="fu">if_else</span>(layer <span class="sc">==</span> <span class="dv">1</span>, <span class="st">"A — Fragmentada"</span>, <span class="st">"B — Agregada"</span>),</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">categoria =</span> <span class="fu">if_else</span>(</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>      metric <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"pland"</span>, <span class="st">"shdi"</span>),</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">"Composição"</span>, <span class="st">"Configuração"</span></span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico comparativo</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(metricas_AB, <span class="fu">aes</span>(<span class="at">x =</span> metric, <span class="at">y =</span> value, <span class="at">fill =</span> paisagem)) <span class="sc">+</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="at">position =</span> <span class="st">"dodge"</span>, <span class="at">alpha =</span> <span class="fl">0.85</span>, <span class="at">width =</span> <span class="fl">0.65</span>) <span class="sc">+</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span>categoria, <span class="at">scales =</span> <span class="st">"free"</span>, <span class="at">nrow =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"A — Fragmentada"</span> <span class="ot">=</span> <span class="st">"#A32D2D"</span>,</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>                               <span class="st">"B — Agregada"</span>    <span class="ot">=</span> <span class="st">"#0F6E56"</span>)) <span class="sc">+</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>    <span class="at">title    =</span> <span class="st">"Composição idêntica, configuração radicalmente diferente"</span>,</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>    <span class="at">subtitle =</span> <span class="st">"Métricas de composição: iguais; métricas de configuração: distintas"</span>,</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>    <span class="at">x        =</span> <span class="st">"Métrica"</span>,</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>    <span class="at">y        =</span> <span class="st">"Valor"</span>,</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>    <span class="at">fill     =</span> <span class="st">"Paisagem"</span>,</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption  =</span> <span class="st">"Paisagem A: padrão xadrez · Paisagem B: dois blocos contíguos"</span></span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">+</span></span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_classic</span>(<span class="at">base_size =</span> <span class="dv">12</span>) <span class="sc">+</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"#173404"</span>),</span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>    <span class="at">strip.text       =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"white"</span>, <span class="at">face =</span> <span class="st">"bold"</span>),</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>    <span class="at">legend.position  =</span> <span class="st">"bottom"</span></span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="semana9_metricas_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="768"></p>
+<figcaption>O mesmo PLAND com NP e AI diferentes: composição idêntica, configuração distinta</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="matriz-de-correlação-entre-métricas" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="matriz-de-correlação-entre-métricas"><span class="header-section-number">7.4</span> Matriz de correlação entre métricas</h2>
+<div class="cell">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular conjunto amplo de métricas na paisagem exemplo</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>todas <span class="ot">&lt;-</span> <span class="fu">calculate_lsm</span>(</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  paisagem,</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">what =</span> <span class="fu">c</span>(</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lsm_c_pland"</span>, <span class="st">"lsm_c_np"</span>, <span class="st">"lsm_c_ed"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lsm_c_ai"</span>,    <span class="st">"lsm_c_enn_mn"</span>, <span class="st">"lsm_c_shape_mn"</span>,</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lsm_c_lpi"</span>,   <span class="st">"lsm_c_pd"</span>,    <span class="st">"lsm_c_frac_mn"</span>,</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"lsm_c_cohesion"</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(level <span class="sc">==</span> <span class="st">"class"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(class, metric, value) <span class="sc">|&gt;</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>(<span class="at">names_from =</span> metric, <span class="at">values_from =</span> value, <span class="at">values_fn =</span> mean) <span class="sc">|&gt;</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>class)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Correlação</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">ncol</span>(todas) <span class="sc">&gt;=</span> <span class="dv">4</span>) {</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>  cor_mat <span class="ot">&lt;-</span> <span class="fu">cor</span>(todas, <span class="at">use =</span> <span class="st">"pairwise.complete.obs"</span>)</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Visualizar com corrplot (se disponível) ou heatmap simples</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="fu">requireNamespace</span>(<span class="st">"corrplot"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>    corrplot<span class="sc">::</span><span class="fu">corrplot</span>(cor_mat, <span class="at">method =</span> <span class="st">"color"</span>,</span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>                       <span class="at">tl.cex =</span> <span class="fl">0.8</span>, <span class="at">number.cex =</span> <span class="fl">0.7</span>,</span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>                       <span class="at">addCoef.col =</span> <span class="st">"black"</span>, <span class="at">type =</span> <span class="st">"upper"</span>,</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>                       <span class="at">col =</span> <span class="fu">colorRampPalette</span>(<span class="fu">c</span>(<span class="st">"#A32D2D"</span>,<span class="st">"white"</span>,<span class="st">"#27500A"</span>))(<span class="dv">200</span>),</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>                       <span class="at">title =</span> <span class="st">"Correlação entre métricas (classe)"</span>,</span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>                       <span class="at">mar =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">0</span>))</span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Alternativa: heatmap com ggplot2</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a>    cor_df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(cor_mat) <span class="sc">|&gt;</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a>      tibble<span class="sc">::</span><span class="fu">rownames_to_column</span>(<span class="st">"m1"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a>      <span class="fu">pivot_longer</span>(<span class="sc">-</span>m1, <span class="at">names_to =</span> <span class="st">"m2"</span>, <span class="at">values_to =</span> <span class="st">"r"</span>)</span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a>    <span class="fu">ggplot</span>(cor_df, <span class="fu">aes</span>(<span class="at">x =</span> m1, <span class="at">y =</span> m2, <span class="at">fill =</span> r)) <span class="sc">+</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_tile</span>(<span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a>      <span class="fu">scale_fill_gradient2</span>(</span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a>        <span class="at">low =</span> <span class="st">"#A32D2D"</span>, <span class="at">mid =</span> <span class="st">"white"</span>, <span class="at">high =</span> <span class="st">"#27500A"</span>,</span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a>        <span class="at">midpoint =</span> <span class="dv">0</span>, <span class="at">limits =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="dv">1</span>, <span class="dv">1</span>),</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a>        <span class="at">name =</span> <span class="st">"r de</span><span class="sc">\n</span><span class="st">Pearson"</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a>      ) <span class="sc">+</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a>      <span class="fu">geom_text</span>(<span class="fu">aes</span>(<span class="at">label =</span> <span class="fu">round</span>(r, <span class="dv">2</span>)), <span class="at">size =</span> <span class="fl">2.8</span>) <span class="sc">+</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a>      <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Matriz de correlação entre métricas de paisagem"</span>,</span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a>           <span class="at">x =</span> <span class="cn">NULL</span>, <span class="at">y =</span> <span class="cn">NULL</span>) <span class="sc">+</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">11</span>) <span class="sc">+</span></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a>      <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle =</span> <span class="dv">45</span>, <span class="at">hjust =</span> <span class="dv">1</span>))</span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="semana9_metricas_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Correlação entre métricas de paisagem — base para seleção do conjunto mínimo</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="sec-sintese" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Síntese</h1>
+<p>A divisão composição / configuração é o arcabouço organizador de todas as métricas de paisagem. Quatro lições centrais emergem:</p>
+<p><strong>1. Composição e configuração são dimensões independentes.</strong> Duas paisagens com composição idêntica podem ter configurações opostas — e consequências ecológicas completamente diferentes para fragmentação, conectividade, qualidade de habitat e biodiversidade.</p>
+<p><strong>2. Métricas de composição são necessárias mas não suficientes.</strong> Qualquer análise de estrutura de paisagem deve incluir pelo menos uma métrica de composição (PLAND, SHDI) <em>e</em> pelo menos uma de configuração (NP/PD, ED, AI ou ENN). Usar apenas composição é equivalente a descrever uma comunidade só pela riqueza de espécies, ignorando a abundância relativa e a estrutura espacial.</p>
+<p><strong>3. Os três níveis hierárquicos definem a escala da inferência.</strong> Métricas de patch informam sobre fragmentos individuais; métricas de class informam sobre um tipo de cobertura; métricas de landscape informam sobre a paisagem inteira. A escolha do nível deve corresponder à escala do processo ecológico que se quer entender.</p>
+<p><strong>4. Parcimônia é virtude.</strong> Com 130+ métricas disponíveis, a seleção criteriosa de um conjunto mínimo não correlacionado (Cushman et al.&nbsp;2008) produz análises mais interpretáveis, estatisticamente mais robustas e ecologicamente mais coerentes do que o uso indiscriminado de muitas métricas redundantes.</p>
+<hr>
+</section>
+<section id="sec-leituras" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Leituras recomendadas</h1>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Referência</th>
+<th>Por que ler</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>McGarigal &amp; Marks (1995) <em>FRAGSTATS</em> — USDA Forest Service</td>
+<td>Manual original que define a divisão composição/configuração e descreve todas as métricas</td>
+</tr>
+<tr class="even">
+<td>Gustafson (1998) <em>Ecosystems</em> 1:143–156</td>
+<td>Revisão crítica dos conceitos de heterogeneidade espacial e como as métricas a capturam</td>
+</tr>
+<tr class="odd">
+<td>Cushman et al.&nbsp;(2008) <em>Ecol. Indic.</em> 8:691–703</td>
+<td>Parcimônia em métricas: análise de correlação e proposta de conjunto mínimo</td>
+</tr>
+<tr class="even">
+<td>Hesselbarth et al.&nbsp;(2019) <em>Ecography</em> 42:1648–1657</td>
+<td>Artigo do pacote <code>landscapemetrics</code> — implementação moderna em R</td>
+</tr>
+<tr class="odd">
+<td>Uuemaa et al.&nbsp;(2013) <em>PLOS ONE</em> 8:e59053</td>
+<td>Revisão de tendências no uso de métricas de paisagem: o que se usa e o que se deveria usar</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="sec-atividade" class="level1" data-number="10">
+<h1 data-number="10"><span class="header-section-number">10</span> Atividade prática</h1>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Importante</span>Atividade da Semana 9 — entrega via Google Sala de Aula
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Usando o raster de uso do solo da disciplina (ou um de sua escolha):</p>
+<ol type="1">
+<li><p>Calcule o <strong>conjunto mínimo recomendado</strong> de métricas: PLAND, SHDI, NP, ED, AI e ENN_MN para todas as classes presentes.</p></li>
+<li><p>Construa uma tabela comparando as métricas de <strong>composição</strong> com as de <strong>configuração</strong> e discuta, para cada classe, o que elas revelam sobre a estrutura da paisagem que a outra categoria não revela.</p></li>
+<li><p>Simule duas paisagens com a mesma composição (mesmos valores de PLAND) mas configuração diferente. Use o código da aula como base e compare os valores de NP, ED e AI entre elas. Explique ecologicamente o que diferencia as duas.</p></li>
+<li><p>Calcule a <strong>matriz de correlação</strong> entre pelo menos 8 métricas e identifique quais pares são mais redundantes (|r| &gt; 0,8). Proponha um conjunto reduzido de 5 métricas que minimize a redundância.</p></li>
+</ol>
+<p>Entregue relatório <code>.qmd</code> renderizado como HTML com código e interpretação integrados.</p>
+</div>
+</div>
+<hr>
+<p><em>Semana 9 — Ecologia de Paisagens BO-304, UFPE, 2026.1. Material em desenvolvimento contínuo.</em></p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiada");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiada");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Content <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2026 by <a href="https://ecoaplic.org/">felipe Melo</a> <br> All content licensed under a <i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc" aria-label="creative-commons-nc"></i> <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0)</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a><br> <a href="https://github.com/fplmelo/ecologia_paisagens">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Andrew Heiss">
 
-<title>Ecologia da Restauração</title>
+<title>Usando Quarto</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,28 +24,63 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-70cd855b5bafc2a2bba797fc541c2438.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-70cd855b5bafc2a2bba797fc541c2438.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,16 +112,16 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
-    <img src="./img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,36 +131,36 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html"> 
+    <a class="nav-link" href="../syllabus.html"> 
 <span class="menu-text">Objetivos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../schedule.html"> 
 <span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./workbook/workbook.html"> <i class="bi bi-tools" role="img">
+    <a class="nav-link" href="../workbook/workbook.html"> <i class="bi bi-tools" role="img">
 </i> 
 <span class="menu-text">Seu próprio site</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sessions/index.html"> 
+    <a class="nav-link" href="../sessions/index.html"> 
 <span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./exercises/index.html"> 
+    <a class="nav-link" href="../exercises/index.html"> 
 <span class="menu-text">Exercícios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources/index.html"> 
+    <a class="nav-link" href="../resources/index.html"> 
 <span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assessment.html"> 
+    <a class="nav-link" href="../assessment.html"> 
 <span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
 </ul>
@@ -135,64 +171,129 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#termos-chave" id="toc-termos-chave" class="nav-link active" data-scroll-target="#termos-chave">Termos-chave</a></li>
+  <li><a href="#adicionar-chunks" id="toc-adicionar-chunks" class="nav-link" data-scroll-target="#adicionar-chunks">Adicionar chunks</a></li>
+  <li><a href="#opções-de-chunk" id="toc-opções-de-chunk" class="nav-link" data-scroll-target="#opções-de-chunk">Opções de chunk</a></li>
+  <li><a href="#chunks-inline" id="toc-chunks-inline" class="nav-link" data-scroll-target="#chunks-inline">Chunks inline</a></li>
+  <li><a href="#formatos-de-saída" id="toc-formatos-de-saída" class="nav-link" data-scroll-target="#formatos-de-saída">Formatos de saída</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
-            Ecologia da Restauração
-        </h1></header>
+<main class="content column-page-left" id="quarto-document-content">
 
-<div class="grid title-block">
-    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
-        
-        <div class="course-subtitle">
-            <p></p><h4 class="anchored"><br>
-Teoria ecológica e contexto social aplicados à reconstrução da Natureza<br>
-</h4><p></p>
-        </div>
-        <div class="course-meta">
-            <p>BO-304 <br> 2026.2 <br> Centro de Biociências <br> Universidade Federal de Pernambuco</p>
-        </div>
-    </div>
-    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
-      <div class="grid" style="--bs-columns: 5;">
-        <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="img/logo_curso.png" class="img-fluid"></div>
-        <div class="g-col-1 g-col-sm-0"></div>
-      </div>
-    </div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Usando Quarto</h1>
 </div>
 
 
-<div class="home">
-<div class="grid course-details">
-<section id="professor-responsável" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="professor-responsável">Professor Responsável</h3>
+
+<div class="quarto-title-meta column-page-left">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Andrew Heiss </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="https://quarto.org/">Quarto Markdown</a> é o <a href="../resource/markdown.qmd">Markdown comum</a> com código R e resultados intercalados. Você pode fazer tudo o que faz com o <a href="../resource/markdown.qmd">Markdown comum</a>, mas pode incorporar gráficos, tabelas e outros resultados de código diretamente no seu documento. Você pode criar documentos em HTML, PDF e Word, apresentações em PowerPoint e HTML, sites, livros e até dashboards interativos com o Quarto. Todo este site do curso foi criado com o Quarto.</p>
+<p>Quarto é essencialmente um “R Markdown 2.0”, projetado para ser agnóstico em relação à linguagem. Você pode <a href="https://quarto.org/docs/computations/r.html">usar código R</a>, <a href="https://quarto.org/docs/computations/python.html">Python</a>, <a href="https://quarto.org/docs/computations/julia.html">Julia</a>, <a href="https://quarto.org/docs/computations/ojs.html">Observable JS</a> e até <a href="https://gist.github.com/andrewheiss/f38ceb81d362a7fc7cda3ae9ccf1283c">Stata</a> no mesmo documento. É mágico.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Documentação do Quarto
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A <a href="https://quarto.org/">documentação do Quarto</a> é extremamente abrangente! Aqui estão algumas das páginas mais importantes:</p>
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://ecoaplic.org/">Dr.&nbsp;Felipe Melo</a></li>
-<li><i class="fa-solid fa-university" aria-label="university"></i> Departamento do Botânica, Centro de Biociências</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:felipe.plmelo@ufpe.br">felipe.plmelo@ufpe.br</a></li>
+<li><a href="https://quarto.org/docs/guide/"><strong>Guia</strong></a></li>
+<li><a href="https://quarto.org/docs/reference/formats/html.html"><strong>Referência de HTML</strong></a></li>
+</ul>
+</div>
+</div>
+<section id="termos-chave" class="level2">
+<h2 class="anchored" data-anchor-id="termos-chave">Termos-chave</h2>
+<ul>
+<li><p><strong>Documento</strong>: Um arquivo Markdown onde você digita o conteúdo.</p></li>
+<li><p><strong>Chunk</strong>: Um pedaço de código R incluído no seu documento. Ele se parece com isto:</p></li>
+</ul>
+<div class="cell" data-layout-align="center">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 2</code></pre>
+</div>
+</div>
+</section>
+<section id="adicionar-chunks" class="level2">
+<h2 class="anchored" data-anchor-id="adicionar-chunks">Adicionar chunks</h2>
+<p>Existem três maneiras de inserir chunks:</p>
+<ul>
+<li>Pressione <code>Ctrl + Alt + I</code> no Windows ou <code>Cmd + Option + I</code> no macOS.</li>
+<li>Clique no botão <strong>Insert</strong> no topo da janela do editor.</li>
+<li>Digite manualmente as crases (não recomendado).</li>
 </ul>
 </section>
-<section id="informação-sobre-o-curso" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="informação-sobre-o-curso">Informação sobre o curso</h3>
+<section id="opções-de-chunk" class="level2">
+<h2 class="anchored" data-anchor-id="opções-de-chunk">Opções de chunk</h2>
+<p>Configure as opções seguindo o prefixo <code>#|</code> no topo do chunk:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-exemplo" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-exemplo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="quarto_files/figure-html/fig-exemplo-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-exemplo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Legenda do gráfico
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><strong>Opções comuns:</strong></p>
 <ul>
-<li><i class="fa-solid fa-calendar" aria-label="calendar"></i> Quintas-feiras</li>
-<li><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> 2026.1</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> 10-13h</li>
-<li><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Sala 5 CB-UFPE</li>
+<li><code>echo: false</code>: O código não aparece, mas o resultado sim.</li>
+<li><code>warning: false</code>: Omite avisos.</li>
+<li><code>message: false</code>: Omite mensagens de carregamento.</li>
 </ul>
 </section>
-<section id="recursos-on-line" class="level3 g-col-12 g-col-md-4 contact-policy">
-<h3 class="anchored" data-anchor-id="recursos-on-line">Recursos on-line</h3>
-<p>Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) <a href="https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt">Google Sala de Aula</a> onde as tarefas devem ser submetidas.</p>
+<section id="chunks-inline" class="level2">
+<h2 class="anchored" data-anchor-id="chunks-inline">Chunks inline</h2>
+<p>Para incluir resultados no texto, use a sintaxe de uma crase seguida de <code>r</code>. Por exemplo:</p>
+<p>A média é 20.1.</p>
 </section>
-</div>
-</div>
-<section id="bem-vind" class="level2">
-<h2 class="anchored" data-anchor-id="bem-vind">Bem-vind@</h2>
+<section id="formatos-de-saída" class="level2">
+<h2 class="anchored" data-anchor-id="formatos-de-saída">Formatos de saída</h2>
+<p>Defina no YAML:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">pdf</span><span class="kw">:</span><span class="at"> default</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">docx</span><span class="kw">:</span><span class="at"> default</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+<p>Página traduzida de: <a href="https://datavizf24.classes.andrewheiss.com/resource/quarto.html">Andrew Heiss</a></p>
 
 
 </section>

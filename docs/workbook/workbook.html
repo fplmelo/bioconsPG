@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Felipe Melo">
+<meta name="description" content="Aprenda a criar seu caderno de estudos dinâmico e publicá-lo online.">
 
-<title>Ecologia da Restauração</title>
+<title>Tutorial: Começando com uma página Web em Quarto</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,28 +25,63 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-70cd855b5bafc2a2bba797fc541c2438.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d0a655deadf21fca8f1c07e09d2e6cfc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,72 +96,78 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: #990000;
+      }
+</style>
 
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
-    <img src="./img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo light-content">
+    <img src="../img/logo_branco_ufpe.png" alt="UFPE logo" class="navbar-logo dark-content">
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./syllabus.html"> 
+    <a class="nav-link" href="../syllabus.html"> 
 <span class="menu-text">Objetivos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./schedule.html"> 
+    <a class="nav-link" href="../schedule.html"> 
 <span class="menu-text">Cronograma</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./workbook/workbook.html"> <i class="bi bi-tools" role="img">
+    <a class="nav-link active" href="../workbook/workbook.html" aria-current="page"> <i class="bi bi-tools" role="img">
 </i> 
 <span class="menu-text">Seu próprio site</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sessions/index.html"> 
+    <a class="nav-link" href="../sessions/index.html"> 
 <span class="menu-text">Todas as Aulas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./exercises/index.html"> 
+    <a class="nav-link" href="../exercises/index.html"> 
 <span class="menu-text">Exercícios</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resources/index.html"> 
+    <a class="nav-link" href="../resources/index.html"> 
 <span class="menu-text">Recursos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./assessment.html"> 
+    <a class="nav-link" href="../assessment.html"> 
 <span class="menu-text">Tipo de Avaliação</span></a>
   </li>  
 </ul>
@@ -135,64 +178,182 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Tutorial: Começando com uma página Web em Quarto</h1>
+            <p class="subtitle lead">Configuração básica e Publicação</p>
+                  <div>
+        <div class="description">
+          Aprenda a criar seu caderno de estudos dinâmico e publicá-lo online.
+        </div>
+      </div>
+                </div>
+  </div>
     
-<!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="course-title title display-7">
-            Ecologia da Restauração
-        </h1></header>
+  
+  <div class="quarto-title-meta column-page-left">
 
-<div class="grid title-block">
-    <div class="course-details-title-block g-col-12 g-col-sm-8 order-2 order-sm-1 text-center text-sm-start">
-        
-        <div class="course-subtitle">
-            <p></p><h4 class="anchored"><br>
-Teoria ecológica e contexto social aplicados à reconstrução da Natureza<br>
-</h4><p></p>
-        </div>
-        <div class="course-meta">
-            <p>BO-304 <br> 2026.2 <br> Centro de Biociências <br> Universidade Federal de Pernambuco</p>
-        </div>
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>Felipe Melo </p>
+            </div>
     </div>
-    <div class="g-col-12 g-col-sm-4 order-1 order-sm-2">
-      <div class="grid" style="--bs-columns: 5;">
-        <div class="g-col-1 g-col-sm-0"></div>
-        <div class="g-col-3 g-col-sm-5"><img src="img/logo_curso.png" class="img-fluid"></div>
-        <div class="g-col-1 g-col-sm-0"></div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">1 de março de 2026</p>
       </div>
     </div>
-</div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#por-que-uma-página-em-quarto" id="toc-por-que-uma-página-em-quarto" class="nav-link active" data-scroll-target="#por-que-uma-página-em-quarto">Por que uma página em Quarto?</a></li>
+  <li><a href="#seu-livro-de-exercícios-workbook" id="toc-seu-livro-de-exercícios-workbook" class="nav-link" data-scroll-target="#seu-livro-de-exercícios-workbook">Seu livro de exercícios (Workbook)</a></li>
+  <li><a href="#pré-requisitos" id="toc-pré-requisitos" class="nav-link" data-scroll-target="#pré-requisitos">Pré-requisitos</a></li>
+  <li><a href="#criando-um-projeto-quarto-recomendado" id="toc-criando-um-projeto-quarto-recomendado" class="nav-link" data-scroll-target="#criando-um-projeto-quarto-recomendado">Criando um Projeto Quarto (Recomendado)</a></li>
+  <li><a href="#criando-o-conteúdo-da-sua-página" id="toc-criando-o-conteúdo-da-sua-página" class="nav-link" data-scroll-target="#criando-o-conteúdo-da-sua-página">Criando o Conteúdo da sua Página</a>
+  <ul class="collapse">
+  <li><a href="#exemplo-de-bloco-de-código" id="toc-exemplo-de-bloco-de-código" class="nav-link" data-scroll-target="#exemplo-de-bloco-de-código">Exemplo de Bloco de Código:</a></li>
+  <li><a href="#atalhos-úteis-no-rstudio" id="toc-atalhos-úteis-no-rstudio" class="nav-link" data-scroll-target="#atalhos-úteis-no-rstudio">Atalhos Úteis no RStudio:</a></li>
+  </ul></li>
+  <li><a href="#configuração-e-renderização" id="toc-configuração-e-renderização" class="nav-link" data-scroll-target="#configuração-e-renderização">Configuração e Renderização</a></li>
+  <li><a href="#como-publicar-no-rpubs" id="toc-como-publicar-no-rpubs" class="nav-link" data-scroll-target="#como-publicar-no-rpubs">Como publicar no RPubs</a>
+  <ul class="collapse">
+  <li><a href="#passo-a-passo-para-publicação" id="toc-passo-a-passo-para-publicação" class="nav-link" data-scroll-target="#passo-a-passo-para-publicação">Passo a Passo para Publicação:</a></li>
+  </ul></li>
+  <li><a href="#próximos-passos" id="toc-próximos-passos" class="nav-link" data-scroll-target="#próximos-passos">Próximos Passos</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-<div class="home">
-<div class="grid course-details">
-<section id="professor-responsável" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="professor-responsável">Professor Responsável</h3>
+
+
+
+<section id="por-que-uma-página-em-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="por-que-uma-página-em-quarto">Por que uma página em Quarto?</h2>
+<p>Este tutorial oferece uma introdução à criação de uma página web básica usando o <strong>Quarto</strong> dentro do <strong>RStudio</strong>. O Quarto, a versão de próxima geração do R Markdown, permite criar conteúdo dinâmico e pode renderizar para vários formatos, incluindo websites.</p>
+</section>
+<section id="seu-livro-de-exercícios-workbook" class="level2">
+<h2 class="anchored" data-anchor-id="seu-livro-de-exercícios-workbook">Seu livro de exercícios (Workbook)</h2>
+<p>Enquanto aprende <em>estatística</em> e programação, você também aprenderá a construir e publicar <strong>sites simples</strong> usando R e RStudio. Este site é vital para o seu aprendizado durante este módulo. Ele será o seu livro de curso “vivo”.</p>
+<p>Veja alguns exemplos de como os alunos da uma universidade inglesa (NTU) usaram isso para a avaliação no ano passado:</p>
 <ul>
-<li><i class="fa-solid fa-user" aria-label="user"></i> <a href="https://ecoaplic.org/">Dr.&nbsp;Felipe Melo</a></li>
-<li><i class="fa-solid fa-university" aria-label="university"></i> Departamento do Botânica, Centro de Biociências</li>
-<li><i class="fa-solid fa-envelope" aria-label="envelope"></i> <a href="mailto:felipe.plmelo@ufpe.br">felipe.plmelo@ufpe.br</a></li>
+<li><a href="https://rpubs.com/katieprange/1265088">Exemplo 1</a></li>
+<li><a href="https://rpubs.com/Tbowne911/1226661">Exemplo 2</a></li>
 </ul>
-</section>
-<section id="informação-sobre-o-curso" class="level3 g-col-12 g-col-sm-6 g-col-md-4">
-<h3 class="anchored" data-anchor-id="informação-sobre-o-curso">Informação sobre o curso</h3>
-<ul>
-<li><i class="fa-solid fa-calendar" aria-label="calendar"></i> Quintas-feiras</li>
-<li><i class="fa-solid fa-calendar-alt" aria-label="calendar-alt"></i> 2026.1</li>
-<li><i class="fa-solid fa-clock" aria-label="clock"></i> 10-13h</li>
-<li><i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Sala 5 CB-UFPE</li>
-</ul>
-</section>
-<section id="recursos-on-line" class="level3 g-col-12 g-col-md-4 contact-policy">
-<h3 class="anchored" data-anchor-id="recursos-on-line">Recursos on-line</h3>
-<p>Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) <a href="https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt">Google Sala de Aula</a> onde as tarefas devem ser submetidas.</p>
-</section>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Dica</span>Invista no seu livro de exercícios
 </div>
 </div>
-<section id="bem-vind" class="level2">
-<h2 class="anchored" data-anchor-id="bem-vind">Bem-vind@</h2>
+<div class="callout-body-container callout-body">
+<p>Seu “workbook” será seu “melhor amigo” durante este módulo. Nele, você pode experimentar, criar notas pessoais e reunir bibliografia. Funciona como um caderno de papel, mas é um website.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="pré-requisitos" class="level2">
+<h2 class="anchored" data-anchor-id="pré-requisitos">Pré-requisitos</h2>
+<p>Antes de começar, certifique-se de ter o seguinte:</p>
+<ul>
+<li><strong>R</strong> instalado no seu computador.</li>
+<li><strong>RStudio</strong> instalado no seu computador.</li>
+<li>O <strong>pacote <code>quarto</code></strong> instalado (caso queira renderizar via console):</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: true</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"quarto"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="criando-um-projeto-quarto-recomendado" class="level2">
+<h2 class="anchored" data-anchor-id="criando-um-projeto-quarto-recomendado">Criando um Projeto Quarto (Recomendado)</h2>
+<p>Para criar uma página web organizada, o ideal é começar com um <strong>Projeto Quarto</strong>:</p>
+<ol type="1">
+<li>No RStudio, vá em <strong>File &gt; New Project…</strong>.</li>
+<li>Escolha <strong>New Directory</strong>.</li>
+<li>Selecione <strong>Quarto Project</strong>.</li>
+<li>Dê um nome ao projeto e um local para salvá-lo.</li>
+<li>Clique em <strong>Create Project</strong>.</li>
+</ol>
+<p>Isso criará uma estrutura básica de pastas para o seu site.</p>
+<hr>
+</section>
+<section id="criando-o-conteúdo-da-sua-página" class="level2">
+<h2 class="anchored" data-anchor-id="criando-o-conteúdo-da-sua-página">Criando o Conteúdo da sua Página</h2>
+<p>As páginas em um site Quarto são arquivos <strong><code>.qmd</code></strong>. Elas utilizam três componentes principais:</p>
+<ol type="1">
+<li><strong>Cabeçalho YAML</strong>: Delimitado por <code>---</code>, define metadados como título e autor.</li>
+<li><strong>Texto Markdown</strong>: Use sintaxe padrão para títulos (<code>##</code>), negrito (<code>**</code>) e listas.</li>
+<li><strong>Blocos de Código (Chunks)</strong>: Onde você insere código R.</li>
+</ol>
+<section id="exemplo-de-bloco-de-código" class="level3">
+<h3 class="anchored" data-anchor-id="exemplo-de-bloco-de-código">Exemplo de Bloco de Código:</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: true</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(mtcars)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="atalhos-úteis-no-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="atalhos-úteis-no-rstudio">Atalhos Úteis no RStudio:</h3>
+<ul>
+<li><strong>Alternar Editor Visual/Source</strong>: <code>Ctrl+Shift+F4</code> (Win) ou <code>⌘⇧ F4</code> (Mac).</li>
+<li><strong>Executar Bloco de Código</strong>: <code>Ctrl+Shift+Enter</code> (Win) ou <code>⇧⌘⏎</code> (Mac).</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="configuração-e-renderização" class="level2">
+<h2 class="anchored" data-anchor-id="configuração-e-renderização">Configuração e Renderização</h2>
+<p>Para transformar seu código em uma página web (HTML), você precisa <strong>Renderizar</strong>:</p>
+<ol type="1">
+<li>No topo do editor do RStudio, clique no botão <strong>Render</strong> (ícone de seta azul).</li>
+<li>O RStudio processará o código e abrirá uma prévia na aba <strong>Viewer</strong> no painel inferior direito.</li>
+</ol>
+<hr>
+</section>
+<section id="como-publicar-no-rpubs" class="level2">
+<h2 class="anchored" data-anchor-id="como-publicar-no-rpubs">Como publicar no RPubs</h2>
+<p>O <strong>RPubs</strong> é a forma mais simples e gratuita de hospedar seus documentos R online.</p>
+<section id="passo-a-passo-para-publicação" class="level3">
+<h3 class="anchored" data-anchor-id="passo-a-passo-para-publicação">Passo a Passo para Publicação:</h3>
+<ol type="1">
+<li><strong>Crie sua conta</strong>: Acesse <a href="https://rpubs.com">rpubs.com</a> e registre-se.</li>
+<li><strong>Gere o HTML</strong>: Clique em <strong>Render</strong> no seu arquivo <code>.qmd</code>.</li>
+<li><strong>Publique</strong>:
+<ul>
+<li>Na janela de visualização (<strong>Viewer</strong>), clique no ícone azul de publicação (um círculo azul ou botão <strong>Publish</strong>).</li>
+<li>Selecione <strong>RPubs</strong> na lista de opções.</li>
+<li>O RStudio pode solicitar a instalação do pacote <code>rsconnect</code>; clique em <strong>Sim</strong>.</li>
+</ul></li>
+<li><strong>Finalize no Navegador</strong>: Uma aba do seu navegador abrirá. Faça login no RPubs, dê um título ao seu documento e clique em <strong>Continue</strong>.</li>
+</ol>
+<blockquote class="blockquote">
+<p><strong>Dica Pro:</strong> Se você fizer alterações no arquivo, basta clicar em <strong>Render</strong> e depois em <strong>Publish</strong> novamente. O sistema perguntará se você deseja atualizar o documento existente.</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="próximos-passos" class="level2">
+<h2 class="anchored" data-anchor-id="próximos-passos">Próximos Passos</h2>
+<p>Agora que você já sabe o básico, tente personalizar seu arquivo: * Altere o <code>theme</code> no cabeçalho YAML para opções como <code>flatly</code>, <code>darkly</code> ou <code>slate</code>. * Adicione gráficos usando o pacote <code>ggplot2</code>. * Crie um arquivo <code>_quarto.yml</code> para adicionar uma barra de navegação superior caso tenha várias páginas.</p>
 
 
 </section>
@@ -223,12 +384,12 @@ Teoria ecológica e contexto social aplicados à reconstrução da Natureza<br>
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Copiada");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Copiada");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
