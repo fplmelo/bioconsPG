@@ -1,7 +1,7 @@
 ---
 title: "Semana 01: Fundamentos e Princípios da Ecologia da Restauração"
 subtitle: "Da ciência à prática — definições, marcos normativos e dimensões críticas"
-description: "Guia de estudos estruturado cobrindo as definições da SER, o contínuo restaurativo, os 8 princípios da prática, estratégias técnicas, o marco legal brasileiro (Lei 12.651/2012) e a dimensão crítica da Ecologia Política da restauração."
+description: ""
 author: "Dr. Felipe Melo"
 date: "2026-07-01"
 lang: pt-BR

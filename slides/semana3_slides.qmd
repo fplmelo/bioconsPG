@@ -1,0 +1,282 @@
+---
+title: "Dinâmica de Ecossistemas e Mudança Ambiental Rápida"
+subtitle: "Ecologia da Restauração · UFPE · 2026.2"
+author: "Prof. Dr. Felipe Melo"
+date: "2026-07-15"
+lang: pt-BR
+# bibliography: references.bib
+format:
+  revealjs:
+    theme: [default]
+    slide-number: true
+    chalkboard: true
+    progress: true
+    # logo: ../../img/logo_branco_ufpe.png
+    footer: "Ecologia da Restauração · UFPE · Felipe Melo"
+    transition: slide
+    background-transition: fade
+    width: 1280
+    height: 720
+    fig-align: center
+---
+
+## Objetivos da Aula {background-color="#1b4332"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Ao final desta aula você será capaz de:**
+
+- Contrastar os paradigmas de **equilíbrio** e **não-equilíbrio**
+- Definir **novidade ecológica** e seus tipos
+- Aplicar a tipologia histórico–híbrido–novo
+:::
+
+::: {.column width="50%"}
+- Identificar vetores de **mudança global** relevantes para a restauração
+- Avaliar **quando intervir** e **quando manejar** ecossistemas novos
+- Reformular metas de restauração sob **incerteza climática**
+:::
+
+::::
+
+---
+
+## Dois Paradigmas, Uma Tensão {background-color="#f0f4f1"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Paradigma do Equilíbrio
+*(clássico)*
+
+- Ecossistemas → estado estável único
+- Perturbação → desvio temporário
+- Sucessão → retorno ao equilíbrio
+- Restauração = "ajudar a voltar"
+
+**Problema:** assume um mundo estacionário
+:::
+
+::: {.column width="50%"}
+### Paradigma do Não-Equilíbrio
+*(emergente)*
+
+- Trajetórias **múltiplas** e dependentes da história
+- Variabilidade como **norma**, não ruído
+- Sem estado único "correto"
+- Restauração = **reorientar uma trajetória**
+
+**Base empírica:** @pickett1992, @hobbs2014
+:::
+
+::::
+
+---
+
+## Conceitos Centrais {background-color="#ffffff"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Não-equilíbrio**
+:   sistemas ecológicos em mudança permanente, sem ponto de equilíbrio fixo
+
+**Dependência histórica** *(path dependence)*
+:   o estado atual só se explica pela trajetória pretérita
+
+**Novidade ecológica**
+:   combinações de espécies, condições e interações **sem análogo histórico** [@hobbs2006]
+
+**Ecossistema novo** *(novel ecosystem)*
+:   composição, estrutura e funcionamento inéditos — limiares cruzados de forma irreversível
+:::
+
+::: {.column width="50%"}
+![Figura: leque de trajetórias possíveis a partir de um estado degradado. Fonte: Hobbs et al. (2014), Fig. 2](img/leque_trajetorias.png)
+:::
+
+::::
+
+---
+
+## Tipologia: Histórico — Híbrido — Novo {background-color="#f0f4f1"}
+
+:::: {.columns}
+
+::: {.column width="45%"}
+![Figura: triângulo diagnóstico de ecossistemas segundo grau de alteração biótica e abiótica. Fonte: Hobbs et al. (2006)](img/triangulo_tipologia.png)
+:::
+
+::: {.column width="55%"}
+| Tipo | Alteração biótica | Alteração abiótica | Estratégia |
+|---|---|---|---|
+| **Histórico** | Baixa | Baixa | Restaurar |
+| **Híbrido** | Alta | Baixa/Média | Restaurar com esforço |
+| **Novo** | Alta | Alta | Manejar |
+
+**A tipologia é uma ferramenta de decisão:**  
+direciona recursos para onde a restauração é ecologicamente viável
+:::
+
+::::
+
+---
+
+## Exemplos {background-color="#ffffff"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Mata Atlântica + exóticas (híbrido)
+- Florestas secundárias com jaqueira (*Artocarpus heterophyllus*) e mangueira (*Mangifera indica*)
+- Cobertura, serviços hídricos e fauna nativa: comparáveis às florestas nativas
+- Composição: inédita
+- → Manejo seletivo para reorientar composição
+
+### Cerrado + gramíneas africanas (novo)
+- *Urochloa* spp. alteram o regime de fogo
+- Incêndios mais intensos → impedem lenhosas nativas
+- → Restaurar o **regime de fogo**, não só as plantas
+:::
+
+::: {.column width="50%"}
+### Caatinga sob aridificação (emergente)
+- +2–4°C até 2070 no Semiárido [@ipcc2022]
+- Vegetação histórica pode ser **climaticamente inviável**
+- → Meta futura: comunidade nova, identidade caatingueira
+
+### Manguezal aterrado (novo irreversível)
+- Solo, hidrologia e salinidade permanentemente alterados
+- → Objetivo realista: **funções**, não composição histórica
+:::
+
+::::
+
+---
+
+## Vetores de Mudança Global {background-color="#1b4332"}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Principais pressões simultâneas:**
+
+- Aquecimento + eventos extremos (secas, ondas de calor)
+- Invasões biológicas (flora e fauna exótica)
+- Extinções em cascata (dispersores, predadores, engenheiros)
+- Deposição de nitrogênio → homogeneização de comunidades
+- Alteração de regimes de fogo (supressão ou intensificação)
+:::
+
+::: {.column width="50%"}
+**Interações não-lineares:**
+
+Os vetores não somam — **multiplicam-se**
+
+*Exemplo:* seca + gramíneas invasoras + supressão histórica do fogo → colapso do Cerrado em pastagem exótica
+
+::: {.callout-warning}
+Projetar restauração sem cenários climáticos é planejar para um mundo que não existe mais
+:::
+:::
+
+::::
+
+---
+
+## Implicações para a Prática {background-color="#f0f4f1"}
+
+:::: {.columns}
+
+::: {.column width="33%"}
+### Metas
+- Substituir metas **rígidas e históricas** por metas **funcionais e flexíveis**
+- Revisão periódica obrigatória
+- Incluir cenários climáticos IPCC no planejamento
+:::
+
+::: {.column width="33%"}
+### Decisão de intervir
+- Usar a tipologia histórico–híbrido–novo
+- Em ecossistemas novos funcionais: manejar > restaurar
+- Alocar recursos onde a recuperação é **ecologicamente viável**
+:::
+
+::: {.column width="33%"}
+### Estratégias robustas
+- Alta **diversidade funcional** como seguro contra incerteza
+- Combinar passiva + ativa
+- Monitoramento **adaptativo** como componente central
+:::
+
+::::
+
+---
+
+## Debate Crítico {background-color="#ffffff"}
+
+:::: {.columns}
+
+::: {.column width="55%"}
+**O conceito de ecossistema novo pode ser instrumentalizado?**
+
+- Argumento conservacionista: aceitar ecossistemas novos é **capitular** à degradação
+- Argumento pragmático: ignorar a novidade ecológica é **desperdiçar** recursos escassos
+
+**Tensão real:**
+
+- Quem decide que um ecossistema "cruzou o limiar"?
+- O conceito libera atores de responsabilidades legais?
+- A ecologia política alerta: novidade pode justificar **inação diante de degradação evitável**
+:::
+
+::: {.column width="45%"}
+> *"Novel ecosystems are not an excuse for inaction — they are a call for a more sophisticated form of action."*
+>
+> — @hobbs2014
+
+**Pergunta central:**  
+ecossistema novo → **manejar** (pragmatismo) ou **restaurar** (princípio)? Sob quais condições cada posição é defensável?
+:::
+
+::::
+
+---
+
+## Síntese e Conexão com as Próximas Aulas {background-color="#1b4332"}
+
+:::: {.columns}
+
+::: {.column width="55%"}
+**Ideias-chave desta semana:**
+
+- Equilíbrio é exceção → trajetórias múltiplas são a regra
+- Novidade ≠ degradação → pode ser funcional e estável
+- Tipologia histórico–híbrido–novo = ferramenta de decisão prática
+- Mudanças globais exigem metas **flexíveis** e **diversidade funcional** como seguro
+
+**Semana 4 — Teoria Ecológica I:**  
+sucessão, montagem de comunidades e dispersão como fundamentos mecanísticos das trajetórias vistas hoje
+:::
+
+::: {.column width="45%"}
+**Bibliografia essencial:**
+
+- @hobbs2006 — tipologia de ecossistemas novos
+- @hobbs2014 — panorama crítico e síntese
+- @pickett1992 — paradigma do não-equilíbrio
+- @ipcc2022 — cenários climáticos regionais
+
+**Tarefa prévia — Semana 4 (48h antes):**  
+Leia @hobbs2006 e classifique um ecossistema que você conhece como histórico, híbrido ou novo. Justifique em ≤ 200 palavras.
+:::
+
+::::
+
+---
+
+## Referências {background-color="#ffffff"}
+
+::: {#refs}
+:::
