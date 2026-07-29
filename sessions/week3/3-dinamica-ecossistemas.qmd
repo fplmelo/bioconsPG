@@ -46,9 +46,12 @@ O **paradigma do não-equilíbrio** reconhece que os ecossistemas são sistemas 
 Para a restauração, o paradigma do não-equilíbrio tem uma implicação central: **não existe um único estado "correto" para o qual restaurar**. Diferentes trajetórias são possíveis e potencialmente legítimas, dependendo das condições locais, das metas sociais e das restrições impostas pelo contexto de mudança global [@hobbs2014].
 
 ::: {.callout-note}
-## Sugestão de figura
+## Trajetórias diversas
 
-**Diagrama de "leque de trajetórias"**: a partir de um estado inicial degradado, múltiplas trajetórias possíveis divergem ao longo do tempo, algumas convergindo para estados próximos ao histórico, outras para estados novos ou híbridos. Fonte sugerida: Hobbs et al. (2014), Figura 2.
+![](/img/novel_eco.jpg)
+
+À partir de um estado inicial degradado, múltiplas trajetórias possíveis divergem ao longo do tempo, algumas convergindo para estados próximos ao histórico, outras para estados novos ou híbridos. 
+Fonte: Hobbs et al. (2014), Figura 2.
 :::
 
 ---
@@ -74,12 +77,17 @@ O conceito de **novidade ecológica** (*ecological novelty*) refere-se ao surgim
 ## Exemplo 1 — Mata Atlântica secundária com espécies exóticas
 
 Florestas secundárias em regeneração no litoral nordestino frequentemente incorporam espécies exóticas como *Artocarpus heterophyllus* (jaqueira) e *Mangifera indica* (mangueira), introduzidas historicamente por comunidades rurais. A biomassa, a cobertura do dossel e os serviços hidrológicos dessas florestas são comparáveis aos de florestas nativas, mas sua composição é inédita. São ecossistemas híbridos que provêm serviços reais e hospedam espécies nativas, mas não se encaixam no modelo clássico de restauração.
+
+![](/img/wlr.webp)
 :::
 
 ::: {.callout-tip}
 ## Exemplo 2 — Caatinga "nova" sob aridificação progressiva
 
-Projeções climáticas indicam que partes do Semiárido nordestino podem tornar-se tão áridas até 2070 que a vegetação histórica de Caatinga — adaptada a um regime pluviométrico já seco, mas ainda sazonal — seja inviável. Nesse cenário, o ecossistema resultante seria algo novo: uma combinação de espécies da Caatinga mais tolerantes, espécies de Caatinga hiperárid dos núcleos mais secos, e potencialmente espécies de biomas vizinhos, formando comunidades sem análogo nos últimos séculos.
+Projeções climáticas indicam que partes do Semiárido nordestino podem tornar-se tão áridas até 2070 que a vegetação histórica de Caatinga — adaptada a um regime pluviométrico já seco, mas ainda sazonal — seja inviável. Nesse cenário, o ecossistema resultante seria algo novo: uma combinação de espécies da Caatinga mais tolerantes, espécies de Caatinga hiperárida dos núcleos mais secos, e potencialmente espécies de biomas vizinhos, formando comunidades sem análogo nos últimos séculos.
+
+
+
 :::
 
 ---
@@ -100,6 +108,8 @@ Esses vetores interagem de forma não-linear, produzindo efeitos que não podem 
 ## Exemplo 3 — Fogo e regeneração no Cerrado
 
 O Cerrado é um bioma adaptado ao fogo — muitas de suas espécies dependem do fogo para florescer, frutificar e recrutar. A supressão histórica do fogo em áreas protegidas, combinada com a invasão de gramíneas africanas que produzem incêndios mais intensos e frequentes do que o regime histórico, criou um novo regime de perturbação que favorece estados dominados por gramíneas exóticas e dificulta a regeneração de espécies lenhosas nativas. Restaurar o Cerrado requer, portanto, restaurar o **regime de fogo** — não apenas plantar espécies.
+
+![](https://www.brasildefato.com.br/wp-content/uploads/2024/09/image_processing20200201-29235-1vd6xm3.jpg)
 :::
 
 ---
@@ -142,14 +152,6 @@ O reconhecimento do não-equilíbrio, da novidade ecológica e das mudanças glo
 
 ---
 
-# Sugestões de Figuras e Esquemas {#sec-figuras}
-
-- **Triângulo histórico–híbrido–novo** de Hobbs et al. (2006): posiciona ecossistemas no espaço bidimensional de alteração biótica e abiótica — ferramenta de diagnóstico visual imediata.
-- **Leque de trajetórias**: diagrama mostrando múltiplas trajetórias possíveis a partir de um estado degradado, ilustrando o paradigma do não-equilíbrio.
-- **Mapa de vetores de mudança global**: visualização das pressões simultâneas sobre um ecossistema-modelo (ex.: Caatinga), mostrando a interação entre clima, invasão, fogo e fragmentação.
-- **Gradiente de intervenção segundo o grau de novidade**: esquema mostrando como a estratégia recomendada muda conforme o ecossistema se move do polo histórico ao polo novo.
-
----
 
 # Bibliografia Sugerida {#sec-refs}
 
