@@ -2,7 +2,7 @@
 title: "Projeto de Intervenção em Área Degradada"
 subtitle: "Avaliação Final · Ecologia da Restauração · UFPE · 2026.2"
 author: "Dr. Felipe Melo"
-date: "2026-07-01"
+date: "last-modified"
 lang: pt-BR
 number-sections: true
 toc: true
@@ -10,7 +10,6 @@ toc-depth: 3
 toc-title: "Nesta página"
 format:
   html:
-    theme: cosmo
     fig-align: center
     callout-appearance: simple
 ---
@@ -32,7 +31,7 @@ O produto final deverá demonstrar que o aluno é capaz de integrar os três eix
 ::: {.callout-note}
 ## Sobre o *workbook*
 
-O *workbook* é o site pessoal do aluno, construído em Quarto e hospedado no GitHub Pages, onde todas as entregas do semestre são publicadas. O PIAD deve ser publicado como uma seção ou página independente do *workbook*, com URL pública compartilhada no Google Sala de Aula em cada prazo parcial.
+O *workbook* é o site pessoal do aluno, construído em Quarto e hospedado no GitHub Pages, onde todas as entregas do semestre são publicadas. O PAD deve ser publicado como uma seção ou página independente do *workbook*, com URL pública compartilhada no Google Sala de Aula em cada prazo parcial.
 :::
 
 ---
@@ -52,14 +51,14 @@ O aluno deve escolher **uma área degradada real**, de sua preferência, que pod
 ::: {.callout-tip}
 ## Sugestão para alunos em Recife e Região Metropolitana
 
-Algumas áreas com alto potencial para o PIAD na região: margens do Rio Capibaribe e seus afluentes urbanos; áreas de Mata Atlântica degradada nos municípios de Camaragibe, São Lourenço da Mata e Moreno; encostas do Morro da Conceição e do Morro do Vintém; trechos do Rio Tejipió com supressão de mata ciliar; área do antigo Lixão da Muribeca e seu entorno; fragmentos de Tabuleiro no litoral norte de Pernambuco.
+Algumas áreas com alto potencial para o PAD na região: margens do Rio Capibaribe e seus afluentes urbanos; áreas de Mata Atlântica degradada nos municípios de Camaragibe, São Lourenço da Mata e Moreno; encostas do Morro da Conceição e do Morro do Vintém; trechos do Rio Tejipió com supressão de mata ciliar; área do antigo Lixão da Muribeca e seu entorno; fragmentos de Tabuleiro no litoral norte de Pernambuco.
 :::
 
 ---
 
 # Estrutura do Projeto {#sec-estrutura}
 
-O PIAD é composto por **seis seções obrigatórias**, correspondentes às seis entregas parciais ao longo do semestre. Cada seção é avaliada separadamente e integrada ao documento final.
+O PAD é composto por **seis seções obrigatórias**, correspondentes às seis entregas parciais ao longo do semestre. Cada seção é avaliada separadamente e integrada ao documento final.
 
 ## Seção 1 — Memorial Descritivo da Área {#sec-s1}
 
@@ -249,7 +248,7 @@ A seção final é o momento de recuo analítico: o aluno sai do papel de planej
 :   Identifique as principais incertezas e limitações: o que não foi possível saber sem mais dados? Que suposições foram feitas que podem não se confirmar? Que ameaças externas (políticas, climáticas, fundiárias) podem comprometer a viabilidade?
 
 **Agenda de pesquisa**
-:   Formule ao menos duas perguntas científicas que o projeto levanta e que poderiam ser respondidas por pesquisa acadêmica — conectando o PIAD a uma agenda de Ecologia da Restauração.
+:   Formule ao menos duas perguntas científicas que o projeto levanta e que poderiam ser respondidas por pesquisa acadêmica — conectando o PAD a uma agenda de Ecologia da Restauração.
 
 ---
 
@@ -331,7 +330,7 @@ Cada seção deve ser publicada no *workbook* e o link submetido no Google Sala 
 ::: {.callout-warning}
 ## Integridade acadêmica e uso de IA
 
-O PIAD é uma avaliação de autoria individual. O uso de ferramentas de inteligência artificial é **permitido como apoio**, nas seguintes condições:
+O PAD é uma avaliação de autoria individual. O uso de ferramentas de inteligência artificial é **permitido como apoio**, nas seguintes condições:
 
 - O aluno deve declarar explicitamente, no início de cada seção em que usou IA, qual ferramenta utilizou e para que finalidade;
 - IA pode ser usada para: revisar gramática, sugerir estrutura, explicar conceitos, auxiliar na formatação em Quarto;
@@ -343,12 +342,12 @@ Uso não declarado de IA para substituir autoria própria será tratado como pl�
 
 ---
 
-# Dicas para um PIAD de Excelência {#sec-dicas}
+# Dicas para um PAD de Excelência {#sec-dicas}
 
 ::: {.callout-tip}
 ## Dica 1 — Escolha a área certa
 
-A área ideal para o PIAD é aquela sobre a qual você consegue obter informações reais: dados de campo, conversa com moradores, acesso a documentos históricos, imagens de satélite de qualidade. Não escolha uma área que pareça "interessante no mapa" mas à qual você não tem acesso. Um diagnóstico honesto de uma pastagem degradada comum vale muito mais do que uma proposta vaga sobre uma área remota.
+A área ideal para o PAD é aquela sobre a qual você consegue obter informações reais: dados de campo, conversa com moradores, acesso a documentos históricos, imagens de satélite de qualidade. Não escolha uma área que pareça "interessante no mapa" mas à qual você não tem acesso. Um diagnóstico honesto de uma pastagem degradada comum vale muito mais do que uma proposta vaga sobre uma área remota.
 :::
 
 ::: {.callout-tip}
@@ -396,29 +395,4 @@ A Seção 6 não é um apêndice opcional. Os projetos que obtêm as melhores no
 
 ---
 
-# Referências e Recursos de Apoio {#sec-recursos}
 
-**Bases de dados e ferramentas:**
-
-- MapBiomas Plataforma: <https://plataforma.mapbiomas.org>
-- SICAR (Cadastro Ambiental Rural): <https://www.car.gov.br>
-- CNUC (Unidades de Conservação): <https://www.gov.br/mma/cnuc>
-- Google Earth Engine: <https://earthengine.google.com>
-- SpeciesLink (herbário virtual): <https://specieslink.net>
-- Flora e Funga do Brasil: <https://floradobrasil.jbrj.gov.br>
-
-**Documentos técnicos de referência:**
-
-- SER (2023). *Principles of Ecological Restoration* (3ª ed.)
-- MMA (2017). *Manual Orientador para Elaboração de PRADAs*
-- CPRH. *Normas Técnicas para Recuperação de APPs em Pernambuco*
-- Brancalion, Gandolfi & Rodrigues (2015). *Restauração Florestal*. Oficina de Textos
-- Suganuma & Durigan (2018). *Paradigmas e Ferramentas para a Restauração Ecológica*
-
-**Editais de financiamento para consulta:**
-
-- FACEPE — Programa de Pesquisa para o Semiárido e Mata Atlântica
-- CNPq — Chamada Universal e Chamadas Temáticas em Biodiversidade
-- BNDES Fundo Amazônia e Fundo Mata Atlântica (RBMA)
-- GEF/UNDP — Small Grants Programme Brasil
-- CEPF — Critical Ecosystem Partnership Fund (Mata Atlântica e Cerrado)
