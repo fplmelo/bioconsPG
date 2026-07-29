@@ -2,8 +2,8 @@
 title: "Semana 03: Dinâmica de Ecossistemas e Mudança Ambiental Rápida"
 subtitle: "Não-equilíbrio, neoecossistemas e mudanças globais como contexto da restauração"
 description: "Resumo de aula cobrindo os paradigmas de equilíbrio e não-equilíbrio em ecologia, o conceito de novidade ecológica, a tipologia de ecossistemas novos, e as implicações das mudanças globais para a teoria e a prática da restauração."
-author: "Dr. Felipe Melo"
-date: "2026-07-15"
+author: "Felipe Melo"
+date: "last-modified"
 lang: pt-BR
 categories: [teoria, não-equilíbrio, novidade-ecológica, mudanças-globais]
 bibliography: references.bib
@@ -21,6 +21,11 @@ format:
 > — Adaptado de @hobbs2014
 
 ---
+
+Slides da Aula
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+  <iframe src="/slides/semana3_slides.html" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 # Introdução
 

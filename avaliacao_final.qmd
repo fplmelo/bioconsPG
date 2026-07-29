@@ -1,961 +1,424 @@
 ---
-title: "Avaliação Final — Análise Integrada de Paisagem"
-subtitle: "BO-304 Ecologia de Paisagens"
-author: "Prof. Felipe Melo"
-date: today
-lang: pt
+title: "Projeto de Intervenção em Área Degradada"
+subtitle: "Avaliação Final · Ecologia da Restauração · UFPE · 2026.2"
+author: "Dr. Felipe Melo"
+date: "2026-07-01"
+lang: pt-BR
+number-sections: true
+toc: true
+toc-depth: 3
+toc-title: "Nesta página"
 format:
   html:
-    toc: true
-    toc-depth: 3
-    toc-title: "Navegação"
-    number-sections: false
-    #theme: cosmo
-    code-fold: true
-    code-copy: true
-    highlight-style: github
+    theme: cosmo
+    fig-align: center
     callout-appearance: simple
-    # css: avaliacao.css
 ---
-
-```{=html}
-<style>
-/* ── Avaliação Final — Estilo editorial ─────────────────────── */
-
-/* Importar fontes */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap');
-
-body, .reveal {
-  font-family: 'DM Sans', sans-serif;
-  color: #1a1a18;
-  background-color: #faf9f6;
-}
-
-h1, h2, h3 {
-  font-family: 'DM Serif Display', Georgia, serif;
-  color: #173404;
-}
-
-/* Cabeçalho heroico */
-.hero-header {
-  background: linear-gradient(135deg, #0d2b0d 0%, #173404 40%, #27500A 100%);
-  color: white;
-  padding: 3.5rem 2.5rem 3rem;
-  border-radius: 12px;
-  margin-bottom: 2.5rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-header::before {
-  content: '';
-  position: absolute;
-  top: -40px; right: -40px;
-  width: 220px; height: 220px;
-  border-radius: 50%;
-  background: rgba(151,196,89,0.12);
-}
-
-.hero-header::after {
-  content: '';
-  position: absolute;
-  bottom: -60px; left: -30px;
-  width: 280px; height: 280px;
-  border-radius: 50%;
-  background: rgba(151,196,89,0.07);
-}
-
-.hero-tag {
-  display: inline-block;
-  background: rgba(151,196,89,0.25);
-  color: #C0DD97;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: 0.3rem 0.75rem;
-  border-radius: 4px;
-  border: 1px solid rgba(151,196,89,0.35);
-  margin-bottom: 1rem;
-}
-
-.hero-title {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 2.6rem;
-  line-height: 1.15;
-  color: #ffffff;
-  margin: 0.5rem 0 0.4rem;
-}
-
-.hero-subtitle {
-  font-size: 1.05rem;
-  color: #97C459;
-  margin: 0 0 1.5rem;
-  font-weight: 300;
-}
-
-.hero-meta {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(151,196,89,0.25);
-}
-
-.hero-meta-item {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-meta-label {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(192,221,151,0.7);
-  margin-bottom: 0.2rem;
-}
-
-.hero-meta-value {
-  font-size: 0.92rem;
-  font-weight: 500;
-  color: #C0DD97;
-}
-
-/* Cards das quatro partes */
-.parte-card {
-  border-left: 4px solid;
-  padding: 1.5rem 1.8rem;
-  margin: 1.5rem 0;
-  border-radius: 0 8px 8px 0;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  position: relative;
-}
-
-.parte-card.ecologia    { border-color: #27500A; background: #f6fbf0; }
-.parte-card.ecopolit    { border-color: #2c1a5e; background: #f5f4ff; }
-.parte-card.mapas       { border-color: #0C447C; background: #f0f6fc; }
-.parte-card.manejo      { border-color: #BA7517; background: #fdf6ec; }
-
-.parte-numero {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 3.5rem;
-  font-weight: 400;
-  line-height: 1;
-  opacity: 0.12;
-  position: absolute;
-  top: 0.8rem;
-  right: 1.2rem;
-  color: #1a1a18;
-}
-
-.parte-titulo {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 1.25rem;
-  margin: 0 0 0.3rem;
-}
-
-.parte-titulo.ecologia { color: #173404; }
-.parte-titulo.ecopolit { color: #2c1a5e; }
-.parte-titulo.mapas    { color: #0C447C; }
-.parte-titulo.manejo   { color: #633806; }
-
-.parte-peso {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.2rem 0.6rem;
-  border-radius: 3px;
-  display: inline-block;
-  margin-bottom: 0.8rem;
-}
-
-.parte-peso.ecologia { background: #EAF3DE; color: #173404; }
-.parte-peso.ecopolit { background: #EEEDFE; color: #2c1a5e; }
-.parte-peso.mapas    { background: #E6F1FB; color: #0C447C; }
-.parte-peso.manejo   { background: #FAEEDA; color: #633806; }
-
-/* Rubrica table */
-.rubrica-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.88rem;
-  margin: 1rem 0;
-}
-
-.rubrica-table th {
-  padding: 0.6rem 0.9rem;
-  text-align: left;
-  font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  border-bottom: 2px solid #1a1a18;
-  white-space: nowrap;
-}
-
-.rubrica-table td {
-  padding: 0.65rem 0.9rem;
-  vertical-align: top;
-  border-bottom: 1px solid #e8e6de;
-  line-height: 1.5;
-}
-
-.rubrica-table tr:last-child td { border-bottom: none; }
-
-.rubrica-table tr:nth-child(even) td { background: rgba(0,0,0,0.02); }
-
-.nota-insuf  { color: #A32D2D; font-weight: 600; }
-.nota-suf    { color: #BA7517; font-weight: 600; }
-.nota-bom    { color: #185FA5; font-weight: 600; }
-.nota-exce   { color: #173404; font-weight: 600; }
-
-/* Pontuação total */
-.pontuacao-box {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin: 2rem 0;
-}
-
-.pontuacao-item {
-  text-align: center;
-  padding: 1.2rem;
-  border-radius: 8px;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-}
-
-.pontuacao-num {
-  font-family: 'DM Serif Display', Georgia, serif;
-  font-size: 2.2rem;
-  font-weight: 400;
-  display: block;
-  line-height: 1;
-  margin-bottom: 0.4rem;
-}
-
-.pontuacao-label {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: #5f5e5a;
-}
-
-/* Timeline de entrega */
-.timeline {
-  position: relative;
-  padding-left: 2rem;
-  margin: 1.5rem 0;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 0.4rem;
-  top: 0.5rem;
-  bottom: 0.5rem;
-  width: 2px;
-  background: linear-gradient(to bottom, #27500A, #C0DD97);
-  border-radius: 2px;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 1.4rem;
-  padding-left: 1rem;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -1.65rem;
-  top: 0.4rem;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #27500A;
-  border: 2px solid #faf9f6;
-  box-shadow: 0 0 0 2px #27500A;
-}
-
-.timeline-item.final::before { background: #A32D2D; box-shadow: 0 0 0 2px #A32D2D; }
-
-.timeline-data {
-  font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
-  font-weight: 500;
-  color: #27500A;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.timeline-item.final .timeline-data { color: #A32D2D; }
-
-.timeline-desc {
-  font-size: 0.92rem;
-  color: #2c2c2a;
-  margin-top: 0.15rem;
-}
-
-/* Blockquote elegante */
-blockquote {
-  border-left: 3px solid #97C459;
-  padding: 0.8rem 1.2rem;
-  background: #f6fbf0;
-  border-radius: 0 6px 6px 0;
-  font-style: italic;
-  color: #2c2c2a;
-  margin: 1.2rem 0;
-}
-
-blockquote cite {
-  display: block;
-  margin-top: 0.5rem;
-  font-style: normal;
-  font-size: 0.82rem;
-  font-family: 'DM Mono', monospace;
-  color: #5f5e5a;
-}
-
-/* Aviso de honestidade acadêmica */
-.honestidade-box {
-  background: linear-gradient(135deg, #1a0a2e 0%, #2c1a5e 100%);
-  color: white;
-  padding: 1.8rem 2rem;
-  border-radius: 10px;
-  margin: 2rem 0;
-}
-
-.honestidade-box h3 {
-  color: #EEEDFE;
-  font-family: 'DM Serif Display', Georgia, serif;
-  margin-top: 0;
-}
-
-.honestidade-box p, .honestidade-box li {
-  color: #AFA9EC;
-  line-height: 1.7;
-}
-
-/* Print friendly */
-@media print {
-  .hero-header { background: #173404 !important; -webkit-print-color-adjust: exact; }
-  .parte-card  { box-shadow: none; border: 1px solid #e8e6de; }
-}
-</style>
-
-<div class="hero-header">
-  <div class="hero-tag">BO-304 · Ecologia de Paisagens · UFPE · 2026.1</div>
-  <h1 class="hero-title">Avaliação Final</h1>
-  <p class="hero-subtitle">Análise Integrada de Paisagem: Ecologia · Política · Manejo</p>
-  <div class="hero-meta">
-    <div class="hero-meta-item">
-      <span class="hero-meta-label">Valor</span>
-      <span class="hero-meta-value">10,0 pontos</span>
-    </div>
-    <div class="hero-meta-item">
-      <span class="hero-meta-label">Formato</span>
-      <span class="hero-meta-value">Relatório .qmd → HTML</span>
-    </div>
-    <div class="hero-meta-item">
-      <span class="hero-meta-label">Entrega</span>
-      <span class="hero-meta-value">Google Sala de Aula</span>
-    </div>
-    <div class="hero-meta-item">
-      <span class="hero-meta-label">Individual</span>
-      <span class="hero-meta-value">uso de I.A. supervisionado</span>
-    </div>
-    <div class="hero-meta-item">
-      <span class="hero-meta-label">Prof. responsável</span>
-      <span class="hero-meta-value">Felipe Melo</span>
-    </div>
-  </div>
-</div>
-```
 
 ---
 
-## Proposta e contexto {#sec-proposta}
+# Apresentação da Avaliação {#sec-apresentacao}
 
-> *"A paisagem é simultaneamente um fato ecológico, um produto histórico e uma arena política. Compreendê-la exige que olhemos para ela com todos esses olhos ao mesmo tempo."*
-> <cite>— adaptado de Blaikie & Brookfield (1987) e Forman & Godron (1986)</cite>
+A avaliação final desta disciplina é um **Projeto de Intervenção em Área Degradada (PAD)** — um documento técnico-científico elaborado individualmente ao longo do semestre e publicado no *workbook* pessoal do aluno no GitHub Pages.
 
-Este curso percorreu três grandes dimensões da Ecologia de Paisagens. Na dimensão **ecológica**, aprendemos a medir e interpretar o padrão espacial das paisagens — fragmentação, conectividade, métricas de composição e configuração, fluxos biogeoquímicos e dinâmicas metapopulacionais. Na dimensão **política**, aprendemos que esse padrão não é natural ou neutro — é o resultado de relações de poder, conflitos fundiários, exclusões históricas e saberes em disputa. Na dimensão **do planejamento**, aprendemos os instrumentos jurídicos e técnicos que permitem intervir sobre esse padrão — SNUC, Código Florestal, corredores ecológicos, planejamento sistemático da conservação.
+O PAD não é uma prova nem um relatório de laboratório. É uma proposta real de restauração ecológica, com rigor técnico, embasamento teórico nos conteúdos da disciplina e viabilidade prática no contexto brasileiro. O aluno escolhe a área, define o problema, planeja a intervenção e avalia as condições de implementação — do diagnóstico ecológico à análise de atores e à estimativa de custos.
 
-A avaliação final integra essas três dimensões em um único exercício analítico: você escolhe uma paisagem real, a descreve ecologicamente com as ferramentas do curso, explica politicamente como ela chegou à configuração atual e propõe soluções de manejo que articulem conservação da biodiversidade e justiça ambiental.
+O produto final deverá demonstrar que o aluno é capaz de integrar os três eixos do curso:
+
+- **Científico**: aplicar conceitos de ecologia da restauração para diagnosticar e planejar;
+- **Técnico-operacional**: traduzir o conhecimento em intervenções concretas e graduadas;
+- **Crítico-social**: reconhecer atores, relações de poder, equidade e viabilidade política e econômica.
+
+::: {.callout-note}
+## Sobre o *workbook*
+
+O *workbook* é o site pessoal do aluno, construído em Quarto e hospedado no GitHub Pages, onde todas as entregas do semestre são publicadas. O PIAD deve ser publicado como uma seção ou página independente do *workbook*, com URL pública compartilhada no Google Sala de Aula em cada prazo parcial.
+:::
 
 ---
 
-## Escolha da paisagem {#sec-escolha}
+# A Área de Estudo {#sec-area}
 
-### Critérios de seleção
+## Critérios de escolha {#sec-criterios-area}
 
-Você deve escolher **um município brasileiro** como área de análise, seguindo os critérios abaixo:
+O aluno deve escolher **uma área degradada real**, de sua preferência, que pode ser:
+
+- Uma área urbana ou periurbana (parque degradado, margem de canal, encosta com erosão, terreno baldio com histórico industrial);
+- Uma área rural (pastagem abandonada, capoeira, área de APP sem vegetação, borda de fragmento florestal);
+- Uma área costeira ou de transição (manguezal degradado, restinga alterada, estuário impactado).
+
+**Critério obrigatório:** a área deve ser visitável pelo aluno ao menos uma vez durante o semestre para o levantamento de dados primários. Áreas completamente inacessíveis não serão aceitas.
+
+::: {.callout-tip}
+## Sugestão para alunos em Recife e Região Metropolitana
+
+Algumas áreas com alto potencial para o PIAD na região: margens do Rio Capibaribe e seus afluentes urbanos; áreas de Mata Atlântica degradada nos municípios de Camaragibe, São Lourenço da Mata e Moreno; encostas do Morro da Conceição e do Morro do Vintém; trechos do Rio Tejipió com supressão de mata ciliar; área do antigo Lixão da Muribeca e seu entorno; fragmentos de Tabuleiro no litoral norte de Pernambuco.
+:::
+
+---
+
+# Estrutura do Projeto {#sec-estrutura}
+
+O PIAD é composto por **seis seções obrigatórias**, correspondentes às seis entregas parciais ao longo do semestre. Cada seção é avaliada separadamente e integrada ao documento final.
+
+## Seção 1 — Memorial Descritivo da Área {#sec-s1}
+
+**Entrega:** após a Semana 3 | **Peso:** 15%
+
+O memorial descritivo é o diagnóstico de base. Deve caracterizar a área com precisão suficiente para que um leitor externo compreenda o contexto ecológico, histórico e social do sítio sem precisar visitá-lo.
+
+**Conteúdo mínimo obrigatório:**
 
 ::: {.callout-important}
-## Critérios obrigatórios de seleção do município
+### O que deve constar no memorial
 
-1. **Bioma com conflito socioambiental documentado:** prefira municípios em Mata Atlântica, Amazônia, Cerrado ou Caatinga com histórico de conflitos fundiários, desmatamento ou presença de populações tradicionais. Evite municípios amazônicos vazios populacionalmente.
-2. **Cobertura MapBiomas disponível:** verifique antes de confirmar a escolha que o município tem dados na Coleção 10 com pelo menos duas classes de vegetação nativa e uma classe de uso antrópico
-3. **Área entre 200 e 5.000 km²:** municípios muito pequenos têm poucos patches para análise; muito grandes tornam o processamento computacional excessivo
-4. **Não repetir municípios entre indivíduos:** fale com seus colegas e evite escolher o mesmo município.
+**Localização e contexto geográfico**
+
+- Coordenadas geográficas (latitude/longitude) e mapa de localização (pode ser captura do Google Earth com escala e norte)
+- Bioma, fitofisionomia histórica esperada, bacia hidrográfica
+- Área total (hectares) e dimensões aproximadas
+
+**Caracterização do uso atual e histórico**
+
+- Uso atual dominante e usos anteriores documentados (pesquisa em imagens históricas do Google Earth Engine, MapBiomas ou acervo fotográfico local)
+- Identificação dos agentes históricos de degradação (quem, quando, como)
+- Situação fundiária: área pública, privada, de posse, área de conflito?
+
+**Diagnóstico ecológico de campo**
+
+- Cobertura vegetal atual: estimativa de % de cobertura nativa versus exótica versus solo exposto
+- Presença de regeneração natural (banco de sementes, rebrotas, plântulas nativas visíveis)
+- Fauna observada ou registrada (qualitativo: grupos funcionais presentes)
+- Condição aparente do solo (compactação, erosão, sinais de contaminação)
+- Recursos hídricos: nascentes, córregos, zonas úmidas, APP identificadas
+
+**Diagnóstico de contexto de paisagem**
+
+- Distância aos fragmentos nativos mais próximos (estimada em mapa)
+- Identificação de corredores potenciais ou barreiras à conectividade
+- Cobertura nativa no entorno (raio de 1 km): estimativa via MapBiomas ou Google Earth
 :::
 
-### Sugestões de municípios por bioma
+**Produtos esperados:**
 
-Estas são apenas sugestões — você pode escolher qualquer município que atenda aos critérios:
+- Texto descritivo (mínimo 800 palavras)
+- Ao menos 5 fotografias do campo com legenda informativa
+- Mapa de localização e de uso do solo atual (pode ser elaborado no QGIS ou Google My Maps)
+- Classificação preliminar do ecossistema segundo a tipologia histórico–híbrido–novo (Semana 3)
 
-| Bioma | Municípios sugeridos | Conflito típico |
+---
+
+## Seção 2 — Identificação de Fontes de Degradação e Diagnóstico de Limiares {#sec-s2}
+
+**Entrega:** após a Semana 7 | **Peso:** 15%
+
+Com base no memorial descritivo e nos conteúdos das Semanas 3–7, o aluno deve aprofundar o diagnóstico identificando os mecanismos de degradação e avaliando os limiares ecológicos presentes.
+
+**Conteúdo mínimo obrigatório:**
+
+**Fontes de degradação ativas e históricas**
+:   Liste e caracterize cada fonte: supressão de vegetação, pastoreio, fogo, espécies invasoras, contaminação, impermeabilização, alteração hidrológica, extração de recursos. Para cada fonte, indique se está ativa ou se cessou, e com que intensidade.
+
+**Diagnóstico de limiares ecológicos** (Semana 2)
+:   Para cada limiar identificado (abiótico, biótico, de paisagem), justifique sua classificação com evidências de campo ou de literatura. Use o fluxograma de decisão de Suganuma & Durigan (2018) como referência.
+
+**Potencial de resiliência local e de paisagem** (Semana 1)
+:   Avalie separadamente a resiliência local (banco de sementes, rebrotas, condição do solo) e a resiliência de paisagem (conectividade, fontes de propágulos). Sintetize em uma tabela: alta / média / baixa para cada dimensão, com justificativa.
+
+**Classificação final da estratégia de restauração recomendada**
+:   Com base no diagnóstico integrado, posicione a área no contínuo restaurativo (Semana 1) e justifique a escolha entre regeneração natural, restauração assistida ou restauração ativa plena.
+
+---
+
+## Seção 3 — Definição de Metas de Restauração {#sec-s3}
+
+**Entrega:** após a Semana 8 | **Peso:** 20%
+
+Esta é a seção de maior peso individual do projeto. Metas mal definidas comprometem todo o planejamento subsequente.
+
+**Conteúdo mínimo obrigatório:**
+
+**Ecossistema de referência**
+:   Defina o estado-alvo da restauração. Identifique os remanescentes nativos locais ou regionais que servem de referência, justifique a escolha e descreva brevemente sua composição e estrutura esperadas. Se for o caso, discuta a necessidade de adaptar a referência histórica ao contexto de mudanças climáticas futuras (Semana 3).
+
+**Metas operacionais por atributo** (Semana 2 — Recovery Star da SER)
+:   Para cada um dos cinco atributos de ecossistemas restaurados (ausência de ameaças, integridade abiótica, composição, estrutura, funcionamento), defina:
+
+  - **Indicador**: o que será medido;
+  - **Valor-alvo**: o que se espera atingir;
+  - **Prazo**: em qual ano do projeto;
+  - **Método de verificação**: como será medido.
+
+  Apresente em formato de tabela.
+
+**Metas de funcionalidade ecossistêmica**
+:   Além dos atributos estruturais, defina ao menos duas metas relacionadas ao **funcionamento** do ecossistema: recrutamento natural, dispersão de sementes, ciclagem de nutrientes, controle de erosão, regulação hídrica — escolha os processos mais relevantes para a área.
+
+**Metas de serviços para as pessoas**
+:   Identifique os serviços ecossistêmicos prioritários para as comunidades do entorno (segurança hídrica, produção de alimentos, regulação de microclima urbano, recreação, identidade cultural) e defina metas específicas para ao menos dois deles. Use a Roda de Benefícios Sociais da SER (2023) como guia.
+
+**Horizonte temporal e revisão**
+:   Defina o horizonte temporal do projeto (anos 1, 5, 10, 20?) e preveja ao menos uma revisão formal das metas, explicando como o monitoramento alimentaria essa revisão.
+
+---
+
+## Seção 4 — Mapeamento de Atores e Análise de Governança {#sec-s4}
+
+**Entrega:** após a Semana 10 | **Peso:** 15%
+
+A restauração ecológica nunca é um ato técnico isolado. Esta seção mobiliza os conteúdos das Semanas 9–12 para analisar o contexto político, social e institucional da intervenção proposta.
+
+**Conteúdo mínimo obrigatório:**
+
+**Mapeamento de atores** (*stakeholder mapping*)
+:   Identifique todos os atores relevantes para a área: proprietários e usuários do solo, comunidades vizinhas (incluindo grupos vulneráveis e tradicionais), órgãos públicos competentes (municipal, estadual, federal), ONGs atuantes na região, empresas com interesse ou impacto na área, universidades e institutos de pesquisa, mídia local. Para cada ator, indique: (a) relação com a área; (b) posição estimada frente à restauração (favorável / neutro / contrário); (c) poder de influência (alto / médio / baixo).
+
+  Apresente em formato de tabela e, opcionalmente, em diagrama de rede de atores.
+
+**Análise de conflitos e sinergias potenciais**
+:   Identifique conflitos de interesse existentes ou potenciais (fundiários, de uso, econômicos) e sinergias que poderiam ser exploradas (atores com interesses convergentes com a restauração). Use as lentes da ecologia política (Semana 10) para interpretar as relações de poder subjacentes.
+
+**Perguntas da ecologia política aplicadas à sua área** (Semana 10)
+:   Responda explicitamente: quem financia a restauração proposta e quais são seus interesses? Quem se beneficia? Quem pode perder acesso ou direitos? Que conhecimentos são incorporados e quais são excluídos?
+
+**Conhecimento ecológico local e saberes tradicionais** (Semana 12)
+:   Identifique se há comunidades com conhecimento histórico sobre a área. Proponha uma estratégia concreta para mapear e incorporar esse conhecimento no planejamento, mesmo que de forma preliminar.
+
+**Estratégia de engajamento**
+:   Com base no mapeamento, proponha uma estratégia de engajamento progressivo dos atores-chave: quem envolver primeiro, em que momento, com que objetivo e com que formato (oficinas participativas, reuniões técnicas, consultas públicas, parcerias formais).
+
+---
+
+## Seção 5 — Planejamento das Intervenções e Viabilidade Econômica {#sec-s5}
+
+**Entrega:** após a Semana 13 | **Peso:** 20%
+
+**Conteúdo mínimo obrigatório:**
+
+**Plano de intervenção graduada**
+:   Com base no diagnóstico de limiares (Seção 2) e nas metas definidas (Seção 3), detalhe as intervenções previstas organizadas em ordem lógica de execução. Para cada intervenção, especifique:
+
+  - Limiar que ela visa superar (ou ameaça que visa controlar);
+  - Técnica ou método específico (com referência bibliográfica);
+  - Área de aplicação (em hectares ou metros lineares);
+  - Período de execução (mês/ano de início e duração);
+  - Responsável técnico sugerido (perfil profissional).
+
+  Organize em tabela cronológica (Gantt simplificado).
+
+**Espécies ou grupos funcionais indicados**
+:   Se a intervenção envolver plantio ou semeadura, indique as espécies ou grupos funcionais prioritários, justificando a escolha com base no ecossistema de referência, na disponibilidade de sementes/mudas na região e nas metas de diversidade funcional.
+
+**Estimativa de custos**
+:   Elabore uma estimativa de custos por fase do projeto, com as seguintes categorias:
+
+  - Diagnóstico e planejamento técnico
+  - Controle de ameaças (cercamento, manejo de invasoras, controle de fogo)
+  - Intervenções de restauração (insumos, mão de obra, equipamentos)
+  - Monitoramento (mão de obra, materiais, análises laboratoriais)
+  - Comunicação e engajamento comunitário
+
+  Use valores de referência do mercado regional (consulte editais públicos de restauração em PE/BA ou tabelas de preço da CPRH/SEMAS-PE). Apresente em tabela com subtotais por fase e total geral.
+
+**Fontes de financiamento potenciais**
+:   Identifique ao menos três fontes de financiamento viáveis para o projeto: editais públicos (CNPq, FACEPE, MMA, ANA), programas de compensação ambiental, mercado voluntário de carbono ou biodiversidade, parcerias com setor privado, financiamento filantrópico ou cooperação internacional. Para cada fonte, indique requisitos básicos e adequação ao projeto.
+
+**Análise de trade-offs** (Semana 13)
+:   Identifique os principais trade-offs entre as metas ecológicas e os usos atuais ou demandas sociais da área. Como o projeto proposto os gerencia? Que concessões são necessárias e quais são inegociáveis do ponto de vista ecológico?
+
+---
+
+## Seção 6 — Síntese Integradora e Reflexão Crítica {#sec-s6}
+
+**Entrega:** semana final (Semana 15) | **Peso:** 15%
+
+A seção final é o momento de recuo analítico: o aluno sai do papel de planejador técnico e adota o olhar do ecólogo crítico, avaliando o próprio projeto à luz de todo o curso.
+
+**Conteúdo mínimo obrigatório:**
+
+**Síntese do projeto**
+:   Parágrafo único (máximo 300 palavras) que sintetize o projeto como um todo: área, problema central, estratégia escolhida, metas principais, custo estimado e prazo.
+
+**Posicionamento teórico**
+:   Em que paradigma teórico se ancora o projeto (equilíbrio × não-equilíbrio)? Que conceitos das Semanas 1–8 foram mais determinantes para as escolhas feitas? Quais ficaram sem resposta adequada?
+
+**Dimensão crítica**
+:   Responda honestamente: quem se beneficia e quem pode ser prejudicado por este projeto? Que vozes não foram ouvidas no planejamento e deveriam ter sido? Há riscos de "restauração verde" sem justiça social?
+
+**Limites do projeto**
+:   Identifique as principais incertezas e limitações: o que não foi possível saber sem mais dados? Que suposições foram feitas que podem não se confirmar? Que ameaças externas (políticas, climáticas, fundiárias) podem comprometer a viabilidade?
+
+**Agenda de pesquisa**
+:   Formule ao menos duas perguntas científicas que o projeto levanta e que poderiam ser respondidas por pesquisa acadêmica — conectando o PIAD a uma agenda de Ecologia da Restauração.
+
+---
+
+# Critérios de Avaliação {#sec-avaliacao}
+
+## Tabela de pesos por seção {#sec-pesos}
+
+| Seção | Conteúdo | Prazo | Peso |
+|---|---|---|---|
+| 1 | Memorial Descritivo da Área | Após Semana 3 | 15% |
+| 2 | Diagnóstico de Limiares e Fontes de Degradação | Após Semana 7 | 15% |
+| 3 | Definição de Metas | Após Semana 8 | 20% |
+| 4 | Mapeamento de Atores e Governança | Após Semana 10 | 15% |
+| 5 | Planejamento e Viabilidade Econômica | Após Semana 13 | 20% |
+| 6 | Síntese Integradora e Reflexão Crítica | Semana 15 | 15% |
+| **Total** | | | **100%** |
+
+## Rubrica de avaliação por dimensão {#sec-rubrica}
+
+Cada seção é avaliada segundo quatro dimensões, cada uma valendo 25% da nota da seção:
+
+**A — Rigor técnico-científico**
+:   O conteúdo é factualmente correto? Os conceitos são aplicados adequadamente? As fontes utilizadas são apropriadas e estão corretamente citadas?
+
+| Nível | Descrição |
+|---|---|
+| Excelente (9–10) | Conceitos aplicados com precisão e profundidade; integração explícita com referências do curso e literatura adicional pertinente |
+| Bom (7–8) | Conceitos corretos com pequenas imprecisões; uso adequado das referências do curso |
+| Regular (5–6) | Conceitos parcialmente corretos ou aplicados de forma superficial; poucas ou inadequadas referências |
+| Insuficiente (0–4) | Erros conceituais graves; ausência de fundamentação bibliográfica |
+
+**B — Qualidade do diagnóstico e da argumentação**
+:   A análise da área é detalhada, consistente e baseada em dados? Os argumentos são lógicos e bem sustentados?
+
+| Nível | Descrição |
+|---|---|
+| Excelente (9–10) | Diagnóstico baseado em dados primários de campo e secundários (MapBiomas, literatura local); argumentação coesa e sem contradições internas |
+| Bom (7–8) | Diagnóstico adequado com apoio de dados; argumentação clara com poucos gaps lógicos |
+| Regular (5–6) | Diagnóstico genérico ou baseado apenas em observação visual sem sistematização; argumentação inconsistente |
+| Insuficiente (0–4) | Diagnóstico ausente ou claramente inadequado para a área descrita |
+
+**C — Viabilidade e praticidade da proposta**
+:   A intervenção proposta é ecologicamente coerente, tecnicamente exequível e economicamente realista no contexto brasileiro?
+
+| Nível | Descrição |
+|---|---|
+| Excelente (9–10) | Proposta detalhada, graduada, com custos realistas e fontes de financiamento identificadas; estratégia adequada ao diagnóstico |
+| Bom (7–8) | Proposta coerente com o diagnóstico; custos estimados com referência a fontes; algumas lacunas de detalhamento |
+| Regular (5–6) | Proposta genérica ou desconectada do diagnóstico; custos ausentes ou irrealistas |
+| Insuficiente (0–4) | Proposta inviável ou incoerente com o contexto da área |
+
+**D — Dimensão crítica e reflexiva**
+:   O aluno demonstra capacidade de questionar o próprio projeto, identificar limitações, incorporar perspectivas de diferentes atores e conectar a prática à teoria crítica do curso?
+
+| Nível | Descrição |
+|---|---|
+| Excelente (9–10) | Reflexão aprofundada com aplicação explícita das lentes da ecologia política; identifica contradições e tensões com honestidade intelectual |
+| Bom (7–8) | Reflexão presente e pertinente; menciona atores e conflitos sem aprofundamento analítico completo |
+| Regular (5–6) | Reflexão superficial ou apenas formal; dimensão crítica ausente ou reduzida a observações gerais |
+| Insuficiente (0–4) | Ausência de dimensão crítica; projeto apresentado como neutro e sem conflitos |
+
+---
+
+# Formato e Publicação {#sec-formato}
+
+## Especificações técnicas {#sec-specs}
+
+- **Plataforma:** *Workbook* pessoal no GitHub Pages, construído em Quarto
+- **Formato de publicação:** página `.qmd` renderizada como HTML, com URL pública
+- **Extensão por seção:** sem limite máximo; mínimos indicados em cada seção
+- **Língua:** português brasileiro
+- **Referências:** normas ABNT, gerenciadas via arquivo `.bib` e citadas com `@chave`
+- **Mapas e figuras:** inseridos diretamente no `.qmd` com legenda e fonte; resolução mínima 150 dpi
+
+## Entregas parciais {#sec-entregas}
+
+Cada seção deve ser publicada no *workbook* e o link submetido no Google Sala de Aula até as **23h59 da data indicada**. Entregas com atraso de até 48h receberão desconto de 20% na nota da seção. Após 48h, a seção não será aceita para avaliação e receberá nota zero.
+
+::: {.callout-warning}
+## Integridade acadêmica e uso de IA
+
+O PIAD é uma avaliação de autoria individual. O uso de ferramentas de inteligência artificial é **permitido como apoio**, nas seguintes condições:
+
+- O aluno deve declarar explicitamente, no início de cada seção em que usou IA, qual ferramenta utilizou e para que finalidade;
+- IA pode ser usada para: revisar gramática, sugerir estrutura, explicar conceitos, auxiliar na formatação em Quarto;
+- IA **não pode** ser usada para: gerar o diagnóstico de campo (que exige visita presencial), inventar dados ou referências, ou escrever seções inteiras sem supervisão e reformulação pelo aluno;
+- O aluno é inteiramente responsável pelo conteúdo publicado — erros factuais, referências inexistentes ou diagnósticos inverossímeis serão penalizados independentemente da origem do texto.
+
+Uso não declarado de IA para substituir autoria própria será tratado como plágio e encaminhado à Comissão de Ética Acadêmica da UFPE.
+:::
+
+---
+
+# Dicas para um PIAD de Excelência {#sec-dicas}
+
+::: {.callout-tip}
+## Dica 1 — Escolha a área certa
+
+A área ideal para o PIAD é aquela sobre a qual você consegue obter informações reais: dados de campo, conversa com moradores, acesso a documentos históricos, imagens de satélite de qualidade. Não escolha uma área que pareça "interessante no mapa" mas à qual você não tem acesso. Um diagnóstico honesto de uma pastagem degradada comum vale muito mais do que uma proposta vaga sobre uma área remota.
+:::
+
+::: {.callout-tip}
+## Dica 2 — Comece pelo diagnóstico, não pelas soluções
+
+O erro mais frequente nos projetos de restauração é propor intervenções antes de entender o problema. Invista tempo na Seção 1 — quanto mais detalhado e fundamentado o memorial, mais fáceis e precisas serão todas as decisões subsequentes.
+:::
+
+::: {.callout-tip}
+## Dica 3 — Use o MapBiomas desde o início
+
+O MapBiomas Plataforma (<https://plataforma.mapbiomas.org>) permite visualizar a história de uso do solo da sua área desde 1985, gratuitamente, no navegador, sem precisar de QGIS. Use-o para documentar a trajetória de degradação da área na Seção 1 e para estimar a cobertura nativa no entorno na análise de resiliência de paisagem da Seção 2.
+:::
+
+::: {.callout-tip}
+## Dica 4 — Metas são compromissos, não desejos
+
+Na Seção 3, evite metas como "aumentar a biodiversidade" ou "melhorar a qualidade do solo". Metas precisam ser mensuráveis: "atingir riqueza de 40 espécies arbóreas nativas por hectare no ano 10", "reduzir cobertura de gramíneas exóticas para menos de 20% da área no ano 3". A diferença entre um desejo e uma meta é a possibilidade de dizer se foi atingida ou não.
+:::
+
+::: {.callout-tip}
+## Dica 5 — A dimensão crítica não é decoração
+
+A Seção 6 não é um apêndice opcional. Os projetos que obtêm as melhores notas são aqueles em que o aluno é capaz de mostrar que entende as limitações e contradições do próprio trabalho — não apenas suas virtudes. Ecólogos da restauração que não conseguem ver os conflitos de interesse em torno de seus projetos são ecólogos ingênuos e, portanto, pouco eficazes.
+:::
+
+---
+
+# Cronograma Resumido {#sec-cronograma}
+
+| Semana | Atividade | Produto |
 |---|---|---|
-| **Caatinga (PE)** | Buíque, Floresta, Petrolina, Santa Maria da Boa Vista, Cabrobó | mosaicos de uso do solo, agricultura irrigada, comunidades tradicionais |
-| **Mata Atlântica (PE)** | Atenção aos municípios da zona da mata, eles são geralmente muito pequenos, cheque a área antes de escolher | Fragmentação avançada, uso agrícola, UCs |
-| **Cerrado (GO/TO/MA)** | Formosa do Rio Preto, Balsas, Campos Lindos | Fronteira da soja, MATOPIBA, grilagem |
-| **Amazônia (PA/AM)** | Altamira, Rurópolis, Prainha, Novo Progresso | Desmatamento, garimpo, TIs |
-| **Pantanal (MT/MS)** | Corumbá, Aquidauana, Cáceres | Pecuária extensiva, queimadas, quilombos |
-
-::: {.callout-tip}
-## Como registrar sua escolha
-Poste no Google Sala de Aula na tarefa "Registro de Município — Avaliação Final" com: nome do município, estado, bioma e uma frase explicando por que o escolheu. Primeiros a registrar têm prioridade sobre o município.
-:::
-
----
-
-## As quatro partes da avaliação {#sec-partes}
-
-A avaliação é estruturada em quatro partes integradas e progressivas. Cada parte constrói sobre a anterior — não devem ser escritas como seções independentes, mas como um argumento contínuo e coerente.
+| 1–3 | Escolha da área; visita de campo; coleta de dados primários | — |
+| **3** | **Entrega da Seção 1** — Memorial Descritivo | Link no Sala de Aula |
+| 4–7 | Aprofundamento do diagnóstico; análise de limiares | — |
+| **7** | **Entrega da Seção 2** — Diagnóstico de Limiares | Link no Sala de Aula |
+| 8 | Definição de metas com base no diagnóstico integrado | — |
+| **8** | **Entrega da Seção 3** — Metas de Restauração | Link no Sala de Aula |
+| 9–10 | Mapeamento de atores; análise de governança e ecologia política | — |
+| **10** | **Entrega da Seção 4** — Atores e Governança | Link no Sala de Aula |
+| 11–13 | Planejamento das intervenções; estimativa de custos | — |
+| **13** | **Entrega da Seção 5** — Planejamento e Viabilidade | Link no Sala de Aula |
+| 14–15 | Revisão e integração do documento final; reflexão crítica | — |
+| **15** | **Entrega Final** — Seção 6 + documento completo revisado | Link no Sala de Aula |
 
 ---
 
-```{=html}
-<div class="parte-card mapas">
-  <span class="parte-numero">1</span>
-  <div class="parte-peso mapas">Parte 1 · 2,5 pontos</div>
-  <h3 class="parte-titulo mapas">Análise Descritiva da Paisagem</h3>
-  <p><em>Onde estou? O que vejo?</em></p>
-</div>
-```
-
-### O que fazer
-
-Caracterize a paisagem do município escolhido usando dados do **MapBiomas Coleção 10** (ano de referência: **2023**) e métricas calculadas no R com o pacote `landscapemetrics`. Esta parte responde à pergunta: *como é esta paisagem hoje?*
-
-### Etapas metodológicas
-
->Atenção, esse é um guia geral e não representa etapas que voce precisa seguir necessariamente. Há muitas maneiras de chegar ao mesmo objetivo. O importante é que você chegue de maneira lógica ao resultado desejado. Note que as sugestões de funções do R pertencem a diferentes pacotes, e são sugestões apenas.
-
-**1. Obtenção e preparação dos dados**
-
-- Baixe o raster do MapBiomas para o município via URL direta ou Google Earth Engine (siga o tutorial da disciplina)
-- Baixe o limite municipal com `geobr::read_municipality()`
-- Recorte, reprojeite para SIRGAS 2000 / UTM (EPSG adequado ao município) e reclassifique em grupos funcionais ecologicamente interpretáveis
-- Valide com `check_landscape()` e documente cada etapa do processamento com código reproduzível
-
-**2. Mapa de cobertura e uso do solo**
-
-Produza um mapa temático do município com:
-
-- Classes de cobertura bem distinguidas por cor (siga a paleta oficial do MapBiomas ou crie sua pŕopria)
-- Escala gráfica, norte e legenda
-- Título com ano e fonte
-- Opcionalmente: versão interativa com `tmap_mode("view")`
-
-**3. Cálculo do conjunto mínimo de métricas**
-
-Calcule e interprete pelo menos **seis métricas**, cobrindo obrigatoriamente:
-
-- **Composição:** pelo menos PLAND e SHDI
-- **Configuração:** pelo menos NP (ou PD), ED, AI e ENN_MN
-- Use os três níveis hierárquicos (patch, class, landscape) conforme a pergunta que cada métrica responde
-
-**4. Série temporal (opcional — bônus de 0,5 ponto)**
-
-Compare o município em **três anos distintos** (ex: 1990, 2010, 2023) e produza um gráfico de evolução temporal de pelo menos uma métrica de composição e uma de configuração, interpretando a trajetória de fragmentação.
-
-### O que apresentar
-
-- Mapa(s) de cobertura do solo
-- Tabela com as métricas calculadas por classe e para a paisagem total
-- Texto interpretativo de **400–600 palavras** descrevendo o padrão observado: qual classe domina? qual o grau de fragmentação? quão isolados estão os fragmentos de vegetação nativa? há evidências de conectividade estrutural?
-
----
-
-```{=html}
-<div class="parte-card ecologia">
-  <span class="parte-numero">2</span>
-  <div class="parte-peso ecologia">Parte 2 · 2,5 pontos</div>
-  <h3 class="parte-titulo ecologia">Diagnóstico Ecológico</h3>
-  <p><em>O que esse padrão significa para a biodiversidade?</em></p>
-</div>
-```
-
-### O que fazer
-
-A partir das métricas calculadas na Parte 1, produza um diagnóstico dos **processos ecológicos** que operam nessa paisagem. Esta parte responde à pergunta: *quais são as consequências ecológicas do padrão que observei?*
-
-### Dimensões a cobrir
-
-Você deve discutir pelo menos **quatro** das dimensões ecológicas abaixo, escolhendo as mais relevantes para o seu município:
-
-**Conectividade e metapopulações**
-
-- Com base no ENN e no AI, avalie se a paisagem favorece ou prejudica a dispersão e o fluxo gênico entre fragmentos
-- Aplique o conceito do limiar de percolação: a cobertura de vegetação nativa está acima ou abaixo do limiar crítico (~59%)?
-- Identifique patches candidatos a *source* (grandes, bem conectados) e *sink* (pequenos, isolados) na lógica do modelo de Levins
-- Discuta a probabilidade de extinção em dívida: dado o histórico de fragmentação (use a série temporal se disponível), há espécies provavelmente comprometidas mesmo ainda presentes?
-
-**Efeito de borda**
-
-- Com base no ED e na relação entre área total e área de núcleo, avalie a extensão do efeito de borda nos fragmentos
-- Discuta quais grupos funcionais são mais vulneráveis (especialistas de interior, insetívoros de sub-bosque, mamíferos de grande porte)
-
-**Fluxos biogeoquímicos**
-
-- Com base na proporção de vegetação ripária (APPs) e sua integridade, avalie a capacidade da paisagem de reter nutrientes e regular a qualidade da água
-- Discuta a relação entre a configuração da paisagem e os serviços ecossistêmicos de regulação hídrica
-
-**Produtividade primária e estoque de carbono**
-
-- Com base na composição (PLAND das classes de vegetação nativa) e na configuração (AI), discuta onde estariam os hotspots de NPP e de estoque de carbono na paisagem
-- Se disponível, use dados de biomassa do MapBiomas para quantificar
-
-**Heterogeneidade e diversidade beta**
-
-- A heterogeneidade da paisagem (SHDI, número de classes) indica potencial para alta diversidade beta?
-- Discuta como o mosaico atual favorece ou prejudica espécies de diferentes requisitos de habitat
-
-### O que apresentar
-
-- Texto analítico de **600–900 palavras** articulando as dimensões escolhidas
-- Ao menos uma figura própria (gráfico relacionando atributos da paisagem e daods biológicos fictício criados por você) que ilustre o argumento ecológico central
-- Citação de pelo menos **três referências bibliográficas** do curso ou da literatura geral de Ecologia de Paisagens
-
----
-
-```{=html}
-<div class="parte-card ecopolit">
-  <span class="parte-numero">3</span>
-  <div class="parte-peso ecopolit">Parte 3 · 2,5 pontos</div>
-  <h3 class="parte-titulo ecopolit">Análise de Ecologia Política</h3>
-  <p><em>Por que essa paisagem é como é? Quem ganhou, quem perdeu?</em></p>
-</div>
-```
-
-### O que fazer
-
-Explique como a paisagem chegou à configuração atual usando o arcabouço da **Ecologia Política**. Esta parte responde à pergunta: *quais forças políticas, econômicas e sociais produziram esse padrão espacial?*
-
-### Estrutura da análise
-
-**A cadeia de explicação (Blaikie & Brookfield 1987)**
-
-Aplique a cadeia de explicação multinível à sua paisagem:
-
-- **Escala global/nacional:** quais forças de mercado, políticas macroeconômicas ou acordos comerciais condicionam o uso do solo neste município? (ex: demanda global por soja, política de crédito rural, desindustrialização e êxodo rural)
-- **Escala regional/estadual:** quais políticas estaduais de uso do solo, obras de infraestrutura ou expansão agropecuária regional moldaram a paisagem nas últimas décadas?
-- **Escala local:** quais práticas locais de uso da terra, conflitos fundiários e resistências comunitárias são visíveis no padrão espacial?
-
-**Identificação dos atores**
-
-Mapeie os principais **atores** que operam ou operaram nessa paisagem, identificando:
-
-- Seus interesses materiais em relação ao território
-- Seu poder relativo de moldar decisões sobre o uso do solo
-- Quem foi **beneficiado** pela configuração atual da paisagem (acesso a recursos, valorização fundiária, produção agropecuária, isenções regulatórias)
-- Quem foi **impactado negativamente** (perda de território, de meios de vida, de acesso à água, de biodiversidade da qual dependem)
-
-**A construção social da paisagem**
-
-- Como diferentes grupos sociais *veem* e *valoram* essa mesma paisagem? (a visão do agronegócio, a visão de comunidades tradicionais ou agricultores familiares, a visão da conservação)
-- Há populações tradicionais, indígenas ou quilombolas nessa paisagem ou em seu entorno? Como sua relação com o território moldou (ou foi impedida de moldar) a configuração atual?
-
-**Fontes de dados para esta parte**
-
-- CPT — Comissão Pastoral da Terra: [cptnacional.org.br](https://cptnacional.org.br) (conflitos no campo)
-- INCRA — dados de assentamentos e territórios quilombolas
-- FUNAI — dados de Terras Indígenas
-- IBGE — Censo Agropecuário, estrutura fundiária (Gini da terra)
-- MapBiomas — série temporal como evidência de trajetórias de uso
-- Fontes jornalísticas e documentos de movimentos sociais locais
-
-### O que apresentar
-
-- Texto analítico de **700–1000 palavras** aplicando os conceitos de Ecologia Política à paisagem escolhida
-- Uma **linha do tempo** (pode ser figura, tabela ou texto estruturado) dos principais eventos que moldaram a paisagem: desmatamento, criação de UCs, conflitos fundiários, chegada do agronegócio, expulsão de populações, criação de assentamentos, etc.
-- Identificação explícita de pelo menos **dois grupos beneficiados** e **dois grupos impactados negativamente** com justificativa baseada em dados ou fontes documentais
-
----
-
-```{=html}
-<div class="parte-card manejo">
-  <span class="parte-numero">4</span>
-  <div class="parte-peso manejo">Parte 4 · 2,5 pontos</div>
-  <h3 class="parte-titulo manejo">Proposta de Manejo Integrado</h3>
-  <p><em>O que fazer? Para quem? Com quem?</em></p>
-</div>
-```
-
-### O que fazer
-
-Com base nas três partes anteriores, proponha um **plano de manejo integrado de paisagem** que articule conservação da biodiversidade e justiça ambiental. Esta parte responde à pergunta: *como podemos transformar essa paisagem para que ela seja ecologicamente mais funcional e socialmente mais justa?*
-
-### Requisitos da proposta
-
-**1. Diagnóstico integrado (síntese das partes 1–3)**
-
-Em um parágrafo de abertura, sintetize: qual é o principal problema ecológico desta paisagem? Qual é sua origem político-econômica? Quem precisa ser parte da solução?
-
-**2. Objetivos específicos**
-
-Defina pelo menos **três objetivos específicos**, cada um com:
-
-- Uma meta ecológica mensurável (ex: "aumentar a cobertura de vegetação nativa de 18% para 30% em 15 anos")
-- Uma meta social associada (ex: "garantir renda complementar para 80 famílias de agricultores familiares")
-- O instrumento legal ou de política pública que viabiliza o objetivo (SNUC, Código Florestal, PSE, regularização fundiária, RESEX, etc.)
-
-**3. Intervenções espacialmente explícitas**
-
-Identifique, com base nas métricas calculadas na Parte 1, **onde** intervir prioritariamente:
-
-- Quais fragmentos devem ser protegidos com prioridade máxima (patches-source, alta insubstituibilidade)?
-- Onde criar ou restaurar corredores ecológicos (entre quais fragmentos, qual tipologia — linear, stepping stones)?
-- Onde criar zonas de amortecimento ou zonas de uso sustentável?
-- Quais APPs degradadas têm prioridade de restauração (posição ripária, conectividade potencial)?
-
-Apresente essa análise em um **mapa de prioridades de intervenção** — pode ser produzido no R com `tmap` ou `ggplot2`, ou desenhado esquematicamente sobre o mapa de cobertura da Parte 1.
-
-**4. Governança e participação**
-
-Nenhum plano de manejo é implementável sem considerar quem governa e como. Especifique:
-
-- Quais atores precisam ser envolvidos em cada tipo de intervenção?
-- Como serão resolvidos os conflitos de interesse identificados na Parte 3?
-- Que mecanismos de participação e consulta você propõe?
-- Que instrumentos de financiamento são viáveis (FUNBIO, fundos climáticos, compensação ambiental, PSE municipal)?
-
-**5. Monitoramento**
-
-Proponha pelo menos **três indicadores** para monitorar o sucesso do plano ao longo do tempo, sendo pelo menos um ecológico (ex: PLAND da vegetação nativa), um social (ex: índice de conflitos fundiários) e um de governança (ex: número de propriedades com RL averbada e CAR regularizado).
-
-### O que apresentar
-
-- Texto propositivo de **700–1000 palavras**
-- Mapa de prioridades de intervenção
-- Tabela-síntese com objetivos, intervenções, instrumentos e indicadores
-- Discussão explícita de como a proposta integra conservação e justiça ambiental — não como objetivos em tensão, mas como dimensões complementares
-
----
-
-## Rubrica de avaliação {#sec-rubrica}
-
-### Pontuação geral
-
-```{=html}
-<div class="pontuacao-box">
-  <div class="pontuacao-item">
-    <span class="pontuacao-num" style="color:#0C447C">2,5</span>
-    <span class="pontuacao-label">Parte 1<br>Análise Descritiva</span>
-  </div>
-  <div class="pontuacao-item">
-    <span class="pontuacao-num" style="color:#27500A">2,5</span>
-    <span class="pontuacao-label">Parte 2<br>Diagnóstico Ecológico</span>
-  </div>
-  <div class="pontuacao-item">
-    <span class="pontuacao-num" style="color:#2c1a5e">2,5</span>
-    <span class="pontuacao-label">Parte 3<br>Ecologia Política</span>
-  </div>
-  <div class="pontuacao-item">
-    <span class="pontuacao-num" style="color:#BA7517">2,5</span>
-    <span class="pontuacao-label">Parte 4<br>Manejo Integrado</span>
-  </div>
-</div>
-```
-
-### Critérios detalhados por parte
-
-**Parte 1 — Análise Descritiva da Paisagem (2,5 pts)**
-
-```{=html}
-<table class="rubrica-table">
-<thead>
-<tr>
-  <th>Critério</th>
-  <th>Insuficiente (0–0,3)</th>
-  <th>Suficiente (0,4–0,6)</th>
-  <th>Bom (0,7–0,9)</th>
-  <th>Excelente (1,0)</th>
-  <th>Peso</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Processamento dos dados</strong></td>
-  <td class="nota-insuf">Dados sem reprojeção, sem máscara, ou sem reclassificação justificada</td>
-  <td class="nota-suf">Processamento básico correto mas sem documentação de etapas</td>
-  <td class="nota-bom">Código reproduzível, reprojeção correta, reclassificação com justificativa ecológica</td>
-  <td class="nota-exce">Código limpo, comentado, check_landscape() validado, esquema de reclassificação justificado com literatura</td>
-  <td>×1,0</td>
-</tr>
-<tr>
-  <td><strong>Mapa de cobertura</strong></td>
-  <td class="nota-insuf">Ausente ou sem elementos cartográficos mínimos</td>
-  <td class="nota-suf">Mapa presente mas com legenda incompleta ou cores confusas</td>
-  <td class="nota-bom">Mapa legível, legenda clara, escala e fonte presentes</td>
-  <td class="nota-exce">Mapa de alta qualidade visual, paleta ecologicamente justificada, versão interativa inclusa</td>
-  <td>×0,75</td>
-</tr>
-<tr>
-  <td><strong>Cálculo e apresentação de métricas</strong></td>
-  <td class="nota-insuf">Menos de 4 métricas ou sem distinção composição/configuração</td>
-  <td class="nota-suf">6 métricas presentes mas sem uso dos três níveis hierárquicos</td>
-  <td class="nota-bom">6+ métricas, composição e configuração representadas, tabela organizada</td>
-  <td class="nota-exce">Conjunto mínimo completo, três níveis hierárquicos explorados, correlação entre métricas discutida</td>
-  <td>×0,75</td>
-</tr>
-</tbody>
-</table>
-```
-
-**Parte 2 — Diagnóstico Ecológico (2,5 pts)**
-
-```{=html}
-<table class="rubrica-table">
-<thead>
-<tr>
-  <th>Critério</th>
-  <th>Insuficiente</th>
-  <th>Suficiente</th>
-  <th>Bom</th>
-  <th>Excelente</th>
-  <th>Peso</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Uso dos conceitos do curso</strong></td>
-  <td class="nota-insuf">Descreve métricas sem conectar a processos ecológicos</td>
-  <td class="nota-suf">Menciona 1–2 conceitos ecológicos superficialmente</td>
-  <td class="nota-bom">Aplica 3–4 conceitos (metapopulação, conectividade, efeito de borda, fluxos) com articulação entre eles</td>
-  <td class="nota-exce">Integração sofisticada de múltiplos conceitos; raciocínio causal claro entre métricas e processos</td>
-  <td>×1,0</td>
-</tr>
-<tr>
-  <td><strong>Figura analítica</strong></td>
-  <td class="nota-insuf">Ausente</td>
-  <td class="nota-suf">Figura presente mas trivial ou sem interpretação</td>
-  <td class="nota-bom">Figura original, bem rotulada, com interpretação integrada ao texto</td>
-  <td class="nota-exce">Figura de alta qualidade analítica que adiciona informação não capturada pelo texto</td>
-  <td>×0,75</td>
-</tr>
-<tr>
-  <td><strong>Referências e rigor científico</strong></td>
-  <td class="nota-insuf">Sem referências ou com referências irrelevantes</td>
-  <td class="nota-suf">1–2 referências do curso usadas corretamente</td>
-  <td class="nota-bom">3+ referências integradas ao argumento, não apenas citadas</td>
-  <td class="nota-exce">Referências além do curso, uso crítico da literatura, reconhecimento de incertezas e limitações</td>
-  <td>×0,75</td>
-</tr>
-</tbody>
-</table>
-```
-
-**Parte 3 — Ecologia Política (2,5 pts)**
-
-```{=html}
-<table class="rubrica-table">
-<thead>
-<tr>
-  <th>Critério</th>
-  <th>Insuficiente</th>
-  <th>Suficiente</th>
-  <th>Bom</th>
-  <th>Excelente</th>
-  <th>Peso</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Cadeia de explicação</strong></td>
-  <td class="nota-insuf">Ignora escalas ou trata fragmentação como fenômeno puramente natural</td>
-  <td class="nota-suf">Menciona causas sociais mas sem articulação multinível</td>
-  <td class="nota-bom">Aplica a cadeia de explicação em 2–3 escalas com exemplos concretos</td>
-  <td class="nota-exce">Cadeia completa (global→local), evidências documentais, conexão explícita com o padrão espacial mapeado</td>
-  <td>×1,0</td>
-</tr>
-<tr>
-  <td><strong>Identificação de atores e assimetrias</strong></td>
-  <td class="nota-insuf">Atores não identificados ou tratados como homogêneos</td>
-  <td class="nota-suf">Identifica atores mas sem análise de poder ou assimetria</td>
-  <td class="nota-bom">2+ grupos beneficiados e 2+ impactados negativamente com justificativa</td>
-  <td class="nota-exce">Análise de poder sofisticada: interesses materiais, capacidade de influência, voz nos processos decisórios</td>
-  <td>×0,75</td>
-</tr>
-<tr>
-  <td><strong>Linha do tempo e documentação</strong></td>
-  <td class="nota-insuf">Ausente ou sem fontes</td>
-  <td class="nota-suf">Linha do tempo presente mas com eventos genéricos, sem fontes específicas</td>
-  <td class="nota-bom">Eventos localmente relevantes, fontes documentadas (CPT, IBGE, MapBiomas)</td>
-  <td class="nota-exce">Linha do tempo densa, fontes primárias e secundárias, conexão entre eventos históricos e padrão ecológico atual</td>
-  <td>×0,75</td>
-</tr>
-</tbody>
-</table>
-```
-
-**Parte 4 — Manejo Integrado (2,5 pts)**
-
-```{=html}
-<table class="rubrica-table">
-<thead>
-<tr>
-  <th>Critério</th>
-  <th>Insuficiente</th>
-  <th>Suficiente</th>
-  <th>Bom</th>
-  <th>Excelente</th>
-  <th>Peso</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td><strong>Fundamentação ecológica das intervenções</strong></td>
-  <td class="nota-insuf">Propostas genéricas sem conexão com as métricas calculadas</td>
-  <td class="nota-suf">Propostas conectadas às métricas mas sem espacialização</td>
-  <td class="nota-bom">Intervenções espacialmente explícitas baseadas nos dados da Parte 1</td>
-  <td class="nota-exce">Priorização ecologicamente rigorosa, mapa de intervenções, justificativa quantitativa das escolhas</td>
-  <td>×1,0</td>
-</tr>
-<tr>
-  <td><strong>Integração conservação + justiça</strong></td>
-  <td class="nota-insuf">Proposta ignora dimensão social ou trata como conflito irresolvível</td>
-  <td class="nota-suf">Menciona ambas as dimensões mas sem integração real</td>
-  <td class="nota-bom">Objetivos ecológicos e sociais articulados, atores incluídos na governança</td>
-  <td class="nota-exce">Proposta que demonstra como conservação e justiça se reforçam mutuamente; inspirada em casos reais de sucesso</td>
-  <td>×0,75</td>
-</tr>
-<tr>
-  <td><strong>Viabilidade e instrumentos</strong></td>
-  <td class="nota-insuf">Proposta sem instrumentos legais ou financiamento identificado</td>
-  <td class="nota-suf">Menciona instrumentos mas sem análise de viabilidade</td>
-  <td class="nota-bom">Instrumentos legais corretos (SNUC, CF, PSE), financiamento identificado</td>
-  <td class="nota-exce">Proposta realista, com análise de viabilidade política e financeira, indicadores de monitoramento SMART</td>
-  <td>×0,75</td>
-</tr>
-</tbody>
-</table>
-```
-
----
-
-## Formato e requisitos técnicos {#sec-formato}
-
-### Estrutura do arquivo
-
-O relatório deve ser entregue como um **único arquivo `.qmd`** renderizado como **HTML**, com a seguinte estrutura mínima:
-
-```markdown
----
-title: "Análise Integrada de Paisagem: [Nome do Município] ([Estado])"
-subtitle: "Avaliação Final — BO-304 Ecologia de Paisagens"
-author: "Nome Completo (matrícula)"
-date: today
-format:
-  html:
-    toc: true
-    theme: cosmo
-    code-fold: true
----
-
-# Parte 1: Análise Descritiva da Paisagem
-## Dados e processamento
-## Mapa de cobertura
-## Métricas de paisagem
-## Interpretação do padrão
-
-# Parte 2: Diagnóstico Ecológico
-## [títulos das dimensões escolhidas]
-
-# Parte 3: Análise de Ecologia Política
-## Cadeia de explicação
-## Mapeamento de atores
-## Linha do tempo
-
-# Parte 4: Proposta de Manejo Integrado
-## Diagnóstico integrado
-## Objetivos e intervenções
-## Mapa de prioridades
-## Governança e monitoramento
-
-# Referências
-```
-
-### Requisitos obrigatórios
-
-- [ ] Arquivo `.qmd` e arquivo `.html` renderizado enviados juntos
-- [ ] Todo o código R visível e executável (use `code-fold: true` para não poluir o texto)
-- [ ] Referências em formato consistente ao longo do texto
-- [ ] Mínimo de 8 referências bibliográficas (entre artigos, livros e documentos técnicos)
-- [ ] Extensão total: **3.000 a 5.000 palavras** de texto corrido (excluindo código, tabelas e legendas)
-
-### O que NÃO fazer
-
-- Não entregue apenas o `.qmd` sem renderizar — o avaliador lê o HTML
-- Não use IA generativa para produzir o texto das análises ecológica e política — o texto deve refletir sua compreensão dos dados do *seu* município específico
-- Não copie interpretações de artigos sem citar e sem adaptá-las à sua paisagem
-- Não trate as quatro partes como seções independentes — elas devem formar um argumento coeso
-
----
-
-## Honestidade acadêmica e uso de IA {#sec-honestidade}
-
-```{=html}
-<div class="honestidade-box">
-  <h3>Política de honestidade acadêmica</h3>
-  <p>Este trabalho avalia sua capacidade de <strong>integrar conhecimentos</strong> sobre uma paisagem real e específica. Por isso, algumas diretrizes são inegociáveis:</p>
-  <ul>
-    <li><strong>O uso de IA generativa (ChatGPT, Claude, Gemini etc.) para produzir o texto das análises é permitido como ferramenta auxiliar</strong>, mas não como autor do trabalho. Se você usar IA para estruturar argumentos, revise criticamente, adapte ao seu município e documente que o fez.</li>
-    <li><strong>Análises que soam genéricas demais</strong> — que poderiam descrever qualquer município sem mencionar dados específicos — receberão nota zero na seção correspondente.</li>
-    <li><strong>Todo o código deve ser seu</strong>. Você pode usar exemplos dos tutoriais da disciplina como base, mas o código de processamento do seu município deve ser adaptado e comentado por você.</li>
-    <li><strong>Plágio entre alunos</strong> resulta em nota zero para ambas partes. Os trabalhos são individualmente registrados no Google Sala de Aula pelo município escolhido.</li>
-  </ul>
-</div>
-```
-
----
-
-## Perguntas frequentes {#sec-faq}
-
-**Posso usar um município fora de Pernambuco?**
-
-Sim — o critério de Pernambuco é apenas uma sugestão para facilitar o contexto da aula. Qualquer município brasileiro que atenda aos critérios pode ser usado.
-
-**E se meu município tiver muito pouca vegetação nativa?**
-
-Municípios com menos de 5% de vegetação nativa ainda são analisáveis — na verdade, podem ser os mais interessantes politicamente. A Parte 3 ganha relevância: o que levou a esse nível de degradação? A Parte 4 precisa ser especialmente criativa para propor restauração em vez de apenas preservação.
-
-**Posso usar ano diferente de 2023 para o MapBiomas?**
-
-Sim, mas justifique a escolha. Se quiser comparar com um ano histórico de impacto específico (ex: 2005 para o pico de desmatamento na Amazônia), pode usar esse ano como referência principal.
-
-**O mapa de prioridades da Parte 4 precisa ser feito no R?**
-
-Não obrigatoriamente. Você pode produzir um mapa esquemático com `tmap`, `ggplot2`, ou mesmo desenhado sobre o mapa de cobertura usando software de imagem — o que importa é que as prioridades estejam espacialmente identificáveis e justificadas ecologicamente.
-
-**Posso usar dados além do MapBiomas?**
-
-Sim e é encorajado. Dados de PRODES (desmatamento), TerraClass (uso da terra na Amazônia), FBDS (vegetação da Mata Atlântica), IBGE (Censo Agropecuário), ANA (hidrografia) ou fontes locais enriquecem muito a análise.
-
-::: {.callout-tip}
-## Dúvidas adicionais
-Poste no fórum da disciplina no Google Sala de Aula com o título **[Avaliação Final]**. Inclua o nome do município e a parte específica onde está com dificuldade. Responderemos em até 48 horas úteis.
-:::
-
----
-
-*Avaliação Final — Ecologia de Paisagens BO-304 · UFPE · 2026.1 · Prof. Felipe Melo*
+# Referências e Recursos de Apoio {#sec-recursos}
+
+**Bases de dados e ferramentas:**
+
+- MapBiomas Plataforma: <https://plataforma.mapbiomas.org>
+- SICAR (Cadastro Ambiental Rural): <https://www.car.gov.br>
+- CNUC (Unidades de Conservação): <https://www.gov.br/mma/cnuc>
+- Google Earth Engine: <https://earthengine.google.com>
+- SpeciesLink (herbário virtual): <https://specieslink.net>
+- Flora e Funga do Brasil: <https://floradobrasil.jbrj.gov.br>
+
+**Documentos técnicos de referência:**
+
+- SER (2023). *Principles of Ecological Restoration* (3ª ed.)
+- MMA (2017). *Manual Orientador para Elaboração de PRADAs*
+- CPRH. *Normas Técnicas para Recuperação de APPs em Pernambuco*
+- Brancalion, Gandolfi & Rodrigues (2015). *Restauração Florestal*. Oficina de Textos
+- Suganuma & Durigan (2018). *Paradigmas e Ferramentas para a Restauração Ecológica*
+
+**Editais de financiamento para consulta:**
+
+- FACEPE — Programa de Pesquisa para o Semiárido e Mata Atlântica
+- CNPq — Chamada Universal e Chamadas Temáticas em Biodiversidade
+- BNDES Fundo Amazônia e Fundo Mata Atlântica (RBMA)
+- GEF/UNDP — Small Grants Programme Brasil
+- CEPF — Critical Ecosystem Partnership Fund (Mata Atlântica e Cerrado)
