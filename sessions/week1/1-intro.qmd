@@ -194,12 +194,6 @@ Estratégia mais intensiva, necessária quando o potencial de regeneração é m
 - **Restauração de processos abióticos**: correção de solo, restauração de drenagem, controle de erosão severa;
 - **Reintrodução de fauna-chave**: animais com papel central na dispersão de sementes (antas, morcegos frugívoros, tucanos), na polinização ou no controle de herbívoros.
 
-::: callout-tip
-## Exemplo Prático — Extremo Sul da Bahia
-
-O corredor ecológico do **Extremo Sul da Bahia** ilustra a complementaridade das três estratégias. Em fragmentos recém-abandonados pela pecuária, adjacentes a florestas contínuas, adota-se regeneração passiva (apenas exclusão do gado). Em áreas com capoeiras estabelecidas, usa-se enriquecimento assistido. Em pastagens antigas com solos compactados e sem regeneração visível, implanta-se plantio ativo de alta diversidade com espécies regionais como *Inga subnuda*, *Peltogyne confertiflora* e *Cariniana legalis* @pinto2014. A escolha entre estratégias é guiada por diagnósticos de resiliência local e paisagística, e revisada anualmente em ciclos de manejo adaptativo.
-:::
-
 
 ::: callout-warning
 ## Reflexão crítica para a prova
