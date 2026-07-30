@@ -1,7 +1,7 @@
 ---
-title: "Ecologia da Restauração"
-subtitle: "<h4> Teoria ecológica e contexto social aplicados à reconstrução da Natureza </h4>"
-details: "BO-304 <br> 2026.2 <br> Centro de Biociências <br> Universidade Federal de Pernambuco"
+title: "PPGBV949 Biologia da Conservação"
+subtitle: "<h4> Teoria ecológica e contexto social aplicados à conservação da bodiversidade </h4>"
+details: "PPGBV <br> 2026.2 <br> Centro de Biociências <br> Universidade Federal de Pernambuco"
 sidebar: false
 toc: false
 page-layout: article
@@ -9,7 +9,7 @@ format:
   html:
     template-partials:
       - html/home/title-block.html
-course-logo: img/logo_curso.png
+course-logo: img/logo_biocons.png
 ---
 
 ::::::: home
@@ -34,7 +34,7 @@ course-logo: img/logo_curso.png
 ::: {.g-col-12 .g-col-md-4 .contact-policy}
 ### Recursos on-line
 
-Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) [Google Sala de Aula](https://classroom.google.com/c/NzkzMjczNzA0MDMz?cjc=womqndmt) onde as tarefas devem ser submetidas.
+Este curso se baseia em duas principais ferramentas: 1) Este Site e; 2) [Google Sala de Aula](https://classroom.google.com/c/ODcxMzMyMTkyNDE2?cjc=bpoow7wq) onde as tarefas devem ser submetidas.
 
 :::
 ::::::

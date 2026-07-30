@@ -16,7 +16,7 @@ website:
       - text: "Início"
         href: index.qmd
       - text: "Objetivos"
-        href: syllabus.qmd
+        href: objetivos.qmd
       - text: "Cronograma"
         href: schedule.qmd
       - text: "Seu próprio site"

@@ -1,0 +1,48 @@
+---
+title: "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação"
+subtitle: "Resumo Expandido"
+author: "Disciplina de Biologia da Conservação — PPGBV"
+date: today
+lang: pt
+bibliography: references.bib
+csl: apa.csl
+format:
+  html:
+    toc: true
+    toc-title: "Sumário"
+    number-sections: true
+  pdf:
+    toc: true
+    number-sections: true
+---
+
+## Introdução
+
+A biologia da conservação consolidou-se como disciplina científica a partir de meados da década de 1980, orientada por uma missão explícita: deter a perda de biodiversidade e proteger os processos ecológicos e evolutivos que a sustentam. Este primeiro módulo reconstrói essa trajetória histórica, do surgimento do campo enquanto "ciência de crise" até sua transformação, décadas depois, em um empreendimento interdisciplinar que já não separa claramente humanos e natureza. Compreender essa história é essencial para que os pós-graduandos situem os debates contemporâneos da disciplina — sobre justiça socioambiental, conhecimento tradicional e ecologia política — dentro de sua genealogia conceitual.
+
+## Origens e Consolidação (décadas de 1970–1990)
+
+A biologia da conservação emergiu como resposta institucional nos EUA a um cenário de aumento acelerado das taxas de extinção e ameaças à biodiversidade global, apoiando-se em disciplinas biológicas já estabelecidas — genética, sistemática, ecologia e biologia evolutiva — e na gestão de recursos naturais [@dyke2020; @meine2006]. Sua consolidação institucional ocorreu em um intervalo curto e bem documentado: a fundação da Society for Conservation Biology (SCB) em 1987, o lançamento do periódico *Conservation Biology* em 1988 e a subsequente proliferação de programas de pós-graduação dedicados ao tema já no início dos anos 1990 [@meine2006].
+
+![[Leia o obituário de Michael Soulé escrito por Fernando Fernandes](https://oeco.org.br/colunas/nerd-budista-pai-da-biologia-da-conservacao-a-vida-maravilhosa-de-michael-soule/)](https://oeco.org.br/wp-content/uploads/2020/06/michael-soule2.jpg)
+
+Meine, Soulé e Noss [-@meine2006] descrevem a conservação biológica como uma disciplina "orientada por missão" (*mission-driven*), característica que a distingue de campos puramente descritivos: seu critério de sucesso não é apenas a produção de conhecimento, mas sua aplicação efetiva à proteção da diversidade biológica da Terra. Essa orientação normativa — a ciência a serviço de um objetivo de conservação explícito — é um traço definidor que atravessa toda a história subsequente do campo.
+
+Vale notar que as raízes intelectuais da conservação são bem anteriores à sua institucionalização científica. Tradições filosóficas e religiosas que atribuem valor intrínseco à natureza, bem como movimentos históricos de apreciação e preservação de paisagens, prefiguram — e muitas vezes expressam privilégios sociais específicos — o que viria a se tornar, apenas na segunda metade do século XX, uma disciplina científica formalizada [@dyke2020].
+
+## A Evolução do Conceito Humano-Natureza
+
+Um dos deslocamentos mais significativos na história da disciplina foi a revisão do papel atribuído aos seres humanos nos sistemas que ela busca proteger. Nas formulações iniciais, humanos apareciam predominantemente como agentes externos de perturbação — fontes de ameaça a serem contidas ou excluídas das áreas protegidas. Com o tempo, essa compreensão ampliou-se para reconhecer humanos também como beneficiários dos serviços ecossistêmicos e como participantes ativos dentro dos próprios sistemas ecológicos, um deslocamento conceitual associado à emergência de noções como Antropoceno e sistemas socioecológicos acoplados [@teel2018].
+
+Essa mudança não foi apenas semântica. Ela expressa o reconhecimento, cada vez mais consensual dentro do campo, de que os problemas centrais da conservação são inerentemente sociais, e que a disciplina, apesar de suas raízes epistemológicas nas ciências naturais, precisava incorporar as ciências sociais para cumprir sua própria missão [@teel2018]. Paralelamente, a disciplina passou a se afastar da lógica de proteger a natureza *das* pessoas para buscar formas de protegê-la *para* as pessoas — um princípio que se tornaria central nos debates sobre reservas extrativistas, desenvolvimento integrado e direitos de povos indígenas, explorados no Módulo 5 [@dyke2020].
+
+## Da Biologia da Conservação à Ciência da Conservação
+
+Passadas mais de duas décadas da pergunta seminal de Michael Soulé — "o que é biologia da conservação?" —, Kareiva e Marvier [-@kareiva2012] revisitam a questão em um contexto global já reconhecidamente dominado pela ação humana. Os autores propõem que o campo se ampliou para uma "ciência da conservação" interdisciplinar, que assume explicitamente o acoplamento entre sistemas sociais e naturais como premissa metodológica, e não apenas como consideração adicional.
+
+Essa ciência da conservação ampliada passa a incorporar prioridades até então marginais: atuar dentro de paisagens produtivas (e não apenas em áreas protegidas isoladas), reconstruir apoio público ao redor de suas causas, dialogar com o setor corporativo e dar atenção mais sistemática a direitos humanos e equidade [@kareiva2012]. O argumento central — de que estratégias de conservação devem maximizar simultaneamente a preservação da biodiversidade e o bem-estar humano — antecipa diretamente as tensões entre ecologia e justiça social que estruturam os módulos finais da disciplina.
+
+## Considerações Finais
+
+A trajetória reconstruída neste módulo mostra que a biologia da conservação nunca foi um campo estático: de uma disciplina de crise fundamentada quase exclusivamente em biologia básica, ela se reconfigurou, em poucas décadas, em um empreendimento interdisciplinar que assume a inseparabilidade entre sistemas humanos e naturais. Essa genealogia é a chave de leitura para os módulos seguintes, que aprofundarão, respectivamente, o desenvolvimento da disciplina no Brasil, a dimensão biológica da biodiversidade, sua interdisciplinaridade com as ciências humanas e sua articulação com a ecologia política.
+

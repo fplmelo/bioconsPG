@@ -1,0 +1,561 @@
+---
+title: "Módulo 1: <br> Origens, Consolidação e Transição: a História da Biologia da Conservação"
+subtitle: ""
+author: "Disciplina de Biologia da Conservação — PPGBV"
+date: last-modified
+lang: pt
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    transition: fade
+    embed-resources: true
+---
+
+## Boas-vindas ao Módulo 1
+
+**Semana 1 — Eixo 1: História da Biologia da Conservação**
+
+- Terça-feira, manhã: Origens e consolidação (1970s–1990s)
+- Terça-feira, tarde: Raízes filosóficas e a "ciência da escassez e abundância"
+- Quinta-feira, manhã: Evolução do conceito humano-natureza
+- Quinta-feira, tarde: Transição para a ciência da conservação
+
+## Objetivos de Aprendizagem
+
+Ao final deste módulo, você será capaz de:
+
+1. Situar a emergência da biologia da conservação como disciplina de missão
+2. Analisar a transição de "proteger a natureza *das* pessoas" para "protegê-la *para* as pessoas"
+3. Distinguir biologia da conservação de ciência da conservação
+4. Relacionar essa história com os desafios contemporâneos do campo
+
+# TERÇA-FEIRA — TURNO DA MANHÃ {background-color="#2c3e50"}
+## Origens e Consolidação (1970s–1990s)
+
+## Abertura do Turno
+
+- Tema: como a biologia da conservação nasceu como campo científico
+- Percurso: da crise ambiental dos anos 1960–70 à consolidação institucional dos anos 1980–90
+- Leituras de referência: @meine2006; @dyke2020
+
+## O Cenário dos Anos 1960–70
+
+:::{.columns}
+:::{.column}
+
+- Aumento perceptível e documentado das taxas de extinção
+- Degradação de ecossistemas associada à industrialização acelerada
+- Primeira onda de consciência ambiental pública em escala global
+:::
+:::{.column}
+
+![](https://cdn.theatlantic.com/thumbor/1jUDMtXfYqMkg0LVRAY8s8tvzrI=/1200x807/media/img/photo/2011/11/documerica-images-of-america-in-crisis-in-the-1970/d01_A-551151/original.jpg)
+:::
+:::
+
+## Um Marco de Sensibilização Pública
+
+:::{.columns}
+:::{.column}
+
+- *Primavera Silenciosa* (Rachel Carson, 1962): efeitos de pesticidas nos ecossistemas
+- Despertar do movimento ambientalista contemporâneo (nos EUA)
+- Não é ainda "biologia da conservação", mas prepara o terreno cultural para ela
+:::
+:::{.column}
+![](https://oeco.org.br/wp-content/uploads/2022/01/SilentSpring.jpg)
+:::
+:::
+
+## Raízes Disciplinares {.center}
+
+## Genética de populações
+
+:::{.columns}
+:::{.column}
+- Variabilidade genética
+- Viabilidade de populações pequenas
+- Endogamia
+- Frequências gênicas
+:::
+:::{.column}
+![](https://avianhybrids.wordpress.com/wp-content/uploads/2021/02/vortex.jpg){width=250%}
+:::
+:::
+
+## Taxonomia e classificação de espécies
+
+:::{.columns}
+:::{.column}
+- Descrição de novas espécies
+- Dimensão das raridades
+- Cladística
+:::
+:::{.column}
+![](https://ambrosiasymbiosis.org/wp-content/uploads/2012/03/ambrosia-beetle-phylo-Hulcr-2016-10-02.jpg){width=250%}
+:::
+:::
+
+## Ecologia
+
+:::{.columns}
+:::{.column}
+
+- Populações
+- Comunidades
+- Ecossistemas
+- Paisagens
+- Ecofisiologia
+
+:::
+:::{.column}
+![](https://educationally.narod.ru/flowern.gif){width=200%}
+:::
+:::
+
+## Biologia evolutiva
+
+:::{.columns}
+:::{.column}
+
+- biogeografia
+- geração e manutenção da diversidade
+- Especiação
+- Extinção
+
+:::
+:::{.column}
+![](https://yeastwonderfulworld.wordpress.com/wp-content/uploads/2023/06/evolution-concept-in-education.png)
+:::
+:::
+
+## Manejo de recursos naturais
+:::{.columns}
+:::{.column}
+
+- Já era uma ciência aplicada
+- Não ligada á conservação
+- Caça espotiva
+- Inustria extrativista
+- Pesca
+:::
+:::{.column}
+
+![](https://www.agfc.com/wp-content/uploads/2024/10/YOUNG-HUNTER-WITH-DEER.jpg)
+
+:::
+:::
+
+## Raízes Disciplinares (II)
+
+- Ecologia: dinâmica de populações, comunidades e ecossistemas
+- Biologia evolutiva: processos que geram e mantêm a diversidade
+- Gestão de recursos naturais: tradição aplicada anterior ao campo científico
+
+## A Teoria da Biogeografia de Ilhas
+
+- MacArthur & Wilson (1967): relação entre área de hábitat e número de espécies
+- Influência direta no desenho inicial de reservas e parques
+- Debate clássico: uma reserva grande vs. várias pequenas (SLOSS)
+
+## Antecedentes Institucionais
+
+- Fundação da IUCN (União Internacional para Conservação da Natureza) em 1948
+- Criação da Lista Vermelha de espécies ameaçadas
+- Instituições internacionais precedem a formalização acadêmica do campo
+
+## O Paper Fundador
+
+- Michael Soulé (1985): *"What is Conservation Biology?"*
+- Propõe explicitamente uma nova disciplina científica com identidade própria
+- Marco simbólico do nascimento formal do campo
+
+## Conservação como "Disciplina de Crise"
+
+- Analogia com medicina de emergência: agir sob incerteza e urgência
+- Implicação metodológica: decisões precisam ser tomadas mesmo com dados incompletos
+- Tensão constante entre rigor científico e urgência prática
+
+## Fundação da Society for Conservation Biology
+
+- 1987: criação da SCB, sociedade científica dedicada ao campo
+- Reúne pesquisadores de biologia, ecologia, manejo e políticas públicas
+- Consolida uma comunidade científica com identidade compartilhada
+
+## O Periódico *Conservation Biology*
+
+- 1988: lançamento do periódico da SCB
+- Espaço de publicação dedicado exclusivamente ao campo emergente
+- Ainda hoje um dos periódicos mais influentes da área [@meine2006]
+
+## Expansão da Pós-Graduação
+
+- Início dos anos 1990: proliferação de programas de pós-graduação dedicados ao tema
+- Formação de uma nova geração de pesquisadores identificados com o campo
+- Institucionalização acadêmica consolidando o que havia começado como movimento
+
+## Uma Disciplina "Orientada por Missão"
+
+> A biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica [@meine2006].
+
+## O que Significa "Mission-Driven" na Prática
+
+- Critério de sucesso não é apenas publicar, mas gerar impacto de conservação
+- Cientistas assumem posições normativas explícitas (não neutras)
+- Isso gera tensões próprias sobre objetividade científica
+
+## Ciências Descritivas vs. Ciências Aplicadas/Normativas
+
+- Ciências descritivas: buscam compreender fenômenos sem compromisso de ação
+- Ciências aplicadas e normativas: comprometidas com um objetivo declarado
+- Biologia da conservação situa-se claramente no segundo grupo
+
+## Paralelos com Outras Disciplinas de Missão
+
+- Medicina: objetivo declarado de curar e prevenir doenças
+- Agronomia: objetivo declarado de produção de alimentos
+- Pergunta: essas disciplinas fazem ciência de forma diferente por isso?
+
+## Primeiras Tensões do Campo Emergente
+
+- Disputas sobre o que conta como "boa ciência" em um campo normativo
+- Divergências sobre prioridades: espécies-bandeira vs. ecossistemas inteiros
+- Debate sobre o papel do ativismo dentro da prática científica
+
+## Legado Institucional para a Conservação Hoje
+
+- SCB e *Conservation Biology* seguem como referências centrais do campo
+- Estrutura de pós-graduação criada nos anos 1990 ainda molda a formação atual
+- Muitas tensões fundadoras permanecem vivas nos debates contemporâneos
+
+## Síntese do Turno da Manhã
+
+- Biologia da conservação nasce da convergência entre crise ambiental e disciplinas biológicas estabelecidas
+- Consolidação institucional ocorre em um intervalo curto (1985–1990s)
+- Próximo turno: as raízes filosóficas e religiosas que antecedem essa institucionalização
+
+# TERÇA-FEIRA — TURNO DA TARDE {background-color="#2c3e50"}
+## Raízes Filosóficas e a Ciência da Escassez e Abundância
+
+## Abertura do Turno
+
+- Tema: o que veio antes da institucionalização científica
+- Pergunta-guia: por que a formalização só ocorreu no século XX?
+- Leitura de referência: @dyke2020
+
+## Conservação como "Ciência da Escassez e Abundância"
+
+- Termo que descreve o duplo objeto do campo: o que é raro e o que é comum
+- Escassez: espécies e ecossistemas ameaçados de desaparecer
+- Abundância: manejo sustentável de recursos e populações estáveis
+
+## Tradições Filosóficas Ocidentais (I)
+
+- Visões utilitaristas: natureza como recurso a ser gerido racionalmente
+- Associadas historicamente ao conservacionismo de uso sustentável
+
+## Tradições Filosóficas Ocidentais (II)
+
+- Visões de valor intrínseco: natureza com valor independente de utilidade humana
+- Transcendentalismo americano (Thoreau, Emerson) como precursor filosófico
+
+## Aldo Leopold e a "Land Ethic"
+
+- *A Sand County Almanac* (1949): proposta de uma ética estendida à terra
+- Comunidade moral ampliada para incluir solos, águas, plantas e animais
+- Influência duradoura sobre a ética ambiental contemporânea
+
+## Cosmovisões Não-Ocidentais
+
+- Diversas tradições religiosas e cosmovisões indígenas atribuem valor à natureza
+- Frequentemente ausentes das narrativas fundadoras ocidentais do campo
+- Tema que será retomado com profundidade no Módulo 4 (interdisciplinaridade)
+
+## Movimentos de Preservação de Paisagens
+
+- Séculos XIX–XX: criação dos primeiros parques nacionais
+- Yellowstone (1872): primeiro parque nacional do mundo, marco simbólico
+- Modelo influencia a criação de áreas protegidas globalmente
+
+## Muir vs. Pinchot: Preservacionismo vs. Conservacionismo
+
+- John Muir: preservação da natureza intocada, valor estético e espiritual
+- Gifford Pinchot: uso racional e sustentável dos recursos naturais
+- Duas correntes que moldam debates até hoje sobre manejo de áreas protegidas
+
+## Uma Crítica Necessária
+
+- Essas tradições muitas vezes refletiam privilégios sociais específicos
+- Quem definia o que devia ser preservado, e para quem?
+- Populações locais e tradicionais frequentemente excluídas dessas decisões
+
+## Exclusão e Deslocamento
+
+- Criação de parques associada, em muitos casos, à remoção de populações locais
+- Legado que reaparece nos debates sobre justiça socioambiental (Módulo 5)
+
+## Da Filosofia à Ciência: Por que Só no Século XX
+
+- Raízes intelectuais são antigas, mas dispersas e não sistematizadas
+- Formalização científica exige: comunidade organizada, métodos, periódicos
+- Crise ambiental funciona como catalisador da sistematização
+
+## A Crise Ambiental como Catalisador
+
+- Urgência prática impulsiona a organização científica do campo
+- Sem ela, tradições filosóficas talvez permanecessem dispersas por mais tempo
+- Ciência da conservação nasce, em parte, de uma necessidade urgente
+
+## Foco na Escassez: Espécies e Ecossistemas Ameaçados
+
+- Prioridade histórica: espécies raras, endêmicas, à beira da extinção
+- Abordagens: genética de pequenas populações, espécies-bandeira
+
+## Foco na Abundância: Manejo de Recursos
+
+- Prioridade complementar: espécies comuns e recursos explorados
+- Abordagens: manejo pesqueiro, florestal, cinegético sustentável
+
+## Tensão: Espécies-Bandeira vs. Ecossistemas Inteiros
+
+- Espécies-bandeira atraem atenção pública e financiamento
+- Crítica: pode desviar recursos de ecossistemas menos carismáticos
+- Debate ainda presente nas estratégias de conservação atuais
+
+## Debate: Valor Intrínseco vs. Valor Instrumental
+
+- Valor intrínseco: a natureza vale por si mesma
+- Valor instrumental: a natureza vale pelo que oferece aos humanos
+- Essas posições moldam diferentes estratégias e argumentos de conservação
+
+## Seminário em Grupos
+
+- Retomada da atividade: apresentação das "ondas" históricas da conservação
+- Cada grupo relaciona seu período com as raízes filosóficas discutidas hoje
+
+## Conexões com Políticas de Conservação Atuais
+
+- Debates sobre valor intrínseco/instrumental reaparecem em políticas públicas
+- Ex.: valoração de serviços ecossistêmicos vs. argumentos de direitos da natureza
+
+## Síntese do Dia de Terça-Feira
+
+- Manhã: consolidação institucional da disciplina (1985–1990s)
+- Tarde: raízes filosóficas, religiosas e suas tensões não resolvidas
+- Próxima sessão: como o conceito de humano-natureza evoluiu dentro do campo
+
+# QUINTA-FEIRA — TURNO DA MANHÃ {background-color="#27632a"}
+## A Evolução do Conceito Humano-Natureza
+
+## Abertura do Turno
+
+- Tema: como a relação humano-natureza foi reconceituada dentro do campo
+- Leituras de referência: @teel2018; @kareiva2012
+
+## Recapitulação: Onde Paramos
+
+- Terça: nascimento institucional e raízes filosóficas da disciplina
+- Hoje: como a disciplina passou a pensar o papel dos humanos nos sistemas que protege
+
+## O Paradigma Inicial: Humanos como Perturbação
+
+- Formulações iniciais: humanos como agentes externos ao sistema natural
+- Fonte de ameaça a ser contida, controlada ou excluída
+
+## O Modelo de Áreas Protegidas "Sem Gente"
+
+- Inspirado no modelo Yellowstone: exclusão humana das áreas centrais
+- Pressupõe separação nítida entre espaços "naturais" e "humanos"
+
+## Críticas ao Modelo de Exclusão
+
+- Deslocamento de populações locais e tradicionais das áreas protegidas
+- Ignorava conhecimentos e práticas de manejo já existentes nesses territórios
+
+## Emergência dos Sistemas Socioecológicos
+
+- Reconhecimento de que sistemas sociais e naturais estão interligados
+- Mudança de perspectiva: não é possível entender um sem o outro
+
+## O que é um Sistema Socioecológico Acoplado
+
+- Conceito que integra dinâmicas sociais, econômicas e ecológicas em um só sistema
+- Decisões humanas afetam diretamente processos ecológicos, e vice-versa
+
+## Antropoceno: Definição
+
+- Proposta de uma nova época geológica marcada pela ação humana em escala global
+- Amplamente discutido, ainda que formalmente contestado como unidade geológica
+
+## Debate sobre o Antropoceno
+
+- Quando teria começado? Revolução Industrial? Era Atômica? Colonização?
+- É um conceito útil para a conservação, ou simplifica demais a diversidade de impactos humanos?
+
+## Humanos como Beneficiários: Serviços Ecossistêmicos
+
+- Reconhecimento de que ecossistemas fornecem benefícios diretos às sociedades
+- Água, polinização, regulação climática, entre outros
+
+## Humanos como Participantes: Conhecimento Ecológico Tradicional
+
+- Populações tradicionais e indígenas como gestoras históricas de territórios
+- Conhecimento acumulado relevante para estratégias contemporâneas de conservação
+
+## A Necessidade de Incorporar as Ciências Sociais
+
+- Teel et al. [-@teel2018] argumentam pela publicação sistemática de pesquisa social em periódicos do campo
+- Problemas centrais da conservação são, em grande medida, problemas sociais
+
+## Por que a Conservação Não Pode Ser Só Biologia
+
+- Decisões de manejo envolvem valores, instituições, economia e política
+- Ignorar a dimensão social compromete a eficácia das intervenções
+
+## Exemplos de Pesquisa Social Aplicada
+
+- Estudos sobre percepção pública de espécies e áreas protegidas
+- Pesquisas sobre governança comunitária de recursos naturais
+
+## De "Proteger da" para "Proteger para" as Pessoas
+
+- Deslocamento central: da exclusão humana ao benefício mútuo
+- Reformulação do próprio objetivo da conservação
+
+## Implicações Práticas
+
+- Reservas extrativistas: uso sustentável combinado à proteção ambiental
+- Manejo comunitário de recursos naturais como estratégia legítima
+
+## Prenúncio dos Debates do Módulo 5
+
+- Ecologia política e justiça socioambiental aprofundarão esses temas
+- Hoje lançamos as bases conceituais para essa discussão futura
+
+## Debate Estruturado
+
+**"É possível conservar biodiversidade sem colocar humanos no centro?"**
+
+- Grupo A defende que sim; Grupo B defende que não, ou apenas parcialmente
+- 10 min de preparação, 15 min de debate, 10 min de síntese conjunta
+
+## Síntese do Debate
+
+- Pontos de convergência entre os grupos
+- Pontos de divergência que permanecem em aberto
+
+## Transição para o Turno da Tarde
+
+- Da evolução conceitual à reformulação disciplinar completa
+- Próximo tema: a transição da biologia para a ciência da conservação
+
+# QUINTA-FEIRA — TURNO DA TARDE {background-color="#27632a"}
+## Transição para a Ciência da Conservação
+
+## Abertura do Turno
+
+- Tema: a reformulação do campo 25 anos após seu marco fundador
+- Leituras de referência: @kareiva2012; @dyke2020
+
+## Recapitulação da Manhã
+
+- Humanos deixam de ser vistos apenas como ameaça externa
+- Emergem como beneficiários e participantes dos sistemas ecológicos
+
+## 25 Anos Depois de Soulé
+
+- Kareiva & Marvier revisitam a pergunta fundadora do campo
+- Contexto: um mundo já reconhecidamente dominado pela ação humana
+
+## Kareiva & Marvier (2012): "What is Conservation Science?"
+
+- Propõem uma ampliação do campo para uma "ciência da conservação"
+- Interdisciplinaridade assumida como premissa, não como complemento
+
+## Da Biologia à Ciência da Conservação: O Que Muda
+
+- Ponto de partida metodológico: acoplamento social-natural desde o início
+- Não se trata apenas de "adicionar" ciências sociais à biologia
+
+## Nova Prioridade: Paisagens Produtivas
+
+- Atuar também fora de áreas protegidas isoladas
+- Reconhecer que a maior parte da biodiversidade vive em paisagens usadas por humanos
+
+## Nova Prioridade: Apoio Público
+
+- Reconstrução do apoio social e político às causas da conservação
+- Ciência da conservação como projeto que depende de legitimidade pública
+
+## Nova Prioridade: Diálogo com o Setor Corporativo
+
+- Reconhecimento do papel do setor privado nas decisões sobre uso da terra
+- Proposta de engajamento em vez de oposição direta
+
+## Nova Prioridade: Direitos Humanos e Equidade
+
+- Atenção sistemática às dimensões de justiça nas políticas de conservação
+- Equidade como critério explícito de avaliação das estratégias
+
+## Críticas à Proposta de Kareiva & Marvier
+
+- Acusações de uma conservação "pós-natureza", excessivamente antropocêntrica
+- Preocupação com a diluição do valor intrínseco da biodiversidade
+
+## Duas Correntes em Debate
+
+- Conservação tradicional: foco na proteção de áreas e espécies por seu valor intrínseco
+- "New conservation": foco no bem-estar humano como parte central da missão
+
+## Onde Fica a Proteção de Áreas Selvagens?
+
+- Pergunta em aberto: esse novo paradigma abandona a proteção de áreas intocadas?
+- Ou apenas amplia o repertório de estratégias disponíveis?
+
+## Dyke & Lamb (2020): Um Balanço Histórico
+
+- Revisão das distinções históricas entre biologia e ciência da conservação
+- Reconhecem a disciplina como campo em contínua redefinição
+
+## Convergências Entre os Dois Campos
+
+- Ambos compartilham o compromisso normativo com a proteção da biodiversidade
+- Diferem principalmente no escopo metodológico e nas prioridades declaradas
+
+## A Disciplina como Campo em Redefinição Permanente
+
+- Não existe um ponto final de consolidação
+- Cada geração de pesquisadores revisita e reformula a pergunta fundadora
+
+## Implicações para a Prática Profissional
+
+- Profissionais da conservação hoje precisam transitar entre biologia, economia, política e ciências sociais
+- Formação em pós-graduação reflete essa ampliação de escopo
+
+## Atividade Final: Mapa Conceitual Comparativo
+
+- Construir um mapa conceitual comparando *conservation biology* e *conservation science*
+- Base: Meine et al. (2006); Dyke & Lamb (2020); Kareiva & Marvier (2012)
+
+## Entrega da Atividade
+
+- Mapa conceitual entregue como insumo para o resumo expandido individual
+- Deve articular as quatro sessões do módulo
+
+## Fechamento do Módulo 1
+
+- Da crise ambiental dos anos 1960–70 à consolidação institucional dos anos 1980–90
+- Das raízes filosóficas às tensões sobre valor intrínseco e instrumental
+- Da exclusão humana à integração humano-natureza
+- Da biologia da conservação à ciência da conservação interdisciplinar
+
+## Prévia do Módulo 2
+
+- Próximo tema: Desenvolvimento da Biologia da Conservação no Brasil
+- Leituras previstas: Vilaça et al. (2024); Rosa et al. (2021); De Assumpção & Ritter (2025)
+
+## Referências {.smaller}
+
+::: {#refs}
+:::

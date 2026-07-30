@@ -2,7 +2,7 @@
 title: "Conteúdo"
 title-block-banner: "#990000"
 listing:
-  contents: /
+  contents: /resumos/
   type: grid
   sort: "title asc"
 ---

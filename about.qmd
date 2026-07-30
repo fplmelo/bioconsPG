@@ -1,7 +1,6 @@
 ---
-title: "About"
+title: "Sobre este site"
 ---
 
-About this site
-
+Site que compila materiais para a dicisplina de Biologia da Conservação do PPGBV
 
