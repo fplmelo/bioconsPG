@@ -37,7 +37,7 @@ Ao final deste módulo, você será capaz de:
 
 - Tema: como a biologia da conservação nasceu como campo científico
 - Percurso: da crise ambiental dos anos 1960–70 à consolidação institucional dos anos 1980–90
-- Leituras de referência: @meine2006; @dyke2020
+
 
 ## O Cenário dos Anos 1960–70
 
@@ -137,7 +137,7 @@ Ao final deste módulo, você será capaz de:
 - Já era uma ciência aplicada
 - Não ligada á conservação
 - Caça espotiva
-- Inustria extrativista
+- Industria extrativista
 - Pesca
 :::
 :::{.column}
@@ -147,17 +147,21 @@ Ao final deste módulo, você será capaz de:
 :::
 :::
 
-## Raízes Disciplinares (II)
-
-- Ecologia: dinâmica de populações, comunidades e ecossistemas
-- Biologia evolutiva: processos que geram e mantêm a diversidade
-- Gestão de recursos naturais: tradição aplicada anterior ao campo científico
 
 ## A Teoria da Biogeografia de Ilhas
+:::{.columns}
+:::{.column}
 
 - MacArthur & Wilson (1967): relação entre área de hábitat e número de espécies
 - Influência direta no desenho inicial de reservas e parques
 - Debate clássico: uma reserva grande vs. várias pequenas (SLOSS)
+:::
+:::{.column}
+
+![](https://www.geographyrealm.com/wp-content/uploads/2014/11/Island-biogeography.jpg)
+
+:::
+:::
 
 ## Antecedentes Institucionais
 
@@ -165,11 +169,14 @@ Ao final deste módulo, você será capaz de:
 - Criação da Lista Vermelha de espécies ameaçadas
 - Instituições internacionais precedem a formalização acadêmica do campo
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/IUCN_logo.svg/330px-IUCN_logo.svg.png)
+
 ## O Paper Fundador
 
 - Michael Soulé (1985): *"What is Conservation Biology?"*
 - Propõe explicitamente uma nova disciplina científica com identidade própria
 - Marco simbólico do nascimento formal do campo
+![](/img/wbc.png)
 
 ## Conservação como "Disciplina de Crise"
 
@@ -184,20 +191,34 @@ Ao final deste módulo, você será capaz de:
 - Consolida uma comunidade científica com identidade compartilhada
 
 ## O Periódico *Conservation Biology*
-
+:::{.columns}
+:::{.column}
 - 1988: lançamento do periódico da SCB
 - Espaço de publicação dedicado exclusivamente ao campo emergente
-- Ainda hoje um dos periódicos mais influentes da área [@meine2006]
+- Ainda hoje um dos periódicos mais influentes da área
+:::
+:::{.column}
+![](https://conbio.org/images/site/June-Original_Front_ONLY---2012-v26_i3_web.jpg)
+:::
+:::
 
 ## Expansão da Pós-Graduação
 
+:::{.columns}
+:::{.column}
 - Início dos anos 1990: proliferação de programas de pós-graduação dedicados ao tema
 - Formação de uma nova geração de pesquisadores identificados com o campo
 - Institucionalização acadêmica consolidando o que havia começado como movimento
+:::
+:::{.column}
+
+![](https://cursodecampoufmg.wordpress.com/wp-content/uploads/2018/06/ecmvs_versao3.png?w=685&h=627)
+:::
+::: 
 
 ## Uma Disciplina "Orientada por Missão"
 
-> A biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica [@meine2006].
+> A biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica.
 
 ## O que Significa "Mission-Driven" na Prática
 
@@ -205,25 +226,31 @@ Ao final deste módulo, você será capaz de:
 - Cientistas assumem posições normativas explícitas (não neutras)
 - Isso gera tensões próprias sobre objetividade científica
 
-## Ciências Descritivas vs. Ciências Aplicadas/Normativas
-
+## Ciências descritivas vs. Ciências aplicadas
+:::{.columns}
+:::{.column}
 - Ciências descritivas: buscam compreender fenômenos sem compromisso de ação
+:::
+:::{.column}
 - Ciências aplicadas e normativas: comprometidas com um objetivo declarado
-- Biologia da conservação situa-se claramente no segundo grupo
+:::
+:::
+![](https://figures.semanticscholar.org/fd9cb8ffebde6ad87a622c58872f11d4d6b66f78/2-Figure1-1.png){fig-align=center}
 
 ## Paralelos com Outras Disciplinas de Missão
 
 - Medicina: objetivo declarado de curar e prevenir doenças
 - Agronomia: objetivo declarado de produção de alimentos
-- Pergunta: essas disciplinas fazem ciência de forma diferente por isso?
 
-## Primeiras Tensões do Campo Emergente
+**Pergunta: essas disciplinas fazem ciência de forma diferente por isso?**
 
-- Disputas sobre o que conta como "boa ciência" em um campo normativo
+## Tensões comuns
+
+- Disputas sobre o que conta como *"boa ciência"* em um campo normativo
 - Divergências sobre prioridades: espécies-bandeira vs. ecossistemas inteiros
 - Debate sobre o papel do ativismo dentro da prática científica
 
-## Legado Institucional para a Conservação Hoje
+## Legado Institucional 
 
 - SCB e *Conservation Biology* seguem como referências centrais do campo
 - Estrutura de pós-graduação criada nos anos 1990 ainda molda a formação atual
@@ -233,7 +260,9 @@ Ao final deste módulo, você será capaz de:
 
 - Biologia da conservação nasce da convergência entre crise ambiental e disciplinas biológicas estabelecidas
 - Consolidação institucional ocorre em um intervalo curto (1985–1990s)
-- Próximo turno: as raízes filosóficas e religiosas que antecedem essa institucionalização
+- Majoritariamente nos EUA e Europa
+- Origem acadêmica de tradições específicas que geram tensões persistentes
+
 
 # TERÇA-FEIRA — TURNO DA TARDE {background-color="#2c3e50"}
 ## Raízes Filosóficas e a Ciência da Escassez e Abundância
