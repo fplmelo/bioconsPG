@@ -1,0 +1,566 @@
+---
+title: "Módulo 2: <br> Biologia da Conservação no Brasil: Trajetória e Infraestrutura de Pesquisa"
+subtitle: ""
+author: "Curso de Biologia da Conservação — PPGBV"
+date: last-modified
+lang: pt
+format:
+  revealjs:
+    embed-resources: true
+    theme: simple
+    slide-number: true
+    chalkboard: false
+    transition: fade
+    toc: false
+    incremental: false
+    code-fold: false
+bibliography: references.bib
+scrollable: true
+# csl: apa.csl
+---
+
+# Abertura
+
+## Módulo 2 {background-color="#1b3a2f"}
+
+### Biologia da Conservação no Brasil: Trajetória, Biodiversidade e Infraestrutura de Pesquisa
+
+Terça e quinta-feira, 8h–18h
+
+## Recapitulando o Módulo 1
+
+- Consolidação institucional da biologia da conservação (1980s–1990s)
+- SCB (1987) e *Conservation Biology* (1988) [@meine2006]
+- Transição: proteger a natureza *das* pessoas → *para* as pessoas [@dyke2020]
+- Primeiras vozes latino-americanas: Diegues, Leff, Martínez-Alier, Ulloa
+
+## Por que uma trajetória brasileira específica?
+
+- O Brasil não é um "importador tardio" da conservação internacional
+- Inovações institucionais próprias (reservas extrativistas)
+- Megadiversidade + infraestrutura científica de escala continental
+- Vulnerabilidade política recorrente
+
+## Agenda de hoje
+
+::: {.incremental}
+- **Terça, manhã** — Trajetória da conservação no Brasil
+- **Terça, tarde** — Fundamentos de biodiversidade
+- **Quinta, manhã** — Infraestrutura científica brasileira
+- **Quinta, tarde** — Crise política e desmonte científico
+- **Fechamento** — Perspectivas latino-americanas e síntese
+:::
+
+# Bloco 1 — Trajetória da Conservação no Brasil {background-color="#1b3a2f"}
+
+## Duas trajetórias, duas temporalidades
+
+| | EUA | Brasil |
+|---|---|---|
+| Origem | Sociedade científica (1987) | Práticas mescladas + academia |
+| Liderança | Biólogos | Biólogos + Ambientalistas + Antropólogos, etc... |
+| Inovação | A criação de uma disciplina | Participação de movimentos sociais |
+| Estado atual | Expansão contínua | Cortes e desmonte recorrentes |
+
+## Conservação antes da "biologia da conservação"
+
+- Trajetória brasileira: raízes mais antigas que a formalização acadêmica
+- Conservação sempre imbricada com ocupação territorial
+- Conhecimento de povos indígenas e comunidades tradicionais preexistente
+- Origem não é um marco único, mas um processo histórico longo [@mittermeier2005]
+
+## Chico Mendes e o movimento dos seringueiros
+
+- Líder sindical e seringueiro, Acre
+- Mobilização ao longo da década de 1980
+- Assassinado em dezembro de 1988
+- Repercussão internacional imediata
+
+## A invenção da reserva extrativista
+
+- Unidade de conservação de **uso sustentável**
+- Reconhece direito de populações tradicionais à floresta pública
+- Condicionada a práticas de manejo sustentável
+- Modelo até então inédito na conservação global [@lovejoy2005]
+
+## De baixo para cima, não de cima para baixo
+
+::: {.callout-important}
+A reserva extrativista nasceu da mobilização sindical dos seringueiros — não de um laboratório de política de conservação [@allegretti2008].
+:::
+
+- Negociada com o Estado sob forte pressão internacional
+- Modelo com protagonismo social, não acadêmico
+
+## Antecipando o debate internacional
+
+- Literatura internacional (anos 2010–2020): "proteger a natureza *para* as pessoas" [@dyke2020]
+- Reservas extrativistas: mais de uma década antes
+- Uma terceira formulação: conservação *pelas* pessoas
+- Sujeitos políticos, não beneficiários passivos
+
+## Consolidação do sistema de UCs
+
+- Unidades de proteção integral **e** de uso sustentável
+- Territórios indígenas e quilombolas com regimes próprios
+- Um dos sistemas de áreas protegidas mais extensos do mundo
+- Comunidade científica de escala comparável a potências tradicionais [@mittermeier2005]
+
+## Três frentes de liderança científica
+
+1. Monitoramento por satélite (PRODES/INPE)
+2. Redução histórica do desmatamento (meados dos anos 2000–2010s)
+3. Proteção formal de territórios indígenas
+
+*(Retomaremos o item 3 com profundidade no Módulo 4)*
+
+## Estudo de caso: São Paulo
+
+- Articulação entre pesquisa, formação e política pública
+- Programas estaduais de fomento à biodiversidade
+- Desloca o foco da escala amazônica
+- Mata Atlântica como território de política científica [@joly2010]
+
+## Para discussão
+
+::: {.callout-note}
+Por que a reserva extrativista é mais citada em manuais internacionais do que estudada em currículos brasileiros de pós-graduação?
+:::
+
+## Síntese do Bloco 1
+
+- Trajetória brasileira: temporalidade e protagonistas próprios
+- Inovação institucional nascida de mobilização social
+- Liderança científica construída ao longo de décadas
+- Tensão permanente: conquista científica × vulnerabilidade política
+
+# Bloco 2 — Fundamentos de Biodiversidade {background-color="#1b3a2f"}
+
+## O que é biodiversidade?
+
+Variabilidade em três níveis hierarquicamente aninhados [@niesenbaum2019]
+
+## Nível 1 — Diversidade genética
+
+- Variação de genes dentro e entre populações
+- Base da capacidade adaptativa futura
+- Erosão genética compromete resposta a mudanças ambientais
+
+## Nível 2 — Diversidade de espécies
+
+- Número e abundância relativa de espécies
+- Acepção mais intuitiva do termo "biodiversidade"
+- A mais comunicada ao público leigo
+
+## Nível 3 — Diversidade de ecossistemas
+
+- Variedade de habitats e comunidades bióticas
+- Heterogeneidade de interações espécie-ambiente
+- Processos ecológicos em escala de paisagem
+
+## Os três níveis não são substituíveis
+
+::: {.callout-important}
+Um cenário pode manter riqueza de espécies **enquanto perde** diversidade genética — ou vice-versa.
+:::
+
+- Avaliações com um único nível subestimam perdas
+- Necessário monitorar múltiplos níveis simultaneamente
+
+## Escala importa: alfa, beta e gama
+
+- **Alfa**: riqueza local, em um único ponto
+- **Beta**: diferença de composição entre locais
+- **Gama**: riqueza total da região (α + β)
+
+[@niesenbaum2019]
+
+## Diversidade beta: um caso contraintuitivo
+
+- Atividades humanas podem **aumentar ou diminuir** a beta-diversidade
+- Depende do equilíbrio entre dois processos opostos
+- Não existe direção única de resposta [@socolar2015]
+
+## Heterogeneização vs. homogeneização biótica
+
+| Heterogeneização | Homogeneização |
+|---|---|
+| Perturbação cria mosaicos de habitat | Espécies generalistas substituem especialistas |
+| Sustenta conjuntos distintos por mancha | Comunidades cada vez mais parecidas |
+| Pode **aumentar** a diversidade beta | Também pode **aumentar** a diversidade beta (mas com perda funcional) |
+
+## A armadilha da leitura ingênua
+
+::: {.callout-important}
+Aumento aparente de diversidade beta pode mascarar homogeneização biótica em curso [@socolar2015].
+:::
+
+- Dados de composição precisam ser lidos junto com identidade funcional
+- Contagens brutas de diferenciação não bastam
+
+## Ecologia de metacomunidades
+
+- Arcabouço teórico para diversidade beta em escala de paisagem
+- Modela dispersão, interações e filtragem ambiental
+- Conecta comunidades espacialmente estruturadas
+- Cada vez mais associado à literatura de conservação [@chase2020]
+
+## Os motores diretos da perda de biodiversidade
+
+Revisão sistemática global identifica hierarquia empírica robusta [@jaureguiberry2022]
+
+## Motor #1: mudança de uso da terra
+
+- Conversão e degradação de habitats naturais
+- Agricultura, pecuária, infraestrutura, urbanização
+- **O motor dominante** em escala global
+
+## Motor #2: exploração direta
+
+- Caça, pesca e coleta insustentáveis
+- Segundo lugar na hierarquia empírica
+- Interage com mudança de uso da terra
+
+## E as mudanças climáticas?
+
+::: {.callout-note}
+Contrariando a percepção pública comum, mudanças climáticas **não** lideram a hierarquia de motores diretos — ainda que interajam sinergicamente com os demais [@jaureguiberry2022].
+:::
+
+## Implicação para o Brasil
+
+- Desmatamento continua como variável mais explicativa
+- Amazônia, Cerrado e Mata Atlântica
+- Monitoramento territorial: instrumento científico central
+
+## Biodiversidade e sustentabilidade: cinco prioridades
+
+1. Serviços ecossistêmicos que beneficiam humanos
+2. Conexão entre biodiversidade e redução da pobreza
+3. Agricultura biodiversa
+4. Conhecimento indígena e tradicional
+5. Indicadores integrados [@niesenbaum2019]
+
+## Síntese do Bloco 2
+
+- Biodiversidade: três níveis, três escalas
+- Diversidade beta responde de forma contraintuitiva
+- Mudança de uso da terra: motor dominante de perda
+- Conservação e sustentabilidade: agendas articuláveis, não opostas
+
+# Bloco 3 — Infraestrutura Científica Brasileira {background-color="#1b3a2f"}
+
+## O desafio da megadiversidade
+
+- Território continental
+- Seis biomas: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa
+- Assimetria histórica de capacidade científica regional
+- Escala como problema institucional, não só ecológico
+
+## PPBio: Programa de Pesquisa em Biodiversidade
+
+- Em operação desde 2004
+- Integra pesquisadores, gestores e formuladores de política
+- Metodologia padronizada de amostragem [@rosa2021]
+
+## PPBio em números
+
+- **161** sítios de pesquisa de longo prazo
+- **626** pesquisadores
+- **9** redes regionais
+- **~1.200** publicações científicas [@rosa2021; @fernandes2017]
+
+## Por que padronização importa
+
+::: {.callout-important}
+Protocolos comuns tornam dados de pontos distantes **comparáveis entre si** — raro em programas de escala continental.
+:::
+
+## O papel formativo do PPBio
+
+- Capacitação técnica local
+- Formação de centenas de estudantes
+- Rede de pesquisadores hoje distribuída pelo país
+- Possíveis orientadores/colaboradores dos próprios alunos
+
+## O ponto frágil do PPBio
+
+::: {.callout-note}
+Principal desafio: financiamento de longo prazo sustentado [@rosa2021].
+:::
+
+*(conecta diretamente ao Bloco 4)*
+
+## GBB: Genômica da Biodiversidade Brasileira
+
+- Consórcio de governança **público-privada**
+- Escala continental
+- Sequenciamento genômico de espécies de interesse [@vilaca2024]
+
+## Por que a genômica importa aqui
+
+- Resolução inatingível por métodos morfológicos/ecológicos
+- Acessa diretamente o **nível genético** de biodiversidade
+- Insumo científico **e** insumo de política pública
+
+## GBB: conservação + bioeconomia
+
+- Modelo de integração explícita entre os dois campos
+- Ilustra concretamente a proposta de Niesenbaum [-@niesenbaum2019]
+- Convocação a outros países megadiversos [@vilaca2024]
+
+## Um raro fluxo Sul–Sul
+
+::: {.callout-note}
+Inovação institucional brasileira proposta como modelo para outros países megadiversos — sem mediação de instituições do Hemisfério Norte.
+:::
+
+## Paleobiologia da conservação
+
+- Usa tafonomia para reconstruir condições pré-impacto humano
+- Gera linhas de base históricas
+- América do Sul: geologia singular, riqueza fóssil [@assumpcao2025]
+
+## Sub-representação com um porém
+
+- América do Sul: **~5%** das publicações globais da área
+- Brasil: **~2/3** dessa fração regional
+- CNPq: **3º lugar mundial** em financiamento da área [@assumpcao2025]
+
+## Um descompasso a discutir
+
+::: {.callout-important}
+Investimento financeiro elevado, visibilidade internacional baixa. Por quê?
+:::
+
+*(pista: barreiras linguísticas — Módulo 3)*
+
+## Três pilares, uma infraestrutura
+
+- PPBio: rede pública, ecologia de campo
+- GBB: consórcio público-privado, genômica
+- Paleobiologia: reconstrução histórica de longo prazo
+- Juntos, tornam possível falar de "biodiversidade brasileira" em escala nacional
+
+## Para discussão
+
+::: {.callout-note}
+Compare a governança do PPBio (pública) com a do GBB (público-privada). Que perguntas científicas cada modelo responde melhor? Que tensões a parceria privada pode gerar?
+:::
+
+## Síntese do Bloco 3
+
+- Infraestrutura de escala continental, multimetodológica
+- Formação de pesquisadores como ativo de longo prazo
+- Modelo genuinamente brasileiro de integração ciência-política
+- Infraestrutura robusta, porém vulnerável
+
+# Bloco 4 — Crise Política e Desmonte Científico {background-color="#1b3a2f"}
+
+## Um padrão, não um episódio
+
+::: {.callout-important}
+Quase uma década de literatura documenta ameaça política **recorrente** à infraestrutura científica — não um evento isolado [@fernandes2017; @magnusson2018; @thome2019; @pelicice2021].
+:::
+
+## Dimensão 1 — Cortes orçamentários diretos
+
+- Agências de fomento à pesquisa
+- Compromete continuidade de programas de longo prazo
+- PPBio: fragilidade central é o financiamento [@fernandes2017; @rosa2021]
+
+## Dimensão 2 — Enfraquecimento regulatório
+
+- Flexibilização de licenciamento ambiental
+- Redução de efetivo em órgãos de fiscalização
+- Efeito direto sobre o motor dominante de perda (uso da terra) [@magnusson2018]
+
+## Dimensão 3 — Perda de capacidade institucional
+
+- Universidades públicas e institutos de pesquisa
+- Efeitos sobre formação de novos pesquisadores
+- Risco à continuidade de séries históricas [@thome2019]
+
+## Dimensão 4 — Pressão sobre a governança amazônica
+
+::: {.callout-important}
+"Tsunami político" atingindo simultaneamente unidades de conservação e terras indígenas [@pelicice2021].
+:::
+
+## O problema da irreversibilidade
+
+- Diferencial do PPBio: comparabilidade ao longo do tempo
+- Série histórica interrompida **não pode ser reconstruída**
+- Decisão orçamentária de curto prazo → perda irreversível de longo prazo [@fernandes2017; @rosa2021]
+
+## Consequências além das fronteiras nacionais
+
+- Desmonte científico como ameaça ao patrimônio de biodiversidade **global**
+- Papel único do Brasil na conservação mundial [@fernandes2017]
+
+## Nem só catastrofismo
+
+- Mobilização política de sociedades científicas
+- Articulação internacional para pressão diplomática
+- Diversificação de financiamento (ex.: GBB) [@vilaca2024]
+
+## Resiliência institucional acumulada
+
+::: {.callout-note}
+Décadas de formação de pesquisadores (ex.: redes do PPBio) constituem um ativo que não desaparece instantaneamente [@rosa2021].
+:::
+
+## Ponte para o Módulo 4
+
+- Governança ambiental ≠ processo técnico isolado
+- Campo de disputa política contínua
+- Atores com interesses e capacidades de mobilização distintos
+
+## Síntese do Bloco 4
+
+- Vulnerabilidade estrutural, não conjuntural
+- Quatro dimensões concretas de desmonte
+- Irreversibilidade como risco central
+- Resposta institucional ativa da comunidade científica
+
+# Perspectivas Latino-Americanas e do Sul Global {background-color="#1b3a2f"}
+
+## Por que esta seção, de novo?
+
+- Não é um complemento "cultural" às seções técnicas
+- É uma ferramenta analítica para **reinterpretar** os dados anteriores
+- Continuidade direta do compromisso assumido no Módulo 1
+
+## Diegues: o mito da natureza intocada
+
+- Crítica ao pressuposto de separação natureza/humanos
+- Pressuposto importado de tradições preservacionistas do Hemisfério Norte
+- Base empírica: caiçaras, ribeirinhos, pescadores artesanais [@diegues2000; @diegues2004]
+
+## "Natureza selvagem" como construção
+
+::: {.callout-important}
+Paisagens tratadas como "intocadas" são, muitas vezes, resultado de séculos de manejo humano de baixa intensidade.
+:::
+
+- UCs de proteção integral podem expulsar quem manteve a biodiversidade local
+
+## Diegues encontra com o Bloco 1
+
+- Reservas extrativistas: resposta institucional **precoce** a essa crítica
+- Antecipam, na prática, o que a literatura internacional formalizaria décadas depois
+
+## Diegues encontra com o Bloco 4
+
+- Norte de Minas Gerais: comunidades expulsas sem compensação
+- Segurança alimentar e integridade cultural comprometidas [@anaya2018]
+- O "mito da natureza intocada" segue produzindo efeitos concretos
+
+## Leff: racionalidade ambiental
+
+- Alternativa à racionalidade puramente econômica [@leff2006; @leff2003]
+- Crise ambiental: manifestação de um modelo civilizatório
+- Não é um problema técnico isolado
+
+## Leff encontra com o Bloco 4
+
+::: {.callout-note}
+Vulnerabilidade orçamentária recorrente: não é acidente de gestão, mas sintoma estrutural.
+:::
+
+- Argumento próximo ao de Frota e Frota [-@frota2018]: lógica do valor precede decisões do Estado
+
+## Martínez-Alier: o ecologismo dos pobres
+
+- Conflitos ambientais protagonizados por populações pobres
+- Sobrevivência material, não preservação estética [@martinezalier2007]
+
+## Reinterpretando Chico Mendes
+
+::: {.callout-important}
+O movimento dos seringueiros **não nasceu** como movimento ambientalista convencional — nasceu como luta sindical pela sobrevivência.
+:::
+
+- A dimensão conservacionista foi **resultado**, não motivação original
+
+## Ulloa: o "nativo ecológico"
+
+- Crítica à essencialização de povos indígenas como "guardiões naturais" [@ulloa2004]
+- Instrumentalização possível por múltiplos atores
+- Risco: obscurecer reivindicações de autodeterminação
+
+## Um contraponto necessário
+
+::: {.callout-note}
+Ulloa nos protege contra leituras celebratórias e simplificadas do papel indígena na conservação — sem negar dados empíricos (Módulo 4).
+:::
+
+## Little e Santilli: o marco brasileiro
+
+- Little: **territórios sociais** — pertencimento além da propriedade oficial [@little2002]
+- Santilli: **socioambientalismo** — biodiversidade e diversidade cultural como objetivos indissociáveis [@santilli2005]
+
+## O socioambientalismo nomeia a prática
+
+::: {.callout-important}
+Santilli formaliza juridicamente o que a mobilização de Chico Mendes já praticava décadas antes de qualquer conceituação acadêmica.
+:::
+
+## Para discussão
+
+::: {.callout-note}
+Como equilibrar o alerta de Ulloa contra a essencialização com os dados empíricos (Módulo 4) sobre menor desmatamento em terras indígenas?
+:::
+
+# Encerramento
+
+## Três camadas, uma trama
+
+- Trajetória histórica nacional
+- Fundamentos conceituais de biodiversidade
+- Infraestrutura científica contemporânea
+
+**Profundamente interligadas — não paralelas**
+
+## O que fica do Bloco 1
+
+- Brasil não é importador tardio
+- Reservas extrativistas: inovação de baixo para cima
+
+## O que fica do Bloco 2
+
+- Três níveis, três escalas de biodiversidade
+- Mudança de uso da terra: motor dominante
+
+## O que fica do Bloco 3
+
+- PPBio, GBB, paleobiologia: infraestrutura de escala continental
+- Formação de pesquisadores como ativo de longo prazo
+
+## O que fica do Bloco 4
+
+- Vulnerabilidade estrutural, não conjuntural
+- Irreversibilidade de séries históricas como risco central
+
+## O que fica das perspectivas latino-americanas
+
+- Diegues, Leff, Martínez-Alier, Ulloa, Little, Santilli
+- Ferramentas para reinterpretar — não decorar
+
+## Pontes para o Módulo 3
+
+- Interdisciplinaridade com ciências humanas
+- Conhecimento ecológico tradicional
+- Barreiras epistemológicas na integração [@holmes2021; @drewhenne2006; @setchell2016]
+
+## Pontes para o Módulo 4
+
+- Ecologia política aprofundada
+- Território, poder e justiça socioambiental
+- Retorno a Diegues, Leff, Martínez-Alier, Ulloa, Anaya & Espírito-Santo, Frota & Frota
+
+## Obrigado! {background-color="#1b3a2f"}
+
+### Dúvidas e discussão
+
+## Referências
