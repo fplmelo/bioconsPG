@@ -220,11 +220,15 @@ Ao final deste módulo, você será capaz de:
 
 > A biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica.
 
-## O que Significa "Mission-Driven" na Prática
+## O que significa "Mission-Driven" na prática
+
+:::{.incremental}
 
 - Critério de sucesso não é apenas publicar, mas gerar impacto de conservação
 - Cientistas assumem posições normativas explícitas (não neutras)
 - Isso gera tensões próprias sobre objetividade científica
+
+:::
 
 ## Ciências descritivas vs. Ciências aplicadas
 :::{.columns}
@@ -242,19 +246,26 @@ Ao final deste módulo, você será capaz de:
 - Medicina: objetivo declarado de curar e prevenir doenças
 - Agronomia: objetivo declarado de produção de alimentos
 
+:::{.incremental}
 **Pergunta: essas disciplinas fazem ciência de forma diferente por isso?**
+:::
 
 ## Tensões comuns
 
-- Disputas sobre o que conta como *"boa ciência"* em um campo normativo
+:::{.incremental}
+
+- Disputas sobre o que conta como *"boa ciência"* em um campo aplicado
 - Divergências sobre prioridades: espécies-bandeira vs. ecossistemas inteiros
 - Debate sobre o papel do ativismo dentro da prática científica
+:::
 
 ## Legado Institucional 
 
+:::{.incremental}
 - SCB e *Conservation Biology* seguem como referências centrais do campo
 - Estrutura de pós-graduação criada nos anos 1990 ainda molda a formação atual
 - Muitas tensões fundadoras permanecem vivas nos debates contemporâneos
+:::
 
 ## Síntese do Turno da Manhã
 
@@ -263,39 +274,73 @@ Ao final deste módulo, você será capaz de:
 - Majoritariamente nos EUA e Europa
 - Origem acadêmica de tradições específicas que geram tensões persistentes
 
+Leitura deste turno: [MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-Driven Discipline”: the Growth of Conservation Biology.](https://conbio.onlinelibrary.wiley.com/doi/10.1111/j.1523-1739.2006.00449.x)
+
 
 # TERÇA-FEIRA — TURNO DA TARDE {background-color="#2c3e50"}
-## Raízes Filosóficas e a Ciência da Escassez e Abundância
+## Raízes Filosóficas e a Ciência da Escassez e Abundância{.center}
 
 ## Abertura do Turno
 
 - Tema: o que veio antes da institucionalização científica
 - Pergunta-guia: por que a formalização só ocorreu no século XX?
-- Leitura de referência: @dyke2020
+- Leitura de referência: [Dyke, F., & Lamb, R. (2020). The History and Distinctions of Conservation Biology](https://doi.org/10.1007/978-3-030-39534-6_1)
 
-## Conservação como "Ciência da Escassez e Abundância"
+## Conservação como "Ciência da escassez e da abundância"
 
-- Termo que descreve o duplo objeto do campo: o que é raro e o que é comum
+:::{.incremental}
+- O duplo objeto do campo: *o que é raro e o que é comum?*
 - Escassez: espécies e ecossistemas ameaçados de desaparecer
-- Abundância: manejo sustentável de recursos e populações estáveis
+- Abundância: Aquilo que pode manejado
+:::
 
-## Tradições Filosóficas Ocidentais (I)
+## Tradições filosóficas ocidentais{.center}
 
-- Visões utilitaristas: natureza como recurso a ser gerido racionalmente
+## Visões utilitaristas
+
+:::{.columns}
+:::{.column}
+
+- A natureza como recurso a ser gerido racionalmente
 - Associadas historicamente ao conservacionismo de uso sustentável
+- Atende às demandas capitalistas de forma "clean"
+- Romantizam relações de subsistência com a natureza
+:::
+:::{.column}
+![](https://images.ctfassets.net/pujs1b1v0165/53QIRtQoMNgedNu4lvxJa7/57f8cd58a8f9e36d023ea0022b8ef908/deer_hunter_evolution.jpg?w=1200&fit=fill&fm=webp)
 
-## Tradições Filosóficas Ocidentais (II)
+![](https://wwfbrnew.awsassets.panda.org/img/sny00033_123927.jpg)
+:::
+:::
 
-- Visões de valor intrínseco: natureza com valor independente de utilidade humana
-- Transcendentalismo americano (Thoreau, Emerson) como precursor filosófico
 
-## Aldo Leopold e a "Land Ethic"
+## Visões de valor intrínseco: 
+:::{.columns}
+:::{.column}
+- Natureza com valor independente de utilidade humana
+- Transcendentalismo americano (Henry Thoreau) como precursor filosófico
+:::
+:::{.column}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg/250px-Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg)
+:::
+:::
 
+## Aldo Leopold e a "Ética da Terra"
+
+:::{.columns}
+:::{.column}
 - *A Sand County Almanac* (1949): proposta de uma ética estendida à terra
 - Comunidade moral ampliada para incluir solos, águas, plantas e animais
 - Influência duradoura sobre a ética ambiental contemporânea
+:::
+:::{.column}
+![](https://upload.wikimedia.org/wikipedia/en/3/3b/Sand_county_almanac.jpg)
+:::
+:::
 
-## Cosmovisões Não-Ocidentais
+
+
+## Cosmovisões não-Ocidentais
 
 - Diversas tradições religiosas e cosmovisões indígenas atribuem valor à natureza
 - Frequentemente ausentes das narrativas fundadoras ocidentais do campo

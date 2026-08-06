@@ -1,257 +1,5 @@
 [
   {
-    "objectID": "resources/quarto.html",
-    "href": "resources/quarto.html",
-    "title": "Usando Quarto",
-    "section": "",
-    "text": "Quarto Markdown é o Markdown comum com código R e resultados intercalados. Você pode fazer tudo o que faz com o Markdown comum, mas pode incorporar gráficos, tabelas e outros resultados de código diretamente no seu documento. Você pode criar documentos em HTML, PDF e Word, apresentações em PowerPoint e HTML, sites, livros e até dashboards interativos com o Quarto. Todo este site do curso foi criado com o Quarto.\nQuarto é essencialmente um “R Markdown 2.0”, projetado para ser agnóstico em relação à linguagem. Você pode usar código R, Python, Julia, Observable JS e até Stata no mesmo documento. É mágico."
-  },
-  {
-    "objectID": "resources/quarto.html#termos-chave",
-    "href": "resources/quarto.html#termos-chave",
-    "title": "Usando Quarto",
-    "section": "Termos-chave",
-    "text": "Termos-chave\n\nDocumento: Um arquivo Markdown onde você digita o conteúdo.\nChunk: Um pedaço de código R incluído no seu documento. Ele se parece com isto:\n\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "resources/quarto.html#adicionar-chunks",
-    "href": "resources/quarto.html#adicionar-chunks",
-    "title": "Usando Quarto",
-    "section": "Adicionar chunks",
-    "text": "Adicionar chunks\nExistem três maneiras de inserir chunks:\n\nPressione Ctrl + Alt + I no Windows ou Cmd + Option + I no macOS.\nClique no botão Insert no topo da janela do editor.\nDigite manualmente as crases (não recomendado)."
-  },
-  {
-    "objectID": "resources/quarto.html#opções-de-chunk",
-    "href": "resources/quarto.html#opções-de-chunk",
-    "title": "Usando Quarto",
-    "section": "Opções de chunk",
-    "text": "Opções de chunk\nConfigure as opções seguindo o prefixo #| no topo do chunk:\n\n\n\n\n\n\n\n\nFigure 1: Legenda do gráfico\n\n\n\n\n\nOpções comuns:\n\necho: false: O código não aparece, mas o resultado sim.\nwarning: false: Omite avisos.\nmessage: false: Omite mensagens de carregamento."
-  },
-  {
-    "objectID": "resources/quarto.html#chunks-inline",
-    "href": "resources/quarto.html#chunks-inline",
-    "title": "Usando Quarto",
-    "section": "Chunks inline",
-    "text": "Chunks inline\nPara incluir resultados no texto, use a sintaxe de uma crase seguida de r. Por exemplo:\nA média é 20.1."
-  },
-  {
-    "objectID": "resources/quarto.html#formatos-de-saída",
-    "href": "resources/quarto.html#formatos-de-saída",
-    "title": "Usando Quarto",
-    "section": "Formatos de saída",
-    "text": "Formatos de saída\nDefina no YAML:\nformat:\n  html: default\n  pdf: default\n  docx: default\n\nPágina traduzida de: Andrew Heiss"
-  },
-  {
-    "objectID": "resources/r.html",
-    "href": "resources/r.html",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "",
-    "text": "Aqui está uma lista de sites e canais do YouTube que oferecem tutoriais e recursos gratuitos para aprender R, RStudio e estatística, agora com links diretos:"
-  },
-  {
-    "objectID": "resources/r.html#tutoriais-gratuitos-de-r-e-rstudio-e-recursos-de-estatística",
-    "href": "resources/r.html#tutoriais-gratuitos-de-r-e-rstudio-e-recursos-de-estatística",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "",
-    "text": "Aqui está uma lista de sites e canais do YouTube que oferecem tutoriais e recursos gratuitos para aprender R, RStudio e estatística, agora com links diretos:"
-  },
-  {
-    "objectID": "resources/r.html#sites",
-    "href": "resources/r.html#sites",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "Sites:",
-    "text": "Sites:\n\nR-Project.org: O site oficial da linguagem de programação R. Contém documentação abrangente, manuais e links para diversos recursos. Embora não seja estruturado como um tutorial, é uma referência inestimável.\nRStudio Education (Posit Education): A página oficial de educação da RStudio (agora Posit). Eles oferecem uma infinidade de recursos gratuitos, incluindo webinars, guias e links para outros materiais de aprendizado.\nDicas de Quarto: Muitas dicas para ajustar seu site e caderno de exercícios em Quarto."
-  },
-  {
-    "objectID": "resources/r.html#livros",
-    "href": "resources/r.html#livros",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "Livros",
-    "text": "Livros\n\nR for Data Science (r4ds.had.co.nz): Um livro online gratuito e abrangente de Hadley Wickham e Garrett Grolemund, focado no uso do R para tarefas de ciência de dados.\nAdvanced R (adv-r.hadley.nz): Outro excelente livro online gratuito de Hadley Wickham, aprofundando-se em aspectos mais avançados da programação em R."
-  },
-  {
-    "objectID": "resources/r.html#cursos-de-r-online-gratuitos",
-    "href": "resources/r.html#cursos-de-r-online-gratuitos",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "Cursos de R online gratuitos",
-    "text": "Cursos de R online gratuitos\n\nR and the Tidyverse for working with data: O básico de R e Tidyverse, incluindo ggplot e manipulação de dados (data wrangling);\nIntroduction to R: Outro curso de R online simples e direto.\nSTAT 545: Manipulação, exploração e análise de dados com R."
-  },
-  {
-    "objectID": "resources/r.html#fóruns",
-    "href": "resources/r.html#fóruns",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "Fóruns",
-    "text": "Fóruns\n\nStack Overflow: Um site de perguntas e respostas onde você pode encontrar soluções para problemas específicos relacionados a R e estatística.\nCross Validated (stats.stackexchange.com): Um site do Stack Exchange dedicado exclusivamente a questões de estatística."
-  },
-  {
-    "objectID": "resources/r.html#canais-no-youtube",
-    "href": "resources/r.html#canais-no-youtube",
-    "title": "Cursos de R Excelentes e Gratuitos",
-    "section": "Canais no YouTube:",
-    "text": "Canais no YouTube:\n\nPosit PBC: Site oficial da empresa Posit (RStudio, Quarto e Tidyverse).\nStatQuest com Josh Starmer: Embora não seja focado exclusivamente em R, este canal oferece explicações excelentes e intuitivas sobre conceitos estatísticos.\nEquitable Equations: Oferece uma ampla gama de tutoriais de estatística, muitos demonstrando a implementação em R.\nRichardOnData: Fornece tutoriais e explicações sobre vários tópicos de ciência de dados, incluindo programação em R e análise estatística.\n\nPor favor, note que a disponibilidade de conteúdo gratuito nessas plataformas pode mudar com o tempo. Sempre verifique o site ou canal específico para ver as ofertas atuais."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n            PPGBV949 Biologia da Conservação\n        ",
-    "section": "",
-    "text": "PPGBV  2026.2  Centro de Biociências  Universidade Federal de Pernambuco"
-  },
-  {
-    "objectID": "index.html#bem-vind",
-    "href": "index.html#bem-vind",
-    "title": "\n            PPGBV949 Biologia da Conservação\n        ",
-    "section": "Bem-vind@",
-    "text": "Bem-vind@"
-  },
-  {
-    "objectID": "workbook/workbook.html",
-    "href": "workbook/workbook.html",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "",
-    "text": "Este tutorial oferece uma introdução à criação de uma página web básica usando o Quarto dentro do RStudio. O Quarto, a versão de próxima geração do R Markdown, permite criar conteúdo dinâmico e pode renderizar para vários formatos, incluindo websites."
-  },
-  {
-    "objectID": "workbook/workbook.html#por-que-uma-página-em-quarto",
-    "href": "workbook/workbook.html#por-que-uma-página-em-quarto",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "",
-    "text": "Este tutorial oferece uma introdução à criação de uma página web básica usando o Quarto dentro do RStudio. O Quarto, a versão de próxima geração do R Markdown, permite criar conteúdo dinâmico e pode renderizar para vários formatos, incluindo websites."
-  },
-  {
-    "objectID": "workbook/workbook.html#seu-livro-de-exercícios-workbook",
-    "href": "workbook/workbook.html#seu-livro-de-exercícios-workbook",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Seu livro de exercícios (Workbook)",
-    "text": "Seu livro de exercícios (Workbook)\nEnquanto aprende estatística e programação, você também aprenderá a construir e publicar sites simples usando R e RStudio. Este site é vital para o seu aprendizado durante este módulo. Ele será o seu livro de curso “vivo”.\nVeja alguns exemplos de como os alunos da uma universidade inglesa (NTU) usaram isso para a avaliação no ano passado:\n\nExemplo 1\nExemplo 2\n\n\n\n\n\n\n\nDicaInvista no seu livro de exercícios\n\n\n\nSeu “workbook” será seu “melhor amigo” durante este módulo. Nele, você pode experimentar, criar notas pessoais e reunir bibliografia. Funciona como um caderno de papel, mas é um website."
-  },
-  {
-    "objectID": "workbook/workbook.html#pré-requisitos",
-    "href": "workbook/workbook.html#pré-requisitos",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Pré-requisitos",
-    "text": "Pré-requisitos\nAntes de começar, certifique-se de ter o seguinte:\n\nR instalado no seu computador.\nRStudio instalado no seu computador.\nO pacote quarto instalado (caso queira renderizar via console):\n\n#| eval: false\n#| echo: true\ninstall.packages(\"quarto\")"
-  },
-  {
-    "objectID": "workbook/workbook.html#criando-um-projeto-quarto-recomendado",
-    "href": "workbook/workbook.html#criando-um-projeto-quarto-recomendado",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Criando um Projeto Quarto (Recomendado)",
-    "text": "Criando um Projeto Quarto (Recomendado)\nPara criar uma página web organizada, o ideal é começar com um Projeto Quarto:\n\nNo RStudio, vá em File &gt; New Project….\nEscolha New Directory.\nSelecione Quarto Project.\nDê um nome ao projeto e um local para salvá-lo.\nClique em Create Project.\n\nIsso criará uma estrutura básica de pastas para o seu site."
-  },
-  {
-    "objectID": "workbook/workbook.html#criando-o-conteúdo-da-sua-página",
-    "href": "workbook/workbook.html#criando-o-conteúdo-da-sua-página",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Criando o Conteúdo da sua Página",
-    "text": "Criando o Conteúdo da sua Página\nAs páginas em um site Quarto são arquivos .qmd. Elas utilizam três componentes principais:\n\nCabeçalho YAML: Delimitado por ---, define metadados como título e autor.\nTexto Markdown: Use sintaxe padrão para títulos (##), negrito (**) e listas.\nBlocos de Código (Chunks): Onde você insere código R.\n\n\nExemplo de Bloco de Código:\n#| echo: true\nsummary(mtcars)\n\n\nAtalhos Úteis no RStudio:\n\nAlternar Editor Visual/Source: Ctrl+Shift+F4 (Win) ou ⌘⇧ F4 (Mac).\nExecutar Bloco de Código: Ctrl+Shift+Enter (Win) ou ⇧⌘⏎ (Mac)."
-  },
-  {
-    "objectID": "workbook/workbook.html#configuração-e-renderização",
-    "href": "workbook/workbook.html#configuração-e-renderização",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Configuração e Renderização",
-    "text": "Configuração e Renderização\nPara transformar seu código em uma página web (HTML), você precisa Renderizar:\n\nNo topo do editor do RStudio, clique no botão Render (ícone de seta azul).\nO RStudio processará o código e abrirá uma prévia na aba Viewer no painel inferior direito."
-  },
-  {
-    "objectID": "workbook/workbook.html#como-publicar-no-rpubs",
-    "href": "workbook/workbook.html#como-publicar-no-rpubs",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Como publicar no RPubs",
-    "text": "Como publicar no RPubs\nO RPubs é a forma mais simples e gratuita de hospedar seus documentos R online.\n\nPasso a Passo para Publicação:\n\nCrie sua conta: Acesse rpubs.com e registre-se.\nGere o HTML: Clique em Render no seu arquivo .qmd.\nPublique:\n\nNa janela de visualização (Viewer), clique no ícone azul de publicação (um círculo azul ou botão Publish).\nSelecione RPubs na lista de opções.\nO RStudio pode solicitar a instalação do pacote rsconnect; clique em Sim.\n\nFinalize no Navegador: Uma aba do seu navegador abrirá. Faça login no RPubs, dê um título ao seu documento e clique em Continue.\n\n\nDica Pro: Se você fizer alterações no arquivo, basta clicar em Render e depois em Publish novamente. O sistema perguntará se você deseja atualizar o documento existente."
-  },
-  {
-    "objectID": "workbook/workbook.html#próximos-passos",
-    "href": "workbook/workbook.html#próximos-passos",
-    "title": "Tutorial: Começando com uma página Web em Quarto",
-    "section": "Próximos Passos",
-    "text": "Próximos Passos\nAgora que você já sabe o básico, tente personalizar seu arquivo: * Altere o theme no cabeçalho YAML para opções como flatly, darkly ou slate. * Adicione gráficos usando o pacote ggplot2. * Crie um arquivo _quarto.yml para adicionar uma barra de navegação superior caso tenha várias páginas."
-  },
-  {
-    "objectID": "img/semana9_metricas.html",
-    "href": "img/semana9_metricas.html",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "",
-    "text": "Use as setas ← → para navegar pelos slides. Pressione F para tela cheia e ? para ver todos os atalhos."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#o-que-é-composição",
-    "href": "img/semana9_metricas.html#o-que-é-composição",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "3.1 O que é composição",
-    "text": "3.1 O que é composição\nComposição é facilmente quantificada e se refere a características associadas à variedade e abundância dos tipos de patch dentro da paisagem, mas sem considerar o caráter espacial, a posição ou a localização dos patches dentro do mosaico. Como a composição requer integração sobre todos os tipos de patch, as métricas de composição são aplicáveis apenas no nível de paisagem.\nA chave desta definição é a expressão “sem considerar o caráter espacial”. Uma métrica de composição pode ser calculada a partir de uma simples tabela de área por classe — não há necessidade de conhecer onde cada pixel está, quais patches são vizinhos ou qual a forma de cada mancha. Basta saber quanto de cada tipo existe."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#as-métricas-principais",
-    "href": "img/semana9_metricas.html#as-métricas-principais",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "3.2 As métricas principais",
-    "text": "3.2 As métricas principais\nHá muitas medidas quantitativas de composição de paisagem, incluindo a proporção da paisagem em cada tipo de patch, a riqueza de tipos de patch, a equitatividade e a diversidade de patches.\n\n\n\nFigura 2 — As quatro principais métricas de composição: PLAND, PR, SHDI e LPI.\n\n\nPLAND — Proporção de cada classe\nA métrica mais básica: que percentual da área total da paisagem é ocupado por cada tipo de cobertura? Formalmente, para a classe \\(i\\):\n\\[PLAND_i = \\frac{\\sum_{j=1}^{n_i} a_{ij}}{A} \\times 100\\]\nOnde \\(a_{ij}\\) é a área do \\(j\\)-ésimo patch da classe \\(i\\) e \\(A\\) é a área total da paisagem. O PLAND varia entre 0 (exclusão) e 100 (paisagem dominada por uma única classe). É o primeiro número que qualquer análise de paisagem deve reportar.\nPR — Riqueza de tipos de patch\nO número de tipos distintos de cobertura presentes: \\(PR = m\\). Uma paisagem com floresta, pastagem, agricultura e água tem \\(PR = 4\\). É a métrica mais simples de heterogeneidade — análoga à riqueza de espécies em ecologia de comunidades.\nSHDI — Índice de Diversidade de Shannon\nA métrica mais usada para resumir a composição em um único número que integra riqueza e equitatividade:\n\\[SHDI = -\\sum_{i=1}^{m} p_i \\cdot \\ln(p_i)\\]\nOnde \\(p_i\\) é a proporção da classe \\(i\\). SHDI = 0 quando há apenas uma classe; SHDI é máximo (= \\(\\ln m\\)) quando todas as classes têm a mesma proporção. Valores intermediários refletem dominância de algumas classes.\nLPI — Índice do Maior Patch\nPercentual da área total ocupado pelo maior patch contíguo de qualquer classe:\n\\[LPI = \\frac{a_{max}}{A} \\times 100\\]\nLPI é uma medida de dominância: quanto maior o LPI, mais a paisagem é dominada por um único bloco contíguo. Em paisagens pouco fragmentadas, LPI se aproxima de PLAND da classe dominante. Em paisagens muito fragmentadas, LPI é muito menor que PLAND — sinal de que a área está distribuída em muitos patches pequenos.\n\n\n\n\n\n\nAvisoO que composição não responde\n\n\n\nMétricas de composição não informam: onde cada classe está, se os patches são contíguos ou isolados, qual a forma dos patches, qual a quantidade de borda entre classes, ou qual o grau de isolamento entre patches de habitat. Para essas questões, são necessárias métricas de configuração."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#o-que-é-configuração",
-    "href": "img/semana9_metricas.html#o-que-é-configuração",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "4.1 O que é configuração",
-    "text": "4.1 O que é configuração\nConfiguração de paisagem se refere à distribuição física e às características espaciais dos patches presentes dentro da paisagem. Ao contrário das métricas de composição, as métricas de configuração requerem informação espacial para o cálculo — elas precisam saber onde cada pixel está, quais células são adjacentes e qual a forma geométrica de cada patch.\nEstas métricas se enquadram em duas categorias gerais: as que quantificam a composição do mapa sem referência a atributos espaciais, e as que quantificam a configuração espacial do mapa, exigindo informação espacial para o seu cálculo."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#as-métricas-principais-1",
-    "href": "img/semana9_metricas.html#as-métricas-principais-1",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "4.2 As métricas principais",
-    "text": "4.2 As métricas principais\n\n\n\nFigura 3 — As quatro principais métricas de configuração: NP, ED, AI e ENN.\n\n\nNP/PD — Número e Densidade de Patches\nO número total de patches (\\(NP\\)) de uma classe é a métrica mais direta de fragmentação. A densidade de patches (\\(PD = NP/A \\times 10.000\\)) padroniza por área e permite comparações entre paisagens de tamanhos diferentes. Uma classe com \\(PLAND\\) alto mas \\(NP\\) alto indica fragmentação: muita área, mas distribuída em muitos pedaços pequenos.\nED — Densidade de Borda\nA quantidade total de borda entre classes, expressa por unidade de área (\\(ED = E/A\\), em m/ha). Borda representa a interface entre habitats distintos — zona de alta troca de energia e matéria, como vimos na semana 8. Paisagens muito fragmentadas têm ED alto; paisagens com grandes blocos contíguos têm ED baixo. ED é calculado contando o comprimento de todas as bordas entre células de classes diferentes, operação que requer a posição espacial de cada célula.\nAI — Índice de Agregação\nMede o grau em que células da mesma classe são espacialmente adjacentes umas às outras:\n\\[AI = \\left(\\frac{g_{ii}}{g_{ii,max}}\\right) \\times 100\\]\nOnde \\(g_{ii}\\) é o número de adjacências entre células da mesma classe \\(i\\), e \\(g_{ii,max}\\) é o máximo possível dadas as restrições de área. \\(AI = 0\\) quando os pixels estão maximamente dispersos; \\(AI = 100\\) quando formam um único bloco compacto. O AI é uma das métricas mais informativas para distinguir paisagens com mesma composição mas configuração diferente.\nENN — Distância Euclidiana ao Vizinho Mais Próximo\nA menor distância borda-a-borda entre um patch e o patch mais próximo da mesma classe. É a métrica padrão de isolamento espacial — o oposto da conectividade estrutural. Patches com ENN alto estão isolados; patches com ENN baixo têm vizinhos próximos que permitem dispersão, efeito resgate e dinâmica metapopulacional."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#o-problema-da-redundância",
-    "href": "img/semana9_metricas.html#o-problema-da-redundância",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "6.1 O problema da redundância",
-    "text": "6.1 O problema da redundância\nCom mais de 130 métricas disponíveis no landscapemetrics, uma armadilha frequente é calcular um grande número delas e tratá-las como se fossem informações independentes. Landscape metrics allow to quantify the composition (i.e., amount) of and configuration (i.e., arrangement) of spatial landscape characteristics within the context of categorical raster data. Porém, muitas métricas são fortemente correlacionadas entre si — especialmente dentro de grupos funcionais (área/borda, forma, agregação, isolamento).\n\n\n\nFigura 5 — Grupos de métricas correlacionadas e o problema da redundância.\n\n\nUsar 20 métricas fortemente correlacionadas em uma análise multivariada não acrescenta informação — apenas infla artificialmente os graus de liberdade e dificulta a interpretação ecológica dos resultados."
-  },
-  {
-    "objectID": "img/semana9_metricas.html#o-conjunto-mínimo-recomendado",
-    "href": "img/semana9_metricas.html#o-conjunto-mínimo-recomendado",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "6.2 O conjunto mínimo recomendado",
-    "text": "6.2 O conjunto mínimo recomendado\nCushman et al. (2008) propuseram um conjunto parcimonioso de métricas que maximiza a informação ecológica capturada com o mínimo de redundância. O princípio é selecionar métricas ortogonais — pouco correlacionadas entre si — que cubram os principais aspectos de composição e configuração.\n\n\n\nFigura 6 — Conjunto mínimo recomendado de métricas por objetivo analítico.\n\n\nPara a maioria das análises de fragmentação e conectividade estrutural, o conjunto a seguir cobre as dimensões essenciais da estrutura da paisagem com redundância mínima:\n\n\n\nDimensão\nMétricas recomendadas\n\n\n\n\nComposição (abundância)\nPLAND por classe\n\n\nComposição (diversidade)\nSHDI (landscape)\n\n\nFragmentação\nNP ou PD por classe\n\n\nBorda / interface\nED por classe ou landscape\n\n\nAgregação espacial\nAI por classe\n\n\nIsolamento\nENN_MN por classe\n\n\nForma\nSHAPE_MN ou FRAC_MN por classe"
-  },
-  {
-    "objectID": "img/semana9_metricas.html#composição-com-landscapemetrics",
-    "href": "img/semana9_metricas.html#composição-com-landscapemetrics",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "7.1 Composição com landscapemetrics",
-    "text": "7.1 Composição com landscapemetrics\n\n\nCódigo\nlibrary(terra)\nlibrary(landscapemetrics)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(tidyr)\n\n# Carregar paisagem de exemplo\npaisagem &lt;- terra::rast(landscapemetrics::landscape)\n\n# ── COMPOSIÇÃO ─────────────────────────────────────────────────────────────────\n\n# Proporção de cada classe (PLAND)\npland &lt;- lsm_c_pland(paisagem)\n\n# Riqueza de tipos (PR) — nível landscape\npr    &lt;- lsm_l_pr(paisagem)\n\n# Diversidade de Shannon (SHDI) — nível landscape\nshdi  &lt;- lsm_l_shdi(paisagem)\n\n# Equitatividade de Shannon (SHEI)\nshei  &lt;- lsm_l_shei(paisagem)\n\n# Índice do maior patch (LPI) — nível landscape\nlpi   &lt;- lsm_l_lpi(paisagem)\n\n# Reunir composição em tabela legível\ncomposicao &lt;- bind_rows(\n  pland |&gt; mutate(nivel = \"class\"),\n  pr    |&gt; mutate(nivel = \"landscape\"),\n  shdi  |&gt; mutate(nivel = \"landscape\"),\n  shei  |&gt; mutate(nivel = \"landscape\"),\n  lpi   |&gt; mutate(nivel = \"landscape\")\n) |&gt;\n  select(level, class, metric, value) |&gt;\n  arrange(level, metric)\n\nprint(composicao)\n\n\n# A tibble: 7 × 4\n  level     class metric  value\n  &lt;chr&gt;     &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;\n1 class         1 pland  20.4  \n2 class         2 pland  26    \n3 class         3 pland  53.6  \n4 landscape    NA lpi    17.7  \n5 landscape    NA pr      3    \n6 landscape    NA shdi    1.01 \n7 landscape    NA shei    0.919"
-  },
-  {
-    "objectID": "img/semana9_metricas.html#configuração-com-landscapemetrics",
-    "href": "img/semana9_metricas.html#configuração-com-landscapemetrics",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "7.2 Configuração com landscapemetrics",
-    "text": "7.2 Configuração com landscapemetrics\n\n\nCódigo\n# ── CONFIGURAÇÃO ───────────────────────────────────────────────────────────────\n\n# Número de patches por classe (NP)\nnp   &lt;- lsm_c_np(paisagem)\n\n# Densidade de borda por classe (ED)\ned   &lt;- lsm_c_ed(paisagem)\n\n# Índice de agregação por classe (AI)\nai   &lt;- lsm_c_ai(paisagem)\n\n# Distância média ao vizinho mais próximo (ENN_MN)\nenn  &lt;- lsm_c_enn_mn(paisagem)\n\n# Forma média (SHAPE_MN)\nshp  &lt;- lsm_c_shape_mn(paisagem)\n\n# Reunir configuração\nconfiguracao &lt;- bind_rows(np, ed, ai, enn, shp) |&gt;\n  select(level, class, metric, value) |&gt;\n  mutate(\n    classe = case_when(\n      class == 1 ~ \"Floresta\",\n      class == 2 ~ \"Agricultura\",\n      class == 3 ~ \"Outros\"\n    )\n  )\n\nprint(configuracao)\n\n\n# A tibble: 15 × 5\n   level class metric     value classe     \n   &lt;chr&gt; &lt;int&gt; &lt;chr&gt;      &lt;dbl&gt; &lt;chr&gt;      \n 1 class     1 np          9    Floresta   \n 2 class     2 np         13    Agricultura\n 3 class     3 np          6    Outros     \n 4 class     1 ed       2011.   Floresta   \n 5 class     2 ed       2256.   Agricultura\n 6 class     3 ed       3289.   Outros     \n 7 class     1 ai         79.7  Floresta   \n 8 class     2 ai         79.6  Agricultura\n 9 class     3 ai         84.9  Outros     \n10 class     1 enn_mn      4.09 Floresta   \n11 class     2 enn_mn      3.61 Agricultura\n12 class     3 enn_mn      2    Outros     \n13 class     1 shape_mn    1.33 Floresta   \n14 class     2 shape_mn    1.22 Agricultura\n15 class     3 shape_mn    1.75 Outros"
-  },
-  {
-    "objectID": "img/semana9_metricas.html#visualizando-o-paradoxo-composição-configuração",
-    "href": "img/semana9_metricas.html#visualizando-o-paradoxo-composição-configuração",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "7.3 Visualizando o paradoxo composição ≠ configuração",
-    "text": "7.3 Visualizando o paradoxo composição ≠ configuração\n\n\nCódigo\n# Simular duas paisagens com composição idêntica mas configuração diferente\nlibrary(terra)\nset.seed(42)\n\n# Paisagem A: xadrez (fragmentada) — composição 50/50\nr_A &lt;- rast(nrows = 20, ncols = 20, vals = rep(c(1L, 2L), 200))\n\n# Paisagem B: dois blocos (agregada) — composição 50/50\nvals_B &lt;- c(rep(1L, 200), rep(2L, 200))\nr_B    &lt;- rast(nrows = 20, ncols = 20, vals = vals_B)\n\n# Calcular métricas de composição e configuração para ambas\nmetricas_AB &lt;- calculate_lsm(\n  list(r_A, r_B),\n  what = c(\"lsm_l_pland\", \"lsm_l_shdi\",\n           \"lsm_l_np\",   \"lsm_l_ed\",\n           \"lsm_l_ai\",   \"lsm_l_lpi\")\n) |&gt;\n  mutate(\n    paisagem = if_else(layer == 1, \"A — Fragmentada\", \"B — Agregada\"),\n    categoria = if_else(\n      metric %in% c(\"pland\", \"shdi\"),\n      \"Composição\", \"Configuração\"\n    )\n  )\n\n# Gráfico comparativo\nggplot(metricas_AB, aes(x = metric, y = value, fill = paisagem)) +\n  geom_col(position = \"dodge\", alpha = 0.85, width = 0.65) +\n  facet_wrap(~categoria, scales = \"free\", nrow = 1) +\n  scale_fill_manual(values = c(\"A — Fragmentada\" = \"#A32D2D\",\n                               \"B — Agregada\"    = \"#0F6E56\")) +\n  labs(\n    title    = \"Composição idêntica, configuração radicalmente diferente\",\n    subtitle = \"Métricas de composição: iguais; métricas de configuração: distintas\",\n    x        = \"Métrica\",\n    y        = \"Valor\",\n    fill     = \"Paisagem\",\n    caption  = \"Paisagem A: padrão xadrez · Paisagem B: dois blocos contíguos\"\n  ) +\n  theme_classic(base_size = 12) +\n  theme(\n    strip.background = element_rect(fill = \"#173404\"),\n    strip.text       = element_text(color = \"white\", face = \"bold\"),\n    legend.position  = \"bottom\"\n  )\n\n\n\n\n\nO mesmo PLAND com NP e AI diferentes: composição idêntica, configuração distinta"
-  },
-  {
-    "objectID": "img/semana9_metricas.html#matriz-de-correlação-entre-métricas",
-    "href": "img/semana9_metricas.html#matriz-de-correlação-entre-métricas",
-    "title": "Semana 9: Tipos de Métricas de Paisagem",
-    "section": "7.4 Matriz de correlação entre métricas",
-    "text": "7.4 Matriz de correlação entre métricas\n\n\nCódigo\n# Calcular conjunto amplo de métricas na paisagem exemplo\ntodas &lt;- calculate_lsm(\n  paisagem,\n  what = c(\n    \"lsm_c_pland\", \"lsm_c_np\", \"lsm_c_ed\",\n    \"lsm_c_ai\",    \"lsm_c_enn_mn\", \"lsm_c_shape_mn\",\n    \"lsm_c_lpi\",   \"lsm_c_pd\",    \"lsm_c_frac_mn\",\n    \"lsm_c_cohesion\"\n  )\n) |&gt;\n  filter(level == \"class\") |&gt;\n  select(class, metric, value) |&gt;\n  pivot_wider(names_from = metric, values_from = value, values_fn = mean) |&gt;\n  select(-class)\n\n# Correlação\nif (ncol(todas) &gt;= 4) {\n  cor_mat &lt;- cor(todas, use = \"pairwise.complete.obs\")\n\n  # Visualizar com corrplot (se disponível) ou heatmap simples\n  if (requireNamespace(\"corrplot\", quietly = TRUE)) {\n    corrplot::corrplot(cor_mat, method = \"color\",\n                       tl.cex = 0.8, number.cex = 0.7,\n                       addCoef.col = \"black\", type = \"upper\",\n                       col = colorRampPalette(c(\"#A32D2D\",\"white\",\"#27500A\"))(200),\n                       title = \"Correlação entre métricas (classe)\",\n                       mar = c(0,0,1,0))\n  } else {\n    # Alternativa: heatmap com ggplot2\n    cor_df &lt;- as.data.frame(cor_mat) |&gt;\n      tibble::rownames_to_column(\"m1\") |&gt;\n      pivot_longer(-m1, names_to = \"m2\", values_to = \"r\")\n\n    ggplot(cor_df, aes(x = m1, y = m2, fill = r)) +\n      geom_tile(color = \"white\") +\n      scale_fill_gradient2(\n        low = \"#A32D2D\", mid = \"white\", high = \"#27500A\",\n        midpoint = 0, limits = c(-1, 1),\n        name = \"r de\\nPearson\"\n      ) +\n      geom_text(aes(label = round(r, 2)), size = 2.8) +\n      labs(title = \"Matriz de correlação entre métricas de paisagem\",\n           x = NULL, y = NULL) +\n      theme_minimal(base_size = 11) +\n      theme(axis.text.x = element_text(angle = 45, hjust = 1))\n  }\n}\n\n\n\n\n\nCorrelação entre métricas de paisagem — base para seleção do conjunto mínimo"
-  },
-  {
-    "objectID": "sessions/index.html",
-    "href": "sessions/index.html",
-    "title": "Conteúdo",
-    "section": "",
-    "text": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação\n\n\n\n\n\n\nDisciplina de Biologia da Conservação — PPGBV\n\n\nJul 31, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "sessions/slides/modulo1-slides.html#boas-vindas-ao-módulo-1",
     "href": "sessions/slides/modulo1-slides.html#boas-vindas-ao-módulo-1",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
@@ -271,216 +19,6 @@
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
     "section": "Origens e Consolidação (1970s–1990s)",
     "text": "Origens e Consolidação (1970s–1990s)"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#uma-disciplina-orientada-por-missão",
-    "href": "sessions/slides/modulo1-slides.html#uma-disciplina-orientada-por-missão",
-    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Uma Disciplina “Orientada por Missão”",
-    "text": "Uma Disciplina “Orientada por Missão”\n\nA biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica."
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#raízes-anteriores-à-institucionalização",
-    "href": "sessions/slides/modulo1-slides.html#raízes-anteriores-à-institucionalização",
-    "title": "Módulo 1",
-    "section": "Raízes Anteriores à Institucionalização",
-    "text": "Raízes Anteriores à Institucionalização\n\nTradições filosóficas e religiosas que atribuem valor intrínseco à natureza\nMovimentos históricos de apreciação e preservação de paisagens\nMuitas vezes expressão de privilégios sociais específicos\nFormalização científica: só na segunda metade do século XX [@dyke2020]"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#atividade-linha-do-tempo-coletiva",
-    "href": "sessions/slides/modulo1-slides.html#atividade-linha-do-tempo-coletiva",
-    "title": "Módulo 1",
-    "section": "Atividade: Linha do Tempo Coletiva",
-    "text": "Atividade: Linha do Tempo Coletiva\nEm grupos, reconstruam uma “onda” histórica da conservação atribuída ao grupo:\n\n\n\nGrupo\nPeríodo/Tema\n\n\n\n\n1\nRaízes filosóficas e religiosas pré-1970\n\n\n2\nConsolidação institucional (1970s–1990s)\n\n\n3\nDa biologia à ciência da conservação (2000s–2010s)\n\n\n4\nDebates contemporâneos (2020s)\n\n\n\nCada grupo apresenta em 5 minutos — construiremos a linha do tempo completa no quadro."
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#evolução-do-conceito-humano-natureza",
-    "href": "sessions/slides/modulo1-slides.html#evolução-do-conceito-humano-natureza",
-    "title": "Módulo 1",
-    "section": "Evolução do Conceito Humano-Natureza",
-    "text": "Evolução do Conceito Humano-Natureza\n\nDe agentes externos de perturbação a beneficiários e participantes dos sistemas ecológicos\nConceitos-chave: Antropoceno, sistemas socioecológicos acoplados\nReconhecimento crescente: os problemas centrais da conservação são inerentemente sociais [@teel2018]"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#de-proteger-da-para-proteger-para",
-    "href": "sessions/slides/modulo1-slides.html#de-proteger-da-para-proteger-para",
-    "title": "Módulo 1",
-    "section": "De “Proteger da” para “Proteger para”",
-    "text": "De “Proteger da” para “Proteger para”\n\nDeslocamento de proteger a natureza das pessoas\nPara protegê-la para as pessoas\nPrepara o terreno para os debates do Módulo 5 sobre:\n\nReservas extrativistas\nDesenvolvimento integrado\nDireitos de povos indígenas\n\n\n\n\n@dyke2020"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#debate-estruturado",
-    "href": "sessions/slides/modulo1-slides.html#debate-estruturado",
-    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Debate Estruturado",
-    "text": "Debate Estruturado\n“É possível conservar biodiversidade sem colocar humanos no centro?”\n\nGrupo A defende que sim; Grupo B defende que não, ou apenas parcialmente\n10 min de preparação, 15 min de debate, 10 min de síntese conjunta"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#da-biologia-à-ciência-da-conservação",
-    "href": "sessions/slides/modulo1-slides.html#da-biologia-à-ciência-da-conservação",
-    "title": "Módulo 1",
-    "section": "Da Biologia à Ciência da Conservação",
-    "text": "Da Biologia à Ciência da Conservação\n\nKareiva & Marvier revisitam, 25+ anos depois, a pergunta de Soulé: o que é biologia da conservação?\nResposta ampliada: uma ciência da conservação interdisciplinar [@kareiva2012]\nPremissa metodológica: acoplamento entre sistemas sociais e naturais"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#novas-prioridades-da-ciência-da-conservação",
-    "href": "sessions/slides/modulo1-slides.html#novas-prioridades-da-ciência-da-conservação",
-    "title": "Módulo 1",
-    "section": "Novas Prioridades da Ciência da Conservação",
-    "text": "Novas Prioridades da Ciência da Conservação\n\nAtuar em paisagens produtivas, não só em áreas protegidas isoladas\nReconstruir apoio público\nDialogar com o setor corporativo\nAtenção sistemática a direitos humanos e equidade\n\n\n\n@kareiva2012"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#fechamento-mapa-conceitual",
-    "href": "sessions/slides/modulo1-slides.html#fechamento-mapa-conceitual",
-    "title": "Módulo 1",
-    "section": "Fechamento: Mapa Conceitual",
-    "text": "Fechamento: Mapa Conceitual\nAtividade final: construam um mapa conceitual comparando:\n\nConservation Biology (Meine et al., 2006; Dyke & Lamb, 2020)\nConservation Science (Kareiva & Marvier, 2012)\n\nEntregar como insumo para o resumo expandido individual."
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#síntese-do-módulo-1",
-    "href": "sessions/slides/modulo1-slides.html#síntese-do-módulo-1",
-    "title": "Módulo 1",
-    "section": "Síntese do Módulo 1",
-    "text": "Síntese do Módulo 1\n\nA biologia da conservação nunca foi um campo estático\nDe disciplina de crise fundamentada em biologia básica\nPara um empreendimento interdisciplinar que assume a inseparabilidade entre sistemas humanos e naturais\nPróximo módulo: Desenvolvimento da Biologia da Conservação no Brasil"
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#referências",
-    "href": "sessions/slides/modulo1-slides.html#referências",
-    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Referências",
-    "text": "Referências"
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html",
-    "href": "sessions/resumos/week1/modulo1-resumo.html",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "",
-    "text": "Slides da Aula"
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#introdução",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#introdução",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "1 Introdução",
-    "text": "1 Introdução\nA biologia da conservação consolidou-se como disciplina científica a partir de meados da década de 1980, orientada por uma missão explícita: deter a perda de biodiversidade e proteger os processos ecológicos e evolutivos que a sustentam. Este primeiro módulo reconstrói essa trajetória histórica, do surgimento do campo enquanto “ciência de crise” até sua transformação, décadas depois, em um empreendimento interdisciplinar que já não separa claramente humanos e natureza.\nEssa reconstrução, no entanto, não pode se limitar à genealogia usualmente contada a partir dos Estados Unidos. Ao longo das quatro sessões deste módulo — terça e quinta-feira, manhã e tarde — vamos alternar entre essa narrativa “do Norte”, centrada na institucionalização acadêmica do campo, e uma genealogia paralela construída por pensadores, movimentos sociais e políticas públicas do Sul Global, particularmente da América Latina, que problematizam, deslocam e por vezes antecipam questões que a disciplina levaria décadas para incorporar formalmente. Compreender essas duas trajetórias — e as tensões entre elas — é essencial para que os pós-graduandos situem os debates contemporâneos da área, sobre justiça socioambiental, conhecimento tradicional e ecologia política, dentro de uma genealogia conceitual mais completa e menos centrada no eixo Estados Unidos–Europa."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#origens-e-consolidação-décadas-de-19701990",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#origens-e-consolidação-décadas-de-19701990",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "2 Origens e Consolidação (décadas de 1970–1990)",
-    "text": "2 Origens e Consolidação (décadas de 1970–1990)\nA biologia da conservação emergiu como resposta institucional nos EUA a um cenário de aumento acelerado das taxas de extinção e ameaças à biodiversidade global, apoiando-se em disciplinas biológicas já estabelecidas — genética, sistemática, ecologia e biologia evolutiva — e na gestão de recursos naturais (Dyke & Lamb, 2020; Meine et al., 2006). Sua consolidação institucional ocorreu em um intervalo curto e bem documentado: a fundação da Society for Conservation Biology (SCB) em 1987, o lançamento do periódico Conservation Biology em 1988 e a subsequente proliferação de programas de pós-graduação dedicados ao tema já no início dos anos 1990 (Meine et al., 2006).\n\n\n\nLeia o obituário de Michael Soulé escrito por Fernando Fernandes\n\n\nMeine, Soulé e Noss (2006) descrevem a conservação biológica como uma disciplina “orientada por missão” (mission-driven), característica que a distingue de campos puramente descritivos: seu critério de sucesso não é apenas a produção de conhecimento, mas sua aplicação efetiva à proteção da diversidade biológica da Terra. Essa orientação normativa — a ciência a serviço de um objetivo de conservação explícito — é um traço definidor que atravessa toda a história subsequente do campo.\nVale notar que as raízes intelectuais da conservação são bem anteriores à sua institucionalização científica. Tradições filosóficas e religiosas que atribuem valor intrínseco à natureza, bem como movimentos históricos de apreciação e preservação de paisagens, prefiguram — e muitas vezes expressam privilégios sociais específicos — o que viria a se tornar, apenas na segunda metade do século XX, uma disciplina científica formalizada (Dyke & Lamb, 2020)."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#a-evolução-do-conceito-humano-natureza",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#a-evolução-do-conceito-humano-natureza",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "3 A Evolução do Conceito Humano-Natureza",
-    "text": "3 A Evolução do Conceito Humano-Natureza\nUm dos deslocamentos mais significativos na história da disciplina foi a revisão do papel atribuído aos seres humanos nos sistemas que ela busca proteger. Nas formulações iniciais, humanos apareciam predominantemente como agentes externos de perturbação — fontes de ameaça a serem contidas ou excluídas das áreas protegidas. Com o tempo, essa compreensão ampliou-se para reconhecer humanos também como beneficiários dos serviços ecossistêmicos e como participantes ativos dentro dos próprios sistemas ecológicos, um deslocamento conceitual associado à emergência de noções como Antropoceno e sistemas socioecológicos acoplados (Teel et al., 2018).\nEssa mudança não foi apenas semântica. Ela expressa o reconhecimento, cada vez mais consensual dentro do campo, de que os problemas centrais da conservação são inerentemente sociais, e que a disciplina, apesar de suas raízes epistemológicas nas ciências naturais, precisava incorporar as ciências sociais para cumprir sua própria missão (Teel et al., 2018). Paralelamente, a disciplina passou a se afastar da lógica de proteger a natureza das pessoas para buscar formas de protegê-la para as pessoas — um princípio que se tornaria central nos debates sobre reservas extrativistas, desenvolvimento integrado e direitos de povos indígenas, explorados no Módulo 5 (Dyke & Lamb, 2020)."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#da-biologia-da-conservação-à-ciência-da-conservação",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#da-biologia-da-conservação-à-ciência-da-conservação",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "4 Da Biologia da Conservação à Ciência da Conservação",
-    "text": "4 Da Biologia da Conservação à Ciência da Conservação\nPassadas mais de duas décadas da pergunta seminal de Michael Soulé — “o que é biologia da conservação?” —, Kareiva e Marvier (2012) revisitam a questão em um contexto global já reconhecidamente dominado pela ação humana. Os autores propõem que o campo se ampliou para uma “ciência da conservação” interdisciplinar, que assume explicitamente o acoplamento entre sistemas sociais e naturais como premissa metodológica, e não apenas como consideração adicional.\nEssa ciência da conservação ampliada passa a incorporar prioridades até então marginais: atuar dentro de paisagens produtivas (e não apenas em áreas protegidas isoladas), reconstruir apoio público ao redor de suas causas, dialogar com o setor corporativo e dar atenção mais sistemática a direitos humanos e equidade (Kareiva & Marvier, 2012). O argumento central — de que estratégias de conservação devem maximizar simultaneamente a preservação da biodiversidade e o bem-estar humano — antecipa diretamente as tensões entre ecologia e justiça social que estruturam os módulos finais da disciplina."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#considerações-finais",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#considerações-finais",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "7 Considerações Finais",
-    "text": "7 Considerações Finais\nA trajetória reconstruída neste módulo mostra que a biologia da conservação nunca foi um campo estático nem singular: de uma disciplina de crise fundamentada quase exclusivamente em biologia básica, ela se reconfigurou, em poucas décadas, em um empreendimento interdisciplinar que assume a inseparabilidade entre sistemas humanos e naturais. Mas essa trajetória, quando contada apenas a partir de sua institucionalização estadunidense, permanece incompleta. A leitura paralela de Diegues, Leff, Martínez-Alier e Ulloa revela uma segunda genealogia — latino-americana, articulada em português e espanhol, nascida de conflitos distributivos concretos e da crítica ao modelo de área protegida herdado de Yellowstone — que antecipou, muitas vezes por décadas, questões que a disciplina científica de língua inglesa levaria até os anos 2010 para incorporar de forma sistemática.\nEssa dupla genealogia é a chave de leitura para os módulos seguintes, que aprofundarão, respectivamente, o desenvolvimento da disciplina no Brasil — onde essas duas tradições se encontram de forma particularmente direta —, a dimensão biológica da biodiversidade, a interdisciplinaridade com as ciências humanas e a articulação da conservação com a ecologia política."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre este site",
-    "section": "",
-    "text": "Site que compila materiais para a dicisplina de Biologia da Conservação do PPGBV"
-  },
-  {
-    "objectID": "exercises/index.html",
-    "href": "exercises/index.html",
-    "title": "Lista de exercícios",
-    "section": "",
-    "text": "Confira abaixo a lista de exercícios e seus tutoriais\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "workbook/demo4.html",
-    "href": "workbook/demo4.html",
-    "title": "Demo ex 4",
-    "section": "",
-    "text": "Compreender a importância da projeção cartográfica para análises métricas. Aplicar buffer negativo para restrição de borda de mapa. Realizar amostragem aleatória com distância mínima entre pontos. Extrair e quantificar a composição da paisagem em buffers circulares. Calcular métricas de paisagem com landscapemetrics. Produzir um painel de visualização das paisagens amostrais.\n\nlibrary(terra)\n\nterra 1.9.11\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.2\n✔ ggplot2   4.0.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ tidyr::extract() masks terra::extract()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(landscapemetrics)\n\nsetwd(\"/home/felipe/ecologia_paisagem/exercises/ex4-analises\") # mude para o seu próprio diretório\n\nr_murici &lt;- rast(\"/home/felipe/ecologia_paisagem/exercises/ex4-analises/2024_murici.tif\")"
-  },
-  {
-    "objectID": "workbook/demo4.html#objetivos-específicos",
-    "href": "workbook/demo4.html#objetivos-específicos",
-    "title": "Demo ex 4",
-    "section": "",
-    "text": "Compreender a importância da projeção cartográfica para análises métricas. Aplicar buffer negativo para restrição de borda de mapa. Realizar amostragem aleatória com distância mínima entre pontos. Extrair e quantificar a composição da paisagem em buffers circulares. Calcular métricas de paisagem com landscapemetrics. Produzir um painel de visualização das paisagens amostrais.\n\nlibrary(terra)\n\nterra 1.9.11\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.2\n✔ ggplot2   4.0.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.1.0     \n\n\n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ tidyr::extract() masks terra::extract()\n✖ dplyr::filter()  masks stats::filter()\n✖ dplyr::lag()     masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(landscapemetrics)\n\nsetwd(\"/home/felipe/ecologia_paisagem/exercises/ex4-analises\") # mude para o seu próprio diretório\n\nr_murici &lt;- rast(\"/home/felipe/ecologia_paisagem/exercises/ex4-analises/2024_murici.tif\")"
-  },
-  {
-    "objectID": "workbook/demo4.html#projetar",
-    "href": "workbook/demo4.html#projetar",
-    "title": "Demo ex 4",
-    "section": "Projetar",
-    "text": "Projetar\n\nr_utm &lt;- project(r_murici, \"EPSG:31985\", method = \"near\")"
-  },
-  {
-    "objectID": "workbook/demo4.html#legenda",
-    "href": "workbook/demo4.html#legenda",
-    "title": "Demo ex 4",
-    "section": "Legenda",
-    "text": "Legenda\n\nlegenda &lt;- data.frame(\n  id = c(3, 4, 11, 15, 20, 21, 24, 25, 33),\n  Categoria = c(\"Formação Florestal\", \"Formação Savânica\", \"Campo Alagado\", \n                \"Pastagem\", \"Cana\", \"Mosaico de Usos\", \"Área Urbanizada\", \n                \"Outras Áreas não Vegetadas\", \"Corpo d'Água\"),\n  Cores = c(\"#006400\", \"#7cfc00\", \"#00ffff\", \"#ffff00\", \"#ff4500\", \n            \"#f4a460\", \"#ff0000\", \"#d3d3d3\", \"#0000ff\")\n)\n\nlevels(r_utm) &lt;- legenda[,1:2]"
-  },
-  {
-    "objectID": "workbook/demo4.html#definirarea",
-    "href": "workbook/demo4.html#definirarea",
-    "title": "Demo ex 4",
-    "section": "Definirarea",
-    "text": "Definirarea\n\nvetor_total &lt;- as.polygons(r_utm, dissolve = TRUE)\nmunicipio_limite &lt;- aggregate(vetor_total)\nlimite_seguro &lt;- buffer(municipio_limite, width = -2000)\n\nfloresta &lt;- vetor_total[vetor_total$Categoria == \"Formação Florestal\", ]\narea_sorteio &lt;- crop(floresta, limite_seguro)\n\nif (is.list(area_sorteio)) {\n  area_sorteio &lt;- do.call(rbind, area_sorteio)\n}\n\nif (nrow(area_sorteio) == 0) {\n  stop(\"Erro: Nenhuma floresta encontrada a mais de 2km da borda.\")\n}"
-  },
-  {
-    "objectID": "resources/eco_pais.html",
-    "href": "resources/eco_pais.html",
-    "title": "Cursos de Ecologia de Paisagem",
-    "section": "",
-    "text": "Aqui está uma lista de sites e canais do YouTube que oferecem tutoriais em ecologia de paisagem"
-  },
-  {
-    "objectID": "resources/eco_pais.html#tutoriais-gratuitos-de-r-e-rstudio-e-recursos-de-estatística",
-    "href": "resources/eco_pais.html#tutoriais-gratuitos-de-r-e-rstudio-e-recursos-de-estatística",
-    "title": "Cursos de Ecologia de Paisagem",
-    "section": "",
-    "text": "Aqui está uma lista de sites e canais do YouTube que oferecem tutoriais em ecologia de paisagem"
-  },
-  {
-    "objectID": "resources/eco_pais.html#cursos-online-grátis-em-português",
-    "href": "resources/eco_pais.html#cursos-online-grátis-em-português",
-    "title": "Cursos de Ecologia de Paisagem",
-    "section": "Cursos online grátis em Português:",
-    "text": "Cursos online grátis em Português:\n\nNEEDS - UFSCAR: curso online sobre Ecologia de Paisagens, feito durante a pandemia do Coronavirus, de forma a auxiliar o Ensino Não-Presencial Emergencial (ENPE) - Graduação em Ciências Biológicas - campus Lagoa do Sino. Aqui você encontrará as informações básicas para acompanhar o nosso curso. Este material está em preparação! Dicas e sugestões são bem-vindas!"
-  },
-  {
-    "objectID": "resources/eco_pais.html#cursos-grátis-em-inglês",
-    "href": "resources/eco_pais.html#cursos-grátis-em-inglês",
-    "title": "Cursos de Ecologia de Paisagem",
-    "section": "Cursos grátis em Inglês",
-    "text": "Cursos grátis em Inglês\n\nETHx: Landscape Ecology - This is the first MOOC to teach Landscape Ecology. Participants learn theory, methods and tools to understand the landscapes we live in and to solve landscape-related environmental problems."
-  },
-  {
-    "objectID": "resources/eco_pais.html#códigos-em-r-para-ep",
-    "href": "resources/eco_pais.html#códigos-em-r-para-ep",
-    "title": "Cursos de Ecologia de Paisagem",
-    "section": "Códigos em R para EP",
-    "text": "Códigos em R para EP\nOpen-source Tools in R for Landscape Ecology\nIntroduction to landscape ecology with R\nMétricas de paisagem no R - O curso tem o intuito de oferecer uma introdução teórica e prática sobre o cálculo de métricas de paisagem categóricas (composição e configuração), utilizando a linguagem R através do pacote landscapemetrics. Primeiramente são apresentados os principais conceitos de ecologia da paisagem, métricas de paisagem, geoprocessamento, dados geoespaciais, linguagem R e detalhes do pacote landscapmetrics."
-  },
-  {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Lista de sites úteis",
-    "section": "",
-    "text": "Incluí abaixo uma lista de sites e materiais online como: cursos, apresentações e video-aulas. Aproveitem!\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nAuthor\n\n\n\n\n\n\n\n\nCursos de Ecologia de Paisagem\n\n\n \n\n\n\n\n\n\nCursos de R Excelentes e Gratuitos\n\n\nFelipe Melo\n\n\n\n\n\n\nUsando Quarto\n\n\nAndrew Heiss\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#abertura-do-turno",
@@ -546,13 +84,6 @@
     "text": "Manejo de recursos naturais\n\n\n\nJá era uma ciência aplicada\nNão ligada á conservação\nCaça espotiva\nIndustria extrativista\nPesca"
   },
   {
-    "objectID": "sessions/slides/modulo1-slides.html#raízes-disciplinares-ii",
-    "href": "sessions/slides/modulo1-slides.html#raízes-disciplinares-ii",
-    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Raízes Disciplinares (II)",
-    "text": "Raízes Disciplinares (II)\n\nEcologia: dinâmica de populações, comunidades e ecossistemas\nBiologia evolutiva: processos que geram e mantêm a diversidade\nGestão de recursos naturais: tradição aplicada anterior ao campo científico"
-  },
-  {
     "objectID": "sessions/slides/modulo1-slides.html#a-teoria-da-biogeografia-de-ilhas",
     "href": "sessions/slides/modulo1-slides.html#a-teoria-da-biogeografia-de-ilhas",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
@@ -602,46 +133,53 @@
     "text": "Expansão da Pós-Graduação\n\n\n\nInício dos anos 1990: proliferação de programas de pós-graduação dedicados ao tema\nFormação de uma nova geração de pesquisadores identificados com o campo\nInstitucionalização acadêmica consolidando o que havia começado como movimento"
   },
   {
+    "objectID": "sessions/slides/modulo1-slides.html#uma-disciplina-orientada-por-missão",
+    "href": "sessions/slides/modulo1-slides.html#uma-disciplina-orientada-por-missão",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Uma Disciplina “Orientada por Missão”",
+    "text": "Uma Disciplina “Orientada por Missão”\n\nA biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica."
+  },
+  {
     "objectID": "sessions/slides/modulo1-slides.html#o-que-significa-mission-driven-na-prática",
     "href": "sessions/slides/modulo1-slides.html#o-que-significa-mission-driven-na-prática",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "O que Significa “Mission-Driven” na Prática",
-    "text": "O que Significa “Mission-Driven” na Prática\n\nCritério de sucesso não é apenas publicar, mas gerar impacto de conservação\nCientistas assumem posições normativas explícitas (não neutras)\nIsso gera tensões próprias sobre objetividade científica"
+    "section": "O que significa “Mission-Driven” na prática",
+    "text": "O que significa “Mission-Driven” na prática\n\nCritério de sucesso não é apenas publicar, mas gerar impacto de conservação\nCientistas assumem posições normativas explícitas (não neutras)\nIsso gera tensões próprias sobre objetividade científica"
   },
   {
-    "objectID": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadasnormativas",
-    "href": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadasnormativas",
+    "objectID": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadas",
+    "href": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadas",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Ciências Descritivas vs. Ciências Aplicadas/Normativas",
-    "text": "Ciências Descritivas vs. Ciências Aplicadas/Normativas\n\n\n\nCiências descritivas: buscam compreender fenômenos sem compromisso de ação\n\n\n\nCiências aplicadas e normativas: comprometidas com um objetivo declarado"
+    "section": "Ciências descritivas vs. Ciências aplicadas",
+    "text": "Ciências descritivas vs. Ciências aplicadas\n\n\n\nCiências descritivas: buscam compreender fenômenos sem compromisso de ação\n\n\n\nCiências aplicadas e normativas: comprometidas com um objetivo declarado"
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#paralelos-com-outras-disciplinas-de-missão",
     "href": "sessions/slides/modulo1-slides.html#paralelos-com-outras-disciplinas-de-missão",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
     "section": "Paralelos com Outras Disciplinas de Missão",
-    "text": "Paralelos com Outras Disciplinas de Missão\n\nMedicina: objetivo declarado de curar e prevenir doenças\nAgronomia: objetivo declarado de produção de alimentos\nPergunta: essas disciplinas fazem ciência de forma diferente por isso?"
+    "text": "Paralelos com Outras Disciplinas de Missão\n\nMedicina: objetivo declarado de curar e prevenir doenças\nAgronomia: objetivo declarado de produção de alimentos\n\nPergunta: essas disciplinas fazem ciência de forma diferente por isso?"
   },
   {
-    "objectID": "sessions/slides/modulo1-slides.html#primeiras-tensões-do-campo-emergente",
-    "href": "sessions/slides/modulo1-slides.html#primeiras-tensões-do-campo-emergente",
+    "objectID": "sessions/slides/modulo1-slides.html#tensões-comuns",
+    "href": "sessions/slides/modulo1-slides.html#tensões-comuns",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Primeiras Tensões do Campo Emergente",
-    "text": "Primeiras Tensões do Campo Emergente\n\nDisputas sobre o que conta como “boa ciência” em um campo normativo\nDivergências sobre prioridades: espécies-bandeira vs. ecossistemas inteiros\nDebate sobre o papel do ativismo dentro da prática científica"
+    "section": "Tensões comuns",
+    "text": "Tensões comuns\n\nDisputas sobre o que conta como “boa ciência” em um campo aplicado\nDivergências sobre prioridades: espécies-bandeira vs. ecossistemas inteiros\nDebate sobre o papel do ativismo dentro da prática científica"
   },
   {
-    "objectID": "sessions/slides/modulo1-slides.html#legado-institucional-para-a-conservação-hoje",
-    "href": "sessions/slides/modulo1-slides.html#legado-institucional-para-a-conservação-hoje",
+    "objectID": "sessions/slides/modulo1-slides.html#legado-institucional",
+    "href": "sessions/slides/modulo1-slides.html#legado-institucional",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Legado Institucional para a Conservação Hoje",
-    "text": "Legado Institucional para a Conservação Hoje\n\nSCB e Conservation Biology seguem como referências centrais do campo\nEstrutura de pós-graduação criada nos anos 1990 ainda molda a formação atual\nMuitas tensões fundadoras permanecem vivas nos debates contemporâneos"
+    "section": "Legado Institucional",
+    "text": "Legado Institucional\n\nSCB e Conservation Biology seguem como referências centrais do campo\nEstrutura de pós-graduação criada nos anos 1990 ainda molda a formação atual\nMuitas tensões fundadoras permanecem vivas nos debates contemporâneos"
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#síntese-do-turno-da-manhã",
     "href": "sessions/slides/modulo1-slides.html#síntese-do-turno-da-manhã",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
     "section": "Síntese do Turno da Manhã",
-    "text": "Síntese do Turno da Manhã\n\nBiologia da conservação nasce da convergência entre crise ambiental e disciplinas biológicas estabelecidas\nConsolidação institucional ocorre em um intervalo curto (1985–1990s)\nPróximo turno: as raízes filosóficas e religiosas que antecedem essa institucionalização"
+    "text": "Síntese do Turno da Manhã\n\nBiologia da conservação nasce da convergência entre crise ambiental e disciplinas biológicas estabelecidas\nConsolidação institucional ocorre em um intervalo curto (1985–1990s)\nMajoritariamente nos EUA e Europa\nOrigem acadêmica de tradições específicas que geram tensões persistentes\n\nLeitura deste turno: MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-Driven Discipline”: the Growth of Conservation Biology."
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#raízes-filosóficas-e-a-ciência-da-escassez-e-abundância",
@@ -655,7 +193,7 @@
     "href": "sessions/slides/modulo1-slides.html#abertura-do-turno-1",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
     "section": "Abertura do Turno",
-    "text": "Abertura do Turno\n\nTema: o que veio antes da institucionalização científica\nPergunta-guia: por que a formalização só ocorreu no século XX?\nLeitura de referência: @dyke2020"
+    "text": "Abertura do Turno\n\nTema: o que veio antes da institucionalização científica\nPergunta-guia: por que a formalização só ocorreu no século XX?\nLeitura de referência: Dyke, F., & Lamb, R. (2020). The History and Distinctions of Conservation Biology"
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#conservação-como-ciência-da-escassez-e-abundância",
@@ -689,8 +227,8 @@
     "objectID": "sessions/slides/modulo1-slides.html#cosmovisões-não-ocidentais",
     "href": "sessions/slides/modulo1-slides.html#cosmovisões-não-ocidentais",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Cosmovisões Não-Ocidentais",
-    "text": "Cosmovisões Não-Ocidentais\n\nDiversas tradições religiosas e cosmovisões indígenas atribuem valor à natureza\nFrequentemente ausentes das narrativas fundadoras ocidentais do campo\nTema que será retomado com profundidade no Módulo 4 (interdisciplinaridade)"
+    "section": "Cosmovisões não-Ocidentais",
+    "text": "Cosmovisões não-Ocidentais\n\nDiversas tradições religiosas e cosmovisões indígenas atribuem valor à natureza\nFrequentemente ausentes das narrativas fundadoras ocidentais do campo\nTema que será retomado com profundidade no Módulo 4 (interdisciplinaridade)"
   },
   {
     "objectID": "sessions/slides/modulo1-slides.html#movimentos-de-preservação-de-paisagens",
@@ -910,6 +448,13 @@
     "text": "Prenúncio dos Debates do Módulo 5\n\nEcologia política e justiça socioambiental aprofundarão esses temas\nHoje lançamos as bases conceituais para essa discussão futura"
   },
   {
+    "objectID": "sessions/slides/modulo1-slides.html#debate-estruturado",
+    "href": "sessions/slides/modulo1-slides.html#debate-estruturado",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Debate Estruturado",
+    "text": "Debate Estruturado\n“É possível conservar biodiversidade sem colocar humanos no centro?”\n\nGrupo A defende que sim; Grupo B defende que não, ou apenas parcialmente\n10 min de preparação, 15 min de debate, 10 min de síntese conjunta"
+  },
+  {
     "objectID": "sessions/slides/modulo1-slides.html#síntese-do-debate",
     "href": "sessions/slides/modulo1-slides.html#síntese-do-debate",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
@@ -1071,59 +616,52 @@
     "text": "Prévia do Módulo 2\n\nPróximo tema: Desenvolvimento da Biologia da Conservação no Brasil\nLeituras previstas: Vilaça et al. (2024); Rosa et al. (2021); De Assumpção & Ritter (2025)"
   },
   {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#origens-e-consolidação-terça-feira-manhã",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#origens-e-consolidação-terça-feira-manhã",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "2 Origens e Consolidação (Terça-feira, manhã)",
-    "text": "2 Origens e Consolidação (Terça-feira, manhã)\nA biologia da conservação emergiu como resposta institucional nos EUA a um cenário de aumento acelerado das taxas de extinção e ameaças à biodiversidade global, apoiando-se em disciplinas biológicas já estabelecidas — genética, sistemática, ecologia e biologia evolutiva — e na gestão de recursos naturais (Dyke & Lamb, 2020; Meine et al., 2006). Esse cenário de crise já vinha sendo anunciado desde o início dos anos 1960, quando a publicização dos efeitos de pesticidas sintéticos sobre cadeias ecológicas inteiras ajudou a inaugurar uma consciência ambiental pública em escala mundial, ainda que essa sensibilização inicial não constituísse, por si só, um campo científico organizado.\nA formalização do campo apoiou-se também em desenvolvimentos teóricos anteriores, como a teoria da biogeografia de ilhas, que relacionava a área disponível de hábitat ao número de espécies capazes de persistir nele e que passou a orientar diretamente o desenho de reservas e parques a partir do final dos anos 1960. Paralelamente, instituições internacionais já vinham lançando as bases organizacionais que a disciplina científica herdaria: a União Internacional para a Conservação da Natureza (IUCN), fundada em 1948, e sua Lista Vermelha de espécies ameaçadas, consolidaram um vocabulário e uma infraestrutura de dados que antecedem em décadas a formalização acadêmica do campo.\n\n\n\nLeia o obituário de Michael Soulé escrito por Fernando Fernandes\n\n\nFoi nesse contexto que Michael Soulé propôs, em 1985, a pergunta fundadora do campo — “o que é biologia da conservação?” — descrevendo-o como uma disciplina de crise, análoga à medicina de emergência: obrigada a agir e a formular recomendações mesmo diante de dados incompletos, o que gera uma tensão constitutiva entre rigor científico e urgência prática. Essa proposta ganhou corpo institucional rapidamente: a fundação da Society for Conservation Biology (SCB) em 1987, o lançamento do periódico Conservation Biology em 1988 e a subsequente proliferação de programas de pós-graduação dedicados ao tema já no início dos anos 1990 consolidaram, em um intervalo notavelmente curto, uma comunidade científica com identidade própria (Meine et al., 2006).\nMeine, Soulé e Noss (2006) descrevem essa consolidação como o surgimento de uma disciplina “orientada por missão” (mission-driven), característica que a distingue de campos puramente descritivos: seu critério de sucesso não é apenas a produção de conhecimento, mas sua aplicação efetiva à proteção da diversidade biológica da Terra. Essa orientação normativa — a ciência a serviço de um objetivo de conservação explícito — é um traço definidor que atravessa toda a história subsequente do campo, e que o aproxima de outras disciplinas aplicadas, como a medicina ou a agronomia, nas quais o compromisso com um resultado prático coexiste, nem sempre sem tensão, com os critérios convencionais de objetividade científica."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#raízes-filosóficas-e-a-ciência-da-escassez-e-abundância-terça-feira-tarde",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#raízes-filosóficas-e-a-ciência-da-escassez-e-abundância-terça-feira-tarde",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "3 Raízes Filosóficas e a Ciência da Escassez e Abundância (Terça-feira, tarde)",
-    "text": "3 Raízes Filosóficas e a Ciência da Escassez e Abundância (Terça-feira, tarde)\nAs raízes intelectuais da conservação são bem anteriores à sua institucionalização científica. Tradições filosóficas ocidentais convivem, desde o século XIX, em uma tensão nunca inteiramente resolvida entre visões utilitaristas — que tratam a natureza como um recurso a ser gerido racionalmente — e visões que lhe atribuem valor intrínseco, independente de qualquer utilidade humana. Essa segunda corrente encontra expressão emblemática na “ética da terra” proposta por Aldo Leopold em A Sand County Almanac (1949), que defendia a ampliação da comunidade moral para incluir solos, águas, plantas e animais, e nos escritos de John Muir, um notótio racista e supremacista branco, cuja defesa de uma natureza intocada, de valor estético e espiritual, se contrapunha à visão conservacionista de uso racional de recursos defendida por Gifford Pinchot.\nEssa disputa filosófica teve consequência institucional direta na criação, em 1872, do Parque Nacional de Yellowstone — o primeiro do mundo — que consolidou um modelo específico de área protegida: um espaço supostamente desabitado, preservado por seu valor estético e recreativo para populações urbanas. Esse modelo se espalharia pelo mundo ao longo do século XX como padrão praticamente universal de conservação, moldando não apenas a criação de parques nos Estados Unidos, mas também a legislação ambiental de dezenas de outros países, incluindo o Brasil.\nÉ precisamente nesse ponto que a narrativa convencional da disciplina exige uma qualificação importante, retomada com mais profundidade na próxima seção: essas tradições filosóficas e os modelos institucionais que delas derivaram muitas vezes expressam privilégios sociais específicos (Dyke & Lamb, 2020). A pergunta sobre quem definia o que devia ser preservado — e para quem — carrega, desde a origem, uma dimensão política que a narrativa estritamente biológica do campo tende a deixar implícita."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#uma-genealogia-também-escrita-a-partir-do-sul-perspectivas-latino-americanas",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#uma-genealogia-também-escrita-a-partir-do-sul-perspectivas-latino-americanas",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "4 Uma genealogia também escrita a partir do Sul: Perspectivas Latino-Americanas",
-    "text": "4 Uma genealogia também escrita a partir do Sul: Perspectivas Latino-Americanas\nA narrativa até aqui apresentada — de Soulé à fundação da SCB — descreve com precisão como a biologia da conservação se institucionalizou nos Estados Unidos. Mas essa não é a única história possível sobre a proteção da biodiversidade no mesmo período. Autores latino-americanos, escrevendo majoritariamente em português e espanhol, construíram paralelamente uma genealogia distinta, menos centrada na consolidação disciplinar dentro da biologia e mais atenta aos conflitos distributivos, às populações tradicionais e às disputas de poder envolvidas na definição do que conta como “natureza a ser protegida”.\nO antropólogo brasileiro Antonio Carlos Diegues oferece a crítica mais direta ao modelo institucional descrito na seção anterior. Em O mito moderno da natureza intocada, Diegues (2008) argumenta que a concepção de áreas naturais protegidas como espaços desabitados e intocados, herdada do modelo Yellowstone, constitui um mito de origem especificamente europeia e norte-americana — e que sua transposição para países do que o autor chama do Sul Global produziu, sistematicamente, a expulsão de populações tradicionais e indígenas de seus territórios ancestrais, sem qualquer consideração pela história de ocupação e manejo que essas populações mantinham com o ambiente. Para Diegues, essa transposição ignora que a própria noção de “natureza selvagem” (wilderness) é uma construção cultural específica, e não uma categoria universalmente válida — argumento que dialoga diretamente com o modelo de exclusão discutido na próxima sessão do módulo, sobre a evolução do conceito humano-natureza.\n\n\nEnquanto a narrativa estadunidense localiza a origem da disciplina em uma resposta relativamente recente (anos 1970-80) à crise de biodiversidade, o economista e sociólogo ambiental hispano-mexicano Enrique Leff situa a ecologia política latino-americana como um campo que já se articulava desde a década de 1970, não como uma importação do ambientalismo do Norte, mas como resposta a conflitos socioambientais próprios da região, gerados pela racionalidade do mercado e por dinâmicas de exploração de recursos herdadas de processos coloniais e pós-coloniais (2003). Leff argumenta que a ecologia política latino-americana nasce de uma diferenciação epistemológica explícita entre o ecologismo das sociedades já industrializadas — que ele descreve como um “ecologismo pós-material”, voltado a preocupações estéticas e de qualidade de vida — e o que chama de “ecologismo dos pobres”, ancorado na sobrevivência material de populações que dependem diretamente dos recursos ambientais em disputa.\nEssa mesma distinção é desenvolvida com profundidade pelo economista ecológico Joan Martínez-Alier, cuja obra é amplamente lida e debatida em toda a América Latina. Em El ecologismo de los pobres, Martínez-Alier (2004) documenta uma multiplicidade de conflitos ecológicos distributivos ao redor do mundo — muitos deles latino-americanos — nos quais populações marginalizadas mobilizam-se em defesa de recursos ambientais dos quais depende sua própria sobrevivência. O argumento central do autor inverte um pressuposto comum na literatura ambientalista do Norte: o meio ambiente não é um luxo pós-material que sociedades ricas podem se dar ao luxo de valorizar, mas uma necessidade material imediata para os mais pobres. Essa formulação oferece um contraponto direto à trajetória disciplinar descrita nas seções anteriores, que emerge justamente de uma sociedade industrializada e relativamente próspera.\nUma quarta contribuição, da antropóloga colombiana Astrid Ulloa, adiciona uma camada crítica adicional a essa genealogia. Em La construcción del nativo ecológico, Ulloa (2004) analisa como o discurso ambientalista internacional passou a construir povos indígenas como guardiões ecológicos “naturais” de seus territórios — uma identidade que, segundo a autora, confere capital político e acesso a financiamento internacional a esses povos, mas que simultaneamente corre o risco de essencializar e imobilizar identidades indígenas em uma imagem estática, ignorando suas próprias transformações internas, contradições e diversidade de posições políticas. A crítica de Ulloa é útil precisamente porque não endossa acriticamente a narrativa de resistência: ela mostra que a aliança entre movimentos indígenas e ambientalismo internacional é, ela mesma, um campo de disputa política, não uma harmonia pré-existente.\nLidas em conjunto, essas quatro contribuições — Diegues, Leff, Martínez-Alier e Ulloa — não substituem a narrativa institucional apresentada nas seções anteriores; elas a colocam em perspectiva. Enquanto a biologia da conservação, tal como narrada por Meine, Soulé e Noss, nasce de uma comunidade científica relativamente homogênea, concentrada em universidades e sociedades científicas do hemisfério Norte, a ecologia política latino-americana nasce de conflitos distributivos concretos, movimentos sociais e disputas territoriais, com pouca ou nenhuma referência à sociedade acadêmica que fundou a SCB. Essas duas genealogias coexistiram por décadas, praticamente sem diálogo direto, e é apenas a partir dos anos 2000 que a disciplina científica começaria a incorporar, de forma mais sistemática, as questões que a ecologia política latino-americana já vinha discutindo desde os anos 1970 — como veremos na próxima seção."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#a-evolução-do-conceito-humano-natureza-quinta-feira-manhã",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#a-evolução-do-conceito-humano-natureza-quinta-feira-manhã",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "5 A Evolução do Conceito Humano-Natureza (Quinta-feira, manhã)",
-    "text": "5 A Evolução do Conceito Humano-Natureza (Quinta-feira, manhã)\nUm dos deslocamentos mais significativos na história da disciplina foi a revisão do papel atribuído aos seres humanos nos sistemas que ela busca proteger. Nas formulações iniciais, herdeiras diretas do modelo Yellowstone discutido acima, humanos apareciam predominantemente como agentes externos de perturbação — fontes de ameaça a serem contidas ou excluídas das áreas protegidas. Esse modelo de exclusão gerou, como já indicado pela crítica de Diegues, deslocamentos concretos de populações tradicionais em diversos países, incluindo o Brasil, sobretudo nas décadas em que a maior parte das unidades de conservação restritivas do país foi criada.\nCom o tempo, essa compreensão ampliou-se para reconhecer humanos também como beneficiários dos serviços ecossistêmicos e como participantes ativos dentro dos próprios sistemas ecológicos, um deslocamento conceitual associado à emergência de noções como Antropoceno e sistemas socioecológicos acoplados (Teel et al., 2018). O próprio conceito de Antropoceno, entretanto, permanece controverso: há debate tanto sobre seu marco temporal de início — a Revolução Industrial, a era atômica ou os processos de colonização das Américas são candidatos concorrentes — quanto sobre sua utilidade analítica, já que ele pode obscurecer a enorme desigualdade entre os grupos humanos responsáveis pelos impactos ambientais globais e aqueles que mais sofrem suas consequências, um ponto que aproxima diretamente essa discussão do “ecologismo dos pobres” de Martínez-Alier.\nEssa mudança não foi apenas semântica. Ela expressa o reconhecimento, cada vez mais consensual dentro do campo, de que os problemas centrais da conservação são inerentemente sociais, e que a disciplina, apesar de suas raízes epistemológicas nas ciências naturais, precisava incorporar as ciências sociais para cumprir sua própria missão (Teel et al., 2018). Paralelamente, a disciplina passou a se afastar da lógica de proteger a natureza das pessoas para buscar formas de protegê-la para as pessoas — um princípio que se tornaria central nos debates sobre reservas extrativistas, desenvolvimento integrado e direitos de povos indígenas, explorados no Módulo 5 (Dyke & Lamb, 2020). Vale notar, no entanto, que essa reformulação — “proteger para” as pessoas — precisa ser lida à luz da advertência de Ulloa: o reconhecimento do papel dos povos tradicionais na conservação não é isento de disputas políticas sobre quem fala em nome de quem, e sobre os riscos de reduzir identidades indígenas complexas a uma função ecológica instrumental."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#da-biologia-da-conservação-à-ciência-da-conservação-quinta-feira-tarde",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#da-biologia-da-conservação-à-ciência-da-conservação-quinta-feira-tarde",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "6 Da Biologia da Conservação à Ciência da Conservação (Quinta-feira, tarde)",
-    "text": "6 Da Biologia da Conservação à Ciência da Conservação (Quinta-feira, tarde)\nPassadas mais de duas décadas da pergunta seminal de Michael Soulé, Kareiva e Marvier (2012) revisitam a questão em um contexto global já reconhecidamente dominado pela ação humana. Os autores propõem que o campo se ampliou para uma “ciência da conservação” interdisciplinar, que assume explicitamente o acoplamento entre sistemas sociais e naturais como premissa metodológica, e não apenas como consideração adicional.\nEssa ciência da conservação ampliada passa a incorporar prioridades até então marginais dentro da disciplina científica estadunidense: atuar dentro de paisagens produtivas (e não apenas em áreas protegidas isoladas), reconstruir apoio público ao redor de suas causas, dialogar com o setor corporativo e dar atenção mais sistemática a direitos humanos e equidade (Kareiva & Marvier, 2012). É digno de nota que essas mesmas prioridades — equidade, atenção às populações que dependem diretamente dos recursos, crítica à separação entre áreas protegidas e paisagens habitadas — já vinham sendo formuladas pela ecologia política latino-americana desde pelo menos os anos 1980, décadas antes de sua incorporação pela ciência da conservação de língua inglesa. Essa defasagem cronológica não é um detalhe menor: ela sugere que a “novidade” da ciência da conservação, do ponto de vista estadunidense, correspondia, do ponto de vista latino-americano, à redescoberta tardia de questões que os movimentos sociais e a academia da região já colocavam havia tempo.\nA proposta de Kareiva e Marvier não é, contudo, consensual. Ela gerou um debate ainda em curso entre uma corrente mais tradicional, que preserva o foco na proteção de áreas e espécies por seu valor intrínseco, e a chamada new conservation, mais disposta a priorizar o bem-estar humano como parte constitutiva da missão conservacionista — debate que ecoa, ainda que em termos distintos, a disputa entre Muir e Pinchot apresentada anteriormente. O argumento central de Kareiva e Marvier — de que estratégias de conservação devem maximizar simultaneamente a preservação da biodiversidade e o bem-estar humano — antecipa diretamente as tensões entre ecologia e justiça social que estruturam os módulos finais da disciplina."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#leituras-complementares-do-módulo-perspectivas-do-sul-global",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#leituras-complementares-do-módulo-perspectivas-do-sul-global",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "8 Leituras Complementares do Módulo (Perspectivas do Sul Global)",
-    "text": "8 Leituras Complementares do Módulo (Perspectivas do Sul Global)\n\nDiegues, A. C. (2008). O mito moderno da natureza intocada (6ª ed.). São Paulo: Hucitec/NUPAUB-USP.\nLeff, E. (2003). Ecología Política: una perspectiva latinoamericana. Cidade do Panamá: Grupo de Ecología Política, CLACSO.\nMartínez-Alier, J. (2004). El ecologismo de los pobres: conflictos ambientales y lenguajes de valoración. Barcelona/Quito: Icaria/FLACSO.\nUlloa, A. (2004). La construcción del nativo ecológico: complejidades, paradojas y dilemas de la relación entre los movimientos indígenas y el ambientalismo en Colombia. Bogotá: ICANH/Colciencias."
-  },
-  {
-    "objectID": "sessions/resumos/week1/modulo1-resumo.html#referências",
-    "href": "sessions/resumos/week1/modulo1-resumo.html#referências",
-    "title": "Módulo 1 — Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "9 Referências",
-    "text": "9 Referências\nDiegues, A. C. (2008). O mito moderno da natureza intocada (6ª ed.). São Paulo: Hucitec/NUPAUB-USP.\nDyke, F., & Lamb, R. (2020). The History and Distinctions of Conservation Biology. https://doi.org/10.1007/978-3-030-39534-6_1\nKareiva, P., & Marvier, M. (2012). What is Conservation Science? BioScience, 62(11), 962–969. https://doi.org/10.1525/bio.2012.62.11.5\nLeff, E. (2003). Ecología Política: una perspectiva latinoamericana. Ponência apresentada no Grupo de Ecología Política, CLACSO, Cidade do Panamá. https://www.redcolca.org/wp-content/uploads/Leff-Ecologia-Politica-Una-perspectiva-latinoamericana.pdf\nMartínez-Alier, J. (2004). El ecologismo de los pobres: conflictos ambientales y lenguajes de valoración. Barcelona/Quito: Icaria/FLACSO.\nMeine, C., Soulé, M., & Noss, R. (2006). “A Mission-Driven Discipline”: the Growth of Conservation Biology. Conservation Biology, 20. https://doi.org/10.1111/j.1523-1739.2006.00449.x\nTeel, T. L., Anderson, C. B., Burgman, M., Cinner, J., Clark, D., Estévez, R. A., Jones, J. P. G., McClanahan, T., Reed, M. S., Sandbrook, C., & St. John, F. (2018). Publishing social science research in Conservation Biology to move beyond biology. Conservation Biology, 32. https://doi.org/10.1111/cobi.13059\nUlloa, A. (2004). La construcción del nativo ecológico: complejidades, paradojas y dilemas de la relación entre los movimientos indígenas y el ambientalismo en Colombia. Bogotá: ICANH/Colciencias."
-  },
-  {
-    "objectID": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadas",
-    "href": "sessions/slides/modulo1-slides.html#ciências-descritivas-vs.-ciências-aplicadas",
+    "objectID": "sessions/slides/modulo1-slides.html#referências",
+    "href": "sessions/slides/modulo1-slides.html#referências",
     "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
-    "section": "Ciências descritivas vs. Ciências aplicadas",
-    "text": "Ciências descritivas vs. Ciências aplicadas\n\n\n\nCiências descritivas: buscam compreender fenômenos sem compromisso de ação\n\n\n\nCiências aplicadas e normativas: comprometidas com um objetivo declarado"
+    "section": "Referências",
+    "text": "Referências"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#raízes-filosóficas-e-a-ciência-da-escassez-e-abundânciacenter",
+    "href": "sessions/slides/modulo1-slides.html#raízes-filosóficas-e-a-ciência-da-escassez-e-abundânciacenter",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Raízes Filosóficas e a Ciência da Escassez e Abundância{,center}",
+    "text": "Raízes Filosóficas e a Ciência da Escassez e Abundância{,center}"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#conservação-como-ciência-da-escassez-e-da-abundância",
+    "href": "sessions/slides/modulo1-slides.html#conservação-como-ciência-da-escassez-e-da-abundância",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Conservação como “Ciência da escassez e da abundância”",
+    "text": "Conservação como “Ciência da escassez e da abundância”\n\nO duplo objeto do campo: o que é raro e o que é comum?\nEscassez: espécies e ecossistemas ameaçados de desaparecer\nAbundância: Aquilo que pode manejado"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#tradições-filosóficas-ocidentais",
+    "href": "sessions/slides/modulo1-slides.html#tradições-filosóficas-ocidentais",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Tradições filosóficas ocidentais",
+    "text": "Tradições filosóficas ocidentais"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#visões-utilitaristas",
+    "href": "sessions/slides/modulo1-slides.html#visões-utilitaristas",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Visões utilitaristas",
+    "text": "Visões utilitaristas\n\n\n\nA natureza como recurso a ser gerido racionalmente\nAssociadas historicamente ao conservacionismo de uso sustentável\nAtende às demandas capitalistas de forma “clean”\nRomantizam relações de subsistência com a natureza"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#visões-de-valor-intrínseco",
+    "href": "sessions/slides/modulo1-slides.html#visões-de-valor-intrínseco",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Visões de valor intrínseco:",
+    "text": "Visões de valor intrínseco:\n\n\n\nNatureza com valor independente de utilidade humana\nTranscendentalismo americano (Henry Thoreau) como precursor filosófico"
+  },
+  {
+    "objectID": "sessions/slides/modulo1-slides.html#aldo-leopold-e-a-ética-da-terra",
+    "href": "sessions/slides/modulo1-slides.html#aldo-leopold-e-a-ética-da-terra",
+    "title": "Módulo 1:  Origens, Consolidação e Transição: a História da Biologia da Conservação",
+    "section": "Aldo Leopold e a “Ética da Terra”",
+    "text": "Aldo Leopold e a “Ética da Terra”\n\n\n\nA Sand County Almanac (1949): proposta de uma ética estendida à terra\nComunidade moral ampliada para incluir solos, águas, plantas e animais\nInfluência duradoura sobre a ética ambiental contemporânea"
   }
 ]
