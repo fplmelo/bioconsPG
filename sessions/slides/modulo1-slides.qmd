@@ -217,11 +217,11 @@ Ao final deste módulo, você será capaz de:
 :::
 ::: 
 
-## Uma Disciplina "Orientada por Missão"
+## Uma disciplina "orientada por missão"
 
 > A biologia da conservação distingue-se de campos puramente descritivos por seu critério de sucesso: aplicar conhecimento à proteção da diversidade biológica.
 
-## O que significa "Mission-Driven" na prática
+## O que significa na prática?
 
 :::{.incremental}
 
@@ -378,13 +378,13 @@ Leitura deste turno: [MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-
 :::
 
 
-## Uma Crítica Necessária
+## Uma crítica necessária
 
 - Essas tradições muitas vezes refletiam privilégios sociais específicos
 - Quem definia o que devia ser preservado, e para quem?
 - Populações locais e tradicionais frequentemente excluídas dessas decisões
 
-## Exclusão e Deslocamento
+## Exclusão e deslocamento
 
 {{< flex-cols 
   txt1="Criação de parques associada, em muitos casos, à remoção de populações locais"
@@ -493,12 +493,12 @@ Leitura deste turno: [MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-
 
 - Tema: como a relação humano-natureza foi reconceituada dentro do campo?
 
-## Recapitulação: Onde Paramos
+## Recapitulação: Onde paramos
 
 - Terça: nascimento institucional e raízes filosóficas da disciplina
 - Hoje: como a disciplina passou a pensar o papel dos humanos nos sistemas que protege
 
-## O Paradigma Inicial: Humanos como Perturbação
+## O paradigma inicial: Humanos como perturbação
 
 :::{.columns}
 :::{.column}
@@ -524,7 +524,7 @@ Leitura deste turno: [MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-
 :::
 :::
 
-## Críticas ao Modelo de Exclusão
+## Críticas ao modelo de exclusão
 :::{.columns}
 :::{.column}
 - Deslocamento de populações locais e tradicionais das áreas protegidas
@@ -549,54 +549,95 @@ Leitura deste turno: [MEINE, C., SOULÉ, M. and NOSS, R.F. (2006), “A Mission-
 :::
 
 ## Antropoceno: Definição
+> Proposta de uma nova época geológica marcada pela ação humana em escala global
+Amplamente discutido, ainda que formalmente contestado como unidade geológica
 
-- Proposta de uma nova época geológica marcada pela ação humana em escala global
-- Amplamente discutido, ainda que formalmente contestado como unidade geológica
+![](https://rewilding.academy/wp-content/uploads/2021/11/anthropocene-climate-rewilding-1536x1021.jpeg){fig-align=center}
 
 ## Debate sobre o Antropoceno
 
+:::{.incremental}
 - Quando teria começado? Revolução Industrial? Era Atômica? Colonização?
-- É um conceito útil para a conservação, ou simplifica demais a diversidade de impactos humanos?
+- É um conceito útil para a conservação?
+- Simplifica demais a diversidade de impactos humanos?
+:::
 
-## Humanos como Beneficiários: Serviços Ecossistêmicos
+## Humanos como beneficiários: serviços ecossistêmicos
+
 
 - Reconhecimento de que ecossistemas fornecem benefícios diretos às sociedades
 - Água, polinização, regulação climática, entre outros
 
-## Humanos como Participantes: Conhecimento Ecológico Tradicional
+![](https://www.iea.usp.br/imagens/mea2005/@@images/617cd31c-be4c-4f7c-b1ad-d970cbf1299a.jpeg){fig-align=center}
+
+## Humanos como participantes: Conhecimento Ecológico Tradicional
 
 - Populações tradicionais e indígenas como gestoras históricas de territórios
 - Conhecimento acumulado relevante para estratégias contemporâneas de conservação
 
-## A Necessidade de Incorporar as Ciências Sociais
+![](https://capitalreset.uol.com.br/wp-content/uploads/2025/09/Biodiversidade-Amazonia-indigenas-922x553.jpg){fig-align=center}
 
-- Teel et al. [-@teel2018] argumentam pela publicação sistemática de pesquisa social em periódicos do campo
+## A necessidade de incorporar as Ciências Sociais
+
+:::{.columns}
+:::{.column}
+
+- Publicação sistemática de pesquisa social em periódicos do campo
 - Problemas centrais da conservação são, em grande medida, problemas sociais
+:::
+:::{.column}
+![](https://m.media-amazon.com/images/I/91hvMrBWtoL._SL1500_.jpg)
+:::
+:::
 
-## Por que a Conservação Não Pode Ser Só Biologia
+## Por que a conservação não pode ser apenas biologia
 
-- Decisões de manejo envolvem valores, instituições, economia e política
-- Ignorar a dimensão social compromete a eficácia das intervenções
+![](https://nathanbennett.ca/wp-content/uploads/2017/10/figure-2-domains-of-human-well-being-for-social-impact-assessments.jpg)
 
-## Exemplos de Pesquisa Social Aplicada
+## Exemplos de pesquisa social aplicada
 
+:::{.columns}
+:::{.column}
 - Estudos sobre percepção pública de espécies e áreas protegidas
 - Pesquisas sobre governança comunitária de recursos naturais
+:::
+:::{.column}
 
-## De "Proteger da" para "Proteger para" as Pessoas
+![](https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0486/production/_124185110_dae1fb6a-30b4-4287-bfa7-291764b6a453.jpg.webp)
+:::
+:::
 
+## De "proteger da" para "proteger para" as pessoas
+
+:::{.columns}
+:::{.column}
 - Deslocamento central: da exclusão humana ao benefício mútuo
 - Reformulação do próprio objetivo da conservação
+:::
+:::{.column}
 
-## Implicações Práticas
+![](https://amazonasemdia.com.br/images/noticias/24592/27033933_Sema_RDS-M.jpg)
+:::
+:::
 
+## Implicações práticas
+:::{.columns}
+:::{.column}
 - Reservas extrativistas: uso sustentável combinado à proteção ambiental
 - Manejo comunitário de recursos naturais como estratégia legítima
+:::
+:::{.column}
+![](https://www.coletivoleitor.com.br/uploads/covers/571358_Capa_ALTA.jpg)
 
-## Prenúncio dos Debates do Módulo 5
+:::
+:::
+
+
+## Prenúncio dos debates do Módulo 5
 
 - Ecologia política e justiça socioambiental aprofundarão esses temas
 - Hoje lançamos as bases conceituais para essa discussão futura
+
 
 ## Debate Estruturado
 
