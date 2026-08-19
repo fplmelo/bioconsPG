@@ -659,10 +659,6 @@ Amplamente discutido, ainda que formalmente contestado como unidade geológica
 # QUINTA-FEIRA — TURNO DA TARDE {background-color="#27632a"}
 ## Transição para a Ciência da Conservação
 
-## Abertura do Turno
-
-- Tema: a reformulação do campo 25 anos após seu marco fundador
-- Leituras de referência: @kareiva2012; @dyke2020
 
 ## Recapitulação da Manhã
 
@@ -675,79 +671,116 @@ Amplamente discutido, ainda que formalmente contestado como unidade geológica
 - Contexto: um mundo já reconhecidamente dominado pela ação humana
 
 ## Kareiva & Marvier (2012): "What is Conservation Science?"
-
+:::{.columns}
+:::{.column}
 - Propõem uma ampliação do campo para uma "ciência da conservação"
 - Interdisciplinaridade assumida como premissa, não como complemento
+:::
+:::{.column}
 
-## Da Biologia à Ciência da Conservação: O Que Muda
+![](/img/kareiva.png)
+:::
+:::
 
+## Da Biologia à Ciência da Conservação: O que muda?
+
+:::{.columns}
+:::{.column}
 - Ponto de partida metodológico: acoplamento social-natural desde o início
 - Não se trata apenas de "adicionar" ciências sociais à biologia
+:::
+:::{.column}
+![](https://www.scielo.org.mx/img/revistas/ride/v13n25//2007-7467-ride-13-25-e068-gf1.png)
+[Fonte:trinidad & Catilleros 2023](https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2007-74672022000200068)
+:::
+:::
 
-## Nova Prioridade: Paisagens Produtivas
+## Nova prioridade: Paisagens produtivas
 
+
+:::{.columns}
+:::{.column}
 - Atuar também fora de áreas protegidas isoladas
 - Reconhecer que a maior parte da biodiversidade vive em paisagens usadas por humanos
+:::
+:::{.column}
+![Cafezais no Peru](https://cafelab.pe/wp-content/uploads/2024/05/cafe-sostenible-copia.jpg)
+:::
+:::
 
-## Nova Prioridade: Apoio Público
-
+## Nova prioridade: Apoio público
+:::{.columns}
+:::{.column}
 - Reconstrução do apoio social e político às causas da conservação
 - Ciência da conservação como projeto que depende de legitimidade pública
+:::
+:::{.column}
+![](/img/malcolm.jpeg)
 
-## Nova Prioridade: Diálogo com o Setor Corporativo
+[Leia aqui a entrevista com o filósoifo Malcom Ferdinand](https://www.nexojornal.com.br/entrevista/2025/03/23/crise-climatica-e-racismo-entrevista-malcom-ferdinand-uma-ecologia-decolonial)
+:::
+:::
 
+## Nova prioridade: Diálogo com o setor corporativo
+
+:::{.columns}
+:::{.column}
 - Reconhecimento do papel do setor privado nas decisões sobre uso da terra
 - Proposta de engajamento em vez de oposição direta
+:::
+:::{.column}
+![](https://www.usinaserragrande.com.br/img/acoes-ambientais/9.jpg)
 
-## Nova Prioridade: Direitos Humanos e Equidade
+[Como a USGA se vê na conservação?](https://www.usinaserragrande.com.br/sustentabilidade/acoes-ambientais)
+:::
+:::
 
+## Nova Prioridade: Direitos humanos e equidade
+
+:::{.columns}
+:::{.column}
 - Atenção sistemática às dimensões de justiça nas políticas de conservação
 - Equidade como critério explícito de avaliação das estratégias
-
-## Críticas à Proposta de Kareiva & Marvier
-
-- Acusações de uma conservação "pós-natureza", excessivamente antropocêntrica
-- Preocupação com a diluição do valor intrínseco da biodiversidade
-
-## Duas Correntes em Debate
+:::
+:::{.column}
+![](https://ecoa.org.br/wp-content/uploads/2015/10/rights-based-approaches.jpg)
+:::
+:::
+## Duas correntes "tradicionais"
 
 - Conservação tradicional: foco na proteção de áreas e espécies por seu valor intrínseco
 - "New conservation": foco no bem-estar humano como parte central da missão
 
-## Onde Fica a Proteção de Áreas Selvagens?
+## Onde fica a proteção de áreas naturais?
 
 - Pergunta em aberto: esse novo paradigma abandona a proteção de áreas intocadas?
 - Ou apenas amplia o repertório de estratégias disponíveis?
 
-## Dyke & Lamb (2020): Um Balanço Histórico
-
-- Revisão das distinções históricas entre biologia e ciência da conservação
-- Reconhecem a disciplina como campo em contínua redefinição
-
-## Convergências Entre os Dois Campos
+:::{.callout-tip}
+### Convergências entre os dois campos
 
 - Ambos compartilham o compromisso normativo com a proteção da biodiversidade
 - Diferem principalmente no escopo metodológico e nas prioridades declaradas
 
-## A Disciplina como Campo em Redefinição Permanente
+:::
+## A BC como campo em redefinição permanente
 
 - Não existe um ponto final de consolidação
 - Cada geração de pesquisadores revisita e reformula a pergunta fundadora
 
+:::{.callout-tip}
 ## Implicações para a Prática Profissional
 
 - Profissionais da conservação hoje precisam transitar entre biologia, economia, política e ciências sociais
 - Formação em pós-graduação reflete essa ampliação de escopo
+
+:::
 
 ## Atividade Final: Mapa Conceitual Comparativo
 
 - Construir um mapa conceitual comparando *conservation biology* e *conservation science*
 - Base: Meine et al. (2006); Dyke & Lamb (2020); Kareiva & Marvier (2012)
 
-## Entrega da Atividade
-
-- Mapa conceitual entregue como insumo para o resumo expandido individual
-- Deve articular as quatro sessões do módulo
 
 ## Fechamento do Módulo 1
 
@@ -759,9 +792,5 @@ Amplamente discutido, ainda que formalmente contestado como unidade geológica
 ## Prévia do Módulo 2
 
 - Próximo tema: Desenvolvimento da Biologia da Conservação no Brasil
-- Leituras previstas: Vilaça et al. (2024); Rosa et al. (2021); De Assumpção & Ritter (2025)
 
-## Referências {.smaller}
 
-::: {#refs}
-:::
