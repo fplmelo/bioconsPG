@@ -16,7 +16,6 @@ format:
     code-fold: false
 bibliography: references.bib
 scrollable: true
-# csl: apa.csl
 ---
 
 # Abertura
@@ -29,25 +28,39 @@ Terça e quinta-feira, 8h–18h
 
 ## Recapitulando o Módulo 1
 
+::: {.columns}
+::: {.column width="60%"}
 - Consolidação institucional da biologia da conservação (1980s–1990s)
 - SCB (1987) e *Conservation Biology* (1988) [@meine2006]
 - Transição: proteger a natureza *das* pessoas → *para* as pessoas [@dyke2020]
 - Primeiras vozes latino-americanas: Diegues, Leff, Martínez-Alier, Ulloa
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Por que uma trajetória brasileira específica?
 
+::: {.columns}
+::: {.column width="60%"}
 - O Brasil não é um "importador tardio" da conservação internacional
 - Inovações institucionais próprias (reservas extrativistas)
 - Megadiversidade + infraestrutura científica de escala continental
 - Vulnerabilidade política recorrente
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Agenda de hoje
 
 ::: {.incremental}
-- **Terça, manhã** — Trajetória da conservação no Brasil
-- **Terça, tarde** — Fundamentos de biodiversidade
-- **Quinta, manhã** — Infraestrutura científica brasileira
-- **Quinta, tarde** — Crise política e desmonte científico
+- **Terça, parte-1** — Trajetória da conservação no Brasil
+- **Terça, parte-2** — Fundamentos de biodiversidade
+- **Quinta, parte-3** — Infraestrutura científica brasileira
+- **Quinta, parte-4** — Crise política e desmonte científico
 - **Fechamento** — Perspectivas latino-americanas e síntese
 :::
 
@@ -64,62 +77,117 @@ Terça e quinta-feira, 8h–18h
 
 ## Conservação antes da "biologia da conservação"
 
+::: {.columns}
+::: {.column width="60%"}
 - Trajetória brasileira: raízes mais antigas que a formalização acadêmica
 - Conservação sempre imbricada com ocupação territorial
 - Conhecimento de povos indígenas e comunidades tradicionais preexistente
 - Origem não é um marco único, mas um processo histórico longo [@mittermeier2005]
+:::
+::: {.column width="40%"}
+![PN de Itatiaia](https://upload.wikimedia.org/wikipedia/commons/a/a6/Parque_Nacional_de_Itatiaia_%2819%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+:::
+:::
 
 ## Chico Mendes e o movimento dos seringueiros
 
+::: {.columns}
+::: {.column width="60%"}
 - Líder sindical e seringueiro, Acre
 - Mobilização ao longo da década de 1980
 - Assassinado em dezembro de 1988
 - Repercussão internacional imediata
+:::
+::: {.column width="40%"}
+![](https://cdn.britannica.com/26/237326-050-8FAD2C40/Chico-Mendes-1988.jpg?w=300)
+:::
+:::
 
 ## A invenção da reserva extrativista
 
+::: {.columns}
+::: {.column width="60%"}
 - Unidade de conservação de **uso sustentável**
 - Reconhece direito de populações tradicionais à floresta pública
 - Condicionada a práticas de manejo sustentável
 - Modelo até então inédito na conservação global [@lovejoy2005]
+:::
+::: {.column width="40%"}
+![](https://imgs.mongabay.com/wp-content/uploads/sites/29/2019/12/20170646/48784093236_a57a03b7f4_k-1200x800.jpg)
+:::
+:::
 
-## De baixo para cima, não de cima para baixo
+## De baixo para cima
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 A reserva extrativista nasceu da mobilização sindical dos seringueiros — não de um laboratório de política de conservação [@allegretti2008].
 :::
 
 - Negociada com o Estado sob forte pressão internacional
 - Modelo com protagonismo social, não acadêmico
+:::
+::: {.column width="40%"}
+![](https://static.tildacdn.com/tild3434-3464-4336-a536-303430326132/IMG_8658.JPEG)
+:::
+:::
 
 ## Antecipando o debate internacional
 
-- Literatura internacional (anos 2010–2020): "proteger a natureza *para* as pessoas" [@dyke2020]
+::: {.columns}
+::: {.column width="60%"}
+- "proteger a natureza *para* as pessoas" [@dyke2020]
 - Reservas extrativistas: mais de uma década antes
 - Uma terceira formulação: conservação *pelas* pessoas
 - Sujeitos políticos, não beneficiários passivos
+:::
+::: {.column width="40%"}
+![](https://m.media-amazon.com/images/I/A149El6WKaL._SL1500_.jpg)
+:::
+:::
 
 ## Consolidação do sistema de UCs
 
+::: {.columns}
+::: {.column width="60%"}
 - Unidades de proteção integral **e** de uso sustentável
-- Territórios indígenas e quilombolas com regimes próprios
 - Um dos sistemas de áreas protegidas mais extensos do mundo
 - Comunidade científica de escala comparável a potências tradicionais [@mittermeier2005]
+:::
+::: {.column width="40%"}
+![](https://agenciadenoticias.ibge.gov.br/images/agenciadenoticias/ibge/2026_05/bio3.png)
+:::
+:::
 
 ## Três frentes de liderança científica
 
+::: {.columns}
+::: {.column width="60%"}
 1. Monitoramento por satélite (PRODES/INPE)
 2. Redução histórica do desmatamento (meados dos anos 2000–2010s)
 3. Proteção formal de territórios indígenas
 
-*(Retomaremos o item 3 com profundidade no Módulo 4)*
+
+:::
+::: {.column width="40%"}
+![](http://www.obt.inpe.br/OBT/noticias-obt-inpe/inpe-lanca-novo-portal-de-dados-e-mapas-sobre-desmatamento-e-facilita-acesso-ao-prodes/img_20nov17_siteinpe.jpg/@@images/79b1c886-5da8-44e7-a7eb-ebdaa3e80774.jpeg)
+:::
+:::
 
 ## Estudo de caso: São Paulo
 
+::: {.columns}
+::: {.column width="60%"}
 - Articulação entre pesquisa, formação e política pública
 - Programas estaduais de fomento à biodiversidade
 - Desloca o foco da escala amazônica
 - Mata Atlântica como território de política científica [@joly2010]
+:::
+::: {.column width="40%"}
+![](https://fapesp.br/files/posts/53.jpg)
+:::
+:::
 
 ## Para discussão
 
@@ -129,7 +197,7 @@ Por que a reserva extrativista é mais citada em manuais internacionais do que e
 
 ## Síntese do Bloco 1
 
-- Trajetória brasileira: temporalidade e protagonistas próprios
+- Trajetória brasileira: temporalidade e protagonists próprios
 - Inovação institucional nascida de mobilização social
 - Liderança científica construída ao longo de décadas
 - Tensão permanente: conquista científica × vulnerabilidade política
@@ -138,42 +206,84 @@ Por que a reserva extrativista é mais citada em manuais internacionais do que e
 
 ## O que é biodiversidade?
 
-Variabilidade em três níveis hierarquicamente aninhados [@niesenbaum2019]
+::: {.columns}
+::: {.column width="60%"}
+Variabilidade em três níveis hierarquicamente aninhados
+:::
+::: {.column width="40%"}
+![](https://i0.wp.com/compass.rauias.com/wp-content/uploads/2023/06/Screenshot-2023-06-05-at-11.01.03-AM.png?w=387&ssl=1)
+:::
+:::
 
 ## Nível 1 — Diversidade genética
 
+::: {.columns}
+::: {.column width="60%"}
 - Variação de genes dentro e entre populações
 - Base da capacidade adaptativa futura
 - Erosão genética compromete resposta a mudanças ambientais
+:::
+::: {.column width="40%"}
+![](https://www.keshrinandan.com/wp-content/uploads/2015/08/ke_maize_types-770x400.jpg)
+:::
+:::
 
 ## Nível 2 — Diversidade de espécies
 
+::: {.columns}
+::: {.column width="60%"}
 - Número e abundância relativa de espécies
 - Acepção mais intuitiva do termo "biodiversidade"
 - A mais comunicada ao público leigo
+:::
+::: {.column width="40%"}
+![](https://www.mcgill.ca/newsroom/files/newsroom/styles/hd/public/channels/image/coral_diversity_-_posting_size_0.jpg?itok=esgGuBsP&timestamp=1711028106)
+:::
+:::
 
 ## Nível 3 — Diversidade de ecossistemas
 
+::: {.columns}
+::: {.column width="60%"}
 - Variedade de habitats e comunidades bióticas
 - Heterogeneidade de interações espécie-ambiente
 - Processos ecológicos em escala de paisagem
+:::
+::: {.column width="40%"}
+![](https://i.redd.it/befapx729hd51.jpg)
+:::
+:::
 
 ## Os três níveis não são substituíveis
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Um cenário pode manter riqueza de espécies **enquanto perde** diversidade genética — ou vice-versa.
 :::
 
 - Avaliações com um único nível subestimam perdas
 - Necessário monitorar múltiplos níveis simultaneamente
+:::
+::: {.column width="40%"}
+![](https://www.researchgate.net/publication/371945638/figure/fig1/AS:11431281254029728@1719022818972/Key-concepts-underpinning-the-phylogenetic-diversity-indicator-and-evolutionarily.png)
+:::
+:::
 
 ## Escala importa: alfa, beta e gama
 
+::: {.columns}
+::: {.column width="60%"}
 - **Alfa**: riqueza local, em um único ponto
 - **Beta**: diferença de composição entre locais
 - **Gama**: riqueza total da região (α + β)
 
-[@niesenbaum2019]
+
+:::
+::: {.column width="40%"}
+![](https://i1.wp.com/xp-song.github.io/posts/biodivercity/assets/alpha-beta-gamma.png?w=578&ssl=1)
+:::
+:::
 
 ## Diversidade beta: um caso contraintuitivo
 
@@ -191,19 +301,33 @@ Um cenário pode manter riqueza de espécies **enquanto perde** diversidade gen�
 
 ## A armadilha da leitura ingênua
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Aumento aparente de diversidade beta pode mascarar homogeneização biótica em curso [@socolar2015].
 :::
 
 - Dados de composição precisam ser lidos junto com identidade funcional
 - Contagens brutas de diferenciação não bastam
+:::
+::: {.column width="40%"}
+![](/img/wlr.jpg)
+:::
+:::
 
 ## Ecologia de metacomunidades
 
+::: {.columns}
+::: {.column width="60%"}
 - Arcabouço teórico para diversidade beta em escala de paisagem
 - Modela dispersão, interações e filtragem ambiental
 - Conecta comunidades espacialmente estruturadas
 - Cada vez mais associado à literatura de conservação [@chase2020]
+:::
+::: {.column width="40%"}
+![](https://nicolasmouquet.fr/images/Metacomunity.jpg)
+:::
+:::
 
 ## Os motores diretos da perda de biodiversidade
 
@@ -211,35 +335,70 @@ Revisão sistemática global identifica hierarquia empírica robusta [@jaureguib
 
 ## Motor #1: mudança de uso da terra
 
+::: {.columns}
+::: {.column width="60%"}
 - Conversão e degradação de habitats naturais
 - Agricultura, pecuária, infraestrutura, urbanização
 - **O motor dominante** em escala global
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Motor #2: exploração direta
 
+::: {.columns}
+::: {.column width="60%"}
 - Caça, pesca e coleta insustentáveis
 - Segundo lugar na hierarquia empírica
 - Interage com mudança de uso da terra
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## E as mudanças climáticas?
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-note}
 Contrariando a percepção pública comum, mudanças climáticas **não** lideram a hierarquia de motores diretos — ainda que interajam sinergicamente com os demais [@jaureguiberry2022].
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1569163139599-0f4517e36f51?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## Implicação para o Brasil
 
+::: {.columns}
+::: {.column width="60%"}
 - Desmatamento continua como variável mais explicativa
 - Amazônia, Cerrado e Mata Atlântica
 - Monitoramento territorial: instrumento científico central
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1618042164219-62c820f10723?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Biodiversidade e sustentabilidade: cinco prioridades
 
+::: {.columns}
+::: {.column width="60%"}
 1. Serviços ecossistêmicos que beneficiam humanos
 2. Conexão entre biodiversidade e redução da pobreza
 3. Agricultura biodiversa
 4. Conhecimento indígena e tradicional
 5. Indicadores integrados [@niesenbaum2019]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Síntese do Bloco 2
 
@@ -252,36 +411,71 @@ Contrariando a percepção pública comum, mudanças climáticas **não** lidera
 
 ## O desafio da megadiversidade
 
+::: {.columns}
+::: {.column width="60%"}
 - Território continental
 - Seis biomas: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa
 - Assimetria histórica de capacidade científica regional
 - Escala como problema institucional, não só ecológico
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## PPBio: Programa de Pesquisa em Biodiversidade
 
+::: {.columns}
+::: {.column width="60%"}
 - Em operação desde 2004
 - Integra pesquisadores, gestores e formuladores de política
 - Metodologia padronizada de amostragem [@rosa2021]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## PPBio em números
 
+::: {.columns}
+::: {.column width="60%"}
 - **161** sítios de pesquisa de longo prazo
 - **626** pesquisadores
 - **9** redes regionais
 - **~1.200** publicações científicas [@rosa2021; @fernandes2017]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Por que padronização importa
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Protocolos comuns tornam dados de pontos distantes **comparáveis entre si** — raro em programas de escala continental.
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1507668077129-56e32842fceb?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## O papel formativo do PPBio
 
+::: {.columns}
+::: {.column width="60%"}
 - Capacitação técnica local
 - Formação de centenas de estudantes
 - Rede de pesquisadores hoje distribuída pelo país
 - Possíveis orientadores/colaboradores dos próprios alunos
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## O ponto frágil do PPBio
 
@@ -293,39 +487,81 @@ Principal desafio: financiamento de longo prazo sustentado [@rosa2021].
 
 ## GBB: Genômica da Biodiversidade Brasileira
 
+::: {.columns}
+::: {.column width="60%"}
 - Consórcio de governança **público-privada**
 - Escala continental
 - Sequenciamento genômico de espécies de interesse [@vilaca2024]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Por que a genômica importa aqui
 
+::: {.columns}
+::: {.column width="60%"}
 - Resolução inatingível por métodos morfológicos/ecológicos
 - Acessa diretamente o **nível genético** de biodiversidade
 - Insumo científico **e** insumo de política pública
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## GBB: conservação + bioeconomia
 
+::: {.columns}
+::: {.column width="60%"}
 - Modelo de integração explícita entre os dois campos
 - Ilustra concretamente a proposta de Niesenbaum [-@niesenbaum2019]
 - Convocação a outros países megadiversos [@vilaca2024]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Um raro fluxo Sul–Sul
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-note}
 Inovação institucional brasileira proposta como modelo para outros países megadiversos — sem mediação de instituições do Hemisfério Norte.
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## Paleobiologia da conservação
 
+::: {.columns}
+::: {.column width="60%"}
 - Usa tafonomia para reconstruir condições pré-impacto humano
 - Gera linhas de base históricas
 - América do Sul: geologia singular, riqueza fóssil [@assumpcao2025]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Sub-representação com um porém
 
+::: {.columns}
+::: {.column width="60%"}
 - América do Sul: **~5%** das publicações globais da área
 - Brasil: **~2/3** dessa fração regional
 - CNPq: **3º lugar mundial** em financiamento da área [@assumpcao2025]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Um descompasso a discutir
 
@@ -337,10 +573,17 @@ Investimento financeiro elevado, visibilidade internacional baixa. Por quê?
 
 ## Três pilares, uma infraestrutura
 
+::: {.columns}
+::: {.column width="60%"}
 - PPBio: rede pública, ecologia de campo
 - GBB: consórcio público-privado, genômica
 - Paleobiologia: reconstrução histórica de longo prazo
 - Juntos, tornam possível falar de "biodiversidade brasileira" em escala nacional
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Para discussão
 
@@ -359,50 +602,106 @@ Compare a governança do PPBio (pública) com a do GBB (público-privada). Que p
 
 ## Um padrão, não um episódio
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Quase uma década de literatura documenta ameaça política **recorrente** à infraestrutura científica — não um evento isolado [@fernandes2017; @magnusson2018; @thome2019; @pelicice2021].
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1508873696983-2df515122519?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## Dimensão 1 — Cortes orçamentários diretos
 
+::: {.columns}
+::: {.column width="60%"}
 - Agências de fomento à pesquisa
 - Compromete continuidade de programas de longo prazo
 - PPBio: fragilidade central é o financiamento [@fernandes2017; @rosa2021]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Dimensão 2 — Enfraquecimento regulatório
 
+::: {.columns}
+::: {.column width="60%"}
 - Flexibilização de licenciamento ambiental
 - Redução de efetivo em órgãos de fiscalização
 - Efeito direto sobre o motor dominante de perda (uso da terra) [@magnusson2018]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Dimensão 3 — Perda de capacidade institucional
 
+::: {.columns}
+::: {.column width="60%"}
 - Universidades públicas e institutos de pesquisa
 - Efeitos sobre formação de novos pesquisadores
 - Risco à continuidade de séries históricas [@thome2019]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Dimensão 4 — Pressão sobre a governança amazônica
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 "Tsunami político" atingindo simultaneamente unidades de conservação e terras indígenas [@pelicice2021].
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## O problema da irreversibilidade
 
+::: {.columns}
+::: {.column width="60%"}
 - Diferencial do PPBio: comparabilidade ao longo do tempo
 - Série histórica interrompida **não pode ser reconstruída**
 - Decisão orçamentária de curto prazo → perda irreversível de longo prazo [@fernandes2017; @rosa2021]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1501139083538-0139583c060f?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Consequências além das fronteiras nacionais
 
+::: {.columns}
+::: {.column width="60%"}
 - Desmonte científico como ameaça ao patrimônio de biodiversidade **global**
 - Papel único do Brasil na conservação mundial [@fernandes2017]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Nem só catastrofismo
 
+::: {.columns}
+::: {.column width="60%"}
 - Mobilização política de sociedades científicas
 - Articulação internacional para pressão diplomática
 - Diversificação de financiamento (ex.: GBB) [@vilaca2024]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Resiliência institucional acumulada
 
@@ -427,40 +726,82 @@ Décadas de formação de pesquisadores (ex.: redes do PPBio) constituem um ativ
 
 ## Por que esta seção, de novo?
 
+::: {.columns}
+::: {.column width="60%"}
 - Não é um complemento "cultural" às seções técnicas
 - É uma ferramenta analítica para **reinterpretar** os dados anteriores
 - Continuidade direta do compromisso assumido no Módulo 1
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Diegues: o mito da natureza intocada
 
+::: {.columns}
+::: {.column width="60%"}
 - Crítica ao pressuposto de separação natureza/humanos
 - Pressuposto importado de tradições preservacionistas do Hemisfério Norte
 - Base empírica: caiçaras, ribeirinhos, pescadores artesanais [@diegues2000; @diegues2004]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## "Natureza selvagem" como construção
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Paisagens tratadas como "intocadas" são, muitas vezes, resultado de séculos de manejo humano de baixa intensidade.
 :::
 
 - UCs de proteção integral podem expulsar quem manteve a biodiversidade local
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Diegues encontra com o Bloco 1
 
+::: {.columns}
+::: {.column width="60%"}
 - Reservas extrativistas: resposta institucional **precoce** a essa crítica
 - Antecipam, na prática, o que a literatura internacional formalizaria décadas depois
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1590682680695-43b964a3ae17?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Diegues encontra com o Bloco 4
 
+::: {.columns}
+::: {.column width="60%"}
 - Norte de Minas Gerais: comunidades expulsas sem compensação
 - Segurança alimentar e integridade cultural comprometidas [@anaya2018]
 - O "mito da natureza intocada" segue produzindo efeitos concretos
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Leff: racionalidade ambiental
 
+::: {.columns}
+::: {.column width="60%"}
 - Alternativa à racionalidade puramente econômica [@leff2006; @leff2003]
 - Crise ambiental: manifestação de um modelo civilizatório
 - Não é um problema técnico isolado
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Leff encontra com o Bloco 4
 
@@ -472,22 +813,43 @@ Vulnerabilidade orçamentária recorrente: não é acidente de gestão, mas sint
 
 ## Martínez-Alier: o ecologismo dos pobres
 
+::: {.columns}
+::: {.column width="60%"}
 - Conflitos ambientais protagonizados por populações pobres
 - Sobrevivência material, não preservação estética [@martinezalier2007]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Reinterpretando Chico Mendes
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 O movimento dos seringueiros **não nasceu** como movimento ambientalista convencional — nasceu como luta sindical pela sobrevivência.
 :::
 
 - A dimensão conservacionista foi **resultado**, não motivação original
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1511497584788-8767611136f6?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Ulloa: o "nativo ecológico"
 
+::: {.columns}
+::: {.column width="60%"}
 - Crítica à essencialização de povos indígenas como "guardiões naturais" [@ulloa2004]
 - Instrumentalização possível por múltiplos atores
 - Risco: obscurecer reivindicações de autodeterminação
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## Um contraponto necessário
 
@@ -497,13 +859,27 @@ Ulloa nos protege contra leituras celebratórias e simplificadas do papel indíg
 
 ## Little e Santilli: o marco brasileiro
 
+::: {.columns}
+::: {.column width="60%"}
 - Little: **territórios sociais** — pertencimento além da propriedade oficial [@little2002]
 - Santilli: **socioambientalismo** — biodiversidade e diversidade cultural como objetivos indissociáveis [@santilli2005]
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80)
+:::
+:::
 
 ## O socioambientalismo nomeia a prática
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.callout-important}
 Santilli formaliza juridicamente o que a mobilização de Chico Mendes já praticava décadas antes de qualquer conceituação acadêmica.
+:::
+:::
+::: {.column width="40%"}
+![](https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=600&q=80)
+:::
 :::
 
 ## Para discussão
