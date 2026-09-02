@@ -9,7 +9,6 @@ format:
     theme: default
     slide-number: true
     transition: fade
-    embed-resources: true
     fig-align: center
 ---
 

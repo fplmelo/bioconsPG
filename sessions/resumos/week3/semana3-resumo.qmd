@@ -1,6 +1,6 @@
 ---
-title: "A Evolução da Ciência Ecológica na Biologia da Conservação"
-subtitle: "Semana 3 — Resumo Expandido"
+title: "Módulo 3 - A Evolução da Ciência Ecológica na Biologia da Conservação"
+subtitle: "Escalas e a constante incorporação de novas disciplinas"
 author: "Biologia da Conservação — PPGBV"
 date: today
 lang: pt-BR
@@ -9,10 +9,13 @@ format:
     toc: true
     toc-depth: 3
     number-sections: true
+    fig-align: center
 bibliography: references.bib
 ---
 
 ## Introdução
+
+![](/img/biocons.webp)
 
 A biologia da conservação não nasceu de uma única ciência, tampouco se manteve estática desde sua fundação. Ela é, antes, um mosaico de saberes em expansão contínua: uma disciplina que recrutou, a cada década, novos instrumentos conceituais de subcampos da ecologia para responder a um problema que não para de se transformar — a perda acelerada da diversidade biológica do planeta. Compreender essa disciplina exige, portanto, compreender sua *ecologia interna*: quais ramos da ciência ecológica a fundaram, quais foram se agregando e em que momentos, e como essa acumulação de ferramentas redesenhou o que hoje entendemos por "fazer conservação".
 
@@ -104,7 +107,7 @@ Vale destacar brevemente o papel específico de cada uma das subdisciplinas que 
 ::: {.callout-important title="PPBio é foi visionário?"}
 Enquanto essa maturação disciplinar ocorria majoritariamente em revistas e universidades do Norte Global, o Brasil construía, de forma relativamente autônoma, sua própria infraestrutura de pesquisa em biodiversidade em longo prazo. O Programa de Pesquisa em Biodiversidade (PPBio), operando desde 2004, instalou ao longo dos anos 161 sítios de pesquisa ecológica padronizados distribuídos por todos os biomas brasileiros, produzindo cerca de 1.200 publicações que cobrem desde história natural até genética de populações [@Rosa2021]. Isso não deve ser lido apenas como "o Brasil também fez ciência de conservação" — é importante reconhecer que o PPBio antecipou, em escala nacional e com metodologia padronizada própria, exatamente o tipo de infraestrutura de monitoramento multissítio que a ecologia de paisagem e a macroecologia internacionais viriam a valorizar como essencial na década seguinte.
 
-<iframe width="1052" height="592" src="https://www.youtube.com/embed/k8ahPZKrROU" title="Programa de Pesquisa em Biodiversidade PPBIO | EM DIA COM A CIÊNCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="700" height="340" src="https://www.youtube.com/embed/k8ahPZKrROU" title="Programa de Pesquisa em Biodiversidade PPBIO | EM DIA COM A CIÊNCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 :::
 
 ### Interdisciplinaridade emergente: o primeiro sinal
