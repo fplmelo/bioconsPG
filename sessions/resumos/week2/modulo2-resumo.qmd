@@ -9,11 +9,12 @@ format:
     toc: true
     toc-depth: 3
     number-sections: true
-    embed-resources: true
-    theme: default
+    # embed-resources: true
+    # theme: default
     code-fold: false
 bibliography: references.bib
-# csl: apa.csl
+csl: https://www.zotero.org/styles/apa
+self-contained: false
 ---
 Slides da Aula
 
@@ -27,7 +28,7 @@ No Módulo 1, acompanhamos a consolidação institucional da biologia da conserv
 
 O Módulo 2 aprofunda essa segunda camada: como a biologia da conservação se desenvolveu especificamente no Brasil, e como essa trajetória nacional se articula com os fundamentos conceituais de biodiversidade que sustentam toda a disciplina. Não se trata de um desdobramento periférico da história "principal" contada no Módulo 1, mas de uma trajetória com temporalidade, protagonistas e inovações institucionais próprias — que, em vários momentos, **antecipam ou tensionam narrativas hegemônicas** da conservação internacional.
 
-O Brasil ocupa uma posição paradoxal na história da biologia da conservação. Por um lado, tornou-se um dos países com maior capacidade científica em conservação da biodiversidade do mundo, sediando o maior conjunto de espécies conhecidas do planeta, redes de pesquisa de escala continental e inovações institucionais — como as reservas extrativistas — que influenciaram políticas de conservação em outros países megadiversos [@mittermeier2005; @lovejoy2005]. Por outro lado, essa capacidade científica é estrutural e recorrentemente ameaçada por crises políticas, cortes orçamentários e desmonte de políticas públicas [@fernandes2017; @magnusson2018; @thome2019]. Compreender a biologia da conservação no Brasil exige, portanto, manter essas duas dimensões — conquista científica e vulnerabilidade política — permanentemente em tensão, evitando tanto o triunfalismo quanto o catastrofismo.
+O Brasil ocupa uma posição paradoxal na história da biologia da conservação. Por um lado, tornou-se um dos países com maior capacidade científica em conservação da biodiversidade do mundo, abrigando o maior conjunto de espécies conhecidas do planeta, redes de pesquisa de escala continental e inovações institucionais — como as reservas extrativistas — que influenciaram políticas de conservação em outros países megadiversos [@mittermeier2005; @lovejoy2005]. Por outro lado, essa capacidade científica é estrutural e recorrentemente ameaçada por crises políticas, cortes orçamentários e desmonte de políticas públicas [@fernandes2017; @magnusson2018; @thome2019]. Compreender a biologia da conservação no Brasil exige, portanto, manter essas duas dimensões — conquista científica e vulnerabilidade política — permanentemente em tensão, evitando tanto o triunfalismo quanto o catastrofismo.
 
 Este módulo está organizado em quatro blocos, correspondentes às sessões de terça e quinta-feira, complementados por uma seção dedicada a perspectivas latino-americanas e uma síntese de encerramento:
 
@@ -58,18 +59,24 @@ Essa comparação, no entanto, não deve ser lida como uma corrida entre trajet�
 ### Chico Mendes, os seringueiros e a invenção das reservas extrativistas
 
 ![](https://www.greenpeace.org/static/planet4-brasil-stateless/2021/12/cb0202c5-chico-mendes-1024x627.jpg)
+Figura 1. Líder seringueiro e sindicalista Chico Mendes, responsável pela unificação das lutas socias dos "povos da floresta". Chico Mendes foi assassinado em 1988 por um fazendeiro e seu filho numa emboscada em sua própria casa.
 
 O evento com maior poder simbólico e político na trajetória brasileira é, sem dúvida, o assassinato do seringueiro e líder sindical Chico Mendes, em dezembro de 1988, no Acre. A mobilização do movimento dos seringueiros, articulada por Mendes ao longo da década de 1980, propôs um modelo até então inédito de área protegida: a reserva extrativista, uma unidade de conservação de uso sustentável que reconhece formalmente o direito de populações tradicionais a viver e extrair recursos de floresta pública, condicionado a práticas de manejo que mantêm a cobertura florestal [@lovejoy2005].
+
+<iframe width="789" height="592" src="https://www.youtube.com/embed/cUr2t3Te8Jo" title="Chico Mendes: eu quero viver - Parte 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Video documentário sobre a vida de Chico Mendes, com entrevistas com o próprio Chico Mendes.
 
 A construção social desse modelo de política pública não foi um processo de cima para baixo, elaborado por especialistas em conservação e depois "aplicado" aos seringueiros. Pelo contrário: a proposta de reserva extrativista emergiu da mobilização sindical e política dos próprios trabalhadores extrativistas, negociada com o Estado brasileiro em um contexto de forte pressão internacional após o assassinato de Mendes [@allegretti2008]. Esse é um ponto pedagogicamente central para o módulo: a inovação institucional brasileira mais influente internacionalmente na história da conservação nasceu de baixo para cima, de um movimento social, e não de um laboratório de política de conservação.
 
 As reservas extrativistas antecipam, em mais de uma década, um movimento que a literatura internacional viria a descrever apenas depois como transição de proteger a natureza *das* pessoas para protegê-la *para* as pessoas [@dyke2020]. Mais do que isso: no caso brasileiro, o modelo se aproxima de uma terceira formulação, ainda mais radical, de conservação *pelas* pessoas — na qual populações tradicionais não são beneficiárias passivas de uma política ambiental, mas sujeitos políticos que desenham e disputam essa política.
 
 ![](https://marsemfim.com.br/wp-content/uploads/2015/06/a-resex-.jpg)
+Figura 2. RESEX Acaú-Goiana entre PE e PB, abriga comunidades de pesquadores e quilombolas.
 
 ### Do sistema de unidades de conservação à liderança científica
 
-![PE Serra do Mar](https://upload.wikimedia.org/wikipedia/commons/f/f4/Serra_do_mar_%28Ubatuba%29_5.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+![PE Serra do Mar](https://sigam.ambiente.sp.gov.br//sigam3/Repositorio/UCImagens/UCPaisagem_I620118b1-471d-400c-86e8-77164e524213.jpg)
 
 Ao longo das décadas de 1980, 1990 e 2000, o Brasil consolidou um dos sistemas de áreas protegidas mais extensos e diversos do mundo, combinando unidades de proteção integral e de uso sustentável — categoria na qual as reservas extrativistas se inserem, ao lado de outros arranjos como reservas de desenvolvimento sustentável e territórios indígenas e quilombolas com regimes de proteção específicos. Paralelamente, o país desenvolveu uma comunidade científica de conservação de escala e sofisticação comparáveis às de potências científicas tradicionais [@mittermeier2005].
 

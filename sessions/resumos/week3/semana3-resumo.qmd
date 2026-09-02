@@ -1,0 +1,199 @@
+---
+title: "A Evolução da Ciência Ecológica na Biologia da Conservação"
+subtitle: "Semana 3 — Resumo Expandido"
+author: "Biologia da Conservação — PPGBV"
+date: today
+lang: pt-BR
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+bibliography: references.bib
+---
+
+## Introdução
+
+A biologia da conservação não nasceu de uma única ciência, tampouco se manteve estática desde sua fundação. Ela é, antes, um mosaico de saberes em expansão contínua: uma disciplina que recrutou, a cada década, novos instrumentos conceituais de subcampos da ecologia para responder a um problema que não para de se transformar — a perda acelerada da diversidade biológica do planeta. Compreender essa disciplina exige, portanto, compreender sua *ecologia interna*: quais ramos da ciência ecológica a fundaram, quais foram se agregando e em que momentos, e como essa acumulação de ferramentas redesenhou o que hoje entendemos por "fazer conservação".
+
+Este resumo expandido acompanha esse percurso tomando como marco fundacional a criação da *Society for Conservation Biology* (SCB) em 1987 e da revista *Conservation Biology* em 1988, e seguindo até o presente [@Meine2006; @Teel2018]. O argumento central, sustentado pela literatura revisada, é que a disciplina não abandonou suas raízes biológicas e ecológicas ao longo do tempo — ela as multiplicou. Partiu de um núcleo relativamente estreito, ancorado em demografia populacional, genética e biogeografia de ilhas, e foi incorporando sucessivamente escalas espaciais maiores (paisagem, macroecologia), escalas temporais mais profundas (paleobiologia, paleoecologia) e, de forma cada vez mais explícita, as dimensões sociais e políticas que atravessam qualquer prática conservacionista [@Hintzen2019; @Santini2021; @Chase2020].
+
+Ao mesmo tempo, é preciso reconhecer — e este é o compromisso pedagógico transversal deste curso — que essa cronologia, tal como normalmente contada, é centrada em instituições, revistas e cientistas do Norte Global. O Brasil e a América Latina, no entanto, não são meros receptores tardios dessa agenda: produziram infraestrutura científica própria, lideram contribuições relevantes em subcampos específicos e, mais fundamentalmente, geraram tradições de pensamento — a antropologia da territorialidade, a ecologia política latino-americana, o socioambientalismo jurídico — que desafiam a própria narrativa de que a "ciência ecológica" evolui de forma linear e universal, desconectada de geografia e de poder [@Diegues2008; @Leff2001; @Little2002]. Este resumo, portanto, não apenas narra a expansão disciplinar da biologia da conservação; ele também pergunta, ao final, *de onde* essa ciência tem sido produzida e o que muda quando a olhamos a partir do Sul.
+
+O texto está organizado em quatro grandes blocos cronológicos e temáticos, seguidos de uma síntese crítica: (1) as origens da disciplina nos anos 1980–1990, ancoradas em um núcleo ecológico relativamente definido; (2) a fase de amadurecimento e ampliação de escala espacial dos anos 2000–2010; (3) a multiescalaridade contemporânea do período 2010–2025, marcada pela incorporação de macroecologia, metacomunidades e paleoecologia aplicada; e (4) uma leitura crítica que articula essa trajetória com o pensamento ambiental latino-americano.
+
+::: {.callout-note title="Para discussão em aula"}
+Antes de avançar na leitura, vale registrar uma pergunta que atravessará todo o módulo: a "ciência ecológica" que fundamenta a conservação é uma disciplina neutra que se expande por acúmulo de conhecimento, ou é também um campo de disputa sobre que tipo de natureza — e que tipo de humano — deve ser protegido? Guarde essa pergunta; retornaremos a ela na síntese final.
+:::
+
+## As origens da disciplina: o núcleo ecológico fundador (anos 1980–1990)
+
+### O contexto de crise e a consolidação institucional
+
+A biologia da conservação, tal como reconhecida hoje, emergiu em meados da década de 1980 como resposta direta a um diagnóstico de urgência: uma crise de extinção acelerada, sem precedentes na história recente da vida na Terra [@Meffe2001; @Hintzen2019]. Diferentemente de disciplinas científicas que se desenvolvem primariamente por curiosidade teórica, a biologia da conservação nasceu como o que vários autores descrevem como uma "ciência de crise" ou uma "ciência de escassez e abundância": um campo aplicado, orientado por missão, cujo objetivo declarado era gerar conhecimento científico rigoroso o suficiente para orientar decisões de proteção urgente da biodiversidade [@Meffe2001; @Dyke2020].
+
+Essa orientação de urgência moldou profundamente o caráter da disciplina desde o início. Ao contrário de campos organizados em torno de um objeto teórico bem delimitado, a biologia da conservação se constituiu como um campo *oportunista* na expressão de @Meine2006 — disposto a tomar emprestado conceitos, métodos e dados de qualquer disciplina biológica estabelecida que pudesse contribuir para o objetivo comum de proteger a diversidade biológica da Terra. Essa característica fundacional — a disposição de recrutar amplamente, sem apego disciplinar rígido — é o que explica, em grande medida, por que a "ciência ecológica" da conservação continua se expandindo e se hibridizando nas décadas seguintes. Isos têm acontecido com algum custo à precisão e objetividade, valores muito caros para a ciência.
+
+A consolidação institucional do campo seguiu um caminho relativamente comprimido. A criação da *Society for Conservation Biology* em 1987 forneceu à disciplina nascente uma constituência profissional organizada; a fundação da revista *Conservation Biology*, em 1988, ofereceu um veículo de comunicação científica dedicado; e a rápida proliferação de programas de pós-graduação em conservação ao longo da década de 1990 assegurou a reprodução da disciplina como campo formativo [@Teel2018; @Meine2006; @Meffe2006]. Em poucos anos, portanto, a biologia da conservação passou de um conjunto disperso de preocupações compartilhadas por biólogos de diferentes subcampos para uma disciplina institucionalmente reconhecível, com sociedade científica, periódico de referência e trilha de formação acadêmica própria.
+
+### O núcleo ecológico fundador
+
+Do ponto de vista estritamente da ciência ecológica — o recorte que interessa a este módulo —, a literatura é relativamente convergente ao identificar quais subcampos formaram o núcleo fundador da disciplina. Cinco áreas aparecem de forma recorrente:
+
+1. **Biogeografia de ilhas.** A teoria do equilíbrio de biogeografia de ilhas, desenvolvida originalmente por MacArthur e Wilson para arquipélagos oceânicos, foi rapidamente adaptada pelos conservacionistas ao problema do desenho de reservas: fragmentos de habitat natural cercados por paisagens antropizadas passaram a ser tratados, conceitualmente, como "ilhas" ecológicas. Essa analogia sustentou décadas de debate técnico sobre o tamanho, a forma e a conectividade ideais de áreas protegidas [@Hintzen2019; @Brussard1991].
+
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbORjVaCKhhEKXsCkU4Vc-69cZl-PAxhiA-8exjmlh2vbAQ8L6etZzhJjiUbG5Yofh3AWYp4BZiisqCvX5pGB-x4ZeEANwzaZGzTLiD_swR9SUmKMzVGwyTCoB5V_HcK9CwRCGixWBvMKx/s1600/Biogeo.jpg)
+
+2. **Ecologia de populações e demografia.** A relação entre tamanho populacional e persistência de longo prazo tornou-se um dos pilares metodológicos da disciplina, dando origem à análise de viabilidade populacional (PVA, na sigla em inglês) como ferramenta central para estimar riscos de extinção e orientar metas de manejo [@Hintzen2019; @Simberloff1988].
+
+![](https://www.science.org/cms/10.1126/sciadv.1600936/asset/f374d1a1-3dc4-4ab7-a69d-0fc6fb68688a/assets/graphic/1600936-f2.jpeg)
+
+3. **Genética de populações.** A genética contribuiu com um alerta que se tornaria central ao vocabulário conservacionista: populações pequenas e isoladas sofrem depressão endogâmica e perda de variabilidade genética, o que compromete sua capacidade adaptativa e sua viabilidade em prazos mais longos [@Hintzen2019; @Brussard1991].
+
+![](https://imgs.mongabay.com/wp-content/uploads/sites/20/2024/07/11121649/ACTP-01-768x512.jpg)
+
+4. **Biologia evolutiva.** Ainda que de forma inicialmente menos central do que a genética populacional aplicada, a biologia evolutiva contribuiu uma perspectiva de fundo sobre processos adaptativos e história filogenética que seria retomada com muito mais força décadas depois, na chamada biologia evolutiva da conservação [@Hu2025].
+
+![](https://evolution.berkeley.edu/wp-content/uploads/2008/12/phylogeneticconservation.gif)
+
+5. **Disciplinas aplicadas de manejo.** Silvicultura e manejo de fauna, campos com longa tradição prática e institucional prévia à própria biologia da conservação, forneceram tanto ferramentas técnicas quanto uma cultura profissional de intervenção direta em ecossistemas manejados [@Hintzen2019].
+
+![](https://www.ecoexercito.com.br/uploads/images/2024/04/silvicultura-tropical-cambatendo-as-mudancas-climaticas-eb9be.png)
+
+Esse núcleo — biogeografia, demografia, genética, evolução e manejo aplicado — definiu o repertório conceitual predominante da disciplina em seus primeiros dez a quinze anos de existência. É importante notar que esse núcleo era, por construção, primariamente *populacional* e de *escala espacial relativamente pequena*: o problema típico enfrentado pelos primeiros conservacionistas biológicos era o de uma população isolada, ou de um pequeno número de reservas fragmentadas, cuja persistência precisava ser avaliada e, quando possível, garantida.
+
+::: {.callout-tip title="Conceito-chave: Ciência de crise"}
+A ideia de "ciência de crise" descreve disciplinas que se organizam em torno da urgência de um problema aplicado — no caso da conservação, a extinção acelerada de espécies — antes mesmo de terem consolidado um corpo teórico unificado. Isso ajuda a explicar tanto o caráter interdisciplinar precoce da biologia da conservação quanto sua disposição contínua a incorporar novos subcampos ecológicos ao longo do tempo, sempre que estes ofereçam ferramentas úteis à missão central de proteção da biodiversidade.
+:::
+
+### Uma nota sobre a origem geográfica dessa narrativa
+
+Vale registrar, já nesta primeira seção, uma observação que será desenvolvida com mais profundidade na síntese final: essa cronologia fundacional é quase inteiramente centrada em instituições estadunidenses e europeias — a SCB, a revista *Conservation Biology*, os departamentos de ecologia de populações que formaram a primeira geração de conservacionistas. Isso não invalida a narrativa, mas é preciso lembrar que ela descreve a institucionalização de um campo *acadêmico específico*, e não o surgimento histórico da preocupação humana com a proteção da natureza — algo que, como veremos, tem raízes muito mais antigas e geograficamente diversas, incluindo práticas de manejo territorial de povos originários que antecedem em séculos a criação da SCB [@Diegues2008; @Dyke2020].
+
+## Amadurecimento e Ampliação de Escala (Anos 2000–2010)
+
+### De aplicação biológica a ciência de engajamento
+
+Na virada do milênio, a biologia da conservação já não podia mais ser descrita apenas como a aplicação de princípios biológicos estabelecidos a problemas de extinção. A própria revista *Conservation Biology*, em um número comemorativo de seus vinte anos de existência, reconhecia que o campo havia ajudado a desenvolver e consolidar um conjunto de subdisciplinas inteiramente novas: genética da conservação, ecologia da paisagem, planejamento sistemático da conservação, medicina da conservação, economia ecológica e ecologia da restauração [@Meffe2006]. Em paralelo, a própria autocompreensão da disciplina mudava: de uma ciência que aplicava princípios biológicos a problemas de conservação, para uma "ciência de engajamento", voltada explicitamente à solução de problemas e à interface direta com formuladores de políticas públicas [@Meffe2001].
+
+![](https://figures.semanticscholar.org/fd9cb8ffebde6ad87a622c58872f11d4d6b66f78/2-Figure1-1.png)
+
+Esse deslocamento não foi meramente retórico. Ele correspondeu a uma mudança substantiva no tipo de pergunta ecológica que a conservação passou a fazer. Se nos anos 1980 a pergunta típica era "esta população isolada é viável?", nos anos 2000 a pergunta se tornava cada vez mais "como esta paisagem fragmentada funciona como sistema, e como podemos geri-la para manter processos ecológicos em múltiplas escalas?" [@Chase2020].
+
+### A incorporação da escala espacial
+
+O traço ecológico mais marcante desse período é a incorporação decisiva da escala espacial como dimensão central da análise conservacionista. A literatura descreve uma passagem de um foco primordialmente *populacional* — o organismo, a população, a reserva isolada — para conexões explícitas com metapopulações, ecologia da paisagem, biogeografia regional e uma ciência da biodiversidade mais ampla [@Chase2020].
+
+A **ecologia de paisagem** trouxe ferramentas conceituais e metodológicas para tratar explicitamente da estrutura espacial de habitats fragmentados — conectividade, corredores ecológicos, efeitos de borda — como variáveis de manejo, e não apenas como pano de fundo descritivo. A teoria de **metapopulações**, por sua vez, ofereceu um arcabouço formal para compreender como conjuntos de subpopulações interligadas por dispersão podem persistir regionalmente mesmo quando populações locais individuais se extinguem e são recolonizadas — uma perspectiva que reformulou profundamente o que significa "viabilidade" em paisagens fragmentadas [@Chase2020].
+
+![](https://www.frontiersin.org/api/ipx/f=webp/https://www.frontiersin.org/files/Articles/560944/xml-images/ffgc-04-560944-g0001.webp)
+
+Paralelamente, a **restauração ecológica** começou a ocupar um lugar cada vez mais central na agenda conservacionista. Já no ano 2000, argumentava-se que, embora formalmente distinta da biologia da conservação, a ecologia da restauração compartilhava seus objetivos fundamentais relacionados à biodiversidade e tenderia a ganhar importância crescente no futuro da disciplina — uma previsão que se confirmaria com força nas duas décadas seguintes [@Young2000].
+
+### Novas subdisciplinas e suas funções
+
+Vale destacar brevemente o papel específico de cada uma das subdisciplinas que a revista *Conservation Biology* reconhecia, em 2006, como contribuições diretas do campo [@Meffe2006]:
+
+- **Genética da conservação**: amadureceu a partir da genética de populações fundacional, incorporando ferramentas moleculares cada vez mais sofisticadas para estimar diversidade genética, fluxo gênico e estrutura populacional em espécies de interesse conservacionista.
+- **Ecologia da paisagem**: como descrito acima, formalizou a análise espacial explícita de mosaicos de habitat.
+- **Planejamento sistemático da conservação**: desenvolveu métodos quantitativos para priorização de áreas a proteger, dado um conjunto de metas de representatividade de biodiversidade e restrições orçamentárias — transformando a seleção de reservas em um problema de otimização formal.
+- **Medicina da conservação**: emergiu na interface entre saúde animal, saúde humana e saúde ecossistêmica, antecipando preocupações que se tornariam centrais décadas depois, com o crescimento da abordagem "Uma Só Saúde".
+- **Economia ecológica**: trouxe ferramentas de valoração e análise de custo-benefício para justificar e orientar decisões de conservação em termos compreensíveis para formuladores de políticas públicas e setores produtivos.
+- **Ecologia da restauração**: como já mencionado, passou de campo periférico a eixo estruturante da prática conservacionista contemporânea.
+
+::: {.callout-important title="PPBio é foi visionário?"}
+Enquanto essa maturação disciplinar ocorria majoritariamente em revistas e universidades do Norte Global, o Brasil construía, de forma relativamente autônoma, sua própria infraestrutura de pesquisa em biodiversidade em longo prazo. O Programa de Pesquisa em Biodiversidade (PPBio), operando desde 2004, instalou ao longo dos anos 161 sítios de pesquisa ecológica padronizados distribuídos por todos os biomas brasileiros, produzindo cerca de 1.200 publicações que cobrem desde história natural até genética de populações [@Rosa2021]. Isso não deve ser lido apenas como "o Brasil também fez ciência de conservação" — é importante reconhecer que o PPBio antecipou, em escala nacional e com metodologia padronizada própria, exatamente o tipo de infraestrutura de monitoramento multissítio que a ecologia de paisagem e a macroecologia internacionais viriam a valorizar como essencial na década seguinte.
+
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/k8ahPZKrROU" title="Programa de Pesquisa em Biodiversidade PPBIO | EM DIA COM A CIÊNCIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+:::
+
+### Interdisciplinaridade emergente: o primeiro sinal
+
+É também nesse período que a disciplina começa a reconhecer, de forma mais sistemática, que boa parte dos problemas de conservação não são resolvidos apenas com mais dados ecológicos. A integração das ciências sociais à biologia da conservação, ainda incipiente nos anos 2000, começaria a se tornar consenso explícito na década seguinte — um movimento que examinaremos com mais detalhe no Módulo 4, dedicado à interdisciplinaridade e ao conhecimento ecológico tradicional [@Teel2018].
+
+## Multiescalaridade Contemporânea (2010–2025)
+
+### Um repertório ecológico cada vez mais heterogêneo
+
+Desde a década de 2010, a biologia da conservação passou a operar com um repertório ecológico ainda mais heterogêneo e multiescalar do que em qualquer momento anterior de sua história. Análises de texto em larga escala sobre a literatura conservacionista mostram um aumento sistemático no uso de abordagens estatísticas sofisticadas, ferramentas genômicas e variáveis sociais, além da ascensão acentuada de termos como mudança climática, espécies invasoras, serviços ecossistêmicos e meta-análise como categorias centrais de análise [@Anderson2021].
+
+Um achado particularmente relevante desse período, obtido por meio de metodologias de leitura automatizada (*machine reading*) de dezenas de milhares de artigos científicos, é que, entre os anos 2000 e 2014, a contribuição relativa da ecologia clássica dentro do corpus da biologia da conservação efetivamente *diminuiu* em termos proporcionais, enquanto cresceram de forma acentuada os componentes sociais e políticos do campo [@Hintzen2019]. Esse dado é revelador: não significa que a ecologia tenha se tornado menos importante em termos absolutos, mas sim que o espaço relativo ocupado por ela dentro da disciplina como um todo diminuiu à medida que novas dimensões — sociais, econômicas, políticas — ganhavam peso. Esse achado antecipa diretamente o tema que será aprofundado no Módulo 5 deste curso, dedicado à ecologia política.
+
+### Macroecologia e metacomunidades
+
+Duas subdisciplinas ecológicas merecem destaque especial na configuração contemporânea da biologia da conservação: a macroecologia e a ecologia de metacomunidades.
+
+A **macroecologia** — o estudo de padrões ecológicos em escalas espaciais e temporais muito amplas, tipicamente continentais a globais — tornou-se cada vez mais interligada com a ciência da conservação como ferramenta para compreender padrões socioecológicos em grandes escalas e para apoiar avaliações e projeções de biodiversidade sob cenários de mudança global [@Santini2021]. Onde a biologia da conservação clássica perguntava sobre a viabilidade de uma população específica, a macroecologia contemporânea pergunta sobre padrões de distribuição, abundância e diversidade de espécies em escalas continentais — uma mudança de granularidade que reflete tanto avanços metodológicos (disponibilidade de grandes bases de dados, poder computacional) quanto a natureza intrinsecamente global de ameaças como a mudança climática.
+
+A **ecologia de metacomunidades**, por sua vez, foi proposta como uma síntese conceitual particularmente útil para a conservação porque integra, em um único arcabouço teórico, processos demográficos locais, dispersão entre sítios, heterogeneidade de habitat e interações bióticas — todos elementos centrais para problemas de conservação aplicada em paisagens fragmentadas e heterogêneas [@Chase2020]. Ao contrário da teoria de metapopulações, que trata primariamente da dinâmica de uma única espécie através de manchas de habitat, a teoria de metacomunidades amplia o foco para conjuntos de espécies interagentes distribuídos em múltiplos sítios conectados — uma escala de complexidade mais próxima da realidade ecológica enfrentada por gestores de paisagens reais.
+
+### A ampliação da escala temporal: paleobiologia e paleoecologia
+
+Um dos desenvolvimentos mais originais desse período recente é a ampliação decisiva da escala *temporal* da análise conservacionista. A paleobiologia da conservação e a paleoecologia aplicada passaram a oferecer séries temporais que se estendem de décadas a milênios, permitindo definir alvos e estratégias de conservação em um mundo de mudanças rápidas de forma muito mais informada do que permitiriam apenas dados de monitoramento contemporâneo [@Barnosky2017; @Siggery2024].
+
+Essa ampliação temporal tem uma consequência conceitual importante: ela desloca parte da disciplina de um ideal implícito de "manutenção histórica" — a ideia de restaurar ou preservar um estado de referência fixo, tipicamente pré-colonial ou pré-industrial — para metas centradas em capacidade adaptativa e em restauração informada por dinâmicas de longo prazo [@Barnosky2017]. Em outras palavras, o registro paleoecológico revela que os ecossistemas sempre estiveram em fluxo, respondendo a mudanças climáticas e a perturbações ao longo de milênios; isso sugere que metas de conservação fixadas em um único "estado natural" de referência podem ser cientificamente menos defensáveis do que metas voltadas para manter a capacidade dos sistemas ecológicos de se adaptarem a mudanças futuras.
+
+Em 2024, a restauração ecológica já aparecia como estratégia central da conservação contemporânea, com uma proposta explícita de integrar dez teorias ecológicas fundamentais — da facilitação hierárquica à macroecologia — como forma de aumentar a eficiência e a escalabilidade dos esforços de restauração em escala global [@Silliman2024]. Esse movimento de síntese teórica aplicada ilustra bem o estado atual da disciplina: não mais dependente de um único subcampo ecológico, mas ativamente combinando múltiplas tradições teóricas para enfrentar problemas de manejo em escalas cada vez maiores.
+
+::: {.callout-important title="Ponte com o Brasil e a América Latina"}
+A paleobiologia da conservação sul-americana ilustra bem a tensão entre potencial e reconhecimento que atravessa a produção científica latino-americana. A América do Sul, com sua biodiversidade vulnerável, geologia singular e riqueza fossilífera, constitui um laboratório natural com considerável potencial para liderar pesquisa em paleobiologia da conservação. No entanto, a região é fortemente sub-representada na literatura internacional, contribuindo com apenas cerca de 5% do total de publicações da área — das quais, ainda assim, 67% são de origem brasileira. A maioria dos autores sul-americanos são geocientistas, com produção concentrada em moluscos, e a produção por pesquisador é menor do que a observada em países mais desenvolvidos. Ainda assim, o Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) ocupa a terceira posição mundial em financiamento de artigos de paleobiologia da conservação — um indicador de que o investimento nacional em ciência básica supera, em proporção, o reconhecimento internacional obtido [@DeAssumpcao2025]. Esse descompasso entre potencial, investimento e visibilidade é um padrão que se repetirá, sob diferentes formas, ao longo deste curso.
+:::
+
+Também relevante para essa mesma ponte é a genômica da biodiversidade brasileira: o consórcio Genômica da Biodiversidade Brasileira (GBB) tem utilizado ferramentas genômicas de ponta para subsidiar políticas de conservação e de bioeconomia em um dos países megadiversos do planeta, adotando um modelo de governança público-privada em escala continental que vem sendo apontado como referência para outros países megadiversos do Sul Global [@Vilaca2024].
+
+### Uma disciplina evolutivamente integrada
+
+Fechando esse arco cronológico, é importante mencionar a proposta mais recente de uma **biologia evolutiva da conservação** como subdisciplina explícita: um arcabouço unificado que conecta processos evolutivos passados, dinâmicas presentes e projeções futuras da biodiversidade, integrando genômica, filogenia e dados paleontológicos em uma moldura evolutiva coerente para orientar decisões de manejo [@Hu2025]. Essa proposta pode ser lida como o fechamento simbólico de um ciclo: a disciplina que nasceu, em parte, de uma leitura relativamente estreita da genética populacional e da biologia evolutiva nos anos 1980 retorna, quatro décadas depois, a esses mesmos fundamentos — mas agora enriquecida por escalas espaciais, temporais e metodológicas imensamente mais amplas.
+
+## Síntese Crítica: A Geografia da Ciência Ecológica e o Diálogo com o Pensamento Latino-Americano
+
+### O arco geral, revisitado
+
+Em síntese, sob o ponto de vista estrito da ciência ecológica, a biologia da conservação nasceu de um núcleo formado por biogeografia, demografia populacional, genética e biologia evolutiva; incorporou, entre os anos 1990 e 2000, metapopulações, ecologia da paisagem, restauração e planejamento sistemático; e hoje mobiliza também macroecologia, metacomunidades, paleoecologia e paleobiologia, além de uma integração evolutiva e socioecológica muito mais ampla do que qualquer momento anterior de sua história [@Meine2006; @Meffe2006; @Chase2020; @Santini2021; @Hu2025]. Tomando a SCB e a revista *Conservation Biology* como referência institucional, a trajetória até o presente é a de uma disciplina que não abandonou suas raízes ecológicas, mas passou a aplicá-las — e a subdisciplinas cada vez mais numerosas da ecologia — em múltiplas escalas espaciais, temporais e organizacionais simultaneamente [@Meine2006; @Anderson2021; @Chase2020].
+
+Esse é um resumo fiel do que a literatura internacional descreve. Mas ele deixa em aberto uma pergunta que este curso se propõe a não deixar implícita: *de onde* essa ciência tem sido produzida, e o que essa geografia da produção científica esconde ou revela?
+
+### Quem escreve essa história?
+
+A cronologia que acabamos de percorrer é, por construção, uma cronologia institucional: ela segue a criação de uma sociedade científica específica (a SCB), a fundação de um periódico específico (*Conservation Biology*) e a expansão de programas de pós-graduação concentrados, em sua maioria, em universidades da América do Norte e da Europa. Isso não é um defeito da literatura revisada — é simplesmente o que ela descreve, com honestidade metodológica. Mas é preciso reconhecer que essa não é a única história possível da relação entre ciência ecológica e conservação da natureza, nem é neutra em relação a quem produz conhecimento legítimo sobre a natureza e quem não.
+
+Antonio Carlos Diegues, em sua crítica ao que chama de "mito moderno da natureza intocada", argumenta que a visão preservacionista ocidental — que concebe áreas naturais protegidas como espaços vazios, "intocados" e desabitados, seguindo o modelo fundacional dos parques nacionais estadunidenses como Yellowstone — ignora sistematicamente as relações simbióticas de longa duração entre populações humanas tradicionais e os ecossistemas que habitam [@Diegues2008]. Essa crítica é diretamente relevante para a cronologia ecológica que revisamos: o próprio núcleo fundador da biologia da conservação — biogeografia de ilhas, análise de viabilidade populacional, desenho de reservas — foi desenvolvido em grande medida a partir de um pressuposto implícito de que a natureza a ser conservada é, idealmente, uma natureza sem presença humana permanente. Diegues mostra que esse pressuposto tem uma história específica, situada, e não é uma verdade científica neutra sobre como ecossistemas funcionam.
+
+Enrique Leff oferece uma crítica complementar, de natureza mais epistemológica. Para Leff, o chamado "saber ambiental" não é redutível ao conhecimento ecológico formal produzido por cientistas treinados em universidades — ele emerge da interação entre racionalidade científica, complexidade dos sistemas socioambientais e relações de poder que determinam que tipos de conhecimento são reconhecidos como válidos e que tipos são marginalizados [@Leff2001]. Aplicado à nossa cronologia: a "expansão" da ciência ecológica da conservação, tal como narrada pela literatura internacional, é também um processo de definição de fronteiras — o que conta como conhecimento ecológico relevante para a conservação, e o que fica de fora dessa definição (por exemplo, sistemas de manejo tradicional acumulados ao longo de séculos por populações indígenas e tradicionais, frequentemente não publicados em periódicos científicos indexados).
+
+Astrid Ulloa, trabalhando a partir da etnografia de movimentos indígenas na Colômbia, descreve como emergiu historicamente a figura do "nativo ecológico" — a atribuição, por parte de movimentos ambientalistas transnacionais e de agências internacionais, de uma identidade de guardião natural da biodiversidade a povos indígenas, frequentemente de forma essencializada e desconectada das próprias reivindicações políticas e territoriais desses povos [@Ulloa2004]. Essa análise adverte contra uma incorporação apressada e instrumental do conhecimento tradicional pela ciência da conservação: reconhecer a contribuição de sistemas de conhecimento indígena e tradicional para a conservação da biodiversidade é importante, mas fazê-lo sem entender as complexidades, paradoxos e disputas políticas internas a essas comunidades corre o risco de reproduzir, sob nova forma, a mesma lógica de apropriação que a crítica de Diegues denuncia.
+
+No plano jurídico-institucional brasileiro, Juliana Santilli documenta como o conceito de socioambientalismo se consolidou na Constituição Federal de 1988 e na legislação infraconstitucional subsequente, estabelecendo uma ponte formal entre proteção da biodiversidade e reconhecimento de direitos territoriais de povos indígenas e comunidades tradicionais [@Santilli2005]. E Paul Little, em sua análise antropológica dos "territórios sociais" no Brasil, mostra como categorias como terras indígenas, remanescentes de comunidades de quilombos e reservas extrativistas emergiram historicamente da tensão entre formas de territorialidade tradicionais e o arcabouço jurídico do Estado-nação — incluindo o próprio arcabouço de áreas protegidas gerado pela biologia da conservação [@Little2002].
+
+::: {.callout-warning title="Não antecipar o Módulo 5"}
+É importante não confundir esta síntese crítica com o conteúdo do Módulo 5, dedicado especificamente à ecologia política. Aqui, o objetivo é situar a *ciência ecológica* da conservação em uma geografia de produção do conhecimento — reconhecer que ela tem lugar de origem, pressupostos e lacunas. A análise sistemática das relações de poder, dos conflitos distributivos e da economia política da conservação será desenvolvida com mais profundidade adiante.
+:::
+
+### O que muda quando olhamos a partir do Sul
+
+Essa leitura crítica não pretende desqualificar a cronologia ecológica revisada nas seções anteriores — os avanços conceituais da biogeografia de ilhas, da genética de populações, da ecologia de metacomunidades e da paleoecologia aplicada são reais, cientificamente sólidos e continuam orientando decisões de manejo em todo o mundo, inclusive no Brasil. O que a leitura latino-americana acrescenta é uma camada adicional de vigilância epistemológica: perguntar sempre quem produziu determinado conhecimento ecológico, sob que condições institucionais e materiais, e o que esse conhecimento pressupõe (ou apaga) sobre a presença humana nos ecossistemas que descreve.
+
+Isso tem consequências práticas concretas para a formação de conservacionistas no Brasil. Significa, por exemplo, reconhecer que o PPBio e o consórcio GBB não são apenas versões brasileiras tardias de uma agenda internacional, mas produções científicas com lógica e trajetória próprias, ainda que operando com ferramentas conceituais em grande parte compartilhadas com a literatura internacional [@Rosa2021; @Vilaca2024]. Significa também reconhecer que a sub-representação da paleobiologia sul-americana na literatura internacional, apesar do investimento nacional relativamente robusto, é sintoma de uma estrutura de reconhecimento científico global desigual, e não de uma suposta menor qualidade da ciência produzida na região [@DeAssumpcao2025].
+
+E significa, finalmente, entender que a "expansão da ciência ecológica da conservação" para dimensões sociais e políticas — documentada de forma quantitativa por @Hintzen2019 como um crescimento relativo dos componentes sociais em detrimento da ecologia clássica — não é uma novidade recente importada de fora para dentro da disciplina. Ela é, em muitos sentidos, um reencontro tardio com questões que o pensamento ambiental latino-americano já vinha colocando havia décadas: a inseparabilidade entre proteção da biodiversidade e justiça socioambiental, entre conservação e território, entre ciência ecológica e relações de poder [@MartinezAlier2004; @Leff2001].
+
+::: {.callout-note title="Para discussão em aula"}
+Retomando a pergunta da introdução: a ciência ecológica que fundamenta a conservação é neutra, ou é também um campo de disputa? Depois de percorrer a cronologia internacional e a crítica latino-americana, proponho uma segunda pergunta, mais aplicada: como um pesquisador ou gestor de conservação no Brasil pode utilizar plenamente as ferramentas conceituais da macroecologia, da ecologia de metacomunidades e da paleoecologia — que são cientificamente robustas e úteis — sem reproduzir, ingenuamente, os apagamentos que a crítica de Diegues, Leff e Ulloa nos ajuda a identificar?
+:::
+
+## Considerações Finais
+
+Este módulo percorreu quatro décadas de expansão da ciência ecológica dentro da biologia da conservação: da fundação institucional em torno de um núcleo relativamente estreito de biogeografia, demografia e genética de populações nos anos 1980, passando pela incorporação decisiva da escala espacial — paisagem, metapopulações, restauração — nos anos 2000, até a multiescalaridade contemporânea que combina macroecologia, metacomunidades e paleobiologia aplicada em um único repertório conceitual cada vez mais integrado [@Meine2006; @Chase2020; @Santini2021; @Barnosky2017].
+
+Ao mesmo tempo, este módulo insistiu — e continuará insistindo ao longo do curso — que essa cronologia não pode ser lida como uma história neutra e universal do progresso científico. Ela tem geografia, tem instituições específicas e tem pressupostos sobre a relação entre humanos e natureza que vozes latino-americanas como Diegues, Leff, Martínez-Alier, Ulloa, Little e Santilli ajudam a tornar visíveis e questionáveis [@Diegues2008; @Leff2001; @MartinezAlier2004; @Ulloa2004; @Little2002; @Santilli2005]. O Brasil, como país megadiverso do Sul Global, não é apenas palco de aplicação dessas teorias ecológicas — é também produtor de infraestrutura científica própria (PPBio, GBB) e de tradições de pensamento crítico que dialogam, tensionam e complementam a narrativa internacional dominante [@Rosa2021; @Vilaca2024; @DeAssumpcao2025].
+
+Os próximos módulos aprofundarão exatamente essas duas frentes que aqui apenas anunciamos: o Módulo 4 examinará com mais detalhe a interdisciplinaridade entre biologia da conservação e ciências humanas, incluindo o conhecimento ecológico tradicional; e o Módulo 5 tratará diretamente da ecologia política, examinando de forma sistemática as relações de poder que atravessam a prática conservacionista contemporânea.
+
+::: {.callout-tip title="Síntese para revisão"}
+- O núcleo ecológico fundador da biologia da conservação (1980–1990): biogeografia de ilhas, ecologia de populações, demografia, genética de populações, biologia evolutiva.
+- A expansão espacial (2000–2010): ecologia da paisagem, metapopulações, restauração ecológica, planejamento sistemático.
+- A multiescalaridade contemporânea (2010–2025): macroecologia, metacomunidades, paleobiologia e paleoecologia aplicada, biologia evolutiva da conservação.
+- O eixo crítico latino-americano: a ciência ecológica da conservação tem geografia de produção, e o pensamento ambiental latino-americano (Diegues, Leff, Martínez-Alier, Ulloa, Little, Santilli) oferece ferramentas para reconhecer seus pressupostos e lacunas.
+:::
+
+## Referências

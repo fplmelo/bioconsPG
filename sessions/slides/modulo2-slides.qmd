@@ -6,14 +6,10 @@ date: last-modified
 lang: pt
 format:
   revealjs:
-    embed-resources: true
-    theme: simple
+    # embed-resources: true
     slide-number: true
-    chalkboard: false
     transition: fade
-    toc: false
     incremental: false
-    code-fold: false
 bibliography: references.bib
 scrollable: true
 ---
@@ -85,7 +81,7 @@ Terça e quinta-feira, 8h–18h
 - Origem não é um marco único, mas um processo histórico longo [@mittermeier2005]
 :::
 ::: {.column width="40%"}
-![PN de Itatiaia](https://upload.wikimedia.org/wikipedia/commons/a/a6/Parque_Nacional_de_Itatiaia_%2819%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=original)
+![PN de Itatiaia](https://pnitatiaia.com.br/wp-content/uploads/2023/03/oprq-50.jpg)
 :::
 :::
 
