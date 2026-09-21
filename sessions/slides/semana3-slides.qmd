@@ -13,6 +13,7 @@ format:
     navigation-vertical: true
 fig-align: center
 bibliography: references_sem3.bib
+scrollable: true
 
 
 ---
@@ -227,33 +228,60 @@ Do núcleo fundador à ampliação de escala espacial: o que muda entre 1990 e 2
 
 - Conectividade, corredores ecológicos, efeitos de borda
 - Estrutura espacial como variável de manejo — não pano de fundo
-- Ferramentas metodológicas para fragmentação de habitat
+- Ferramentas para medir fragmentação de habitat
+
+![](https://i0.wp.com/aprendendobio.com.br/wp-content/uploads/2021/11/corredor-ecologico.png?ssl=1)
+
 
 ## Teoria de metapopulações
-
+:::{.columns}
+:::{.column}
 - Subpopulações interligadas por dispersão
 - Persistência regional mesmo com extinções locais
 - Reformulou o conceito de "viabilidade" em paisagens fragmentadas
+:::
+:::{.column}
 
-[@Chase2020]
+![](/img/metapop.png)
+:::
+:::
 
 ## Ecologia da restauração ganha centralidade
-
+:::{.columns}
+:::{.column}
 - Ano 2000: previsão de importância crescente [@Young2000]
 - Distinta formalmente da biologia da conservação
 - Compartilha objetivos centrais de biodiversidade
+:::
+:::{.column}
+![](https://www.seraustralasia.com/standards/images/Fig6.png)
+:::
+:::
 
 ## Genética da conservação amadurece
-
+:::{.columns}
+:::{.column}
 - A partir da genética de populações fundacional
 - Ferramentas moleculares cada vez mais sofisticadas
 - Diversidade genética, fluxo gênico, estrutura populacional
+:::
+:::{.column}
+![](https://parajovens.unesp.br/wp-content/uploads/2022/04/O-que-e-diversidade-genetica-e-por-que-ela-tem-importancia_imagem3.jpg){width=70%}
+:::
+:::
 
 ## Planejamento sistemático da conservação
-
+:::{.columns}
+:::{.column}
 - Métodos quantitativos de priorização de áreas
 - Metas de representatividade de biodiversidade
 - Seleção de reservas como problema de otimização formal
+:::
+
+:::{.column}
+![](https://institutopristino.org.br/wp-content/uploads/2020/03/2.jpg)
+:::
+:::
 
 ## Medicina da conservação
 
@@ -266,27 +294,12 @@ Do núcleo fundador à ampliação de escala espacial: o que muda entre 1990 e 2
 - Justificativa de decisões para formuladores de políticas
 - Ponte entre ciência ecológica e tomada de decisão
 
-## Ponte com o Brasil: o PPBio
-
-::: {.callout-important}
-Desde 2004, o Programa de Pesquisa em Biodiversidade instalou 161 sítios ecológicos padronizados em todos os biomas brasileiros — cerca de 1.200 publicações associadas.
-:::
-
-[@Rosa2021]
-
-## PPBio: antecipação, não repetição
-
-- Infraestrutura nacional de monitoramento multissítio
-- Antecipa, em escala própria, o que a ecologia de paisagem internacional valorizaria depois
-- Metodologia padronizada permite comparação entre biomas e no tempo
-
-[@Rosa2021]
 
 ## O primeiro sinal de interdisciplinaridade
 
 - Reconhecimento de que dados ecológicos não bastam
 - Integração das ciências sociais ainda incipiente nos anos 2000
-- Tornar-se-á consenso explícito na década seguinte
+- Tornar-se consenso explícito na década seguinte
 
 [@Teel2018]
 
@@ -299,7 +312,7 @@ Desde 2004, o Programa de Pesquisa em Biodiversidade instalou 161 sítios ecoló
 ## Discussão em grupo
 
 ::: {.callout-important}
-O PPBio deve ser lido como "aplicação tardia" da agenda internacional, ou como produção científica brasileira com lógica própria? Que evidências sustentam cada leitura?
+Na sua trajetória de formação, você identifica que eve contato com estas novas sub-disciplinas da Ciência da Conservação? Em que nível?
 :::
 
 ## Registro de leitura obrigatória
@@ -330,34 +343,54 @@ A contribuição relativa da ecologia clássica dentro da biologia da conservaç
 
 [@Hintzen2019]
 
-## O que esse achado não significa
-
+::: {.callout-warning}
 - Não significa que a ecologia ficou menos importante em termos absolutos
 - Significa que o espaço relativo dela diminuiu frente a novas dimensões
-- Antecipa o tema do Módulo 5 (ecologia política)
-
+:::
 ## Macroecologia
+
+:::{.columns}
+:::{.column}
 
 - Padrões ecológicos em escalas continentais a globais
 - Apoio a avaliações e projeções de biodiversidade
 - Mudança de granularidade: de população para padrões continentais
 
 [@Santini2021]
+:::
+:::{.column}
+![](https://pilowsky.me/publication/process-explicit-review/featured_hu37d4fa5c123cb8f76b23ea496bee6282_108949_26dfffaee3c1d33e9165d295107372bd.webp)
+:::
+:::
 
 ## Macroecologia e mudança global
+
+:::{.columns}
+:::{.column}
 
 - Disponibilidade de grandes bases de dados
 - Poder computacional crescente
 - Natureza intrinsecamente global de ameaças como o clima
 
 [@Santini2021]
+:::
+:::{.column}
+![](https://images.squarespace-cdn.com/content/v1/5b9081a7372b969411b89fef/827624af-f05b-4cbb-a62d-ef90e12236d0/Screenshot+2024-06-26+at+3.00.50%E2%80%AFPM.png?format=1000w)
+:::
+:::
 
 ## Ecologia de metacomunidades
-
+:::{.columns}
+:::{.column}
 - Síntese conceitual proposta como especialmente útil à conservação
 - Integra: demografia local + dispersão + heterogeneidade de habitat + interações bióticas
 
 [@Chase2020]
+:::
+:::{.column}
+![](/img/metacom.jpg)
+:::
+:::
 
 ## Metacomunidades vs. metapopulações
 
@@ -380,46 +413,6 @@ O registro paleoecológico mostra ecossistemas sempre em fluxo — desloca metas
 :::
 
 [@Barnosky2017]
-
-## Dez teorias para a restauração (2024)
-
-- Da facilitação hierárquica à macroecologia
-- Proposta explícita de síntese teórica aplicada
-- Objetivo: eficiência e escalabilidade da restauração global
-
-[@Silliman2024]
-
-## Ponte com o Brasil: paleobiologia sul-americana
-
-::: {.callout-important}
-Apenas ~5% das publicações globais em paleobiologia da conservação vêm da América do Sul — mas 67% desse total é brasileiro.
-:::
-
-[@DeAssumpcao2025]
-
-## O descompasso investimento × reconhecimento
-
-- CNPq: 3º lugar mundial em financiamento da área
-- Produção concentrada em geocientistas, foco em moluscos
-- Investimento nacional supera, em proporção, o reconhecimento internacional
-
-[@DeAssumpcao2025]
-
-## Ponte com o Brasil: genômica da biodiversidade
-
-- Consórcio GBB: genômica aplicada a conservação e bioeconomia
-- Governança público-privada em escala continental
-- Modelo de referência para outros países megadiversos do Sul Global
-
-[@Vilaca2024]
-
-## Biologia evolutiva da conservação
-
-- Arcabouço unificado: passado, presente e futuro da biodiversidade
-- Integra genômica, filogenia e dados paleontológicos
-- Fechamento simbólico de um ciclo iniciado nos anos 1980
-
-[@Hu2025]
 
 ## Para reter do Bloco 3
 
@@ -574,10 +567,6 @@ Como usar plenamente as ferramentas da macroecologia, metacomunidades e paleoeco
 - @Little2002 — Territórios sociais e povos tradicionais no Brasil
 - @Santilli2005 — Socioambientalismo e novos direitos
 - @MartinezAlier2004 — El ecologismo de los pobres
-
-## Preparação para a Semana 4
-
-Próxima semana: interdisciplinaridade com as ciências humanas e conhecimento ecológico tradicional.
 
 ## Referências
 
