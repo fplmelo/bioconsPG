@@ -10,6 +10,9 @@ format:
     slide-number: true
     transition: fade
     fig-align: center
+    navigation-vertical: true
+fig-align: center
+bibliography: references_sem3.bib
 
 
 ---
@@ -24,10 +27,10 @@ Terça e quinta-feira, 8h–18h
 
 ## O que vamos percorrer hoje
 
-- Bloco 1 (manhã de terça): fundação da disciplina (1980–1990)
-- Bloco 2 (tarde de terça): amadurecimento e escala espacial (2000–2010)
-- Bloco 3 (manhã de quinta): multiescalaridade contemporânea (2010–2025)
-- Bloco 4 (tarde de quinta): síntese crítica e diálogo latino-americano
+- Bloco 1: fundação da disciplina (1980–1990)
+- Bloco 2: amadurecimento e escala espacial (2000–2010)
+- Bloco 3: multiescalaridade contemporânea (2010–2025)
+- Bloco 4: síntese crítica e diálogo latino-americano
 
 ## Pergunta que vai nos acompanhar
 
@@ -41,43 +44,50 @@ Guardem essa pergunta. Retornamos a ela no Bloco 4.
 - Fundação da revista *Conservation Biology* — 1988
 - Ponto de chegada: repertório ecológico multiescalar do presente
 
-[@Meine2006; @Teel2018]
 
 # Bloco 1 — Fundação da Disciplina (1980–1990) {background-color="#2d6a4f"}
 
 ## Uma "ciência de crise"
 
-- Resposta direta a uma crise de extinção acelerada [@Meffe2001]
+- Resposta direta a uma crise de extinção acelerada 
 - Não nasceu de curiosidade teórica pura — nasceu de urgência aplicada
-- Disciplina *oportunista*: recruta o que for útil de outras ciências biológicas [@Meine2006]
-
-## Consolidação institucional em cronograma comprimido
-
-- 1987 — SCB
-- 1988 — revista *Conservation Biology*
-- Anos 1990 — proliferação de programas de pós-graduação
-
-[@Teel2018; @Meffe2006]
+- Disciplina *oportunista*: recruta o que for útil de outras ciências biológicas
 
 ## O núcleo ecológico fundador
+:::{.incremental}
 
-Cinco áreas convergentes na literatura:
-
-1. Biogeografia de ilhas em equilíbrio
+1. Biogeografia de ilhas
 2. Ecologia de populações e demografia
 3. Genética de populações
 4. Biologia evolutiva
 5. Disciplinas aplicadas de manejo (fauna, silvicultura)
+:::
 
-[@Hintzen2019; @Brussard1991]
+## Biogeografia de ilhas
 
-## Biogeografia de ilhas em equilíbrio
+:::{.columns}
+:::{.column}
 
-- Teoria de MacArthur & Wilson adaptada a fragmentos de habitat
+- Teoria de MacArthur & Wilson (1967) adaptada a fragmentos de habitat
 - Fragmentos tratados como "ilhas" ecológicas
 - Sustentou décadas de debate sobre desenho de reservas
+:::
 
-[@Hintzen2019]
+:::{.column}
+![Balbina-AM](https://oeco.org.br/wp-content/uploads/oeco-migration/images/stories/jun2015/02072015-lago-balbina.jpg)
+:::
+:::
+
+## Biogeografia de ilhas
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/APES_Final.svg/500px-APES_Final.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail){fig-align=center}
+
+## debate SLOSS
+
+![](https://www.cell.com/cms/10.1016/j.cub.2021.07.033/asset/5b654622-cd23-4b9c-8c1b-66f4b1fd0a6c/main.assets/gr3.jpg){fig-align=center}
+
+## Biogroagrafia de ilhas
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/SLOSS_graphic.jpg/500px-SLOSS_graphic.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail){fig-align=center}
 
 ## Demografia e viabilidade populacional
 
@@ -85,7 +95,6 @@ Cinco áreas convergentes na literatura:
 - Origem da Análise de Viabilidade Populacional (PVA)
 - Ferramenta central para estimar risco de extinção
 
-[@Simberloff1988]
 
 ## Genética de populações
 
@@ -93,15 +102,24 @@ Cinco áreas convergentes na literatura:
 - Perda de variabilidade genética compromete adaptação futura
 - Um dos pilares do vocabulário conservacionista
 
-[@Brussard1991]
+## Espécies criticamene ameaçadas
+
+![](https://conexaoplaneta.com.br/wp-content/uploads/2024/05/centro-conservacao-ararinha-azul-zoologico-de-sp-conexao-planeta.jpg)
+
+## Espécies criticamene ameaçadas
+
+![](https://cdn.britannica.com/06/161506-050-13F7B0DE/condor-California-danger-extinction-wild-individuals-zoos.jpg?w=300){fig-align=center}
 
 ## Biologia evolutiva (papel inicial)
 
-- Presença de fundo — menos central nos anos 1980
+- Presença tímida — menos central nos anos 1980
 - Perspectiva sobre processos adaptativos e filogenia
 - Retomada com força décadas depois (biologia evolutiva da conservação)
 
-[@Hu2025]
+## Macroecologia e Biogeografia
+
+![](/img/macro.png){fig-align=center}
+
 
 ## Disciplinas aplicadas de manejo
 
@@ -109,12 +127,17 @@ Cinco áreas convergentes na literatura:
 - Forneceram ferramentas técnicas e cultura profissional
 - Cultura de intervenção direta em ecossistemas manejados
 
-[@Hintzen2019]
+## 
+![](https://i.guim.co.uk/img/media/ddbd3309e0c32f6044057631d33269cbe61a50e4/0_186_5568_3341/master/5568.jpg?width=620&dpr=2&s=none&crop=none)
 
+
+## Para pensar
+
+::: {.callout-note }
 ## Um núcleo populacional e de pequena escala
+O problema típico dos anos 1980: uma população isolada, ou poucos remanescentes fragmentados, cuja persistência precisa ser avaliada.
 
-::: {.callout-note}
-O problema típico dos anos 1980: uma população isolada, ou poucas reservas fragmentadas, cuja persistência precisa ser avaliada.
+![](https://revistapesquisa.fapesp.br/wp-content/uploads/2014/08/Fig.-1_Philydor-novaesi_Jaqueira_30_XI_2007_Ciro-Albano1-300x217.jpg)
 :::
 
 ## Conceito-chave: ciência de crise
@@ -129,7 +152,6 @@ O problema típico dos anos 1980: uma população isolada, ou poucas reservas fr
 - Não invalida a narrativa — mas descreve um campo acadêmico específico
 - Preocupação humana com a natureza tem raízes muito mais antigas e diversas
 
-[@Diegues2008; @Dyke2020]
 
 ## Para reter do Bloco 1
 
@@ -137,9 +159,8 @@ O problema típico dos anos 1980: uma população isolada, ou poucas reservas fr
 - Núcleo: biogeografia, demografia, genética, evolução, manejo aplicado
 - Escala predominante: populacional, espacialmente restrita
 
-## Discussão em grupo
-
 ::: {.callout-important}
+## Discussão em grupo
 Por que a disciplina nasceu como "ciência de crise", e o que isso implicou metodologicamente para os primeiros trinta anos da conservação biológica?
 :::
 
@@ -153,10 +174,6 @@ Por que a disciplina nasceu como "ciência de crise", e o que isso implicou meto
 
 Do núcleo fundador à ampliação de escala espacial: o que muda entre 1990 e 2010?
 
-## Fechamento do Bloco 1
-
-Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciência de engajamento" com escalas espaciais maiores.
-
 # Bloco 2 — Amadurecimento e Escala Espacial (2000–2010) {background-color="#2d6a4f"}
 
 ## De aplicação biológica a ciência de engajamento
@@ -169,6 +186,7 @@ Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciên
 
 ## Seis subdisciplinas reconhecidas em 2006
 
+:::{.incremental}
 - Genética da conservação
 - Ecologia da paisagem
 - Planejamento sistemático da conservação
@@ -176,22 +194,34 @@ Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciên
 - Economia ecológica
 - Ecologia da restauração
 
-[@Meffe2006]
+:::
+
 
 ## A pergunta ecológica muda
+
+:::{.incremental}
 
 - Anos 1980: "esta população isolada é viável?"
 - Anos 2000: "como esta paisagem funciona como sistema, em múltiplas escalas?"
 
-[@Chase2020]
-
-## A incorporação decisiva da escala espacial
-
-- Passagem do foco populacional para metapopulações
-- Conexão com ecologia da paisagem e biogeografia regional
-- Emergência de uma "ciência da biodiversidade" mais ampla
+:::
 
 [@Chase2020]
+
+## A incorporação da escala espacial
+
+:::{.columns}
+:::{.column}
+- Do foco populacional para metapopulações
+- Ecologia da paisagem e biogeografia regional
+- Emergência de uma "ciência da biodiversidade" 
+:::
+:::{.column}
+![](/img/patch.png)
+:::
+:::
+
+
 
 ## Ecologia da paisagem
 
