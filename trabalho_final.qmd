@@ -1,0 +1,89 @@
+---
+title: "Trabalho de Conclusão da Disciplina"
+subtitle: "Análise de um problema de conservação"
+date: last-modified
+---
+
+## Apresentação
+
+Como avaliação final da disciplina **Biologia da Conservação**, cada estudante deve desenvolver uma análise aprofundada de **um problema de conservação de sua escolha**. O trabalho integra os quatro blocos temáticos discutidos ao longo do curso — da biologia das ameaças às respostas políticas, institucionais e socioambientais — e deve demonstrar a capacidade de articular conhecimento biológico com as demais dimensões (social, econômica, política, jurídica) que atravessam a conservação da biodiversidade.
+
+O estudo de caso pode ser:
+
+- uma **Unidade de Conservação** (existente, proposta ou ameaçada de desafetação);
+- uma **espécie ameaçada** (ou grupo funcional de espécies) e seu manejo;
+- um **problema global ou regional** de conservação (mudanças climáticas, fragmentação, espécies invasoras, tráfico de fauna/flora, mineração, expansão agropecuária, etc.).
+
+Estudos de caso latino-americanos e, em particular, brasileiros são preferíveis, em coerência com o eixo transversal da disciplina — mas casos de outras regiões do mundo também são aceitos, desde que a análise dialogue com os referenciais teóricos discutidos em aula.
+
+## Estrutura do trabalho
+
+O trabalho deve conter as sete etapas abaixo. Elas organizam tanto o texto escrito quanto a apresentação oral — não é necessário (nem recomendável) tratá-las como seções isoladas, mas todos os elementos precisam estar claramente identificáveis.
+
+### 1) Escolha do estudo de caso
+
+Defina com precisão o objeto de análise: nome da espécie/ecossistema/UC/problema, sua localização geográfica e o recorte temporal relevante. Evite objetos genéricos demais ("desmatamento na Amazônia") — prefira recortes que permitam profundidade analítica ("expansão da soja e fragmentação de habitat para *Myrmecophaga tridactyla* no Cerrado piauiense").
+
+### 2) Justificativa da escolha
+
+Justifique a relevância do caso com **argumentos típicos da Biologia da Conservação**: valor intrínseco e/ou instrumental da biodiversidade envolvida, papel funcional ou ecológico da espécie/ecossistema, grau de ameaça (categorias IUCN, endemismo, representatividade em áreas protegidas), significância como espécie-bandeira, guarda-chuva ou engenheira de ecossistema, relevância para serviços ecossistêmicos ou para populações humanas associadas, entre outros critérios discutidos em aula.
+
+### 3) Descrição biológica das ameaças
+
+Apresente uma descrição biológica consistente:
+
+- **causas** da(s) ameaça(s) (diretas e subjacentes — *drivers* próximos e distais);
+- **mecanismos** pelos quais essas causas afetam a espécie/ecossistema (perda e fragmentação de habitat, sobre-exploração, poluição, espécies invasoras, mudanças climáticas, sinergias entre ameaças etc.);
+- **efeitos** observados ou esperados sobre populações, comunidades ou processos ecossistêmicos (tamanho populacional, variabilidade genética, estrutura de comunidade, funções ecossistêmicas).
+
+Use dados quantitativos sempre que disponíveis (tendências populacionais, taxas de desmatamento, projeções de distribuição, etc.) e cite as fontes.
+
+### 4) Disciplinas mobilizadas na análise
+
+Liste as disciplinas e campos de conhecimento — biológicos e não biológicos — que serão mobilizados para compreender e enfrentar o problema (ex.: genética da conservação, ecologia da paisagem, biologia populacional, direito ambiental, economia ecológica, antropologia, ecologia política, ciências do clima, gestão pública). Para cada disciplina listada, explique **objetivamente como ela contribui** para a análise do caso — não basta nomear a disciplina, é preciso justificar sua utilidade específica.
+
+### 5) Proposta de solução
+
+Proponha uma solução (ou conjunto articulado de ações) fundamentada nos temas discutidos na disciplina. A proposta deve:
+
+- ser **factível** e proporcional à escala do problema;
+- indicar **atores responsáveis** pela implementação (Estado, comunidades, setor privado, ONGs, instituições de pesquisa);
+- considerar **trade-offs, conflitos de interesse e viabilidade política**, não apenas a solução tecnicamente "ideal";
+- dialogar, quando pertinente, com perspectivas latino-americanas e de justiça socioambiental discutidas ao longo do curso.
+
+### 6) Apresentação oral
+
+Cada estudante apresentará sua análise em **30 minutos**, seguidos de **30 minutos de discussão** com a turma e o docente. A apresentação deve:
+
+- cobrir as etapas 1 a 5 de forma proporcional (evitar gastar a maior parte do tempo só na descrição das ameaças);
+- reservar tempo para perguntas — apresentações que ultrapassem os 30 minutos previstos serão interrompidas para preservar o tempo de discussão.
+
+### 7) Texto escrito
+
+Entregar um texto de **no máximo 3.000 palavras** (excluindo referências), cobrindo as etapas 1 a 5, com:
+
+- linguagem própria (evitar transcrição de fontes);
+- citações e referências completas, no mesmo padrão adotado no material do curso (APA 7);
+- podendo incluir tabelas, mapas ou figuras quando isso tornar a análise mais clara (não contam nas 3.000 palavras).
+
+## Formato e entrega
+
+| Item | Especificação |
+|---|---|
+| Texto escrito | Até 3.000 palavras, PDF ou Word |
+| Apresentação | Slides, 30 min de exposição + 30 min de discussão |
+
+
+## Critérios de avaliação
+
+- **Justificativa conceitual** — uso apropriado e preciso de conceitos da Biologia da Conservação (peso equivalente às etapas 1–2)
+- **Rigor biológico** — qualidade e atualidade da descrição de causas, mecanismos e efeitos das ameaças (etapa 3)
+- **Interdisciplinaridade** — pertinência e articulação real das disciplinas mobilizadas, e não apenas sua enumeração (etapa 4)
+- **Viabilidade e fundamentação da proposta** — solução coerente com o diagnóstico e com os temas do curso, atenta a atores e trade-offs (etapa 5)
+- **Clareza expositiva** — qualidade da comunicação oral e escrita, gestão do tempo de apresentação, capacidade de responder às perguntas da discussão
+
+## Recomendações gerais
+
+- Priorize fontes primárias (artigos científicos, relatórios técnicos, planos de manejo) em vez de fontes de divulgação.
+- Combine bibliografia internacional e produção científica latino-americana e brasileira, em coerência com o eixo transversal adotado ao longo da disciplina.
+- Casos com dados públicos disponíveis (ICMBio, IBAMA, MapBiomas, IUCN Red List, plataformas de biodiversidade) tendem a permitir análises mais robustas.

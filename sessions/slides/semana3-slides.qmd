@@ -331,7 +331,7 @@ Próximo bloco: a multiescalaridade contemporânea — macroecologia, metacomuni
 ## Um repertório cada vez mais heterogêneo
 
 - Aumento de abordagens estatísticas sofisticadas
-- Ferramentas genômicas incorporadas em larga escala
+- Ferramentas de análise socioeconômica
 - Ascensão de termos: mudança climática, espécies invasoras, serviços ecossistêmicos, meta-análise
 
 [@Anderson2021]
@@ -401,11 +401,7 @@ A contribuição relativa da ecologia clássica dentro da biologia da conservaç
 
 ## A ampliação da escala temporal
 
-- Paleobiologia da conservação
-- Paleoecologia aplicada
-- Séries temporais de décadas a milênios
-
-[@Barnosky2017; @Siggery2024]
+![](https://static.elsevier.es/multimedia/25300644/0000002300000002/v1_202506091114/S2530064425000136/v1_202506091114/en/main.assets/fx1.jpeg?xkr=Wb5+uI/OIfPkLGojoLpincqB5uctP+CjhYlB1Wguq+9rDTKHuSnWj7uADWJ9u+kl)
 
 ## Uma consequência conceitual importante
 
@@ -418,24 +414,9 @@ O registro paleoecológico mostra ecossistemas sempre em fluxo — desloca metas
 ## Para reter do Bloco 3
 
 - Macroecologia e metacomunidades como sínteses de escala ampliada
-- Paleobiologia e paleoecologia ampliam a escala temporal
+- Paleobiologia e climatologia ampliam a escala temporal
 - Brasil: potencial elevado, reconhecimento internacional ainda assimétrico
 
-## Discussão em grupo
-
-::: {.callout-important}
-Se o registro paleoecológico mostra que ecossistemas sempre mudaram, o que isso implica para metas de conservação baseadas em "restaurar o estado natural original"?
-:::
-
-## Registro de leitura obrigatória
-
-- @Santini2021 — Macroecology and Conservation
-- @Barnosky2017 — Merging paleobiology with conservation biology
-- @DeAssumpcao2025 — Conservation paleobiology in South America
-
-## Fechamento do Bloco 3
-
-Próximo bloco: síntese crítica — de onde vem essa ciência, e o que muda quando olhamos a partir do Sul.
 
 # Bloco 4 — Síntese Crítica e Diálogo Latino-Americano {background-color="#bc6c25"}
 
@@ -443,11 +424,9 @@ Próximo bloco: síntese crítica — de onde vem essa ciência, e o que muda qu
 
 Núcleo (1980) → escala espacial (2000) → multiescalaridade (2010–2025)
 
-Biogeografia, demografia, genética → paisagem, metapopulações, restauração → macroecologia, metacomunidades, paleoecologia
+Biogeografia, demografia, genética → paisagem, metapopulações, restauração → macroecologia, metacomunidades, ciência climática
 
 [@Meine2006; @Chase2020; @Santini2021]
-
-## Uma pergunta que a cronologia não responde
 
 ::: {.callout-warning}
 De onde essa ciência tem sido produzida — e o que essa geografia da produção científica esconde ou revela?
@@ -467,7 +446,7 @@ De onde essa ciência tem sido produzida — e o que essa geografia da produçã
 
 [@Diegues2008]
 
-## Diegues e o núcleo fundador ecológico
+## Quais os efeitos nas principais teorias?
 
 ::: {.callout-note}
 Biogeografia de ilhas e desenho de reservas foram desenvolvidos a partir de um pressuposto implícito: natureza ideal = sem presença humana permanente.
@@ -481,6 +460,10 @@ Biogeografia de ilhas e desenho de reservas foram desenvolvidos a partir de um p
 
 [@Leff2001]
 
+##
+
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/3-5PuVglmsQ" title="Crisis del conocimento - Enrique Leff | Somos Naturaleza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Leff aplicado à nossa cronologia
 
 A "expansão" da ciência ecológica é também um processo de definição de fronteiras: o que conta como conhecimento relevante, e o que fica de fora (saberes tradicionais não publicados em periódicos indexados).
@@ -492,6 +475,10 @@ A "expansão" da ciência ecológica é também um processo de definição de fr
 - Frequentemente desconectada das reivindicações políticas próprias desses povos
 
 [@Ulloa2004]
+
+##
+
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/i_3zXuYGpGg" title="Territorios y Conflictos en el contexto del Neoextractivismo en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## O alerta de Ulloa para a conservação
 
@@ -515,14 +502,6 @@ Incorporar conhecimento tradicional sem entender disputas internas às comunidad
 
 [@Little2002]
 
-## O que muda quando olhamos a partir do Sul
-
-- PPBio e GBB: produção científica com lógica própria, não aplicação tardia
-- Sub-representação da paleobiologia sul-americana: estrutura desigual de reconhecimento, não menor qualidade
-- "Virada social" da conservação: reencontro tardio com debates latino-americanos antigos
-
-[@Rosa2021; @Vilaca2024; @DeAssumpcao2025; @Hintzen2019]
-
 ## Martínez-Alier: o ecologismo dos pobres
 
 ::: {.callout-note}
@@ -531,10 +510,9 @@ O meio ambiente é uma necessidade dos pobres, não um luxo dos ricos — confli
 
 [@MartinezAlier2004]
 
-## Não confundir com o Módulo 5
 
 ::: {.callout-important}
-Aqui: situar a ciência ecológica em uma geografia de produção do conhecimento. A análise sistemática de poder e economia política da conservação vem no Módulo 5.
+Aqui: situar a ciência ecológica em uma geografia de produção do conhecimento.
 :::
 
 ## Síntese: quatro décadas em uma frase

@@ -9,18 +9,15 @@ Aqui está uma lista de sites e canais do YouTube que oferecem tutoriais em ecol
 
 ## Cursos online grátis em Português:
 
-* [**NEEDS - UFSCAR:**](https://www.needs.ufscar.br/ecologia-de-paisagens) curso online sobre Ecologia de Paisagens, feito durante a pandemia do Coronavirus, de forma a auxiliar o Ensino Não-Presencial Emergencial (ENPE) - Graduação em Ciências Biológicas - campus Lagoa do Sino. Aqui você encontrará as informações básicas para acompanhar o nosso curso. Este material está em preparação! Dicas e sugestões são bem-vindas!
+- [**NEEDS - UFSCAR:**](https://www.needs.ufscar.br/ecologia-de-paisagens) curso online sobre Ecologia de Paisagens, feito durante a pandemia do Coronavirus, de forma a auxiliar o Ensino Não-Presencial Emergencial (ENPE) - Graduação em Ciências Biológicas - campus Lagoa do Sino. Aqui você encontrará as informações básicas para acompanhar o nosso curso. Este material está em preparação! Dicas e sugestões são bem-vindas!
 
 ## Cursos grátis em Inglês
 
-*  [**ETHx: Landscape Ecology**](https://www.edx.org/learn/environmental-science/eth-zurich-landscape-ecology) - This is the first MOOC to teach Landscape Ecology. Participants learn theory, methods and tools to understand the landscapes we live in and to solve landscape-related environmental problems.
-
-
+- [**ETHx: Landscape Ecology**](https://www.edx.org/learn/environmental-science/eth-zurich-landscape-ecology) - This is the first MOOC to teach Landscape Ecology. Participants learn theory, methods and tools to understand the landscapes we live in and to solve landscape-related environmental problems.
 
 ## Códigos em R para EP
 
 [Open-source Tools in R for Landscape Ecology](https://link.springer.com/article/10.1007/s40823-021-00067-y)
-
 
 [Introduction to landscape ecology with R](https://www.r-bloggers.com/2020/05/introduction-to-landscape-ecology-with-r/)
 

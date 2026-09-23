@@ -10,6 +10,10 @@ format:
     slide-number: true
     transition: fade
     fig-align: center
+    navigation-vertical: true
+fig-align: center
+bibliography: references_sem3.bib
+scrollable: true
 
 
 ---
@@ -24,10 +28,10 @@ Terça e quinta-feira, 8h–18h
 
 ## O que vamos percorrer hoje
 
-- Bloco 1 (manhã de terça): fundação da disciplina (1980–1990)
-- Bloco 2 (tarde de terça): amadurecimento e escala espacial (2000–2010)
-- Bloco 3 (manhã de quinta): multiescalaridade contemporânea (2010–2025)
-- Bloco 4 (tarde de quinta): síntese crítica e diálogo latino-americano
+- Bloco 1: fundação da disciplina (1980–1990)
+- Bloco 2: amadurecimento e escala espacial (2000–2010)
+- Bloco 3: multiescalaridade contemporânea (2010–2025)
+- Bloco 4: síntese crítica e diálogo latino-americano
 
 ## Pergunta que vai nos acompanhar
 
@@ -41,43 +45,50 @@ Guardem essa pergunta. Retornamos a ela no Bloco 4.
 - Fundação da revista *Conservation Biology* — 1988
 - Ponto de chegada: repertório ecológico multiescalar do presente
 
-[@Meine2006; @Teel2018]
 
 # Bloco 1 — Fundação da Disciplina (1980–1990) {background-color="#2d6a4f"}
 
 ## Uma "ciência de crise"
 
-- Resposta direta a uma crise de extinção acelerada [@Meffe2001]
+- Resposta direta a uma crise de extinção acelerada 
 - Não nasceu de curiosidade teórica pura — nasceu de urgência aplicada
-- Disciplina *oportunista*: recruta o que for útil de outras ciências biológicas [@Meine2006]
-
-## Consolidação institucional em cronograma comprimido
-
-- 1987 — SCB
-- 1988 — revista *Conservation Biology*
-- Anos 1990 — proliferação de programas de pós-graduação
-
-[@Teel2018; @Meffe2006]
+- Disciplina *oportunista*: recruta o que for útil de outras ciências biológicas
 
 ## O núcleo ecológico fundador
+:::{.incremental}
 
-Cinco áreas convergentes na literatura:
-
-1. Biogeografia de ilhas em equilíbrio
+1. Biogeografia de ilhas
 2. Ecologia de populações e demografia
 3. Genética de populações
 4. Biologia evolutiva
 5. Disciplinas aplicadas de manejo (fauna, silvicultura)
+:::
 
-[@Hintzen2019; @Brussard1991]
+## Biogeografia de ilhas
 
-## Biogeografia de ilhas em equilíbrio
+:::{.columns}
+:::{.column}
 
-- Teoria de MacArthur & Wilson adaptada a fragmentos de habitat
+- Teoria de MacArthur & Wilson (1967) adaptada a fragmentos de habitat
 - Fragmentos tratados como "ilhas" ecológicas
 - Sustentou décadas de debate sobre desenho de reservas
+:::
 
-[@Hintzen2019]
+:::{.column}
+![Balbina-AM](https://oeco.org.br/wp-content/uploads/oeco-migration/images/stories/jun2015/02072015-lago-balbina.jpg)
+:::
+:::
+
+## Biogeografia de ilhas
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/APES_Final.svg/500px-APES_Final.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail){fig-align=center}
+
+## debate SLOSS
+
+![](https://www.cell.com/cms/10.1016/j.cub.2021.07.033/asset/5b654622-cd23-4b9c-8c1b-66f4b1fd0a6c/main.assets/gr3.jpg){fig-align=center}
+
+## Biogroagrafia de ilhas
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/SLOSS_graphic.jpg/500px-SLOSS_graphic.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail){fig-align=center}
 
 ## Demografia e viabilidade populacional
 
@@ -85,7 +96,6 @@ Cinco áreas convergentes na literatura:
 - Origem da Análise de Viabilidade Populacional (PVA)
 - Ferramenta central para estimar risco de extinção
 
-[@Simberloff1988]
 
 ## Genética de populações
 
@@ -93,15 +103,24 @@ Cinco áreas convergentes na literatura:
 - Perda de variabilidade genética compromete adaptação futura
 - Um dos pilares do vocabulário conservacionista
 
-[@Brussard1991]
+## Espécies criticamene ameaçadas
+
+![](https://conexaoplaneta.com.br/wp-content/uploads/2024/05/centro-conservacao-ararinha-azul-zoologico-de-sp-conexao-planeta.jpg)
+
+## Espécies criticamene ameaçadas
+
+![](https://cdn.britannica.com/06/161506-050-13F7B0DE/condor-California-danger-extinction-wild-individuals-zoos.jpg?w=300){fig-align=center}
 
 ## Biologia evolutiva (papel inicial)
 
-- Presença de fundo — menos central nos anos 1980
+- Presença tímida — menos central nos anos 1980
 - Perspectiva sobre processos adaptativos e filogenia
 - Retomada com força décadas depois (biologia evolutiva da conservação)
 
-[@Hu2025]
+## Macroecologia e Biogeografia
+
+![](/img/macro.png){fig-align=center}
+
 
 ## Disciplinas aplicadas de manejo
 
@@ -109,12 +128,17 @@ Cinco áreas convergentes na literatura:
 - Forneceram ferramentas técnicas e cultura profissional
 - Cultura de intervenção direta em ecossistemas manejados
 
-[@Hintzen2019]
+## 
+![](https://i.guim.co.uk/img/media/ddbd3309e0c32f6044057631d33269cbe61a50e4/0_186_5568_3341/master/5568.jpg?width=620&dpr=2&s=none&crop=none)
 
+
+## Para pensar
+
+::: {.callout-note }
 ## Um núcleo populacional e de pequena escala
+O problema típico dos anos 1980: uma população isolada, ou poucos remanescentes fragmentados, cuja persistência precisa ser avaliada.
 
-::: {.callout-note}
-O problema típico dos anos 1980: uma população isolada, ou poucas reservas fragmentadas, cuja persistência precisa ser avaliada.
+![](https://revistapesquisa.fapesp.br/wp-content/uploads/2014/08/Fig.-1_Philydor-novaesi_Jaqueira_30_XI_2007_Ciro-Albano1-300x217.jpg)
 :::
 
 ## Conceito-chave: ciência de crise
@@ -129,7 +153,6 @@ O problema típico dos anos 1980: uma população isolada, ou poucas reservas fr
 - Não invalida a narrativa — mas descreve um campo acadêmico específico
 - Preocupação humana com a natureza tem raízes muito mais antigas e diversas
 
-[@Diegues2008; @Dyke2020]
 
 ## Para reter do Bloco 1
 
@@ -137,9 +160,8 @@ O problema típico dos anos 1980: uma população isolada, ou poucas reservas fr
 - Núcleo: biogeografia, demografia, genética, evolução, manejo aplicado
 - Escala predominante: populacional, espacialmente restrita
 
-## Discussão em grupo
-
 ::: {.callout-important}
+## Discussão em grupo
 Por que a disciplina nasceu como "ciência de crise", e o que isso implicou metodologicamente para os primeiros trinta anos da conservação biológica?
 :::
 
@@ -153,10 +175,6 @@ Por que a disciplina nasceu como "ciência de crise", e o que isso implicou meto
 
 Do núcleo fundador à ampliação de escala espacial: o que muda entre 1990 e 2010?
 
-## Fechamento do Bloco 1
-
-Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciência de engajamento" com escalas espaciais maiores.
-
 # Bloco 2 — Amadurecimento e Escala Espacial (2000–2010) {background-color="#2d6a4f"}
 
 ## De aplicação biológica a ciência de engajamento
@@ -169,6 +187,7 @@ Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciên
 
 ## Seis subdisciplinas reconhecidas em 2006
 
+:::{.incremental}
 - Genética da conservação
 - Ecologia da paisagem
 - Planejamento sistemático da conservação
@@ -176,59 +195,99 @@ Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciên
 - Economia ecológica
 - Ecologia da restauração
 
-[@Meffe2006]
+:::
+
 
 ## A pergunta ecológica muda
+
+:::{.incremental}
 
 - Anos 1980: "esta população isolada é viável?"
 - Anos 2000: "como esta paisagem funciona como sistema, em múltiplas escalas?"
 
-[@Chase2020]
-
-## A incorporação decisiva da escala espacial
-
-- Passagem do foco populacional para metapopulações
-- Conexão com ecologia da paisagem e biogeografia regional
-- Emergência de uma "ciência da biodiversidade" mais ampla
+:::
 
 [@Chase2020]
+
+## A incorporação da escala espacial
+
+:::{.columns}
+:::{.column}
+- Do foco populacional para metapopulações
+- Ecologia da paisagem e biogeografia regional
+- Emergência de uma "ciência da biodiversidade" 
+:::
+:::{.column}
+![](/img/patch.png)
+:::
+:::
+
+
 
 ## Ecologia da paisagem
 
 - Conectividade, corredores ecológicos, efeitos de borda
 - Estrutura espacial como variável de manejo — não pano de fundo
-- Ferramentas metodológicas para fragmentação de habitat
+- Ferramentas para medir fragmentação de habitat
+
+![](https://i0.wp.com/aprendendobio.com.br/wp-content/uploads/2021/11/corredor-ecologico.png?ssl=1)
+
 
 ## Teoria de metapopulações
-
+:::{.columns}
+:::{.column}
 - Subpopulações interligadas por dispersão
 - Persistência regional mesmo com extinções locais
 - Reformulou o conceito de "viabilidade" em paisagens fragmentadas
+:::
+:::{.column}
 
-[@Chase2020]
+![](/img/metapop.png)
+:::
+:::
 
 ## Ecologia da restauração ganha centralidade
-
+:::{.columns}
+:::{.column}
 - Ano 2000: previsão de importância crescente [@Young2000]
 - Distinta formalmente da biologia da conservação
 - Compartilha objetivos centrais de biodiversidade
+:::
+:::{.column}
+![](https://www.seraustralasia.com/standards/images/Fig6.png)
+:::
+:::
 
 ## Genética da conservação amadurece
-
+:::{.columns}
+:::{.column}
 - A partir da genética de populações fundacional
 - Ferramentas moleculares cada vez mais sofisticadas
 - Diversidade genética, fluxo gênico, estrutura populacional
+:::
+:::{.column}
+![](https://parajovens.unesp.br/wp-content/uploads/2022/04/O-que-e-diversidade-genetica-e-por-que-ela-tem-importancia_imagem3.jpg){width=70%}
+:::
+:::
 
 ## Planejamento sistemático da conservação
-
+:::{.columns}
+:::{.column}
 - Métodos quantitativos de priorização de áreas
 - Metas de representatividade de biodiversidade
 - Seleção de reservas como problema de otimização formal
+:::
+
+:::{.column}
+![](https://institutopristino.org.br/wp-content/uploads/2020/03/2.jpg)
+:::
+:::
 
 ## Medicina da conservação
 
-- Interface entre saúde animal, humana e ecossistêmica
-- Antecipa a abordagem contemporânea "Uma Só Saúde"
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/HDvUNho6o3s" title="How NBS can help promote health (English)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 ## Economia ecológica
 
@@ -236,27 +295,12 @@ Próximo bloco: como a disciplina passou de "aplicação biológica" para "ciên
 - Justificativa de decisões para formuladores de políticas
 - Ponte entre ciência ecológica e tomada de decisão
 
-## Ponte com o Brasil: o PPBio
-
-::: {.callout-important}
-Desde 2004, o Programa de Pesquisa em Biodiversidade instalou 161 sítios ecológicos padronizados em todos os biomas brasileiros — cerca de 1.200 publicações associadas.
-:::
-
-[@Rosa2021]
-
-## PPBio: antecipação, não repetição
-
-- Infraestrutura nacional de monitoramento multissítio
-- Antecipa, em escala própria, o que a ecologia de paisagem internacional valorizaria depois
-- Metodologia padronizada permite comparação entre biomas e no tempo
-
-[@Rosa2021]
 
 ## O primeiro sinal de interdisciplinaridade
 
 - Reconhecimento de que dados ecológicos não bastam
 - Integração das ciências sociais ainda incipiente nos anos 2000
-- Tornar-se-á consenso explícito na década seguinte
+- Tornar-se consenso explícito na década seguinte
 
 [@Teel2018]
 
@@ -269,7 +313,7 @@ Desde 2004, o Programa de Pesquisa em Biodiversidade instalou 161 sítios ecoló
 ## Discussão em grupo
 
 ::: {.callout-important}
-O PPBio deve ser lido como "aplicação tardia" da agenda internacional, ou como produção científica brasileira com lógica própria? Que evidências sustentam cada leitura?
+Na sua trajetória de formação, você identifica que eve contato com estas novas sub-disciplinas da Ciência da Conservação? Em que nível?
 :::
 
 ## Registro de leitura obrigatória
@@ -287,7 +331,7 @@ Próximo bloco: a multiescalaridade contemporânea — macroecologia, metacomuni
 ## Um repertório cada vez mais heterogêneo
 
 - Aumento de abordagens estatísticas sofisticadas
-- Ferramentas genômicas incorporadas em larga escala
+- Ferramentas de análise socioeconômica
 - Ascensão de termos: mudança climática, espécies invasoras, serviços ecossistêmicos, meta-análise
 
 [@Anderson2021]
@@ -300,34 +344,54 @@ A contribuição relativa da ecologia clássica dentro da biologia da conservaç
 
 [@Hintzen2019]
 
-## O que esse achado não significa
-
+::: {.callout-warning}
 - Não significa que a ecologia ficou menos importante em termos absolutos
 - Significa que o espaço relativo dela diminuiu frente a novas dimensões
-- Antecipa o tema do Módulo 5 (ecologia política)
-
+:::
 ## Macroecologia
+
+:::{.columns}
+:::{.column}
 
 - Padrões ecológicos em escalas continentais a globais
 - Apoio a avaliações e projeções de biodiversidade
 - Mudança de granularidade: de população para padrões continentais
 
 [@Santini2021]
+:::
+:::{.column}
+![](https://pilowsky.me/publication/process-explicit-review/featured_hu37d4fa5c123cb8f76b23ea496bee6282_108949_26dfffaee3c1d33e9165d295107372bd.webp)
+:::
+:::
 
 ## Macroecologia e mudança global
+
+:::{.columns}
+:::{.column}
 
 - Disponibilidade de grandes bases de dados
 - Poder computacional crescente
 - Natureza intrinsecamente global de ameaças como o clima
 
 [@Santini2021]
+:::
+:::{.column}
+![](https://images.squarespace-cdn.com/content/v1/5b9081a7372b969411b89fef/827624af-f05b-4cbb-a62d-ef90e12236d0/Screenshot+2024-06-26+at+3.00.50%E2%80%AFPM.png?format=1000w)
+:::
+:::
 
 ## Ecologia de metacomunidades
-
+:::{.columns}
+:::{.column}
 - Síntese conceitual proposta como especialmente útil à conservação
 - Integra: demografia local + dispersão + heterogeneidade de habitat + interações bióticas
 
 [@Chase2020]
+:::
+:::{.column}
+![](/img/metacom.jpg)
+:::
+:::
 
 ## Metacomunidades vs. metapopulações
 
@@ -337,11 +401,7 @@ A contribuição relativa da ecologia clássica dentro da biologia da conservaç
 
 ## A ampliação da escala temporal
 
-- Paleobiologia da conservação
-- Paleoecologia aplicada
-- Séries temporais de décadas a milênios
-
-[@Barnosky2017; @Siggery2024]
+![](https://static.elsevier.es/multimedia/25300644/0000002300000002/v1_202506091114/S2530064425000136/v1_202506091114/en/main.assets/fx1.jpeg?xkr=Wb5+uI/OIfPkLGojoLpincqB5uctP+CjhYlB1Wguq+9rDTKHuSnWj7uADWJ9u+kl)
 
 ## Uma consequência conceitual importante
 
@@ -351,67 +411,12 @@ O registro paleoecológico mostra ecossistemas sempre em fluxo — desloca metas
 
 [@Barnosky2017]
 
-## Dez teorias para a restauração (2024)
-
-- Da facilitação hierárquica à macroecologia
-- Proposta explícita de síntese teórica aplicada
-- Objetivo: eficiência e escalabilidade da restauração global
-
-[@Silliman2024]
-
-## Ponte com o Brasil: paleobiologia sul-americana
-
-::: {.callout-important}
-Apenas ~5% das publicações globais em paleobiologia da conservação vêm da América do Sul — mas 67% desse total é brasileiro.
-:::
-
-[@DeAssumpcao2025]
-
-## O descompasso investimento × reconhecimento
-
-- CNPq: 3º lugar mundial em financiamento da área
-- Produção concentrada em geocientistas, foco em moluscos
-- Investimento nacional supera, em proporção, o reconhecimento internacional
-
-[@DeAssumpcao2025]
-
-## Ponte com o Brasil: genômica da biodiversidade
-
-- Consórcio GBB: genômica aplicada a conservação e bioeconomia
-- Governança público-privada em escala continental
-- Modelo de referência para outros países megadiversos do Sul Global
-
-[@Vilaca2024]
-
-## Biologia evolutiva da conservação
-
-- Arcabouço unificado: passado, presente e futuro da biodiversidade
-- Integra genômica, filogenia e dados paleontológicos
-- Fechamento simbólico de um ciclo iniciado nos anos 1980
-
-[@Hu2025]
-
 ## Para reter do Bloco 3
 
 - Macroecologia e metacomunidades como sínteses de escala ampliada
-- Paleobiologia e paleoecologia ampliam a escala temporal
+- Paleobiologia e climatologia ampliam a escala temporal
 - Brasil: potencial elevado, reconhecimento internacional ainda assimétrico
 
-## Discussão em grupo
-
-::: {.callout-important}
-Se o registro paleoecológico mostra que ecossistemas sempre mudaram, o que isso implica para metas de conservação baseadas em "restaurar o estado natural original"?
-:::
-
-## Registro de leitura obrigatória
-
-- @Santini2021 — Macroecology and Conservation
-- @Barnosky2017 — Merging paleobiology with conservation biology
-- @DeAssumpcao2025 — Conservation paleobiology in South America
-
-## Fechamento do Bloco 3
-
-Próximo bloco: síntese crítica — de onde vem essa ciência, e o que muda quando olhamos a partir do Sul.
 
 # Bloco 4 — Síntese Crítica e Diálogo Latino-Americano {background-color="#bc6c25"}
 
@@ -419,11 +424,9 @@ Próximo bloco: síntese crítica — de onde vem essa ciência, e o que muda qu
 
 Núcleo (1980) → escala espacial (2000) → multiescalaridade (2010–2025)
 
-Biogeografia, demografia, genética → paisagem, metapopulações, restauração → macroecologia, metacomunidades, paleoecologia
+Biogeografia, demografia, genética → paisagem, metapopulações, restauração → macroecologia, metacomunidades, ciência climática
 
 [@Meine2006; @Chase2020; @Santini2021]
-
-## Uma pergunta que a cronologia não responde
 
 ::: {.callout-warning}
 De onde essa ciência tem sido produzida — e o que essa geografia da produção científica esconde ou revela?
@@ -443,7 +446,7 @@ De onde essa ciência tem sido produzida — e o que essa geografia da produçã
 
 [@Diegues2008]
 
-## Diegues e o núcleo fundador ecológico
+## Quais os efeitos nas principais teorias?
 
 ::: {.callout-note}
 Biogeografia de ilhas e desenho de reservas foram desenvolvidos a partir de um pressuposto implícito: natureza ideal = sem presença humana permanente.
@@ -457,6 +460,10 @@ Biogeografia de ilhas e desenho de reservas foram desenvolvidos a partir de um p
 
 [@Leff2001]
 
+##
+
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/3-5PuVglmsQ" title="Crisis del conocimento - Enrique Leff | Somos Naturaleza" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Leff aplicado à nossa cronologia
 
 A "expansão" da ciência ecológica é também um processo de definição de fronteiras: o que conta como conhecimento relevante, e o que fica de fora (saberes tradicionais não publicados em periódicos indexados).
@@ -468,6 +475,10 @@ A "expansão" da ciência ecológica é também um processo de definição de fr
 - Frequentemente desconectada das reivindicações políticas próprias desses povos
 
 [@Ulloa2004]
+
+##
+
+<iframe width="1052" height="592" src="https://www.youtube.com/embed/i_3zXuYGpGg" title="Territorios y Conflictos en el contexto del Neoextractivismo en América Latina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## O alerta de Ulloa para a conservação
 
@@ -491,14 +502,6 @@ Incorporar conhecimento tradicional sem entender disputas internas às comunidad
 
 [@Little2002]
 
-## O que muda quando olhamos a partir do Sul
-
-- PPBio e GBB: produção científica com lógica própria, não aplicação tardia
-- Sub-representação da paleobiologia sul-americana: estrutura desigual de reconhecimento, não menor qualidade
-- "Virada social" da conservação: reencontro tardio com debates latino-americanos antigos
-
-[@Rosa2021; @Vilaca2024; @DeAssumpcao2025; @Hintzen2019]
-
 ## Martínez-Alier: o ecologismo dos pobres
 
 ::: {.callout-note}
@@ -507,10 +510,9 @@ O meio ambiente é uma necessidade dos pobres, não um luxo dos ricos — confli
 
 [@MartinezAlier2004]
 
-## Não confundir com o Módulo 5
 
 ::: {.callout-important}
-Aqui: situar a ciência ecológica em uma geografia de produção do conhecimento. A análise sistemática de poder e economia política da conservação vem no Módulo 5.
+Aqui: situar a ciência ecológica em uma geografia de produção do conhecimento.
 :::
 
 ## Síntese: quatro décadas em uma frase
@@ -544,10 +546,6 @@ Como usar plenamente as ferramentas da macroecologia, metacomunidades e paleoeco
 - @Little2002 — Territórios sociais e povos tradicionais no Brasil
 - @Santilli2005 — Socioambientalismo e novos direitos
 - @MartinezAlier2004 — El ecologismo de los pobres
-
-## Preparação para a Semana 4
-
-Próxima semana: interdisciplinaridade com as ciências humanas e conhecimento ecológico tradicional.
 
 ## Referências
 
